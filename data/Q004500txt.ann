@@ -1,0 +1,117 @@
+T2	PROPN 14 30	Aššur-naṣir-apli
+A2	Gender T2 M
+T3	NOUN 31 36	šarru
+A3	Case T3 Nom
+A4	Noun_base T3 free
+A5	Number T3 Sg
+A6	Gender T3 M
+T4	ADJ 37 42	dannu
+A7	Gender T4 M
+A8	Case T4 Nom
+A9	Number T4 Sg
+T5	NOUN 45 48	šar
+A10	Gender T5 M
+A11	Noun_base T5 bound
+A12	Number T5 Sg
+T6	NOUN 49 52	māt
+A13	Gender T6 F
+A14	Noun_base T6 bound
+A15	Number T6 Sg
+T7	PROPN 53 58	Aššur
+A16	Gender T7 M
+T8	NOUN 59 64	nišīt
+A17	Gender T8 F
+A18	Noun_base T8 bound
+A19	Number T8 Sg
+T9	PROPN 71 76	Enlil
+A20	Gender T9 M
+T10	NOUN 90 94	arhī
+A21	Gender T10 M
+A22	Number T10 Pl
+T11	ADJ 95 102	pašqūte
+A23	Gender T11 M
+A24	Number T11 Pl
+T12	NOUN 103 108	kiṣir
+A25	Gender T12 M
+A26	Noun_base T12 bound
+A27	Number T12 Sg
+T14	VERB 155 160	ikšud
+A28	Verb_stem T14 G
+A29	Number T14 Sg
+A30	Person T14 3
+A31	Mood T14 indicative
+A32	Tense T14 preterit
+T15	NOUN 169 172	bīt
+A33	Gender T15 F
+A34	Noun_base T15 bound
+A35	Number T15 Sg
+T16	PROPN 173 178	Ištar
+A36	Gender T16 F
+R1	appos Arg1:T2 Arg2:T3	
+R2	appos Arg1:T2 Arg2:T5	
+R3	appos Arg1:T2 Arg2:T8	
+R4	amod Arg1:T3 Arg2:T4	
+R5	nmod_poss Arg1:T5 Arg2:T6	
+R6	nmod_poss Arg1:T6 Arg2:T7	
+R7	amod Arg1:T10 Arg2:T11	
+T1	NOUN 109 116	huršānī
+A1	Noun_base T1 free
+A37	Number T1 Pl
+A38	Gender T1 M
+T17	NOUN 149 152	qās
+A39	Noun_base T17 suffixal
+A40	Number T17 Sg
+A41	Gender T17 F
+T18	NOUN 130 136	kullat
+A42	Noun_base T18 bound
+A43	Number T18 Sg
+A44	Gender T18 F
+T19	PRON 152 154	su
+A45	Gender T19 M
+A46	Number T19 Sg
+A47	Person T19 3
+T20	ADJ 117 124	dannūti
+A48	Gender T20 M
+A49	Number T20 Pl
+R8	nmod_poss Arg1:T15 Arg2:T16	
+T21	NOUN 179 184	anhūs
+A50	Noun_base T21 suffixal
+A51	Number T21 Sg
+A52	Gender T21 F
+T22	PRON 184 186	su
+A53	Gender T22 M
+A54	Number T22 Sg
+A55	Person T22 3
+T23	NOUN 65 68	abi
+A56	Case T23 Gen
+A57	Noun_base T23 suffixal
+A58	Number T23 Sg
+A59	Gender T23 M
+T24	PRON 68 70	ki
+A60	Gender T24 F
+A61	Number T24 Sg
+A62	Person T24 2
+R9	nmod_poss Arg1:T8 Arg2:T23	
+T25	ADP 77 79	ša
+T26	NOUN 80 85	siqri
+A63	Case T26 Gen
+A64	Noun_base T26 suffixal
+A65	Number T26 Sg
+A66	Gender T26 M
+T27	PRON 85 87	šu
+A67	Gender T27 M
+A68	Number T27 Sg
+A69	Person T27 3
+R10	nmod_poss Arg1:T12 Arg2:T1	
+R11	amod Arg1:T1 Arg2:T20	
+T13	NOUN 137 146	lā māgirī
+A70	Noun_base T13 suffixal
+A71	Number T13 Pl
+A72	Gender T13 M
+T28	PRON 146 148	šu
+A73	Gender T28 M
+A74	Number T28 Sg
+A75	Person T28 3
+R12	case Arg1:T26 Arg2:T25	
+R13	nmod_poss Arg1:T18 Arg2:T13	
+R14	nsubj Arg1:T14 Arg2:T17	

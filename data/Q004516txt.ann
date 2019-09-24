@@ -1,0 +1,30 @@
+T2	ADP 35 38	ana
+T3	ADP 70 73	eli
+T4	ADP 87 91	ištu
+T1	NOUN 39 45	meṣiri
+A1	Case T1 Gen
+A2	Noun_base T1 bound
+A3	Number T1 Sg
+A4	Gender T1 M
+T5	NOUN 46 50	māti
+A5	Case T5 Gen
+A6	Noun_base T5 suffixal
+A7	Number T5 Sg
+A8	Gender T5 F
+T6	PRON 50 52	ya
+A9	Person T6 1
+A10	Number T6 Sg
+T7	NOUN 62 69	kudurra
+A12	Noun_base T7 free
+A13	Number T7 Sg
+A14	Gender T7 M
+T8	VERB 80 84	ēnah
+A15	Verb_stem T8 G
+A16	Mood T8 indicative
+A17	Gender T8 M
+A18	Number T8 Sg
+A19	Person T8 3
+A20	Tense T8 preterit
+T9	CONJ 84 86	ma
+R1	nmod_poss Arg1:T1 Arg2:T5	
+R2	case Arg1:T1 Arg2:T2	

@@ -1,0 +1,19 @@
+T1	VERB 41 46	akšud
+A1	Verb_stem T1 G
+A2	Person T1 1
+A3	Tense T1 preterit
+A4	Mood T1 indicative
+T2	PROPN 14 20	Ulluba
+T4	PROPN 24 30	Sagara
+T3	ADP 21 23	ša
+T5	NOUN 31 34	šar
+A5	Noun_base T5 bound
+A6	Number T5 Sg
+A7	Gender T5 M
+R1	case Arg1:T4 Arg2:T3
+T6	PROPN 35 40	Hatte
+A8	Case T6 Gen
+R2	appos Arg1:T4 Arg2:T5
+R3	nmod_poss Arg1:T5 Arg2:T6
+R4	dobj Arg1:T1 Arg2:T2
+R5	nmod Arg1:T2 Arg2:T4	

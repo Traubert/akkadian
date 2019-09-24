@@ -1,0 +1,187 @@
+T2	ADP 14 17	ana
+T3	PROPN 18 23	Aššur
+A2	Gender T3 M
+T4	NOUN 24 27	abu
+A3	Case T4 Nom
+A4	Gender T4 M
+A5	Noun_base T4 free
+A6	Number T4 Sg
+T5	NOUN 28 33	ilāni
+A7	Gender T5 M
+A8	Number T5 Pl
+T6	ADJ 34 40	rabûte
+A9	Gender T6 M
+A10	Number T6 Pl
+T7	PROPN 48 57	Aššur-dan
+A11	Gender T7 M
+T8	PROPN 64 69	Enlil
+A12	Gender T8 M
+T9	NOUN 70 75	iššak
+A13	Gender T9 M
+A14	Noun_base T9 bound
+A15	Number T9 Sg
+T10	PROPN 76 81	Aššur
+A16	Gender T10 M
+T11	NOUN 82 85	mār
+A17	Gender T11 M
+A18	Noun_base T11 bound
+A19	Number T11 Sg
+T12	PROPN 86 105	Tukulti-apil-Ešarra
+A20	Gender T12 M
+T13	PROPN 112 117	Enlil
+A21	Gender T13 M
+T14	NOUN 118 123	iššak
+A22	Gender T14 M
+A23	Noun_base T14 bound
+A24	Number T14 Sg
+T15	PROPN 124 129	Aššur
+A25	Gender T15 M
+T16	NOUN 130 133	mār
+A26	Gender T16 M
+A27	Noun_base T16 bound
+A28	Number T16 Sg
+T17	PROPN 134 148	Aššur-reša-iši
+A29	Gender T17 M
+T18	PROPN 155 160	Enlil
+A30	Gender T18 M
+T19	NOUN 161 166	iššak
+A31	Gender T19 M
+A32	Noun_base T19 bound
+A33	Number T19 Sg
+T20	PROPN 167 172	Aššur
+A34	Gender T20 M
+T21	NOUN 173 176	mār
+A35	Gender T21 M
+A36	Noun_base T21 bound
+A37	Number T21 Sg
+T22	PROPN 177 187	Aššur-rabi
+A38	Gender T22 M
+T23	PROPN 194 199	Enlil
+A39	Gender T23 M
+T24	NOUN 200 205	iššak
+A40	Gender T24 M
+A41	Noun_base T24 bound
+A42	Number T24 Sg
+T25	ADP 214 217	ana
+T26	NOUN 218 223	balāṭ
+A43	Gender T26 M
+A44	Noun_base T26 bound
+A45	Number T26 Sg
+T27	NOUN 245 251	šumʾud
+A46	Gender T27 M
+A47	Noun_base T27 bound
+A48	Number T27 Sg
+T28	NOUN 261 266	šalām
+A49	Gender T28 M
+A50	Noun_base T28 bound
+A51	Number T28 Sg
+T29	CONJ 274 275	u
+T30	NOUN 285 288	ili
+A52	Case T30 Gen
+A53	Gender T30 M
+A54	Noun_base T30 free
+A55	Number T30 Sg
+R1	amod Arg1:T5 Arg2:T6	
+T1	NOUN 58 63	šakan
+A1	Noun_base T1 bound
+A56	Number T1 Sg
+A57	Gender T1 M
+R2	appos Arg1:T7 Arg2:T1	
+R3	appos Arg1:T7 Arg2:T9	
+R4	appos Arg1:T7 Arg2:T11	
+T31	NOUN 106 111	šakan
+A58	Noun_base T31 bound
+A59	Number T31 Sg
+A60	Gender T31 M
+T32	NOUN 149 154	šakan
+A61	Noun_base T32 bound
+A62	Number T32 Sg
+A63	Gender T32 M
+T33	NOUN 188 193	šakan
+A64	Noun_base T33 bound
+A65	Number T33 Sg
+A66	Gender T33 M
+T34	PROPN 206 211	Aššur
+A67	Gender T34 M
+T35	PART 211 213	ma
+R5	appos Arg1:T12 Arg2:T31	
+R6	appos Arg1:T12 Arg2:T14	
+R7	appos Arg1:T12 Arg2:T16	
+R8	appos Arg1:T17 Arg2:T32	
+R9	appos Arg1:T17 Arg2:T19	
+R10	appos Arg1:T17 Arg2:T21	
+R11	appos Arg1:T22 Arg2:T33	
+R12	appos Arg1:T22 Arg2:T24	
+R13	nmod_poss Arg1:T24 Arg2:T34	
+T36	NOUN 41 45	bēli
+A68	Noun_base T36 suffixal
+A69	Number T36 Sg
+A70	Gender T36 M
+T37	PRON 45 47	šu
+A71	Person T37 3
+A72	Number T37 Sg
+R14	nmod_poss Arg1:T11 Arg2:T12	
+R15	nmod_poss Arg1:T1 Arg2:T8	
+R16	nmod_poss Arg1:T9 Arg2:T10	
+R17	nmod_poss Arg1:T31 Arg2:T13	
+R18	nmod_poss Arg1:T14 Arg2:T15	
+R19	nmod_poss Arg1:T16 Arg2:T17	
+R20	nmod_poss Arg1:T32 Arg2:T18	
+R21	nmod_poss Arg1:T19 Arg2:T20	
+R22	nmod_poss Arg1:T21 Arg2:T22	
+R23	nmod_poss Arg1:T33 Arg2:T23	
+T38	NOUN 239 242	ūmē
+A73	Noun_base T38 suffixal
+A74	Number T38 Pl
+A75	Gender T38 M
+T39	PRON 242 244	ya
+A76	Person T39 1
+A77	Number T39 Sg
+T40	NOUN 252 258	šanāti
+A78	Noun_base T40 suffixal
+A79	Number T40 Pl
+A80	Gender T40 F
+T41	PRON 258 260	ya
+A81	Person T41 1
+A82	Number T41 Sg
+T42	NOUN 267 271	zēri
+A83	Case T42 Gen
+A84	Noun_base T42 suffixal
+A85	Number T42 Sg
+A86	Gender T42 M
+T43	PRON 271 273	ya
+A87	Person T43 1
+A88	Number T43 Sg
+T44	NOUN 276 280	māti
+A89	Case T44 Gen
+A90	Noun_base T44 suffixal
+A91	Number T44 Sg
+A92	Gender T44 F
+T45	PRON 280 282	ya
+A93	Person T45 1
+A94	Number T45 Sg
+R24	case Arg1:T3 Arg2:T2	
+R25	nmod_poss Arg1:T4 Arg2:T5	
+R26	appos Arg1:T3 Arg2:T4	
+R27	appos Arg1:T3 Arg2:T36	
+T46	VERB 234 238	arāk
+A95	Verb_stem T46 G
+A96	Noun_base T46 bound
+A97	Mood T46 infinitive
+A98	Number T46 Sg
+A99	Gender T46 M
+R28	nmod_poss Arg1:T46 Arg2:T38	
+R29	cc Arg1:T44 Arg2:T29	
+R30	conj Arg1:T42 Arg2:T44	
+T47	NOUN 224 231	napšāti
+A100	Noun_base T47 suffixal
+A101	Number T47 Pl
+A102	Gender T47 F
+A103	Case T47 Gen
+T48	PRON 231 233	ya
+A104	Person T48 1
+A105	Number T48 Sg
+R31	case Arg1:T26 Arg2:T25	
+R32	nmod_poss Arg1:T26 Arg2:T47	
+R33	nmod_poss Arg1:T27 Arg2:T40	
+R34	nmod_poss Arg1:T28 Arg2:T42	

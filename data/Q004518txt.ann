@@ -1,0 +1,42 @@
+T2	ADP 24 27	ana
+T3	NOUN 28 32	nišī
+A2	Number T3 Pl
+A3	Gender T3 F
+T4	PROPN 37 51	Til-ša-Zabdani
+T5	CONJ 65 66	u
+T6	ADV 79 84	enūma
+T7	NOUN 85 88	bīt
+A4	Noun_base T7 bound
+A5	Number T7 Sg
+A6	Gender T7 F
+T8	PROPN 89 94	Ištar
+A7	Gender T8 F
+T9	NOUN 108 113	nēreb
+A8	Noun_base T9 bound
+A9	Number T9 Sg
+A10	Gender T9 M
+T1	ADP 104 107	adi
+R1	case Arg1:T3 Arg2:T2	
+T10	NOUN 67 74	huršānu
+A1	Case T10 Nom
+A11	Noun_base T10 free
+A12	Number T10 Pl
+A13	Gender T10 M
+#1	AnnotatorNotes T10	form=huršānū
+R2	nmod_poss Arg1:T7 Arg2:T8	
+T11	ADP 95 97	ša
+R3	case Arg1:T9 Arg2:T1	
+T12	DET 56 60	kalî
+T13	PRON 60 64	šina
+A14	Gender T13 F
+A15	Number T13 Pl
+A16	Person T13 3
+R4	cc Arg1:T10 Arg2:T5	
+T14	NOUN 54 55	x
+A17	Noun_base T14 free
+A18	Number T14 Pl
+A19	Gender T14 F
+R5	conj Arg1:T14 Arg2:T10	
+T15	PROPN 98 99	x
+R6	case Arg1:T15 Arg2:T11	
+R7	nmod Arg1:T8 Arg2:T15	

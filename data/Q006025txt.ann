@@ -1,0 +1,107 @@
+T2	NOUN 14 18	ēkal
+A2	Gender T2 F
+A3	Noun_base T2 bound
+A4	Number T2 Sg
+T3	PROPN 19 30	Adad-nerari
+A5	Gender T3 M
+T4	NOUN 31 36	šarri
+A6	Gender T4 M
+A7	Noun_base T4 free
+A8	Case T4 Gen
+A9	Number T4 Sg
+T5	NOUN 43 46	šar
+A10	Gender T5 M
+A11	Noun_base T5 bound
+A12	Number T5 Sg
+T6	NOUN 47 54	kiššati
+A13	Gender T6 F
+A14	Noun_base T6 free
+A15	Case T6 Gen
+A16	Number T6 Sg
+T7	NOUN 55 58	šar
+A17	Gender T7 M
+A18	Noun_base T7 bound
+A19	Number T7 Sg
+T8	NOUN 59 62	māt
+A20	Gender T8 F
+A21	Noun_base T8 bound
+A22	Number T8 Sg
+T9	PROPN 63 68	Aššur
+A23	Gender T9 M
+T10	NOUN 69 72	mār
+A24	Gender T10 M
+A25	Noun_base T10 bound
+A26	Number T10 Sg
+T11	PROPN 73 82	Aššur-dan
+A27	Gender T11 M
+T12	NOUN 83 86	šar
+A28	Gender T12 M
+A29	Noun_base T12 bound
+A30	Number T12 Sg
+T13	NOUN 87 94	kiššati
+A31	Gender T13 F
+A32	Noun_base T13 free
+A33	Case T13 Gen
+A34	Number T13 Sg
+T14	NOUN 95 98	šar
+A35	Gender T14 M
+A36	Noun_base T14 bound
+A37	Number T14 Sg
+T15	NOUN 99 102	māt
+A38	Gender T15 F
+A39	Noun_base T15 bound
+A40	Number T15 Sg
+T16	PROPN 103 108	Aššur
+A41	Gender T16 M
+T17	NOUN 111 114	mār
+A42	Gender T17 M
+A43	Noun_base T17 bound
+A44	Number T17 Sg
+T18	PROPN 115 134	Tukulti-apil-Ešarra
+A45	Gender T18 M
+T19	NOUN 135 138	šar
+A46	Gender T19 M
+A47	Noun_base T19 bound
+A48	Number T19 Sg
+T20	NOUN 139 146	kiššati
+A49	Gender T20 F
+A50	Noun_base T20 free
+A51	Case T20 Gen
+A52	Number T20 Sg
+T21	NOUN 147 150	šar
+A53	Gender T21 M
+A54	Noun_base T21 bound
+A55	Number T21 Sg
+T22	NOUN 151 154	māt
+A56	Gender T22 F
+A57	Noun_base T22 bound
+A58	Number T22 Sg
+T1	PROPN 155 160	Aššur
+A1	Gender T1 M
+T23	PART 160 162	ma
+T24	ADJ 37 42	danni
+A59	Case T24 Gen
+A60	Gender T24 M
+A61	Number T24 Sg
+R1	nmod_poss Arg1:T2 Arg2:T3	
+R2	appos Arg1:T3 Arg2:T4	
+R3	appos Arg1:T3 Arg2:T5	
+R4	appos Arg1:T3 Arg2:T7	
+R5	appos Arg1:T3 Arg2:T10	
+R6	appos Arg1:T11 Arg2:T12	
+R7	appos Arg1:T11 Arg2:T14	
+R8	appos Arg1:T11 Arg2:T17	
+R9	appos Arg1:T18 Arg2:T19	
+R10	appos Arg1:T18 Arg2:T21	
+R11	amod Arg1:T4 Arg2:T24	
+R12	nmod_poss Arg1:T5 Arg2:T6	
+R13	nmod_poss Arg1:T7 Arg2:T8	
+R14	nmod_poss Arg1:T8 Arg2:T9	
+R15	nmod_poss Arg1:T10 Arg2:T11	
+R16	nmod_poss Arg1:T12 Arg2:T13	
+R17	nmod_poss Arg1:T14 Arg2:T15	
+R18	nmod_poss Arg1:T15 Arg2:T16	
+R19	nmod_poss Arg1:T17 Arg2:T18	
+R20	nmod_poss Arg1:T19 Arg2:T20	
+R21	nmod_poss Arg1:T21 Arg2:T22	
+R22	nmod_poss Arg1:T22 Arg2:T1	

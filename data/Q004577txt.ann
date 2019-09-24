@@ -1,0 +1,125 @@
+T2	NOUN 14 18	ēkal
+A2	Gender T2 F
+A3	Noun_base T2 bound
+A4	Number T2 Sg
+T3	PROPN 19 35	Aššur-naṣir-apli
+A5	Gender T3 M
+T4	NOUN 36 41	šarru
+A6	Gender T4 M
+A7	Case T4 Nom
+A8	Noun_base T4 free
+A9	Number T4 Sg
+T5	ADJ 42 46	rabû
+A10	Gender T5 M
+A11	Case T5 Nom
+A12	Number T5 Sg
+T6	NOUN 47 52	šarru
+A13	Gender T6 M
+A14	Case T6 Nom
+A15	Noun_base T6 free
+A16	Number T6 Sg
+T7	ADJ 53 58	dannu
+A17	Gender T7 M
+A18	Case T7 Nom
+A19	Number T7 Sg
+T8	NOUN 59 62	šar
+A20	Gender T8 M
+A21	Noun_base T8 bound
+A22	Number T8 Sg
+T9	NOUN 63 70	kiššati
+A23	Gender T9 F
+A24	Case T9 Gen
+A25	Noun_base T9 free
+A26	Number T9 Sg
+T10	NOUN 71 74	šar
+A27	Gender T10 M
+A28	Noun_base T10 bound
+A29	Number T10 Sg
+T11	NOUN 75 78	māt
+A30	Gender T11 F
+A31	Noun_base T11 bound
+A32	Number T11 Sg
+T12	PROPN 79 84	Aššur
+A33	Gender T12 M
+T13	NOUN 85 88	mār
+A34	Gender T13 M
+A35	Noun_base T13 bound
+A36	Number T13 Sg
+T14	PROPN 89 104	Tukulti-Ninurta
+A37	Gender T14 M
+T15	NOUN 105 108	šar
+A38	Gender T15 M
+A39	Noun_base T15 bound
+A40	Number T15 Sg
+T16	NOUN 109 116	kiššati
+A41	Gender T16 F
+A42	Case T16 Gen
+A43	Noun_base T16 free
+A44	Number T16 Sg
+T17	NOUN 117 120	šar
+A45	Gender T17 M
+A46	Noun_base T17 bound
+A47	Number T17 Sg
+T18	NOUN 121 124	māt
+A48	Gender T18 F
+A49	Noun_base T18 bound
+A50	Number T18 Sg
+T19	PROPN 125 130	Aššur
+A51	Gender T19 M
+T20	NOUN 131 134	mār
+A52	Gender T20 M
+A53	Noun_base T20 bound
+A54	Number T20 Sg
+T21	PROPN 135 146	Adad-nerari
+A55	Gender T21 M
+T22	NOUN 147 150	šar
+A56	Gender T22 M
+A57	Noun_base T22 bound
+A58	Number T22 Sg
+T23	NOUN 151 158	kiššati
+A59	Gender T23 F
+A60	Case T23 Gen
+A61	Noun_base T23 free
+A62	Number T23 Sg
+T24	NOUN 159 162	šar
+A63	Gender T24 M
+A64	Noun_base T24 bound
+A65	Number T24 Sg
+T25	NOUN 163 166	māt
+A66	Gender T25 F
+A67	Noun_base T25 bound
+A68	Number T25 Sg
+T26	NOUN 175 181	makkūr
+A69	Gender T26 M
+A70	Noun_base T26 bound
+A71	Number T26 Sg
+T27	PROPN 182 187	Kalhi
+A72	Case T27 Gen
+T1	PROPN 167 172	Aššur
+A1	Gender T1 M
+T28	PART 172 174	ma
+R1	nmod_poss Arg1:T26 Arg2:T27	
+R2	nmod_poss Arg1:T2 Arg2:T3	
+R3	appos Arg1:T3 Arg2:T4	
+R4	appos Arg1:T3 Arg2:T6	
+R5	appos Arg1:T3 Arg2:T8	
+R6	appos Arg1:T3 Arg2:T10	
+R8	appos Arg1:T14 Arg2:T15	
+R7	appos Arg1:T3 Arg2:T13	
+R9	appos Arg1:T14 Arg2:T17	
+R10	appos Arg1:T14 Arg2:T20	
+R11	appos Arg1:T21 Arg2:T22	
+R12	appos Arg1:T21 Arg2:T24	
+R13	amod Arg1:T4 Arg2:T5	
+R14	amod Arg1:T6 Arg2:T7	
+R15	nmod_poss Arg1:T8 Arg2:T9	
+R16	nmod_poss Arg1:T10 Arg2:T11	
+R17	nmod_poss Arg1:T11 Arg2:T12	
+R18	nmod_poss Arg1:T13 Arg2:T14	
+R19	nmod_poss Arg1:T15 Arg2:T16	
+R20	nmod_poss Arg1:T17 Arg2:T18	
+R21	nmod_poss Arg1:T18 Arg2:T19	
+R22	nmod_poss Arg1:T20 Arg2:T21	
+R23	nmod_poss Arg1:T22 Arg2:T23	
+R24	nmod_poss Arg1:T24 Arg2:T25	
+R25	nmod_poss Arg1:T25 Arg2:T1	

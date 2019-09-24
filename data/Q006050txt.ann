@@ -1,0 +1,35 @@
+T2	NOUN 14 18	ēkal
+A2	Gender T2 F
+A3	Number T2 Sg
+A4	Noun_base T2 bound
+T3	NOUN 21 24	šar
+A5	Gender T3 M
+A6	Number T3 Sg
+A7	Noun_base T3 bound
+T4	NOUN 25 32	kiššati
+A8	Case T4 Gen
+A9	Number T4 Sg
+A10	Gender T4 F
+A11	Noun_base T4 free
+T5	NOUN 33 36	šar
+A12	Gender T5 M
+A13	Number T5 Sg
+A14	Noun_base T5 bound
+T6	NOUN 39 42	mār
+A15	Gender T6 M
+A16	Number T6 Sg
+A17	Noun_base T6 bound
+T7	PROPN 43 54	Adad-nerari
+A18	Gender T7 M
+T1	PROPN 19 20	x
+A1	Gender T1 M
+R1	nmod_poss Arg1:T2 Arg2:T1	
+R2	appos Arg1:T1 Arg2:T3	
+R3	appos Arg1:T1 Arg2:T5	
+R4	appos Arg1:T1 Arg2:T6	
+R5	nmod_poss Arg1:T6 Arg2:T7	
+T8	NOUN 55 56	x
+R6	appos Arg1:T7 Arg2:T8	
+R7	nmod_poss Arg1:T3 Arg2:T4	
+T9	NOUN 37 38	x
+R8	nmod_poss Arg1:T5 Arg2:T9	

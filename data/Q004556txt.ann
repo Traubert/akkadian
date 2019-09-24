@@ -1,0 +1,183 @@
+T39	ROOT 14 14	
+T40	ROOT 221 221	
+T1	NOUN 221 228	kisirtu
+A1	Case T1 Nom
+A2	Noun_base T1 free
+A3	Number T1 Sg
+A4	Gender T1 F
+T2	ADP 229 231	ša
+T3	NOUN 232 239	tarbaṣi
+A5	Noun_base T3 bound
+A6	Number T3 Sg
+A7	Gender T3 M
+T4	NOUN 240 246	ēkalli
+A8	Case T4 Gen
+A9	Noun_base T4 free
+A10	Number T4 Sg
+A11	Gender T4 F
+R1	nmod_poss Arg1:T3 Arg2:T4
+R2	case Arg1:T3 Arg2:T2
+R3	nmod Arg1:T1 Arg2:T3
+T5	NOUN 14 18	ēkal
+A12	Number T5 Sg
+A13	Noun_base T5 bound
+A14	Gender T5 F
+T6	PROPN 19 35	Aššur-naṣir-apli
+A15	Gender T6 M
+T7	NOUN 36 41	šarru
+A16	Case T7 Nom
+A17	Number T7 Sg
+A18	Noun_base T7 free
+A19	Gender T7 M
+T8	ADJ 42 46	rabû
+A20	Case T8 Nom
+A21	Number T8 Sg
+A22	Gender T8 M
+T9	NOUN 47 52	šarru
+A23	Case T9 Nom
+A24	Number T9 Sg
+A25	Noun_base T9 free
+A26	Gender T9 M
+T10	ADJ 53 58	dannu
+A27	Case T10 Nom
+A28	Number T10 Sg
+A29	Gender T10 M
+T11	NOUN 59 62	šar
+A30	Number T11 Sg
+A31	Noun_base T11 bound
+A32	Gender T11 M
+T12	NOUN 63 70	kiššati
+A33	Case T12 Gen
+A34	Number T12 Sg
+A35	Noun_base T12 free
+A36	Gender T12 F
+T13	NOUN 71 74	šar
+A37	Number T13 Sg
+A38	Noun_base T13 bound
+A39	Gender T13 M
+T14	NOUN 75 78	māt
+A40	Number T14 Sg
+A41	Noun_base T14 bound
+A42	Gender T14 F
+T15	PROPN 79 84	Aššur
+A43	Gender T15 M
+T16	NOUN 85 88	mār
+A44	Number T16 Sg
+A45	Noun_base T16 bound
+A46	Gender T16 M
+T17	PROPN 89 104	Tukulti-Ninurta
+A47	Gender T17 M
+T18	NOUN 105 110	šarri
+A48	Case T18 Gen
+A49	Number T18 Sg
+A50	Noun_base T18 free
+A51	Gender T18 M
+T19	ADJ 111 115	rabê
+A52	Case T19 Gen
+A53	Number T19 Sg
+A54	Gender T19 M
+T20	NOUN 116 121	šarri
+A55	Case T20 Gen
+A56	Number T20 Sg
+A57	Noun_base T20 free
+A58	Gender T20 M
+T21	NOUN 128 131	šar
+A59	Number T21 Sg
+A60	Noun_base T21 bound
+A61	Gender T21 M
+T22	NOUN 132 139	kiššati
+A62	Case T22 Gen
+A63	Number T22 Sg
+A64	Noun_base T22 free
+A65	Gender T22 F
+T23	NOUN 140 143	šar
+A66	Number T23 Sg
+A67	Noun_base T23 bound
+A68	Gender T23 M
+T24	NOUN 144 147	māt
+A69	Number T24 Sg
+A70	Noun_base T24 bound
+A71	Gender T24 F
+T25	PROPN 148 153	Aššur
+A72	Gender T25 M
+T26	NOUN 154 157	mār
+A73	Number T26 Sg
+A74	Noun_base T26 bound
+A75	Gender T26 M
+T27	PROPN 158 169	Adad-nerari
+A76	Gender T27 M
+T28	NOUN 170 175	šarri
+A77	Case T28 Gen
+A78	Number T28 Sg
+A79	Noun_base T28 free
+A80	Gender T28 M
+T29	ADJ 176 180	rabê
+A81	Case T29 Gen
+A82	Number T29 Sg
+A83	Gender T29 M
+T30	NOUN 181 186	šarri
+A84	Case T30 Gen
+A85	Number T30 Sg
+A86	Noun_base T30 free
+A87	Gender T30 M
+T31	NOUN 193 196	šar
+A88	Number T31 Sg
+A89	Noun_base T31 bound
+A90	Gender T31 M
+T32	NOUN 197 204	kiššati
+A91	Case T32 Gen
+A92	Number T32 Sg
+A93	Noun_base T32 free
+A94	Gender T32 F
+T33	NOUN 205 208	šar
+A95	Number T33 Sg
+A96	Noun_base T33 bound
+A97	Gender T33 M
+T34	NOUN 209 212	māt
+A98	Number T34 Sg
+A99	Noun_base T34 bound
+A100	Gender T34 F
+R4	amod Arg1:T7 Arg2:T8	
+R5	amod Arg1:T9 Arg2:T10	
+R6	amod Arg1:T18 Arg2:T19	
+T35	ADJ 122 127	danni
+A101	Case T35 Gen
+A102	Gender T35 M
+A103	Number T35 Sg
+T36	ADJ 187 192	danni
+A104	Case T36 Gen
+A105	Gender T36 M
+A106	Number T36 Sg
+T37	PROPN 213 218	Aššur
+A107	Gender T37 M
+T38	PART 218 220	ma
+#1	AnnotatorNotes T3	form=tarbaṣ
+R7	nmod_poss Arg1:T5 Arg2:T6	
+R8	appos Arg1:T6 Arg2:T7	
+R9	appos Arg1:T6 Arg2:T9	
+R10	appos Arg1:T6 Arg2:T11	
+R11	appos Arg1:T6 Arg2:T13	
+R13	appos Arg1:T17 Arg2:T18	
+R14	appos Arg1:T17 Arg2:T20	
+R15	amod Arg1:T20 Arg2:T35	
+R16	nmod_poss Arg1:T21 Arg2:T22	
+R17	nmod_poss Arg1:T11 Arg2:T12	
+R18	nmod_poss Arg1:T13 Arg2:T14	
+R19	nmod_poss Arg1:T14 Arg2:T15	
+R12	appos Arg1:T6 Arg2:T16	
+R20	nmod_poss Arg1:T16 Arg2:T17	
+R21	appos Arg1:T17 Arg2:T21	
+R22	appos Arg1:T17 Arg2:T23	
+R23	appos Arg1:T17 Arg2:T26	
+R24	amod Arg1:T28 Arg2:T29	
+R25	amod Arg1:T30 Arg2:T36	
+R26	nmod_poss Arg1:T31 Arg2:T32	
+R27	nmod_poss Arg1:T23 Arg2:T24	
+R28	nmod_poss Arg1:T24 Arg2:T25	
+R29	nmod_poss Arg1:T26 Arg2:T27	
+R30	appos Arg1:T27 Arg2:T28	
+R31	appos Arg1:T27 Arg2:T30	
+R32	appos Arg1:T27 Arg2:T31	
+R33	appos Arg1:T27 Arg2:T33	
+R34	nmod_poss Arg1:T33 Arg2:T34	
+R35	nmod_poss Arg1:T34 Arg2:T37	

@@ -1,0 +1,117 @@
+T2	PROPN 59 69	Aššur-rabi
+A2	Gender T2 M
+T3	NOUN 70 74	rubû
+A3	Noun_base T3 free
+A4	Case T3 Nom
+A5	Number T3 Sg
+A6	Gender T3 M
+T4	VERB 86 92	umessi
+A7	Person T4 1
+A8	Mood T4 indicative
+A9	Tense T4 preterit
+A10	Verb_stem T4 D
+A11	Number T4 Sg
+T5	VERB 102 107	akšud
+A12	Person T5 1
+A13	Mood T5 indicative
+A14	Tense T5 preterit
+A15	Verb_stem T5 G
+A16	Number T5 Sg
+T6	VERB 112 119	ušeklil
+A17	Person T6 1
+A18	Mood T6 indicative
+A19	Tense T6 preterit
+A20	Verb_stem T6 S
+A21	Number T6 Sg
+T7	VERB 120 125	ussim
+A22	Person T7 1
+A23	Mood T7 indicative
+A24	Tense T7 preterit
+A25	Verb_stem T7 D
+A26	Number T7 Sg
+T8	VERB 126 133	ušarrih
+A27	Person T8 1
+A28	Mood T8 indicative
+A29	Tense T8 preterit
+A30	Verb_stem T8 D
+A31	Number T8 Sg
+T9	ADP 145 148	ina
+T10	VERB 157 162	aškun
+A32	Person T10 1
+A33	Mood T10 indicative
+A34	Tense T10 preterit
+A35	Verb_stem T10 G
+A36	Number T10 Sg
+T11	NOUN 167 171	narâ
+A37	Noun_base T11 free
+A38	Case T11 Acc
+A39	Number T11 Sg
+A40	Gender T11 M
+T12	ADP 172 175	ana
+T13	VERB 183 188	lutēr
+A41	Mood T13 precative
+A42	Person T13 3
+A43	Verb_stem T13 D
+A44	Number T13 Sg
+T1	ADP 16 19	adi
+T14	PROPN 31 40	Bit-nathi
+T15	PRON 56 58	ša
+T16	NOUN 48 53	bēlti
+A1	Case T16 Gen
+A45	Noun_base T16 suffixal
+A46	Number T16 Sg
+A47	Gender T16 F
+T17	PRON 53 55	ya
+A48	Person T17 1
+A49	Number T17 Sg
+T18	NOUN 93 99	dannas
+A50	Noun_base T18 suffixal
+A51	Number T18 Sg
+A52	Gender T18 F
+T19	PRON 99 101	su
+A53	Gender T19 M
+A54	Number T19 Sg
+A55	Person T19 3
+T20	NOUN 176 180	ašri
+A56	Case T20 Gen
+A57	Noun_base T20 suffixal
+A58	Number T20 Sg
+A59	Gender T20 M
+T21	PRON 180 182	šu
+A60	Gender T21 M
+A61	Number T21 Sg
+A62	Person T21 3
+T22	NOUN 149 154	qerbi
+A63	Case T22 Gen
+A64	Noun_base T22 suffixal
+A65	Number T22 Sg
+A66	Gender T22 M
+T23	PRON 154 156	šu
+A67	Gender T23 M
+A68	Number T23 Sg
+A69	Person T23 3
+T24	NOUN 79 83	ašar
+A70	Noun_base T24 suffixal
+A71	Number T24 Sg
+A72	Gender T24 M
+T25	PRON 83 85	šu
+A73	Gender T25 M
+A74	Number T25 Sg
+A75	Person T25 3
+T26	NOUN 138 142	narî
+A76	Noun_base T26 suffixal
+A77	Number T26 Sg
+A78	Gender T26 M
+T27	PRON 142 144	ya
+A79	Person T27 1
+A80	Number T27 Sg
+T28	PROPN 20 25	tâmti
+R1	case Arg1:T28 Arg2:T1	
+R2	case Arg1:T22 Arg2:T9	
+R3	case Arg1:T20 Arg2:T12	
+R4	appos Arg1:T2 Arg2:T3	
+R5	dobj Arg1:T10 Arg2:T26	
+R6	dobj Arg1:T13 Arg2:T11	
+R7	dobj Arg1:T4 Arg2:T24	
+R8	dobj Arg1:T5 Arg2:T18	
+R9	xcomp Arg1:T7 Arg2:T8	

@@ -1,0 +1,63 @@
+T2	NOUN 14 18	ēkal
+A2	Noun_base T2 bound
+A3	Number T2 Sg
+A4	Gender T2 F
+T3	PROPN 19 35	Aššur-naṣir-apli
+A5	Gender T3 M
+T4	NOUN 36 39	šar
+A6	Noun_base T4 bound
+A7	Number T4 Sg
+A8	Gender T4 M
+T5	NOUN 40 43	māt
+A9	Noun_base T5 bound
+A10	Number T5 Sg
+A11	Gender T5 F
+T6	PROPN 44 49	Aššur
+A12	Gender T6 M
+T7	NOUN 50 53	mār
+A13	Noun_base T7 bound
+A14	Number T7 Sg
+A15	Gender T7 M
+T8	PROPN 54 69	Tukulti-Ninurta
+A16	Gender T8 M
+T9	NOUN 70 73	šar
+A17	Noun_base T9 bound
+A18	Number T9 Sg
+A19	Gender T9 M
+T10	NOUN 74 77	māt
+A20	Noun_base T10 bound
+A21	Number T10 Sg
+A22	Gender T10 F
+T11	PROPN 78 83	Aššur
+A23	Gender T11 M
+T12	NOUN 84 87	mār
+A24	Noun_base T12 bound
+A25	Number T12 Sg
+A26	Gender T12 M
+T13	PROPN 88 99	Adad-nerari
+A27	Gender T13 M
+T14	NOUN 100 103	šar
+A28	Noun_base T14 bound
+A29	Number T14 Sg
+A30	Gender T14 M
+T15	NOUN 104 107	māt
+A31	Noun_base T15 bound
+A32	Number T15 Sg
+A33	Gender T15 F
+T1	PROPN 108 113	Aššur
+A1	Gender T1 M
+T16	PART 113 115	ma
+R1	nmod_poss Arg1:T2 Arg2:T3	
+R2	appos Arg1:T3 Arg2:T4	
+R3	appos Arg1:T3 Arg2:T7	
+R4	appos Arg1:T8 Arg2:T9	
+R5	appos Arg1:T8 Arg2:T12	
+R6	appos Arg1:T13 Arg2:T14	
+R7	nmod_poss Arg1:T4 Arg2:T5	
+R8	nmod_poss Arg1:T5 Arg2:T6	
+R9	nmod_poss Arg1:T7 Arg2:T8	
+R10	nmod_poss Arg1:T9 Arg2:T10	
+R11	nmod_poss Arg1:T10 Arg2:T11	
+R12	nmod_poss Arg1:T12 Arg2:T13	
+R13	nmod_poss Arg1:T14 Arg2:T15	
+R14	nmod_poss Arg1:T15 Arg2:T1	

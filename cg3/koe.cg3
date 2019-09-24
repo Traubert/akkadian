@@ -1,0 +1,30 @@
+DELIMITERS = "<$.>" ;
+
+SECTION
+
+ADD (amod<) TARGET (ADJ) (-1 (NOUN)) ;
+ADD (amod<2) TARGET (ADJ) (-2 (NOUN)) ;
+
+ADD (nmod_poss<) TARGET ("kiššati")  (-1 ("šar"));
+
+ADD (nmod_poss<) TARGET ("Aššur") (-1 ("māt")) (-2 ("šar"));
+ADD (nmod_poss<) TARGET ("māt") (-1 ("šar")) (1 ("Aššur"));
+
+LIST OfPropN = "mār" "bīt";
+
+ADD (nmod_poss<) TARGET (PROPN) (-1 OfPropN);
+
+LIST Preposition = "adi" "ana" "ina" "ištu" "itti" "ultu";
+LIST NounOrPropN = NOUN PROPN;
+
+ADD (case>) TARGET Preposition (1 NounOrPropN);
+
+ADD (case>) TARGET ("ša") (1 (NOUN GEN)) ;
+
+ADD (cc>) TARGET (NounOrPropN) (1 ("u")) (1 (CONJ)) (2 NounOrPropN);
+ADD (conj<2) TARGET NounOrPropN (0 NounOrPropN) (-1 ("u")) (-1 (CONJ)) (-2 NounOrPropN);
+
+ADD (nummod>) TARGET (NUM) (-1 (NOUN));
+ADD (advmod_emph>) TARGET (VERB) (1 ("lū"));
+
+#VERB-ma (conj) + VERB: VERB-ma (< basic | cc) VERB (ja kaari ensimmäisestä verbistä enkliittisen -ma:n yli toiseen verbiin annotaatiolla basic | conj); “… and …”.

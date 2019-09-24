@@ -1,0 +1,33 @@
+T2	NOUN 24 30	mātāti
+A2	Gender T2 F
+A3	Number T2 Pl
+A4	Noun_base T2 free
+T3	NOUN 51 56	šarru
+A5	Gender T3 M
+A6	Number T3 Sg
+A7	Case T3 Nom
+A8	Noun_base T3 free
+T4	ADJ 57 62	dannu
+A9	Gender T4 M
+A10	Number T4 Sg
+A11	Case T4 Nom
+T5	NOUN 71 74	bīt
+A12	Gender T5 F
+A13	Number T5 Sg
+A14	Noun_base T5 bound
+T6	NOUN 75 78	ili
+A15	Gender T6 M
+A16	Number T6 Sg
+A17	Case T6 Gen
+A18	Noun_base T6 free
+T7	NOUN 87 92	bēlat
+A19	Gender T7 F
+A20	Number T7 Sg
+A21	Noun_base T7 bound
+R1	amod Arg1:T3 Arg2:T4	
+R2	nmod_poss Arg1:T5 Arg2:T6	
+T1	PROPN 79 80	x
+R3	nmod_poss Arg1:T6 Arg2:T1	
+T8	ADP 35 38	adi
+T9	PROPN 39 44	tâmti
+R4	case Arg1:T9 Arg2:T8	

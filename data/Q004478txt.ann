@@ -1,0 +1,94 @@
+T1	ADP 25 28	ina
+T2	CONJ 45 46	u
+T3	PROPN 39 44	Šamaš
+A1	Gender T3 M
+T4	PROPN 47 51	Adad
+A2	Gender T4 M
+T5	PROPN 80 85	Nairi
+A3	Case T5 Gen
+T6	PROPN 86 91	Habhi
+A4	Case T6 Gen
+T7	PROPN 92 98	Šubare
+A5	Case T7 Gen
+T8	PROPN 101 106	Nirib
+A6	Case T8 Gen
+T9	PROPN 112 116	Adad
+A7	Gender T9 M
+T10	NOUN 138 143	šarru
+A8	Case T10 Nom
+A9	Noun_base T10 free
+A10	Number T10 Sg
+A11	Gender T10 M
+T11	ADP 147 151	ultu
+T12	PROPN 160 167	Idiqlat
+T13	ADP 168 171	adi
+T14	PROPN 172 179	Labnana
+T15	PART 14 16	lū
+T16	ADP 36 38	ša
+T17	NOUN 52 57	ilāni
+A12	Noun_base T17 bound
+A13	Number T17 Pl
+A14	Gender T17 M
+T19	NOUN 66 73	ummānāt
+A19	Noun_base T19 bound
+A20	Number T19 Pl
+A21	Gender T19 F
+T20	NOUN 74 79	mātāt
+A22	Noun_base T20 bound
+A23	Number T20 Pl
+A24	Gender T20 F
+T21	NOUN 29 35	rēṣūṭe
+A25	Case T21 Gen
+A26	Noun_base T21 free
+A27	Number T21 Sg
+A28	Gender T21 F
+T22	ADP 107 111	kīma
+T23	VERB 132 137	ašgum
+A29	Verb_stem T23 G
+A30	Person T23 1
+A31	Tense T23 preterit
+A32	Mood T23 indicative
+T24	NOUN 152 159	ebertān
+A33	Noun_base T24 bound
+A34	Gender T24 F
+T25	PRON 144 146	ša
+T26	NOUN 117 123	rāhiṣi
+A35	Case T26 Gen
+A36	Noun_base T26 free
+A37	Number T26 Sg
+A38	Gender T26 M
+T27	ADP 124 127	eli
+T28	PRON 127 131	šunu
+T29	VERB 17 24	ušamqit
+A39	Verb_stem T29 S
+A40	Person T29 1
+A41	Tense T29 preterit
+A42	Mood T29 indicative
+T18	NOUN 58 63	tiklē
+A15	Case T18 Gen
+A16	Noun_base T18 suffixal
+A17	Number T18 Pl
+A18	Gender T18 M
+T30	PRON 63 65	ya
+A43	Person T30 1
+A44	Number T30 Sg
+R2	nmod_poss Arg1:T19 Arg2:T20
+R3	nmod_poss Arg1:T20 Arg2:T5
+R7	case Arg1:T3 Arg2:T16
+T31	CONJ 99 100	u
+R8	cc Arg1:T8 Arg2:T31
+R9	cc Arg1:T4 Arg2:T2
+R10	case Arg1:T14 Arg2:T13
+R11	case Arg1:T24 Arg2:T11
+R12	case Arg1:T21 Arg2:T1
+R15	conj Arg1:T3 Arg2:T4	
+R17	nmod_poss Arg1:T24 Arg2:T12	
+R18	nmod Arg1:T21 Arg2:T3	
+R19	appos Arg1:T3 Arg2:T17	
+R13	case Arg1:T9 Arg2:T22	
+R20	nmod_poss Arg1:T9 Arg2:T26	
+R1	appos Arg1:T3 Arg2:T18	
+R4	conj Arg1:T5 Arg2:T6	
+R5	conj Arg1:T5 Arg2:T7	
+R6	conj Arg1:T5 Arg2:T8	
+R16	iobj Arg1:T23 Arg2:T28	

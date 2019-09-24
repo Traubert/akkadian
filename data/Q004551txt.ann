@@ -1,0 +1,16 @@
+T2	NOUN 14 22	maddattu
+A2	Number T2 Sg
+A3	Noun_base T2 free
+A4	Case T2 Nom
+A5	Gender T2 F
+T1	ADP 23 25	ša
+T3	ADP 34 36	ša
+T4	PROPN 37 41	Suhi
+A1	Case T4 Gen
+T5	PROPN 26 33	Kudurri
+A6	Case T5 Gen
+A7	Gender T5 M
+R1	case Arg1:T5 Arg2:T1	
+R2	case Arg1:T4 Arg2:T3	
+R3	nmod Arg1:T2 Arg2:T5	
+R4	nmod Arg1:T5 Arg2:T4	

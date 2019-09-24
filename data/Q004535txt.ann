@@ -1,0 +1,13 @@
+T3	PROPN 24 30	Marina
+T4	PROPN 34 43	Bit-Adini
+T2	ADP 31 33	ša
+T1	ADP 21 23	ša
+R1	case Arg1:T4 Arg2:T2
+R2	case Arg1:T3 Arg2:T1
+R4	nmod Arg1:T3 Arg2:T4
+T5	NOUN 14 20	tidūku
+A1	Case T5 Nom
+A2	Noun_base T5 free
+A3	Number T5 Sg
+A4	Gender T5 M
+R3	nmod Arg1:T5 Arg2:T3

@@ -1,0 +1,71 @@
+T2	PROPN 14 30	Aššur-naṣir-apli
+A2	Gender T2 M
+T3	NOUN 33 36	šar
+A3	Noun_base T3 bound
+A4	Gender T3 M
+A5	Number T3 Sg
+T4	NOUN 44 50	kibrāt
+A6	Noun_base T4 bound
+A7	Gender T4 F
+A8	Number T4 Pl
+T5	PROPN 63 70	Ninurta
+A9	Gender T5 M
+T6	NOUN 71 76	šangû
+A10	Case T6 Nom
+A11	Noun_base T6 free
+A12	Gender T6 M
+A13	Number T6 Sg
+T7	ADJ 77 81	ella
+A14	Case T7 Nom
+A16	Gender T7 M
+A17	Number T7 Sg
+T10	NOUN 94 103	muparriru
+A22	Case T10 Nom
+A23	Noun_base T10 free
+A24	Gender T10 M
+A25	Number T10 Sg
+T11	NOUN 116 119	šar
+A26	Noun_base T11 bound
+A27	Gender T11 M
+A28	Number T11 Sg
+T12	NOUN 122 129	kibrāti
+A29	Noun_base T12 bound
+A30	Gender T12 F
+A31	Number T12 Pl
+T13	NOUN 130 133	mār
+A32	Noun_base T13 bound
+A33	Gender T13 M
+A34	Number T13 Sg
+T14	ADV 136 141	enūma
+T1	PROPN 142 149	Emašmaš
+T15	NOUN 37 43	kullat
+A1	Noun_base T15 bound
+A35	Number T15 Sg
+A36	Gender T15 F
+T16	NUM 51 58	erbetti
+A37	Case T16 Gen
+A38	Noun_base T16 free
+A39	Number T16 Sg
+A40	Gender T16 F
+T17	NOUN 108 115	zayyārī
+A41	Noun_base T17 free
+A42	Number T17 Pl
+A43	Gender T17 M
+R1	appos Arg1:T2 Arg2:T3	
+R2	nmod_poss Arg1:T3 Arg2:T15	
+R3	nmod_poss Arg1:T15 Arg2:T4	
+#1	AnnotatorNotes T16	form=arba’i
+#2	AnnotatorNotes T7	form=ellu
+R4	nummod Arg1:T4 Arg2:T16	
+R5	amod Arg1:T6 Arg2:T7	
+R6	appos Arg1:T5 Arg2:T6	
+T8	NOUN 84 93	lā māgirī
+A15	Noun_base T8 free
+A18	Number T8 Pl
+A19	Gender T8 M
+T9	NOUN 104 105	x
+R7	nmod_poss Arg1:T10 Arg2:T9	
+T18	NOUN 106 107	x
+A20	Noun_base T18 bound
+A21	Case T9 Gen
+A44	Noun_base T9 free

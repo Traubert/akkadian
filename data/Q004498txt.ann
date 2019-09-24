@@ -1,0 +1,42 @@
+T2	DET 25 30	kalîš
+T3	NOUN 43 46	māt
+A2	Noun_base T3 bound
+A3	Gender T3 F
+A4	Number T3 Sg
+T4	PROPN 47 52	Aššur
+A5	Gender T4 M
+T5	NOUN 53 56	mār
+A6	Noun_base T5 bound
+A7	Gender T5 M
+A8	Number T5 Sg
+T6	PROPN 57 68	Adad-nerari
+A9	Gender T6 M
+T7	ADJ 79 86	rapaštu
+A10	Gender T7 F
+A12	Number T7 Sg
+T8	PROPN 91 97	Babite
+A13	Case T8 Gen
+T9	ADP 98 101	bēl
+T10	NOUN 106 112	birāte
+A17	Gender T10 F
+A18	Number T10 Pl
+T11	ADJ 119 125	rabītu
+A19	Gender T11 F
+A20	Case T11 Nom
+A21	Number T11 Sg
+R1	nmod_poss Arg1:T3 Arg2:T4	
+R2	nmod_poss Arg1:T5 Arg2:T6	
+T1	PROPN 73 78	Urume
+R3	amod Arg1:T1 Arg2:T7	
+#1	AnnotatorNotes T9	form=adi
+T12	VERB 133 137	utēr
+A1	Verb_stem T12 D
+A11	Person T12 1
+A14	Tense T12 preterit
+A15	Number T12 Sg
+A16	Mood T12 indicative
+T13	NOUN 31 38	huršānī
+A22	Noun_base T13 free
+A23	Number T13 Pl
+A24	Gender T13 M
+R4	nmod Arg1:T2 Arg2:T13	

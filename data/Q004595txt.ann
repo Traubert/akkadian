@@ -1,0 +1,30 @@
+T2	VERB 25 30	akšud
+A2	Mood T2 indicative
+A3	Person T2 1
+A4	Verb_stem T2 G
+A5	Tense T2 preterit
+A6	Number T2 Sg
+T3	VERB 33 38	ussim
+A7	Mood T3 indicative
+A8	Person T3 1
+A9	Verb_stem T3 D
+A10	Tense T3 preterit
+A11	Number T3 Sg
+T4	VERB 41 46	alṭur
+A12	Mood T4 indicative
+A13	Person T4 1
+A14	Verb_stem T4 G
+A15	Tense T4 preterit
+A16	Number T4 Sg
+T1	ADP 51 55	itti
+T5	NOUN 16 22	dannas
+A1	Noun_base T5 suffixal
+A17	Number T5 Sg
+A18	Gender T5 F
+T6	PRON 22 24	su
+A19	Gender T6 M
+A20	Number T6 Sg
+A21	Person T6 3
+R1	dobj Arg1:T2 Arg2:T5	
+T7	NOUN 39 40	x
+R2	dobj Arg1:T4 Arg2:T7	

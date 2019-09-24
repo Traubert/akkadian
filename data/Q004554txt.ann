@@ -1,0 +1,215 @@
+T2	ADP 14 17	ana
+T3	PROPN 18 20	Ea
+A2	Gender T3 M
+T4	NOUN 29 35	šīmāti
+A3	Number T4 Pl
+A4	Noun_base T4 bound
+A5	Gender T4 F
+T5	NOUN 36 42	mātāti
+A6	Number T5 Pl
+A7	Noun_base T5 free
+A8	Gender T5 F
+T6	PART 57 59	lā
+T7	PROPN 80 95	Tukulti-Ninurta
+A9	Gender T7 M
+T8	NOUN 96 99	šar
+A10	Number T8 Sg
+A11	Noun_base T8 bound
+A12	Gender T8 M
+T9	NOUN 100 103	māt
+A13	Number T9 Sg
+A14	Noun_base T9 bound
+A15	Gender T9 F
+T10	PROPN 104 109	Aššur
+A16	Gender T10 M
+T11	ADP 110 113	ana
+T12	NOUN 114 119	balāṭ
+A17	Number T12 Sg
+A18	Noun_base T12 bound
+A19	Gender T12 M
+T13	VERB 141 147	šumʾud
+A20	Number T13 Sg
+A21	Noun_base T13 bound
+A22	Gender T13 M
+T14	NOUN 157 162	šalām
+A23	Number T14 Sg
+A24	Noun_base T14 bound
+A25	Gender T14 M
+T15	NOUN 183 188	kussî
+A26	Number T15 Sg
+A27	Noun_base T15 bound
+A28	Gender T15 F
+T16	ADP 212 215	ana
+T17	ADP 230 233	ana
+T18	ADP 257 260	ana
+T1	NOUN 23 28	mušīm
+A1	Noun_base T1 bound
+A29	Number T1 Sg
+A30	Gender T1 M
+T20	NOUN 241 246	malkī
+A31	Gender T20 M
+A32	Number T20 Pl
+T21	VERB 294 298	aqīš
+A33	Verb_stem T21 G
+A34	Person T21 1
+A35	Tense T21 preterit
+A36	Number T21 Sg
+A37	Mood T21 indicative
+#1	AnnotatorNotes T4	form=šīmāt
+R1	nmod_poss Arg1:T1 Arg2:T4	
+R2	nmod_poss Arg1:T4 Arg2:T5	
+R3	appos Arg1:T7 Arg2:T8	
+R4	nmod_poss Arg1:T8 Arg2:T9	
+R5	nmod_poss Arg1:T9 Arg2:T10	
+T22	VERB 130 134	arāk
+A38	Verb_stem T22 G
+A39	Noun_base T22 bound
+A40	Mood T22 infinitive
+A41	Number T22 Sg
+A42	Gender T22 M
+T23	NOUN 247 254	nakrūti
+A43	Noun_base T23 suffixal
+A44	Number T23 Pl
+A45	Gender T23 M
+T24	PRON 254 256	ya
+A46	Person T24 1
+A47	Number T24 Sg
+T25	NOUN 47 53	hasīsu
+A48	Case T25 Nom
+A49	Gender T25 M
+A50	Number T25 Sg
+A51	Noun_base T25 free
+T26	PRON 54 56	ša
+A52	Verb_stem T13 S
+A53	Mood T13 infinitive
+T27	NOUN 68 73	melik
+A54	Noun_base T27 suffixal
+A55	Number T27 Sg
+A56	Gender T27 M
+T28	PRON 73 75	šu
+A57	Person T28 1
+A58	Number T28 Sg
+T29	NOUN 120 127	napšāti
+A59	Noun_base T29 suffixal
+A60	Number T29 Pl
+A61	Gender T29 F
+T30	PRON 127 129	ya
+A62	Person T30 1
+A63	Number T30 Sg
+T31	NOUN 148 154	šanāti
+A64	Noun_base T31 suffixal
+A65	Number T31 Pl
+A66	Gender T31 F
+T32	PRON 154 156	ya
+A67	Person T32 1
+A68	Number T32 Sg
+T33	VERB 60 67	innennû
+A69	Verb_stem T33 N
+A70	Mood T33 subjunctive
+A71	Gender T33 M
+A72	Number T33 Sg
+A73	Person T33 3
+A74	Tense T33 present
+T34	NOUN 135 138	ūmē
+A75	Noun_base T34 suffixal
+A76	Number T34 Pl
+A77	Gender T34 M
+T35	PRON 138 140	ya
+A78	Person T35 1
+A79	Number T35 Sg
+T36	NOUN 163 167	zērī
+A80	Noun_base T36 suffixal
+A81	Number T36 Pl
+A82	Gender T36 M
+T37	PRON 167 169	ya
+A83	Person T37 1
+A84	Number T37 Sg
+T38	NOUN 170 174	māti
+A85	Case T38 Gen
+A86	Noun_base T38 suffixal
+A87	Number T38 Sg
+A88	Gender T38 F
+T39	PRON 174 176	ya
+A89	Person T39 1
+A90	Number T39 Sg
+T40	NOUN 276 284	haltappa
+A91	Case T40 Acc
+A92	Noun_base T40 free
+A93	Number T40 Sg
+A94	Gender T40 M
+T19	NOUN 261 265	šēpī
+A95	Noun_base T19 suffixal
+A96	Number T19 Pl
+A97	Gender T19 M
+T41	PRON 265 267	ya
+A98	Person T41 1
+A99	Number T41 Sg
+T42	VERB 268 275	šuknuše
+A100	Case T42 Gen
+A101	Verb_stem T42 S
+A102	Mood T42 infinitive
+A103	Gender T42 M
+A104	Number T42 Sg
+A105	Noun_base T42 free
+T43	VERB 234 240	hulluq
+A106	Verb_stem T43 D
+A107	Noun_base T43 bound
+A108	Mood T43 infinitive
+A109	Number T43 Sg
+A110	Gender T43 M
+T44	VERB 216 220	qamê
+A111	Case T44 Gen
+A112	Verb_stem T44 G
+A113	Mood T44 infinitive
+A114	Gender T44 M
+A115	Number T44 Sg
+A116	Noun_base T44 bound
+T45	NOUN 221 227	ašṭūti
+A117	Noun_base T45 suffixal
+A118	Number T45 Pl
+A119	Gender T45 M
+T46	PRON 227 229	ya
+A120	Person T46 1
+A121	Number T46 Sg
+T47	NOUN 203 209	zāʾirī
+A122	Noun_base T47 suffixal
+A123	Number T47 Pl
+A124	Gender T47 M
+T48	PRON 209 211	ya
+A125	Person T48 1
+A126	Number T48 Sg
+T49	VERB 177 182	naṣār
+A127	Verb_stem T49 G
+A128	Noun_base T49 bound
+A129	Mood T49 infinitive
+A130	Number T49 Sg
+A131	Gender T49 M
+T50	NOUN 189 198	iššakkūti
+A132	Case T50 Gen
+A133	Noun_base T50 suffixal
+A134	Number T50 Sg
+A135	Gender T50 F
+T51	PRON 198 200	ya
+A136	Person T51 1
+A137	Number T51 Sg
+R6	nmod_poss Arg1:T49 Arg2:T15	
+R7	nmod_poss Arg1:T15 Arg2:T50	
+R8	case Arg1:T3 Arg2:T2	
+R9	case Arg1:T12 Arg2:T11	
+R10	case Arg1:T44 Arg2:T16	
+R11	case Arg1:T43 Arg2:T17	
+R12	case Arg1:T19 Arg2:T18	
+R13	nmod_poss Arg1:T12 Arg2:T29	
+R14	nmod_poss Arg1:T22 Arg2:T34	
+R15	nmod_poss Arg1:T13 Arg2:T31	
+R16	nmod_poss Arg1:T14 Arg2:T36	
+R17	nmod_poss Arg1:T44 Arg2:T45	
+R18	nmod_poss Arg1:T43 Arg2:T20	
+R19	appos Arg1:T3 Arg2:T1	
+R20	appos Arg1:T3 Arg2:T25	
+R22	conj Arg1:T36 Arg2:T38	
+R23	nmod_poss Arg1:T20 Arg2:T23	
+R24	case Arg1:T42 Arg2:T18	
+R21	nsubj Arg1:T33 Arg2:T26	
+R25	acl_relcl Arg1:T27 Arg2:T33	
+R26	neg Arg1:T33 Arg2:T6	

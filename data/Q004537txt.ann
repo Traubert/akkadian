@@ -1,0 +1,11 @@
+T1	PROPN 14 22	Magarisu
+T3	PROPN 26 36	Bit-Iahiri
+T4	VERB 37 42	akšud
+A1	Verb_stem T4 G
+A2	Person T4 1
+A3	Tense T4 preterit
+A4	Mood T4 indicative
+T2	ADP 23 25	ša
+R1	dobj Arg1:T4 Arg2:T1
+R2	case Arg1:T3 Arg2:T2
+R3	nmod Arg1:T1 Arg2:T3

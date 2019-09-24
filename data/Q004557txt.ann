@@ -1,0 +1,116 @@
+T1	NOUN 152 159	kisirtu
+A1	Case T1 Nom
+A2	Noun_base T1 free
+A3	Number T1 Sg
+A4	Gender T1 F
+T2	ADP 160 162	ša
+T3	NOUN 163 166	bīt
+A5	Noun_base T3 free
+A6	Number T3 Sg
+A7	Gender T3 F
+T4	NOUN 167 171	šanê
+A8	Case T4 Gen
+A9	Noun_base T4 free
+A10	Number T4 Sg
+A11	Gender T4 M
+R1	nmod Arg1:T1 Arg2:T3
+R2	case Arg1:T3 Arg2:T2
+T5	NOUN 14 18	ēkal
+A12	Number T5 Sg
+A13	Gender T5 F
+A14	Noun_base T5 bound
+T6	PROPN 19 35	Aššur-naṣir-apli
+A15	Gender T6 M
+T7	NOUN 36 39	šar
+A16	Number T7 Sg
+A17	Gender T7 M
+A18	Noun_base T7 bound
+T8	NOUN 40 47	kiššati
+A19	Number T8 Sg
+A20	Gender T8 F
+A21	Noun_base T8 free
+A22	Case T8 Gen
+T9	NOUN 48 51	šar
+A23	Number T9 Sg
+A24	Gender T9 M
+A25	Noun_base T9 bound
+T10	NOUN 52 55	māt
+A26	Number T10 Sg
+A27	Gender T10 F
+A28	Noun_base T10 bound
+T11	PROPN 56 61	Aššur
+A29	Gender T11 M
+T12	NOUN 62 65	mār
+A30	Number T12 Sg
+A31	Gender T12 M
+A32	Noun_base T12 bound
+T13	PROPN 66 81	Tukulti-Ninurta
+A33	Gender T13 M
+T14	NOUN 82 85	šar
+A34	Number T14 Sg
+A35	Gender T14 M
+A36	Noun_base T14 bound
+T15	NOUN 86 93	kiššati
+A37	Number T15 Sg
+A38	Gender T15 F
+A39	Noun_base T15 free
+A40	Case T15 Gen
+T16	NOUN 94 97	šar
+A41	Number T16 Sg
+A42	Gender T16 M
+A43	Noun_base T16 bound
+T17	NOUN 98 101	māt
+A44	Number T17 Sg
+A45	Gender T17 F
+A46	Noun_base T17 bound
+T18	PROPN 102 107	Aššur
+A47	Gender T18 M
+T19	NOUN 108 111	mār
+A48	Number T19 Sg
+A49	Gender T19 M
+A50	Noun_base T19 bound
+T20	PROPN 112 123	Adad-nerari
+A51	Gender T20 M
+T21	NOUN 124 127	šar
+A52	Number T21 Sg
+A53	Gender T21 M
+A54	Noun_base T21 bound
+T22	NOUN 128 135	kiššati
+A55	Number T22 Sg
+A56	Gender T22 F
+A57	Noun_base T22 free
+A58	Case T22 Gen
+T23	NOUN 136 139	šar
+A59	Number T23 Sg
+A60	Gender T23 M
+A61	Noun_base T23 bound
+T24	NOUN 140 143	māt
+A62	Number T24 Sg
+A63	Gender T24 F
+A64	Noun_base T24 bound
+T25	PROPN 144 149	Aššur
+A65	Gender T25 M
+T26	PART 149 151	ma
+R4	nmod_poss Arg1:T5 Arg2:T6	
+R5	nmod_poss Arg1:T7 Arg2:T8	
+R6	nmod_poss Arg1:T9 Arg2:T10	
+R7	appos Arg1:T6 Arg2:T7	
+R8	appos Arg1:T6 Arg2:T9	
+R9	appos Arg1:T6 Arg2:T12	
+R10	appos Arg1:T13 Arg2:T14	
+R11	appos Arg1:T13 Arg2:T16	
+R12	appos Arg1:T13 Arg2:T19	
+R13	appos Arg1:T20 Arg2:T21	
+R14	nmod_poss Arg1:T19 Arg2:T20	
+R15	nmod_poss Arg1:T21 Arg2:T22	
+R16	nmod_poss Arg1:T23 Arg2:T24	
+R17	nmod_poss Arg1:T24 Arg2:T25	
+R18	appos Arg1:T20 Arg2:T23	
+R19	nmod_poss Arg1:T10 Arg2:T11	
+R20	nmod_poss Arg1:T12 Arg2:T13	
+R21	nmod_poss Arg1:T14 Arg2:T15	
+R22	nmod_poss Arg1:T16 Arg2:T17	
+R23	nmod_poss Arg1:T17 Arg2:T18	
+A66	Case T3 Gen
+#1	AnnotatorNotes T3	form=bīti
+R3	nmod_poss Arg1:T3 Arg2:T4	

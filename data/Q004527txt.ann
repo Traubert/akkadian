@@ -1,0 +1,33 @@
+T1	NOUN 16 23	lubultī
+A2	Gender T1 F
+A3	Number T1 Pl
+A4	Noun_base T1 free
+T2	NOUN 24 29	birmē
+A6	Noun_base T2 free
+A7	Number T2 Pl
+A8	Gender T2 M
+T3	NOUN 30 34	kitê
+A10	Noun_base T3 free
+A11	Number T3 Pl
+A12	Gender T3 M
+T4	NOUN 35 41	nārāti
+A14	Noun_base T4 free
+A15	Number T4 Pl
+A16	Gender T4 F
+T5	NOUN 42 48	ṣuhāri
+A18	Noun_base T5 free
+A19	Number T5 Pl
+A20	Gender T5 M
+T6	VERB 51 56	amhur
+A21	Verb_stem T6 G
+A22	Person T6 1
+A23	Tense T6 preterit
+A24	Number T6 Sg
+A25	Mood T6 indicative
+R1	dobj Arg1:T6 Arg2:T5
+R2	dobj Arg1:T6 Arg2:T4
+R3	dobj Arg1:T6 Arg2:T1
+R4	nmod Arg1:T1 Arg2:T2
+R5	nmod Arg1:T2 Arg2:T3
+T7	NOUN 49 50	x
+R6	dobj Arg1:T6 Arg2:T7	

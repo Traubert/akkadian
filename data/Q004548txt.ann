@@ -1,0 +1,97 @@
+T1	NOUN 128 132	nēšē
+A1	Case T1 Acc
+A2	Noun_base T1 free
+A3	Number T1 Pl
+A4	Gender T1 M
+T2	ADP 133 136	ina
+T3	NOUN 137 142	muhhi
+A5	Case T3 Gen
+A6	Noun_base T3 free
+A7	Number T3 Sg
+A8	Gender T3 M
+T4	PROPN 143 149	Baliha
+A9	Case T4 Gen
+T5	VERB 150 154	adūk
+A10	Verb_stem T5 G
+A11	Person T5 1
+A12	Tense T5 preterit
+A13	Number T5 Sg
+A14	Mood T5 indicative
+R1	dobj Arg1:T5 Arg2:T1
+R2	compound Arg1:T2 Arg2:T3
+T6	NOUN 14 18	ēkal
+A15	Noun_base T6 bound
+A16	Gender T6 F
+A17	Number T6 Sg
+T7	PROPN 19 35	Aššur-naṣir-apli
+A18	Gender T7 M
+T8	NOUN 36 39	šar
+A19	Noun_base T8 bound
+A20	Gender T8 M
+A21	Number T8 Sg
+T9	NOUN 40 47	kiššati
+A22	Case T9 Gen
+A23	Noun_base T9 free
+A24	Gender T9 F
+A25	Number T9 Sg
+T10	NOUN 48 51	šar
+A26	Noun_base T10 bound
+A27	Gender T10 M
+A28	Number T10 Sg
+T11	NOUN 52 55	māt
+A29	Noun_base T11 bound
+A30	Gender T11 F
+A31	Number T11 Sg
+T12	PROPN 56 61	Aššur
+A32	Gender T12 M
+T13	NOUN 62 65	mār
+A33	Noun_base T13 bound
+A34	Gender T13 M
+A35	Number T13 Sg
+T14	PROPN 66 81	Tukulti-Ninurta
+A36	Gender T14 M
+T15	NOUN 82 85	šar
+A37	Noun_base T15 bound
+A38	Gender T15 M
+A39	Number T15 Sg
+T16	NOUN 86 89	māt
+A40	Noun_base T16 bound
+A41	Gender T16 F
+A42	Number T16 Sg
+T17	PROPN 90 95	Aššur
+A43	Gender T17 M
+T18	NOUN 96 99	mār
+A44	Noun_base T18 bound
+A45	Gender T18 M
+A46	Number T18 Sg
+T19	PROPN 100 111	Adad-nerari
+A47	Gender T19 M
+T20	NOUN 112 115	šar
+A48	Noun_base T20 bound
+A49	Gender T20 M
+A50	Number T20 Sg
+T21	NOUN 116 119	māt
+A51	Noun_base T21 bound
+A52	Gender T21 F
+A53	Number T21 Sg
+T22	PROPN 120 125	Aššur
+A54	Gender T22 M
+R4	nmod_poss Arg1:T6 Arg2:T7	
+R5	appos Arg1:T7 Arg2:T8	
+R6	appos Arg1:T7 Arg2:T10	
+R7	appos Arg1:T7 Arg2:T13	
+R8	appos Arg1:T14 Arg2:T15	
+R9	appos Arg1:T14 Arg2:T18	
+R10	appos Arg1:T19 Arg2:T20	
+R11	nmod_poss Arg1:T8 Arg2:T9	
+R12	nmod_poss Arg1:T10 Arg2:T11	
+R13	nmod_poss Arg1:T11 Arg2:T12	
+R14	nmod_poss Arg1:T13 Arg2:T14	
+R15	nmod_poss Arg1:T15 Arg2:T16	
+R16	nmod_poss Arg1:T16 Arg2:T17	
+R17	nmod_poss Arg1:T18 Arg2:T19	
+R18	nmod_poss Arg1:T20 Arg2:T21	
+R19	nmod_poss Arg1:T21 Arg2:T22	
+T23	PART 125 127	ma
+R3	case Arg1:T3 Arg2:T2	
+R20	nmod_poss Arg1:T3 Arg2:T4	

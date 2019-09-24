@@ -1,0 +1,60 @@
+T2	NOUN 25 29	pīrī
+A2	Gender T2 M
+A3	Number T2 Pl
+T3	NOUN 37 40	āli
+A4	Gender T3 M
+A5	Noun_base T3 free
+A6	Case T3 Gen
+A7	Number T3 Sg
+T4	NOUN 52 56	rīmī
+A8	Gender T4 M
+A9	Number T4 Pl
+T5	NOUN 64 67	āli
+A10	Gender T5 M
+A11	Noun_base T5 free
+A12	Case T5 Gen
+A13	Number T5 Sg
+T6	VERB 99 104	amhur
+A14	Tense T6 preterit
+A15	Number T6 Sg
+A16	Person T6 1
+A17	Verb_stem T6 G
+A18	Mood T6 indicative
+T1	ADP 22 24	ša
+T7	ADP 49 51	ša
+T8	ADP 76 78	ša
+T9	NOUN 14 21	sugullu
+A1	Case T9 Nom
+A19	Noun_base T9 free
+A20	Number T9 Sg
+A21	Gender T9 M
+T10	NOUN 41 48	sugullu
+A22	Case T10 Nom
+A23	Noun_base T10 free
+A24	Number T10 Sg
+A25	Gender T10 M
+T11	NOUN 68 75	sugullu
+A26	Case T11 Nom
+A27	Noun_base T11 free
+A28	Number T11 Sg
+A29	Gender T11 M
+T12	NOUN 30 36	tarbīt
+A30	Noun_base T12 bound
+A31	Number T12 Sg
+A32	Gender T12 F
+T13	NOUN 57 63	tarbīt
+A35	Noun_base T13 bound
+A36	Number T13 Sg
+A37	Gender T13 F
+R1	nmod_poss Arg1:T2 Arg2:T12	
+R2	nmod_poss Arg1:T12 Arg2:T3	
+R3	nmod_poss Arg1:T4 Arg2:T13	
+R4	nmod_poss Arg1:T13 Arg2:T5	
+R5	case Arg1:T2 Arg2:T1	
+R6	nmod Arg1:T9 Arg2:T2	
+R7	case Arg1:T4 Arg2:T7	
+R8	nmod Arg1:T10 Arg2:T4	
+R9	case Arg1:T8 Arg2:T11	
+R10	dobj Arg1:T6 Arg2:T9	
+R11	dobj Arg1:T6 Arg2:T10	
+R12	dobj Arg1:T6 Arg2:T11	

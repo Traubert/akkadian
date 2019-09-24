@@ -1,0 +1,69 @@
+T1	NOUN 14 22	maddattu
+A1	Case T1 Nom
+A2	Gender T1 F
+A3	Number T1 Sg
+T3	VERB 102 107	amhur
+A4	Verb_stem T3 G
+A5	Person T3 1
+A6	Tense T3 preterit
+A7	Mood T3 indicative
+T2	ADP 23 25	ša
+T4	NOUN 31 36	kaspī
+A8	Gender T4 M
+A9	Number T4 Pl
+T5	NOUN 52 56	erîm
+A10	Number T5 Sg
+A11	Gender T5 M
+A12	Case T5 Gen
+A13	Noun_base T5 free
+T6	NOUN 57 63	diqārī
+A14	Gender T6 M
+A15	Number T6 Pl
+T7	NOUN 64 68	erîm
+A16	Number T7 Sg
+A17	Gender T7 M
+A18	Case T7 Gen
+A19	Noun_base T7 free
+T8	NOUN 83 90	lubultī
+A20	Gender T8 F
+A21	Number T8 Pl
+T9	NOUN 91 96	birmē
+A22	Gender T9 M
+A23	Number T9 Pl
+T10	NOUN 97 101	kitê
+A24	Gender T10 M
+A25	Number T10 Pl
+T11	PROPN 26 30	{m}x
+R1	case Arg1:T11 Arg2:T2	
+T12	NOUN 37 43	hurāṣī
+A26	Noun_base T12 free
+A27	Number T12 Pl
+A28	Gender T12 M
+T13	NOUN 46 51	taphi
+A29	Case T13 Gen
+A30	Noun_base T13 free
+A31	Number T13 Sg
+A32	Gender T13 M
+#1	AnnotatorNotes T5	form=erî
+A33	Noun_base T6 free
+#2	AnnotatorNotes T6	form=diqārāte
+#3	AnnotatorNotes T7	form=erî
+T14	NOUN 69 73	eršī
+A34	Noun_base T14 free
+A35	Number T14 Pl
+A36	Gender T14 F
+T15	ADJ 74 82	uhhuzāte
+A37	Gender T15 F
+A38	Number T15 Pl
+R2	nmod Arg1:T1 Arg2:T11	
+R3	dobj Arg1:T3 Arg2:T1	
+R4	nmod_poss Arg1:T8 Arg2:T9	
+R5	nmod_poss Arg1:T9 Arg2:T10	
+R6	nmod_poss Arg1:T13 Arg2:T5	
+R7	nmod_poss Arg1:T6 Arg2:T7	
+R8	amod Arg1:T14 Arg2:T15	
+R9	list Arg1:T4 Arg2:T12	
+R10	list Arg1:T4 Arg2:T13	
+R11	list Arg1:T4 Arg2:T6	
+R12	list Arg1:T4 Arg2:T14	
+R13	list Arg1:T4 Arg2:T8	

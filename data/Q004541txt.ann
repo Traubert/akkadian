@@ -1,0 +1,13 @@
+T1	VERB 35 40	akšud
+A1	Verb_stem T1 G
+A2	Person T1 1
+A3	Tense T1 preterit
+A4	Number T1 Sg
+A5	Mood T1 indicative
+T2	PROPN 14 21	Ialligu
+A6	Case T2 Acc
+T4	PROPN 25 34	Bit-Adini
+T3	ADP 22 24	ša
+R1	dobj Arg1:T1 Arg2:T2
+R2	case Arg1:T4 Arg2:T3
+R3	nmod Arg1:T2 Arg2:T4

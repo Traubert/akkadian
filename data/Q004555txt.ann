@@ -1,0 +1,99 @@
+T2	ADP 14 17	ana
+T3	PROPN 18 25	Ninurta
+A2	Gender T3 M
+T4	ADJ 26 31	gešru
+A3	Gender T4 M
+A4	Number T4 Sg
+A5	Case T4 Nom
+T5	ADP 47 50	ina
+T6	PART 58 60	lā
+T7	NOUN 95 99	šamê
+A6	Gender T7 M
+A7	Number T7 Pl
+T8	CONJ 100 101	u
+T9	NOUN 102 109	erṣetim
+A8	Case T9 Gen
+A9	Gender T9 F
+A10	Number T9 Sg
+A11	Noun_base T9 free
+T10	NOUN 133 136	bēl
+A12	Gender T10 M
+A13	Number T10 Sg
+A14	Noun_base T10 bound
+T11	VERB 158 163	iṣbat
+A15	Tense T11 preterit
+A16	Number T11 Sg
+A17	Mood T11 indicative
+A18	Verb_stem T11 G
+A19	Person T11 3
+T1	NOUN 34 39	parṣē
+A1	Gender T1 M
+A20	Number T1 Pl
+T12	PRON 44 46	ša
+T13	PROPN 127 132	Utulu
+A21	Gender T13 M
+T14	NOUN 137 141	bēlī
+A22	Noun_base T14 free
+A23	Number T14 Pl
+A24	Gender T14 M
+T15	NOUN 88 94	markas
+A25	Noun_base T15 bound
+A26	Number T15 Sg
+A27	Gender T15 M
+R1	cc Arg1:T9 Arg2:T8	
+T16	NOUN 51 57	tāhāzi
+A28	Case T16 Gen
+A29	Noun_base T16 free
+A30	Number T16 Sg
+A31	Gender T16 M
+T17	NOUN 82 87	mukīl
+A32	Noun_base T17 bound
+A33	Number T17 Sg
+A34	Gender T17 M
+#1	AnnotatorNotes T14	form=bēlē
+T18	NOUN 151 155	qātī
+A35	Noun_base T18 suffixal
+A36	Number T18 Pl
+A37	Gender T18 F
+T19	PRON 155 157	šu
+A38	Gender T19 M
+A39	Number T19 Sg
+A40	Person T19 3
+T20	NOUN 115 121	nag-be
+A41	Gender T20 M
+A42	Number T20 Pl
+#2	AnnotatorNotes T20	form=nagbē
+T21	NOUN 71 75	tību
+A43	Case T21 Nom
+A44	Noun_base T21 suffixal
+A45	Number T21 Sg
+A46	Gender T21 M
+T22	PRON 75 77	šu
+A47	Gender T22 M
+A48	Number T22 Sg
+A49	Person T22 3
+T23	NOUN 110 114	pētû
+A50	Case T23 Nom
+A51	Noun_base T23 free
+A52	Number T23 Sg
+A53	Gender T23 M
+R2	appos Arg1:T3 Arg2:T4	
+T24	VERB 61 70	iššannanu
+A54	Verb_stem T24 N
+A55	Mood T24 subjunctive
+A56	Gender T24 M
+A57	Number T24 Sg
+A58	Person T24 3
+A59	Tense T24 present
+R3	case Arg1:T3 Arg2:T2	
+R4	case Arg1:T16 Arg2:T5	
+R5	conj Arg1:T7 Arg2:T9	
+#3	AnnotatorNotes T9	form=erṣeti
+R6	nmod_poss Arg1:T10 Arg2:T14	
+R7	appos Arg1:T13 Arg2:T10	
+R8	nmod_poss Arg1:T15 Arg2:T7	
+R9	nmod_poss Arg1:T23 Arg2:T20	
+R10	nmod_poss Arg1:T17 Arg2:T15	
+R11	nsubj Arg1:T24 Arg2:T12	
+R12	acl_relcl Arg1:T21 Arg2:T24	
+R13	nsubj Arg1:T11 Arg2:T18	

@@ -1,0 +1,46 @@
+T2	NOUN 24 29	šarru
+A2	Gender T2 M
+A3	Number T2 Sg
+A4	Case T2 Nom
+A5	Noun_base T2 free
+T3	ADJ 30 34	rabû
+A6	Gender T3 M
+A7	Number T3 Sg
+A8	Case T3 Nom
+T4	NOUN 39 44	šarru
+A9	Gender T4 M
+A10	Number T4 Sg
+A11	Case T4 Nom
+A12	Noun_base T4 free
+T5	ADJ 45 49	rabû
+A13	Gender T5 M
+A14	Number T5 Sg
+A15	Case T5 Nom
+T6	NOUN 54 59	šarru
+A16	Gender T6 M
+A17	Number T6 Sg
+A18	Case T6 Nom
+A19	Noun_base T6 free
+T7	ADJ 60 64	rabû
+A20	Gender T7 M
+A21	Number T7 Sg
+A22	Case T7 Nom
+T1	PROPN 14 23	x-Ninurta
+A1	Gender T1 M
+#1	AnnotatorNotes T1	form=Tukulti-Ninurta
+R1	appos Arg1:T1 Arg2:T2	
+R2	amod Arg1:T2 Arg2:T3	
+T8	NOUN 35 36	x
+R3	appos Arg1:T1 Arg2:T8	
+T9	PROPN 37 38	x
+A23	Gender T9 M
+R4	appos Arg1:T9 Arg2:T4	
+R5	amod Arg1:T4 Arg2:T5	
+T10	NOUN 50 51	x
+R6	appos Arg1:T9 Arg2:T10	
+T11	PROPN 52 53	x
+A24	Gender T11 M
+R7	appos Arg1:T11 Arg2:T6	
+R8	amod Arg1:T6 Arg2:T7	
+T12	NOUN 65 66	x
+R9	appos Arg1:T11 Arg2:T12	

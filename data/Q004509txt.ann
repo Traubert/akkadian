@@ -1,0 +1,92 @@
+T2	ADP 19 22	ina
+T3	NOUN 32 38	kibrāt
+A2	Number T3 Pl
+A3	Noun_base T3 bound
+A4	Gender T3 F
+T4	NUM 39 46	erbetta
+A5	Gender T4 F
+T5	CONJ 49 50	u
+T6	VERB 70 75	akšud
+A6	Verb_stem T6 G
+A7	Mood T6 indicative
+A8	Tense T6 preterit
+A9	Number T6 Sg
+A10	Person T6 3
+T7	NOUN 84 88	ereb
+A11	Number T7 Sg
+A12	Noun_base T7 bound
+A13	Gender T7 M
+T8	PROPN 89 94	Šamaš
+A14	Gender T8 M
+T9	ADP 95 98	ana
+T10	VERB 106 114	ušeknišu
+A15	Verb_stem T10 S
+A16	Mood T10 subjunctive
+A17	Tense T10 preterit
+A18	Number T10 Sg
+A19	Person T10 3
+T11	NOUN 117 120	šar
+A20	Number T11 Sg
+A21	Noun_base T11 bound
+A22	Gender T11 M
+T12	NOUN 121 124	māt
+A23	Number T12 Sg
+A24	Noun_base T12 bound
+A25	Gender T12 F
+T13	NOUN 133 139	makkūr
+A26	Number T13 Sg
+A27	Noun_base T13 bound
+A28	Gender T13 M
+T14	NOUN 140 143	bīt
+A29	Number T14 Sg
+A30	Noun_base T14 bound
+A31	Gender T14 F
+T15	PROPN 144 151	Ninurta
+A32	Gender T15 M
+T1	PROPN 125 130	Aššur
+A1	Gender T1 M
+T16	PART 130 132	ma
+T17	ADP 29 31	ša
+R1	nmod_poss Arg1:T14 Arg2:T15	
+T18	NOUN 23 28	malkī
+A33	Noun_base T18 free
+A34	Number T18 Pl
+A35	Gender T18 M
+T19	PROPN 51 63	Tamti-rabiti
+R2	nmod_poss Arg1:T11 Arg2:T12	
+R3	nmod_poss Arg1:T12 Arg2:T1	
+R4	nmod_poss Arg1:T13 Arg2:T14	
+A36	Number T4 Sg
+A37	Gender T6 M
+#1	AnnotatorNotes T6	form=ikšud
+T20	ADP 80 83	adi
+T21	NOUN 99 103	šēpī
+A38	Noun_base T21 suffixal
+A39	Number T21 Pl
+A40	Gender T21 M
+T22	PRON 103 105	šu
+A41	Gender T22 M
+A42	Number T22 Sg
+A43	Person T22 3
+T23	NOUN 64 67	qās
+A44	Noun_base T23 suffixal
+A45	Number T23 Sg
+A46	Gender T23 F
+T24	PRON 67 69	su
+A47	Gender T24 M
+A48	Number T24 Sg
+A49	Person T24 3
+R5	case Arg1:T18 Arg2:T2	
+R6	case Arg1:T3 Arg2:T17	
+R7	cc Arg1:T19 Arg2:T5	
+R8	case Arg1:T7 Arg2:T20	
+R9	case Arg1:T21 Arg2:T9	
+R10	nmod_poss Arg1:T7 Arg2:T8	
+R11	nmod_poss Arg1:T3 Arg2:T4	
+R12	nmod Arg1:T18 Arg2:T3	
+R13	nsubj Arg1:T6 Arg2:T23	
+R14	iobj Arg1:T6 Arg2:T18	
+R15	conj Arg1:T18 Arg2:T19	
+R16	iobj Arg1:T10 Arg2:T21	
+R17	iobj Arg1:T10 Arg2:T7	
+R18	dobj Arg1:T6 Arg2:T19	

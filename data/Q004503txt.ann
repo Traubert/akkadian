@@ -1,0 +1,161 @@
+T2	PROPN 14 30	Aššur-naṣir-apli
+A2	Gender T2 M
+T3	NOUN 31 36	šarru
+A3	Case T3 Nom
+A4	Number T3 Sg
+A5	Noun_base T3 free
+A6	Gender T3 M
+T4	ADJ 37 42	dannu
+A7	Case T4 Nom
+A8	Number T4 Sg
+A9	Gender T4 M
+T5	NOUN 43 48	šarru
+A10	Case T5 Nom
+A11	Number T5 Sg
+A12	Noun_base T5 free
+A13	Gender T5 M
+T6	NOUN 53 56	šar
+A14	Number T6 Sg
+A15	Noun_base T6 bound
+A16	Gender T6 M
+T7	NOUN 57 64	kiššati
+A17	Case T7 Gen
+A18	Number T7 Sg
+A19	Noun_base T7 free
+A20	Gender T7 F
+T10	NOUN 78 82	rubû
+A24	Case T10 Nom
+A25	Number T10 Sg
+A26	Noun_base T10 free
+A27	Gender T10 M
+T11	ADJ 83 88	naʾdu
+A28	Case T11 Nom
+A29	Number T11 Sg
+A30	Gender T11 M
+T12	NOUN 96 100	šamê
+A31	Number T12 Pl
+A32	Gender T12 M
+T13	NOUN 101 108	erṣetim
+A33	Case T13 Gen
+A34	Number T13 Sg
+A35	Noun_base T13 free
+A36	Gender T13 F
+T15	NOUN 131 136	šangû
+A37	Case T15 Nom
+A38	Number T15 Sg
+A39	Noun_base T15 free
+A40	Gender T15 M
+T16	ADJ 137 141	ṣīru
+A41	Case T16 Nom
+A42	Number T16 Sg
+A43	Gender T16 M
+T17	PROPN 144 149	Aššur
+A44	Gender T17 M
+T18	PROPN 150 154	Adad
+A45	Gender T18 M
+T19	ADP 166 169	ina
+T20	NOUN 172 176	rēʾû
+A46	Case T20 Nom
+A47	Number T20 Sg
+A48	Noun_base T20 free
+A49	Gender T20 M
+T21	PROPN 230 235	Aššur
+A50	Gender T21 M
+T22	PROPN 236 240	Adad
+A51	Gender T22 M
+T23	PROPN 273 278	Ištar
+A52	Gender T23 F
+T24	NOUN 279 284	ilāni
+A53	Number T24 Pl
+A54	Gender T24 M
+T25	ADJ 285 291	rabûti
+A55	Number T25 Pl
+A56	Gender T25 M
+T1	ADJ 256 261	šaṭra
+A1	Case T1 Acc
+A57	Gender T1 M
+A58	Number T1 Sg
+R1	amod Arg1:T24 Arg2:T25	
+R2	appos Arg1:T2 Arg2:T3	
+R3	amod Arg1:T3 Arg2:T4	
+R4	nmod_poss Arg1:T6 Arg2:T7	
+T26	PRON 248 250	ša
+T27	NOUN 241 245	bēlī
+A59	Noun_base T27 free
+A60	Number T27 Pl
+A61	Gender T27 M
+#1	AnnotatorNotes T27	form=bēlē
+T28	VERB 262 270	ipaššiṭu
+A62	Verb_stem T28 G
+A63	Mood T28 subjunctive
+A64	Gender T28 M
+A65	Number T28 Sg
+A66	Person T28 3
+A67	Tense T28 present
+T29	NOUN 251 254	šum
+A68	Noun_base T29 suffixal
+A69	Number T29 Sg
+A70	Gender T29 M
+T30	PRON 254 255	ī
+A71	Person T30 1
+A72	Number T30 Sg
+T31	PRON 89 91	ša
+R5	amod Arg1:T10 Arg2:T11	
+R6	amod Arg1:T15 Arg2:T16	
+T32	NOUN 157 163	šangûs
+A73	Noun_base T32 suffixal
+A74	Number T32 Sg
+A75	Gender T32 F
+T33	PRON 163 165	su
+A76	Gender T33 M
+A77	Number T33 Sg
+A78	Person T33 3
+T34	ADJ 222 227	šaṭra
+A79	Case T34 Acc
+A80	Gender T34 M
+A81	Number T34 Sg
+T35	VERB 210 216	luddiš
+A82	Verb_stem T35 D
+A83	Gender T35 M
+A84	Mood T35 precative
+A85	Number T35 Sg
+A86	Person T35 3
+T36	NOUN 217 220	šum
+A87	Noun_base T36 suffixal
+A88	Number T36 Sg
+A89	Gender T36 M
+T37	PRON 220 221	ī
+A90	Person T37 1
+A91	Number T37 Sg
+R7	amod Arg1:T36 Arg2:T34	
+R8	amod Arg1:T29 Arg2:T1	
+#2	AnnotatorNotes T13	form=erṣeti
+R9	conj Arg1:T12 Arg2:T13	
+R10	conj Arg1:T21 Arg2:T22	
+T8	NOUN 115 124	lā māgirī
+A21	Case T8 Gen
+A22	Noun_base T8 suffixal
+A23	Number T8 Pl
+A92	Gender T8 M
+T9	PRON 124 126	šu
+A93	Gender T9 M
+A94	Number T9 Sg
+A95	Person T9 3
+R11	conj Arg1:T23 Arg2:T24	
+T14	ADJ 65 73	lā šanān
+A96	Gender T14 M
+A97	Number T14 Sg
+R12	amod Arg1:T6 Arg2:T14	
+R13	conj Arg1:T17 Arg2:T18	
+R14	appos Arg1:T21 Arg2:T27	
+T38	NOUN 194 199	zunnī
+A98	Gender T38 M
+A99	Number T38 Pl
+R15	appos Arg1:T2 Arg2:T5	
+R16	appos Arg1:T2 Arg2:T6	
+R17	appos Arg1:T2 Arg2:T10	
+R18	appos Arg1:T2 Arg2:T15	
+R19	appos Arg1:T2 Arg2:T20	
+R21	nsubj Arg1:T28 Arg2:T26	
+R22	dobj Arg1:T28 Arg2:T29	
+A100	Case T14 Gen

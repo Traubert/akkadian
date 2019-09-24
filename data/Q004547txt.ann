@@ -1,0 +1,21 @@
+T1	VERB 36 40	adūk
+A1	Verb_stem T1 G
+A2	Person T1 1
+A3	Tense T1 preterit
+A4	Number T1 Sg
+A5	Mood T1 indicative
+T2	ADP 19 22	ina
+T3	NOUN 23 28	muhhi
+A6	Case T3 Gen
+A7	Number T3 Sg
+T4	PROPN 32 33	i
+A8	Case T4 Gen
+T5	NOUN 14 18	nēšē
+A9	Case T5 Acc
+A10	Gender T5 M
+A11	Number T5 Pl
+R1	dobj Arg1:T1 Arg2:T5
+R3	compound Arg1:T2 Arg2:T3
+A12	Noun_base T3 free
+R2	case Arg1:T3 Arg2:T2	
+R4	nmod_poss Arg1:T3 Arg2:T4	

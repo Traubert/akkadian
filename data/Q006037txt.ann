@@ -1,0 +1,50 @@
+T2	PROPN 16 21	Aššur
+A2	Gender T2 M
+T3	NOUN 22 25	mār
+A3	Gender T3 M
+A4	Noun_base T3 bound
+A5	Number T3 Sg
+T4	PROPN 26 35	Aššur-dan
+A6	Gender T4 M
+T5	NOUN 36 41	iššak
+A7	Gender T5 M
+A8	Noun_base T5 bound
+A9	Number T5 Sg
+T6	ADV 50 55	enūma
+T7	NOUN 67 72	tibkī
+A10	Gender T7 M
+A11	Number T7 Pl
+T8	PART 73 75	lū
+T9	NOUN 84 89	tibkī
+A12	Gender T9 M
+A13	Number T9 Pl
+T10	ADP 90 93	ana
+T1	PROPN 42 47	Aššur
+A1	Gender T1 M
+T11	PART 47 49	ma
+T12	NUM 81 83	35
+R1	appos Arg1:T4 Arg2:T5	
+R2	nmod_poss Arg1:T5 Arg2:T1	
+R3	nmod_poss Arg1:T3 Arg2:T4	
+R4	nummod Arg1:T9 Arg2:T12	
+T13	VERB 76 80	ulli
+A14	Verb_stem T13 D
+A15	Person T13 1
+A16	Tense T13 preterit
+A17	Number T13 Sg
+A18	Mood T13 indicative
+T14	NOUN 56 62	nāmerī
+A19	Gender T14 M
+A20	Number T14 Pl
+T15	NUM 65 66	x
+R5	nummod Arg1:T7 Arg2:T15	
+T16	NOUN 94 101	mahrûte
+A21	Noun_base T16 free
+A22	Number T16 Pl
+A23	Gender T16 M
+R6	case Arg1:T16 Arg2:T10	
+T17	NOUN 14 15	x
+A24	Noun_base T17 bound
+A25	Number T17 Sg
+A26	Gender T17 M
+R7	nmod_poss Arg1:T17 Arg2:T2	

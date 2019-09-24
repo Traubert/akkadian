@@ -1,0 +1,80 @@
+T1	NOUN 116 122	makkūr
+A1	Noun_base T1 bound
+A2	Number T1 Sg
+A3	Gender T1 M
+T2	NOUN 123 126	bīt
+A4	Noun_base T2 bound
+A5	Number T2 Sg
+A6	Gender T2 F
+T3	PROPN 127 134	Kidmuri
+A7	Case T3 Gen
+T4	ADP 135 137	ša
+T5	PROPN 138 143	Kalhi
+A8	Case T5 Gen
+R1	case Arg1:T5 Arg2:T4
+R2	nmod_poss Arg1:T1 Arg2:T2
+R3	nmod_poss Arg1:T2 Arg2:T3
+T6	NOUN 14 18	ēkal
+A9	Noun_base T6 bound
+A10	Number T6 Sg
+A11	Gender T6 F
+T7	PROPN 19 35	Aššur-naṣir-apli
+A12	Gender T7 M
+T8	NOUN 36 39	šar
+A13	Noun_base T8 bound
+A14	Number T8 Sg
+A15	Gender T8 M
+T9	NOUN 40 43	māt
+A16	Noun_base T9 bound
+A17	Number T9 Sg
+A18	Gender T9 F
+T10	PROPN 44 49	Aššur
+A19	Gender T10 M
+T11	NOUN 50 53	mār
+A20	Noun_base T11 bound
+A21	Number T11 Sg
+A22	Gender T11 M
+T12	PROPN 54 69	Tukulti-Ninurta
+A23	Gender T12 M
+T13	NOUN 70 73	šar
+A24	Noun_base T13 bound
+A25	Number T13 Sg
+A26	Gender T13 M
+T14	NOUN 74 77	māt
+A27	Noun_base T14 bound
+A28	Number T14 Sg
+A29	Gender T14 F
+T15	PROPN 78 83	Aššur
+A30	Gender T15 M
+T16	NOUN 84 87	mār
+A31	Noun_base T16 bound
+A32	Number T16 Sg
+A33	Gender T16 M
+T17	PROPN 88 99	Adad-nerari
+A34	Gender T17 M
+T18	NOUN 100 103	šar
+A35	Noun_base T18 bound
+A36	Number T18 Sg
+A37	Gender T18 M
+T19	NOUN 104 107	māt
+A38	Noun_base T19 bound
+A39	Number T19 Sg
+A40	Gender T19 F
+T20	PROPN 108 113	Aššur
+A41	Gender T20 M
+T21	PART 113 115	ma
+R4	nmod_poss Arg1:T6 Arg2:T7	
+R5	appos Arg1:T7 Arg2:T8	
+R6	appos Arg1:T7 Arg2:T11	
+R7	appos Arg1:T12 Arg2:T13	
+R8	appos Arg1:T12 Arg2:T16	
+R9	appos Arg1:T17 Arg2:T18	
+R10	nmod_poss Arg1:T18 Arg2:T19	
+R11	nmod_poss Arg1:T19 Arg2:T20	
+R12	nmod_poss Arg1:T8 Arg2:T9	
+R13	nmod_poss Arg1:T9 Arg2:T10	
+R14	nmod_poss Arg1:T11 Arg2:T12	
+R15	nmod_poss Arg1:T13 Arg2:T14	
+R16	nmod_poss Arg1:T14 Arg2:T15	
+R17	nmod_poss Arg1:T16 Arg2:T17	
+R18	nmod Arg1:T3 Arg2:T5	

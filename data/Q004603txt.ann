@@ -1,0 +1,43 @@
+T2	NOUN 36 43	iššakku
+A2	Case T2 Nom
+A3	Number T2 Sg
+A4	Gender T2 M
+A5	Noun_base T2 free
+T3	NOUN 44 47	mār
+A6	Number T3 Sg
+A7	Gender T3 M
+A8	Noun_base T3 bound
+T4	NOUN 68 71	mār
+A9	Number T4 Sg
+A10	Gender T4 M
+A11	Noun_base T4 bound
+T1	NOUN 14 19	kunuk
+A1	Noun_base T1 bound
+A12	Number T1 Sg
+A13	Gender T1 M
+T5	PROPN 20 35	Mušezib-Ninurta
+A14	Gender T5 M
+R1	nmod_poss Arg1:T1 Arg2:T5	
+R2	appos Arg1:T5 Arg2:T2	
+T6	PROPN 48 60	Ninurta-eriš
+A15	Gender T6 M
+R3	nmod_poss Arg1:T3 Arg2:T6	
+T7	NOUN 61 64	MIN
+A16	Case T7 Nom
+A17	Noun_base T7 free
+A18	Number T7 Sg
+A19	Gender T7 M
+T8	PART 65 67	ma
+R4	appos Arg1:T6 Arg2:T7	
+T9	PROPN 72 90	Samanuha-šar-ilani
+A20	Gender T9 M
+T10	NOUN 91 94	MIN
+A21	Case T10 Nom
+A22	Noun_base T10 free
+A23	Number T10 Sg
+A24	Gender T10 M
+T11	PART 95 97	ma
+R5	appos Arg1:T9 Arg2:T10	
+R6	nmod_poss Arg1:T4 Arg2:T9	
+R7	appos Arg1:T5 Arg2:T3	
+R8	appos Arg1:T6 Arg2:T4	

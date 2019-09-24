@@ -1,0 +1,81 @@
+T2	NOUN 14 18	ēkal
+A2	Noun_base T2 bound
+A3	Number T2 Sg
+A4	Gender T2 F
+T3	PROPN 19 35	Aššur-naṣir-apli
+A5	Gender T3 M
+T4	NOUN 36 39	šar
+A6	Noun_base T4 bound
+A7	Number T4 Sg
+A8	Gender T4 M
+T5	NOUN 40 43	māt
+A9	Noun_base T5 bound
+A10	Number T5 Sg
+A11	Gender T5 F
+T6	PROPN 44 49	Aššur
+A12	Gender T6 M
+T7	NOUN 50 53	mār
+A13	Noun_base T7 bound
+A14	Number T7 Sg
+A15	Gender T7 M
+T8	PROPN 54 69	Tukulti-Ninurta
+A16	Gender T8 M
+T9	NOUN 70 73	šar
+A17	Noun_base T9 bound
+A18	Number T9 Sg
+A19	Gender T9 M
+T10	NOUN 74 81	kiššati
+A20	Noun_base T10 free
+A21	Case T10 Gen
+A22	Number T10 Sg
+A23	Gender T10 F
+T11	NOUN 82 85	šar
+A24	Noun_base T11 bound
+A25	Number T11 Sg
+A26	Gender T11 M
+T12	NOUN 86 89	māt
+A27	Noun_base T12 bound
+A28	Number T12 Sg
+A29	Gender T12 F
+T13	NOUN 98 101	bīt
+A30	Noun_base T13 bound
+A31	Number T13 Sg
+A32	Gender T13 F
+T14	PROPN 102 107	Ištar
+A33	Gender T14 F
+T1	PROPN 90 95	Aššur
+A1	Gender T1 M
+T15	PART 95 97	ma
+T16	ADP 108 110	ša
+T17	PROPN 111 116	Ninua
+T18	VERB 117 121	ēpuš
+A34	Verb_stem T18 G
+A35	Person T18 1
+A36	Tense T18 preterit
+A37	Number T18 Sg
+A38	Mood T18 indicative
+T19	CONJ 121 123	ma
+T20	VERB 124 129	arṣip
+A39	Verb_stem T20 G
+A40	Person T20 1
+A41	Tense T20 preterit
+A42	Number T20 Sg
+A43	Mood T20 indicative
+R1	dobj Arg1:T18 Arg2:T13	
+R2	dobj Arg1:T20 Arg2:T13	
+R4	case Arg1:T17 Arg2:T16	
+R5	nmod_poss Arg1:T13 Arg2:T14	
+R6	nmod_poss Arg1:T2 Arg2:T3	
+R7	appos Arg1:T3 Arg2:T4	
+R8	appos Arg1:T3 Arg2:T7	
+R9	appos Arg1:T8 Arg2:T9	
+R10	appos Arg1:T8 Arg2:T11	
+R11	nmod_poss Arg1:T4 Arg2:T5	
+R12	nmod_poss Arg1:T5 Arg2:T6	
+R13	nmod_poss Arg1:T7 Arg2:T8	
+R14	nmod_poss Arg1:T9 Arg2:T10	
+R15	nmod_poss Arg1:T11 Arg2:T12	
+R16	nmod_poss Arg1:T12 Arg2:T1	
+R3	cc Arg1:T20 Arg2:T19	
+R17	nmod Arg1:T14 Arg2:T17	
+R18	conj Arg1:T18 Arg2:T20	

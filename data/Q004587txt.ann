@@ -1,0 +1,121 @@
+T2	PROPN 14 30	Aššur-naṣir-apli
+A2	Gender T2 M
+T3	NOUN 31 36	šakin
+A3	Number T3 Sg
+A4	Noun_base T3 bound
+A5	Gender T3 M
+T4	PROPN 37 42	Enlil
+A6	Gender T4 M
+T5	NOUN 43 48	iššak
+A7	Number T5 Sg
+A8	Noun_base T5 bound
+A9	Gender T5 M
+T6	PROPN 49 54	Aššur
+A10	Gender T6 M
+T7	NOUN 55 58	mār
+A11	Number T7 Sg
+A12	Noun_base T7 bound
+A13	Gender T7 M
+T8	PROPN 59 74	Tukulti-Ninurta
+A14	Gender T8 M
+T9	NOUN 75 80	šakin
+A15	Number T9 Sg
+A16	Noun_base T9 bound
+A17	Gender T9 M
+T10	PROPN 81 86	Enlil
+A18	Gender T10 M
+T11	NOUN 87 92	iššak
+A19	Number T11 Sg
+A20	Noun_base T11 bound
+A21	Gender T11 M
+T12	PROPN 93 98	Aššur
+A22	Gender T12 M
+T13	NOUN 99 102	mār
+A23	Number T13 Sg
+A24	Noun_base T13 bound
+A25	Gender T13 M
+T14	PROPN 103 114	Adad-nerari
+A26	Gender T14 M
+T15	NOUN 115 120	šakin
+A27	Number T15 Sg
+A28	Noun_base T15 bound
+A29	Gender T15 M
+T16	PROPN 121 126	Enlil
+A30	Gender T16 M
+T17	NOUN 127 132	iššak
+A31	Number T17 Sg
+A32	Noun_base T17 bound
+A33	Gender T17 M
+T18	PROPN 133 138	Aššur
+A34	Gender T18 M
+T19	NOUN 139 142	bīt
+A35	Number T19 Sg
+A36	Noun_base T19 bound
+A37	Gender T19 F
+T20	PROPN 143 148	Ištar
+A38	Gender T20 F
+T21	PROPN 152 156	Nina
+T22	VERB 193 200	ušaklil
+A39	Tense T22 preterit
+A40	Person T22 1
+A41	Number T22 Sg
+A42	Mood T22 indicative
+A43	Verb_stem T22 S
+T23	CONJ 201 202	u
+T24	VERB 203 208	aksir
+A44	Tense T24 preterit
+A45	Person T24 1
+A46	Number T24 Sg
+A47	Mood T24 indicative
+A48	Verb_stem T24 G
+R1	appos Arg1:T2 Arg2:T3	
+R2	appos Arg1:T2 Arg2:T5	
+R3	appos Arg1:T2 Arg2:T7	
+R4	appos Arg1:T8 Arg2:T9	
+R5	appos Arg1:T8 Arg2:T11	
+R6	appos Arg1:T8 Arg2:T13	
+R7	appos Arg1:T14 Arg2:T15	
+R8	appos Arg1:T14 Arg2:T17	
+R9	nmod_poss Arg1:T3 Arg2:T4	
+R10	nmod_poss Arg1:T5 Arg2:T6	
+R11	nmod_poss Arg1:T7 Arg2:T8	
+R12	nmod_poss Arg1:T9 Arg2:T10	
+R13	nmod_poss Arg1:T11 Arg2:T12	
+R14	nmod_poss Arg1:T13 Arg2:T14	
+R15	nmod_poss Arg1:T15 Arg2:T16	
+R16	nmod_poss Arg1:T17 Arg2:T18	
+T1	ADP 149 151	ša
+T25	ADP 165 169	ultu
+T26	ADP 177 180	adi
+T27	NOUN 170 174	uššē
+A1	Noun_base T27 suffixal
+A49	Number T27 Pl
+A50	Gender T27 M
+T28	PRON 174 176	šu
+A51	Gender T28 M
+A52	Number T28 Sg
+A53	Person T28 3
+T29	NOUN 181 190	gabadibbī
+A54	Noun_base T29 suffixal
+A55	Number T29 Pl
+A56	Gender T29 M
+T30	PRON 190 192	šu
+A57	Gender T30 M
+A58	Number T30 Sg
+A59	Person T30 3
+T31	NOUN 157 162	bēlti
+A60	Noun_base T31 suffixal
+A61	Number T31 Sg
+A62	Gender T31 F
+T32	PRON 161 164	iya
+A63	Person T32 1
+A64	Number T32 Sg
+R17	dobj Arg1:T22 Arg2:T19	
+R18	dobj Arg1:T24 Arg2:T19	
+R19	nmod_poss Arg1:T19 Arg2:T20	
+R20	appos Arg1:T20 Arg2:T31	
+R21	cc Arg1:T24 Arg2:T23	
+R22	case Arg1:T29 Arg2:T26	
+R23	case Arg1:T27 Arg2:T25	
+R24	conj Arg1:T22 Arg2:T24	
+R25	nmod Arg1:T20 Arg2:T21	

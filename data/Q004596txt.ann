@@ -1,0 +1,20 @@
+T2	NOUN 25 31	karānī
+A2	Gender T2 M
+A3	Number T2 Pl
+T1	NOUN 32 37	imērī
+A1	Gender T1 M
+A4	Number T1 Pl
+T3	VERB 38 42	nāši
+A5	Verb_stem T3 G
+A6	Gender T3 M
+A7	Mood T3 stative
+A8	Number T3 Sg
+A9	Person T3 3
+R1	dobj Arg1:T3 Arg2:T2	
+R2	dobj Arg1:T3 Arg2:T1	
+T4	PROPN 16 24	Qatanaya
+A10	Gender T4 M
+T5	PROPN 14 15	x
+A11	Gender T5 M
+R3	appos Arg1:T5 Arg2:T4	
+R4	nsubj Arg1:T3 Arg2:T5	

@@ -1,0 +1,260 @@
+T2	NOUN 14 17	mār
+A2	Noun_base T2 bound
+A3	Gender T2 M
+A4	Number T2 Sg
+T3	PROPN 18 33	Tukulti-Ninurta
+A5	Gender T3 M
+T4	NOUN 34 37	šar
+A6	Noun_base T4 bound
+A7	Gender T4 M
+A8	Number T4 Sg
+T5	NOUN 38 45	kiššati
+A9	Noun_base T5 free
+A10	Gender T5 F
+A11	Number T5 Sg
+A12	Case T5 Gen
+T6	NOUN 46 49	šar
+A13	Noun_base T6 bound
+A14	Gender T6 M
+A15	Number T6 Sg
+T7	NOUN 50 53	māt
+A16	Noun_base T7 bound
+A17	Gender T7 F
+A18	Number T7 Sg
+T8	PROPN 54 59	Aššur
+A19	Gender T8 M
+T9	NOUN 60 63	mār
+A20	Noun_base T9 bound
+A21	Gender T9 M
+A22	Number T9 Sg
+T10	PROPN 64 75	Adad-nerari
+A23	Gender T10 M
+T11	NOUN 76 79	šar
+A24	Noun_base T11 bound
+A25	Gender T11 M
+A26	Number T11 Sg
+T12	NOUN 80 87	kiššati
+A27	Noun_base T12 free
+A28	Gender T12 F
+A29	Number T12 Sg
+A30	Case T12 Gen
+T13	NOUN 88 91	šar
+A31	Noun_base T13 bound
+A32	Gender T13 M
+A33	Number T13 Sg
+T14	NOUN 92 95	māt
+A34	Noun_base T14 bound
+A35	Gender T14 F
+A36	Number T14 Sg
+T15	ADP 104 107	ana
+T16	NOUN 108 113	balāṭ
+A37	Noun_base T16 bound
+A38	Gender T16 M
+A39	Number T16 Sg
+T17	VERB 135 141	šumʾud
+A40	Noun_base T17 bound
+A41	Gender T17 M
+A42	Number T17 Sg
+T18	NOUN 151 156	šalām
+A43	Noun_base T18 bound
+A44	Gender T18 M
+A45	Number T18 Sg
+T19	NOUN 195 202	hegalli
+A46	Noun_base T19 bound
+A47	Number T19 Sg
+A48	Gender T19 M
+T20	VERB 207 212	rupšu
+A50	Noun_base T20 bound
+A51	Number T20 Sg
+A52	Gender T20 M
+A53	Case T20 Nom
+T21	NOUN 231 234	māt
+A54	Noun_base T21 bound
+A55	Gender T21 F
+A56	Number T21 Sg
+T22	PROPN 235 240	Aššur
+A57	Gender T22 M
+T23	ADP 250 253	ana
+T24	ADP 268 271	ana
+T25	ADP 295 298	ana
+R1	nmod_poss Arg1:T2 Arg2:T3	
+R2	appos Arg1:T3 Arg2:T4	
+T1	PROPN 96 101	Aššur
+A1	Gender T1 M
+R3	appos Arg1:T3 Arg2:T6	
+R4	appos Arg1:T3 Arg2:T9	
+R5	appos Arg1:T10 Arg2:T11	
+R6	appos Arg1:T10 Arg2:T13	
+T26	PART 101 103	ma
+R7	nmod_poss Arg1:T4 Arg2:T5	
+R8	nmod_poss Arg1:T6 Arg2:T7	
+R9	nmod_poss Arg1:T7 Arg2:T8	
+R10	nmod_poss Arg1:T9 Arg2:T10	
+R11	nmod_poss Arg1:T11 Arg2:T12	
+R12	nmod_poss Arg1:T13 Arg2:T14	
+R13	nmod_poss Arg1:T14 Arg2:T1	
+R14	nmod_poss Arg1:T21 Arg2:T22	
+T27	NOUN 299 303	šēpī
+A58	Noun_base T27 suffixal
+A59	Number T27 Pl
+A60	Gender T27 M
+T29	NOUN 279 284	malkī
+A63	Noun_base T29 free
+A64	Number T29 Pl
+A65	Gender T29 M
+T30	NOUN 114 121	napšāti
+A66	Noun_base T30 suffixal
+A67	Number T30 Pl
+A68	Gender T30 F
+T31	PRON 121 123	ya
+A69	Person T31 1
+A70	Number T31 Sg
+T32	VERB 124 128	arāk
+A71	Noun_base T32 bound
+A72	Number T32 Sg
+A73	Gender T32 M
+T33	PRON 132 134	ya
+A74	Person T33 1
+A75	Number T33 Sg
+T34	NOUN 129 132	ūmē
+A76	Noun_base T34 suffixal
+A77	Number T34 Pl
+A78	Gender T34 M
+T35	PRON 148 150	ya
+A79	Person T35 1
+A80	Number T35 Sg
+T36	NOUN 142 148	šanāti
+A81	Noun_base T36 suffixal
+A82	Number T36 Pl
+A83	Gender T36 F
+T37	PRON 161 163	ya
+A84	Person T37 1
+A85	Number T37 Sg
+T38	NOUN 157 161	zērī
+A86	Noun_base T38 suffixal
+A87	Number T38 Pl
+A88	Gender T38 M
+T39	PRON 168 170	ya
+A89	Person T39 1
+A90	Number T39 Sg
+T40	NOUN 164 168	māti
+A91	Case T40 Gen
+A92	Noun_base T40 suffixal
+A93	Number T40 Sg
+A94	Gender T40 F
+T41	VERB 171 176	naṣār
+A95	Noun_base T41 bound
+A96	Mood T41 infinitive
+A97	Number T41 Sg
+A98	Gender T41 M
+T42	NOUN 177 182	kussê
+A99	Case T42 Gen
+A100	Noun_base T42 bound
+A101	Number T42 Sg
+A102	Gender T42 F
+T43	PRON 192 194	ya
+A103	Person T43 1
+A104	Number T43 Sg
+T44	NOUN 183 192	iššakkūti
+A105	Case T44 Gen
+A106	Noun_base T44 suffixal
+A107	Number T44 Sg
+A108	Gender T44 F
+T45	NOUN 203 206	āla
+A49	Noun_base T45 suffixal
+A109	Number T45 Sg
+A110	Gender T45 M
+#1	AnnotatorNotes T45	form=āliya
+A111	Verb_stem T20 G
+A112	Mood T20 infinitive
+#2	AnnotatorNotes T20	form=rapāš
+A113	Verb_stem T41 G
+A114	Verb_stem T17 S
+A115	Mood T17 infinitive
+T46	NOUN 213 217	nišē
+A116	Noun_base T46 suffixal
+A117	Number T46 Pl
+A118	Gender T46 F
+T47	PRON 217 219	ʾa
+A119	Person T47 1
+A120	Number T47 Sg
+#3	AnnotatorNotes T47	form=ya
+T48	VERB 220 224	ešēr
+A121	Verb_stem T48 G
+A122	Noun_base T48 bound
+A123	Mood T48 infinitive
+A124	Number T48 Sg
+A125	Gender T48 M
+T49	NOUN 225 230	amēla
+A126	Noun_base T49 suffixal
+A127	Number T49 Pl
+A128	Gender T49 M
+#4	AnnotatorNotes T49	form=amēlîya
+T50	PRON 247 249	ya
+A129	Person T50 1
+A130	Number T50 Sg
+T51	NOUN 241 247	zāʾirī
+A131	Noun_base T51 suffixal
+A132	Number T51 Pl
+A133	Gender T51 M
+T52	VERB 254 258	qamê
+A134	Case T52 Gen
+A135	Verb_stem T52 G
+A136	Mood T52 infinitive
+A137	Gender T52 M
+A138	Number T52 Sg
+A139	Noun_base T52 free
+R15	case Arg1:T52 Arg2:T23	
+T53	VERB 272 278	hulluq
+A140	Verb_stem T53 D
+A141	Noun_base T53 bound
+A142	Mood T53 infinitive
+A143	Number T53 Sg
+A144	Gender T53 M
+R16	case Arg1:T27 Arg2:T25	
+T28	PRON 303 305	ya
+A61	Person T28 1
+A62	Number T28 Sg
+T54	VERB 306 313	šuknuše
+A145	Case T54 Gen
+A146	Verb_stem T54 S
+A147	Mood T54 infinitive
+A148	Gender T54 M
+A149	Number T54 Sg
+A150	Noun_base T54 free
+T55	PRON 292 294	ya
+A151	Person T55 1
+A152	Number T55 Sg
+T56	NOUN 285 292	nakrūti
+A153	Noun_base T56 suffixal
+A154	Number T56 Pl
+A155	Gender T56 M
+T57	NOUN 259 265	ašṭūte
+A156	Noun_base T57 suffixal
+A157	Number T57 Pl
+A158	Gender T57 M
+T58	PRON 265 267	ʾa
+A159	Person T58 1
+A160	Number T58 Sg
+#5	AnnotatorNotes T58	form=ya
+R17	case Arg1:T16 Arg2:T15	
+R18	nmod_poss Arg1:T16 Arg2:T30	
+R19	nmod_poss Arg1:T32 Arg2:T34	
+R20	nmod_poss Arg1:T17 Arg2:T36	
+A161	Verb_stem T32 G
+A162	Mood T32 infinitive
+R21	nmod_poss Arg1:T18 Arg2:T38	
+R22	nmod_poss Arg1:T18 Arg2:T40	
+R23	nmod_poss Arg1:T41 Arg2:T42	
+R24	nmod_poss Arg1:T42 Arg2:T44	
+R25	nmod_poss Arg1:T19 Arg2:T45	
+R26	nmod_poss Arg1:T20 Arg2:T46	
+R27	nmod_poss Arg1:T48 Arg2:T49	
+R28	nmod_poss Arg1:T49 Arg2:T21	
+R29	case Arg1:T53 Arg2:T24	
+R30	dobj Arg1:T54 Arg2:T29	
+R31	nmod_poss Arg1:T29 Arg2:T56	
+R32	dobj Arg1:T53 Arg2:T57	
+R33	dobj Arg1:T52 Arg2:T51	
+R34	iobj Arg1:T54 Arg2:T27	
+R35	conj Arg1:T38 Arg2:T40	
