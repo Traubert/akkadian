@@ -68,11 +68,17 @@ def conllu_multitoken(i, tokens):
     MISC = '_'
     return '\t'.join((ID, FORM, LEMMA, UPOS, XPOS, FEATS, HEAD, DEPREL, DEPS, MISC)) + '\n'
 
+def line_is_token_line(line):
+    return line.startswith('T') and len(line.strip().split('\t')) == 3
+
 filename = sys.argv[1]
 lines = open(filename).readlines()
 name_prefix = filename[:filename.index('.ann')]
 filename = name_prefix + '.txt'
-running_text = open(filename, "r", encoding="utf-8").read()
+try:
+    running_text = open(filename, "r", encoding="utf-8").read()
+except:
+    exit()
 breakpoints = [0]
 for i, line in enumerate(lines):
     if line.startswith("BREAK"):
@@ -80,7 +86,7 @@ for i, line in enumerate(lines):
         breakpoint = int(nextline_tabparts[1].split(' ')[1])
         breakpoints.append(breakpoint)
 relations = list(map(relation_line_to_relation, filter(lambda x: x.startswith('R'), lines)))
-tokens = list(map(token_line_to_token, filter(lambda x: x.startswith('T'), lines)))
+tokens = list(map(token_line_to_token, filter(line_is_token_line, lines)))
 attributes = list(map(attrib_line_to_attrib, filter(lambda x: x.startswith('A'), lines)))
 comments = list(map(comment_line_to_comment, filter(lambda x: x.startswith('#'), lines)))
     
@@ -144,10 +150,11 @@ for part, breakpoint in enumerate(breakpoints):
         LEMMA = '_'#first(token)
         pos = second(token)
         XPOS = pos
-        if pos in UPOS_tags or pos == '_':
-            UPOS = pos
-        else:
-            UPOS = "X"
+        # if pos in UPOS_tags or pos == '_':
+        #     UPOS = pos
+        # else:
+        #     UPOS = "X"
+        UPOS = '_'
         FEATS = "|".join(map(lambda y: second(y) + '=' + third(y), filter(lambda x: token_num == first(x), attributes)))
         if len(FEATS) == 0:
             FEATS = "_"
