@@ -149,12 +149,11 @@ for part, breakpoint in enumerate(breakpoints):
         FORM = first(token)
         LEMMA = '_'#first(token)
         pos = second(token)
-        XPOS = pos
-        # if pos in UPOS_tags or pos == '_':
-        #     UPOS = pos
-        # else:
-        #     UPOS = "X"
-        UPOS = '_'
+        XPOS = '_'
+        if pos in UPOS_tags or pos == '_':
+            UPOS = pos
+        else:
+            UPOS = "X"
         FEATS = "|".join(map(lambda y: second(y) + '=' + third(y), filter(lambda x: token_num == first(x), attributes)))
         if len(FEATS) == 0:
             FEATS = "_"
