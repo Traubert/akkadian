@@ -4,11 +4,11 @@
 4	Aššur	_	PROPN	_	Gender=M	3	nmod_poss	_	_
 5	nišīt	_	NOUN	_	Noun_base=bound|Number=Sg|Gender=F	2	appos	_	_
 6	Enlil	_	PROPN	_	Gender=M	5	nmod_poss	_	_
-7	u	_	X	_	_	8	cc	_	_
+7	u	_	CONJ	_	_	8	cc	_	_
 8	Ninurta	_	PROPN	_	Gender=M	6	conj	_	_
 9	narām	_	NOUN	_	Noun_base=free|Number=Sg|Gender=M	2	appos	_	_
 10	Anim	_	PROPN	_	Gender=M	9	nmod_poss	_	_
-11	u	_	X	_	_	12	cc	_	_
+11	u	_	CONJ	_	_	12	cc	_	_
 12	Dagan	_	PROPN	_	Gender=M	10	conj	_	_
 13	kašūš	_	NOUN	_	Noun_base=bound|Number=Sg|Gender=M	2	appos	_	_
 14	ilāni	_	NOUN	_	Case=Gen|Noun_base=free|Number=Pl|Gender=M	13	nmod_poss	_	_
@@ -43,7 +43,7 @@
 43	māt	_	NOUN	_	Gender=F|Number=Sg|Noun_base=bound	42	nmod_poss	_	_
 44-45	Aššurma	_	_	_	_	_	_	_	_
 44	Aššur	_	PROPN	_	Gender=M	43	nmod_poss	_	_
-45	ma	_	PART	_	_	_	_	_	_
+45	ma	_	PART	_	_	44	det	_	_
 46	eṭlu	_	NOUN	_	Case=Nom|Noun_base=free|Number=Sg|Gender=M	2	appos	_	_
 47	qardu	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	46	amod	_	_
 48	ša	_	PRON	_	_	54	nsubj	_	_
@@ -52,10 +52,10 @@
 51	Aššur	_	PROPN	_	Gender=M	50	nmod_poss	_	_
 52-53	bēlišu	_	_	_	_	_	_	_	_
 52	bēli	_	NOUN	_	Noun_base=suffixal|Number=Sg|Gender=M	51	appos	_	_
-53	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	_	_	_	_
+53	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	52	det	_	_
 54-55	attallakuma	_	_	_	_	_	_	_	_
 54	attallaku	_	VERB	_	Verb_stem=Gtn|Mood=subjunctive|Gender=M|Number=Sg|Person=3|Tense=preterit	_	_	_	form=ittallaku
-55	ma	_	X	_	_	64	cc	_	_
+55	ma	_	CONJ	_	_	64	cc	_	_
 56	ina	_	ADP	_	_	57	case	_	_
 57	malkī	_	NOUN	_	Case=Gen|Noun_base=free|Number=Pl|Gender=M	_	_	_	_
 58	ša	_	ADP	_	_	59	case	_	_

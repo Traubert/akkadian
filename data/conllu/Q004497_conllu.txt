@@ -9,7 +9,7 @@
 9	x	_	_	_	_	_	_	_	_
 10-11	attallakuma	_	_	_	_	_	_	_	_
 10	attallaku	_	VERB	_	Verb_stem=Gtn|Mood=subjunctive|Gender=M|Number=Sg|Person=3|Tense=preterit	_	_	_	form=ittallaku
-11	ma	_	X	_	_	_	_	_	_
+11	ma	_	CONJ	_	_	_	_	_	_
 12	x	_	_	_	_	_	_	_	_
 13	x	_	_	_	_	_	_	_	_
 14	x	_	_	_	_	_	_	_	_
@@ -32,12 +32,12 @@
 31	māt	_	NOUN	_	Gender=F|Noun_base=bound|Number=Sg	_	_	_	_
 32-33	zāʾirīšu	_	_	_	_	_	_	_	_
 32	zāʾirī	_	NOUN	_	Noun_base=suffixal|Number=Pl|Gender=M	31	nmod_poss	_	_
-33	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	_	_	_	_
+33	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	32	det	_	_
 34	x	_	_	_	_	_	_	_	_
 35	x	_	_	_	_	_	_	_	_
 36-37	gērîšu	_	_	_	_	_	_	_	_
 36	gērî	_	NOUN	_	Noun_base=suffixal|Number=Pl|Gender=M	_	_	_	_
-37	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	_	_	_	_
+37	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	36	det	_	_
 38	id-du-x	_	_	_	_	_	_	_	_
 39	x-tu	_	_	_	_	_	_	_	_
 40	ṣâtu	_	NOUN	_	Noun_base=free|Number=Pl|Gender=F	_	_	_	_
@@ -59,7 +59,7 @@
 56	enūma	_	SCONJ	_	_	_	_	_	_
 57	Anum	_	PROPN	_	Case=Nom|Gender=M	_	_	_	form=Anu
 58	Enlil	_	PROPN	_	Gender=M	57	conj	_	_
-59	u	_	X	_	_	60	cc	_	_
+59	u	_	CONJ	_	_	60	cc	_	_
 60	Ea	_	PROPN	_	Gender=M	58	conj	_	_
 61	x	_	_	_	_	_	_	_	_
 62	x	_	_	_	_	_	_	_	_
@@ -93,7 +93,7 @@
 90	pāṭ	_	NOUN	_	Gender=M|Noun_base=bound|Number=Sg	_	_	_	_
 91-92	gimriša	_	_	_	_	_	_	_	_
 91	gimri	_	NOUN	_	Case=Gen|Noun_base=suffixal|Number=Sg|Gender=M	90	nmod_poss	_	_
-92	ša	_	PRON	_	Gender=F|Number=Sg|Person=3	_	_	_	_
+92	ša	_	PRON	_	Gender=F|Number=Sg|Person=3	91	det	_	_
 93	x	_	_	_	_	_	_	_	_
 94	x	_	_	_	_	_	_	_	_
 95	Suhi	_	PROPN	_	_	_	_	_	_

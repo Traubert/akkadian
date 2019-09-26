@@ -14,14 +14,14 @@
 14	ēkurrāti	_	NOUN	_	Noun_base=free|Gender=F|Number=Pl	_	_	_	_
 15-16	siqirša	_	_	_	_	_	_	_	_
 15	siqir	_	NOUN	_	Noun_base=suffixal|Number=Sg|Gender=M	_	_	_	_
-16	ša	_	PRON	_	Gender=F|Number=Sg|Person=3	_	_	_	_
+16	ša	_	PRON	_	Gender=F|Number=Sg|Person=3	15	det	_	_
 17	kabti	_	ADJ	_	Case=Gen|Gender=M|Number=Sg	15	amod	_	_
 18	ina	_	ADP	_	_	19	case	_	_
 19	ištarāti	_	NOUN	_	Noun_base=free|Number=Pl|Gender=M	_	_	_	_
 20	šūturat	_	ADJ	_	Gender=F|Mood=stative|Number=Sg|Person=3	_	_	_	_
 21-22	nabnīssa	_	_	_	_	_	_	_	_
 21	nabnīs	_	NOUN	_	Noun_base=suffixal|Number=Sg|Gender=F	_	_	_	_
-22	sa	_	PRON	_	Gender=F|Number=Sg|Person=3	_	_	_	_
+22	sa	_	PRON	_	Gender=F|Number=Sg|Person=3	21	det	_	_
 23	zīmu	_	NOUN	_	Case=Nom|Noun_base=free|Number=Sg|Gender=M	_	_	_	_
 24	namru	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	23	amod	_	_
 25	ša	_	PRON	_	_	_	_	_	_
@@ -29,7 +29,7 @@
 27	Šamaš	_	PROPN	_	Gender=M	_	_	_	_
 28-29	talīmeša	_	_	_	_	_	_	_	_
 28	talīme	_	NOUN	_	Case=Gen|Noun_base=suffixal|Number=Sg|Gender=M	_	_	_	_
-29	ša	_	PRON	_	Gender=F|Number=Sg|Person=3	_	_	_	_
+29	ša	_	PRON	_	Gender=F|Number=Sg|Person=3	28	det	_	_
 30	kippat	_	NOUN	_	Noun_base=bound|Number=Sg|Gender=F	_	_	_	_
 31	šamê	_	NOUN	_	Gender=M|Number=Pl	30	nmod_poss	_	_
 32	erṣetim	_	NOUN	_	Noun_base=free|Case=Gen|Gender=F|Number=Sg	31	conj	_	form=erṣeti
@@ -44,7 +44,7 @@
 41	mālikat	_	NOUN	_	Noun_base=bound|Number=Sg|Gender=F	_	_	_	_
 42-43	ahhīša	_	_	_	_	_	_	_	_
 42	ahhī	_	NOUN	_	Noun_base=suffixal|Number=Pl|Gender=M	41	nmod_poss	_	_
-43	ša	_	PRON	_	Gender=F|Number=Sg|Person=3	_	_	_	_
+43	ša	_	PRON	_	Gender=F|Number=Sg|Person=3	42	det	_	_
 44	ālikat	_	NOUN	_	Noun_base=bound|Number=Sg|Gender=F	_	_	_	_
 45	mahri	_	NOUN	_	Case=Gen|Noun_base=free|Number=Sg|Gender=M	44	nmod_poss	_	_
 46	dālihat	_	NOUN	_	Noun_base=bound|Number=Sg|Gender=F	_	_	_	_
@@ -55,7 +55,7 @@
 51	Igigi	_	PROPN	_	Number=Pl	50	nmod_poss	_	_
 52	bēlat	_	NOUN	_	Noun_base=bound|Gender=F|Number=Sg	_	_	_	_
 53	qabli	_	NOUN	_	Case=Gen|Noun_base=free|Number=Sg|Gender=M	52	nmod_poss	_	_
-54	u	_	X	_	_	55	cc	_	_
+54	u	_	CONJ	_	_	55	cc	_	_
 55	tāhāzi	_	NOUN	_	Case=Gen|Noun_base=free|Number=Sg|Gender=M	53	conj	_	_
 56	ša	_	PRON	_	_	_	_	_	_
 57-58	baluša	_	_	_	_	_	_	_	_
@@ -67,7 +67,7 @@
 62	ul	_	PART	_	_	63	neg	_	_
 63-64	imaggaruma	_	_	_	_	_	_	_	_
 63	imaggaru	_	VERB	_	Verb_stem=G|Mood=indicative|Gender=M|Number=Pl|Person=3|Tense=present	_	_	_	form=imaggarū
-64	ma	_	X	_	_	_	_	_	_
+64	ma	_	CONJ	_	_	_	_	_	_
 65	mūšalqât	_	NOUN	_	Noun_base=bound|Number=Sg|Gender=F	_	_	_	form=mušalqât
 66	līti	_	NOUN	_	Noun_base=free|Case=Gen|Gender=F|Number=Sg	65	nmod_poss	_	_
 67	mušamṣât	_	NOUN	_	Noun_base=bound|Number=Sg|Gender=F	_	_	_	_
@@ -536,11 +536,11 @@
 486-487	šumeka	_	_	_	_	_	_	_	_
 486	šume	_	NOUN	_	Noun_base=suffixal|Number=Sg|Gender=M	_	_	_	form=šum
 487	ka	_	PRON	_	Gender=M|Number=Sg|Person=2	_	_	_	_
-488	erṣeti	_	ADP	_	_	489	case	_	form=itti
+488	erṣeti	_	NOUN	_	Noun_base=free|Case=Gen|Gender=F|Number=Sg	532	conj	_	_
 489-490	šumiya	_	_	_	_	_	_	_	_
 489	šumi	_	NOUN	_	Case=Gen|Noun_base=suffixal|Number=Sg|Gender=M	_	_	_	_
 490	ya	_	PRON	_	Person=1|Number=Sg	_	_	_	_
-491	ina	_	ADP	_	_	492	case	_	_
+491	ina	_	ADP	_	_	538	case	_	_
 492-493	ašrišunu	_	_	_	_	_	_	_	_
 492	ašri	_	NOUN	_	Case=Gen|Noun_base=suffixal|Number=Sg|Gender=M	_	_	_	_
 493	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	_	_	_	_

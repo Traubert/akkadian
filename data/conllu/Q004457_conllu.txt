@@ -15,7 +15,7 @@
 15	iššannanu	_	VERB	_	Verb_stem=N|Mood=subjunctive|Gender=M|Number=Sg|Person=3|Tense=present	_	_	_	_
 16-17	tībušu	_	_	_	_	_	_	_	_
 16	tību	_	NOUN	_	Noun_base=suffixal|Number=Sg|Gender=M	_	_	_	_
-17	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	_	_	_	_
+17	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	16	det	_	_
 18	apil	_	NOUN	_	Case=Nom|Noun_base=free|Number=Sg|Gender=M	2	appos	_	form=aplu
 19	rēštû	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	18	amod	_	_
 20	hāmim	_	NOUN	_	Noun_base=bound|Number=Sg|Gender=M	2	appos	_	_
@@ -46,7 +46,7 @@
 44	šu	_	_	_	_	_	_	_	_
 45	purussê	_	NOUN	_	Noun_base=bound|Number=Pl|Gender=M	_	_	_	_
 46	šamê	_	NOUN	_	Gender=M|Number=Pl	45	nmod_poss	_	_
-47	u	_	X	_	_	48	cc	_	_
+47	u	_	CONJ	_	_	49	cc	_	_
 48	erṣetim	_	NOUN	_	Case=Gen|Noun_base=free|Gender=F|Number=Sg	46	conj	_	form=erṣeti
 49	lā	_	PART	_	_	50	neg	_	_
 50	ipparrasu	_	VERB	_	Verb_stem=N|Mood=subjunctive|Gender=M|Number=Sg|Person=3|Tense=present	_	_	_	_
@@ -63,7 +63,7 @@
 60	kibrāti	_	NOUN	_	Gender=F|Noun_base=bound|Number=Pl	59	nmod_poss	_	_
 61	nādin	_	NOUN	_	Noun_base=bound|Number=Sg|Gender=M	_	_	_	_
 62	haṭṭi	_	NOUN	_	Case=Gen|Noun_base=free|Gender=F|Number=Sg	61	nmod_poss	_	_
-63	u	_	X	_	_	64	cc	_	_
+63	u	_	CONJ	_	_	64	cc	_	_
 64	purussê	_	NOUN	_	Case=Gen|Noun_base=free|Number=Sg|Gender=M	62	conj	_	_
 65	ana	_	ADP	_	_	66	case	_	_
 66	naphar	_	NOUN	_	Noun_base=bound|Number=Sg|Gender=M	_	_	_	_
@@ -74,10 +74,10 @@
 71	ša	_	PRON	_	_	_	_	_	_
 72	lā	_	PART	_	_	73	neg	_	_
 73	uttakkaru	_	VERB	_	Verb_stem=Dt|Mood=subjunctive|Gender=M|Number=Sg|Person=3|Tense=present	_	_	_	_
-74	siqir	_	NOUN	_	Gender=M|Noun_base=bound|Number=Sg	73	dobj	_	_
+74	siqir	_	NOUN	_	Gender=M|Noun_base=bound|Number=Sg	73	obj	_	_
 75-76	šaptišu	_	_	_	_	_	_	_	_
 75	šapti	_	NOUN	_	Case=Gen|Noun_base=suffixal|Number=Sg|Gender=F	74	nmod_poss	_	_
-76	šu	_	PRON	_	Gender=F|Number=Sg|Person=3	_	_	_	_
+76	šu	_	PRON	_	Gender=F|Number=Sg|Person=3	75	det	_	_
 77	lēʾû	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	_	_	_	_
 78	rapšu	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	_	_	_	_
 79	apkal	_	NOUN	_	Gender=M|Noun_base=bound|Number=Sg	_	_	_	_
@@ -86,10 +86,10 @@
 82	Utulu	_	PROPN	_	Gender=M	_	_	_	_
 83	bēl	_	NOUN	_	Gender=M|Noun_base=bound|Number=Sg	_	_	_	_
 84	bēlē	_	NOUN	_	Gender=M|Number=Pl	83	nmod_poss	_	_
-85	ša	_	PRON	_	_	92	nsubj	_	_
-86	kippat	_	NOUN	_	Noun_base=bound|Number=Sg|Gender=F	92	dobj	_	_
+85	ša	_	PRON	_	_	94	nsubj	_	_
+86	kippat	_	NOUN	_	Noun_base=bound|Number=Sg|Gender=F	94	obj	_	_
 87	šamê	_	NOUN	_	Gender=M|Number=Pl	86	nmod_poss	_	_
-88	u	_	X	_	_	89	cc	_	_
+88	u	_	CONJ	_	_	91	cc	_	_
 89	erṣetim	_	NOUN	_	Case=Gen|Noun_base=free|Gender=F|Number=Sg	87	conj	_	form=erṣeti
 90-91	qātuššu	_	_	_	_	_	_	_	_
 90	qātuš	_	NOUN	_	Case=Loc|Noun_base=suffixal|Number=Sg|Gender=F	92	iobj	_	_
