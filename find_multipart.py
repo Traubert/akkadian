@@ -1,6 +1,7 @@
 import sys
 
 examples = {}
+forms = set()
 
 for filename in sys.argv[1:]:
     current = []
@@ -25,10 +26,10 @@ for filename in sys.argv[1:]:
                 example_text = "  " + lines[i-2] + "  " + lines[i-1] + "  " + line
                 examples[case] = example_text
             current.append(parts[1])
-#    for form in current:
+    for form in current:
 #        pass
-#        print(form)
+        print(form)
 
-for example in examples:
-    print(example + ":")
-    print(examples[example])
+# for example in examples:
+#     print(example + ":")
+#     print(examples[example])
