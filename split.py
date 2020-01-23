@@ -39,7 +39,9 @@ def fix_deletions(sentence_lines):
             start, stop = parts[0].split('-')
             start = oldnum2newnum[start]
             stop = oldnum2newnum[stop]
-            assert(start != stop)
+            if start == stop:
+                print(line, start, stop)
+                assert(False)
             newnumber = '{}-{}'.format(start, stop)
         else:
             newnumber = str(oldnum2newnum[parts[0]])
@@ -56,8 +58,82 @@ def fix_deletions(sentence_lines):
                 olddepsparts = olddeps.split('|')
                 newdepsparts = []
                 for dep in olddepsparts:
-                    print("#" + olddeps + "#")
-                    print(line)
+#                    print("#" + olddeps + "#")
+#                    print(line)
+                    target, label = dep.split(':')
+                    newdepsparts.append('{}:{}'.format(oldnum2newnum[target], label))
+                newdeps = '|'.join(newdepsparts)
+        new_lines.append('\t'.join((
+            newnumber,
+            parts[1],
+            parts[2],
+            parts[3],
+            parts[4],
+            parts[5],
+            newhead,
+            parts[7],
+            newdeps,
+            parts[9])))
+    return new_lines
+
+def fix_additions(sentence_lines):
+    if not sentence_lines:
+        return sentence_lines
+    new_lines = []
+    oldnum2newnum = {}
+    seen_words = {}
+    word_num = 1
+    for i, line in enumerate(sentence_lines):
+        if line.startswith("#"):
+            continue
+        parts = line.split('\t')
+        if '-' in parts[0]:
+            continue
+        else:
+            if parts[0] not in seen_words:
+                oldnum2newnum[parts[0]] = word_num
+                word_num += 1
+                seen_words[parts[0]] = parts[1]
+            else:
+                if parts[1] in seen_words[parts[0]]:
+                    continue
+                else:
+                    parts[0] = str(word_num)
+                    word_num += 1
+                    sentence_lines[i] = '\t'.join(parts)
+    for line in sentence_lines:
+        if line.startswith('#'):
+            new_lines.append(line)
+            continue
+        parts = line.split('\t')
+        if len(parts) != 10:
+            new_lines.append(line)
+            continue
+        if '-' in parts[0]:
+            start, stop = parts[0].split('-')
+            start = oldnum2newnum[start]
+            stop = oldnum2newnum[stop]
+            if start == stop:
+                print(line, start, stop)
+                assert(False)
+            newnumber = '{}-{}'.format(start, stop)
+        else:
+            newnumber = str(oldnum2newnum[parts[0]])
+        oldhead = parts[6]
+        olddeps = parts[8]
+        if oldhead in '_0':
+            newhead = oldhead
+            newdeps = olddeps
+        else:
+            newhead = str(oldnum2newnum[oldhead])
+            if olddeps == '_':
+                newdeps = '_'
+            else:
+                olddepsparts = olddeps.split('|')
+                newdepsparts = []
+                for dep in olddepsparts:
+#                    print("#" + olddeps + "#")
+#                    print(line)
                     target, label = dep.split(':')
                     newdepsparts.append('{}:{}'.format(oldnum2newnum[target], label))
                 newdeps = '|'.join(newdepsparts)
@@ -82,17 +158,17 @@ def fix_new_multitokens(sentence_lines):
     oldnum2newnum = {}
     word_num = 1
     for i, line in enumerate(sentence_lines):
-        print(line)
+#        print(line)
         if line.startswith("#"):
             continue
         parts = line.split('\t')
         if '-' in parts[0]:
-            print("fix_new_multitokens continuing #{}#".format(parts[0]))
+#            print("fix_new_multitokens continuing #{}#".format(parts[0]))
             continue
         else:
             if parts[0] not in oldnum2newnum:
                 oldnum2newnum[parts[0]] = word_num
-                print("fix_new_multitokens #{}#".format(parts[0]))
+#                print("fix_new_multitokens #{}#".format(parts[0]))
                 word_num += 1
             else:
                 if parts[0] in new_multitoken_position2length:
@@ -207,6 +283,18 @@ def apply_splits(lines, splits):
              parts[9]
             )))
     return '\n'.join(new_lines)
+
+def tabbed_line_has_n_fields(line):
+    return '\t' not in line or len(line.split('\t')) == 10
+
+def multitoken_line_has_start_nequal_end(line):
+    if '\t' not in line:
+        return True
+    n = line.split('\t')[0]
+    if '-' not in n:
+        return True
+    start, stop = n.split('-')
+    return start != stop
 
 def process_lines(lines):
     lines = fix_deletions(lines)
