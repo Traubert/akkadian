@@ -1,0 +1,39 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004587-1
+# text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššur bīt Ištar ša Nina bēlti ya ultu uššē šu adi gabadibbī šu ušaklil u aksir
+1	Aššur-naṣir-apli	_	_	PROPN	Gender=M	_	_	_	_
+2	šakin	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=M	1	appos	_	_
+3	Enlil	_	_	PROPN	Gender=M	2	nmod:poss	_	_
+4	iššak	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=M	1	appos	_	_
+5	Aššur	_	_	PROPN	Gender=M	4	nmod:poss	_	_
+6	mār	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=M	1	appos	_	_
+7	Tukulti-Ninurta	_	_	PROPN	Gender=M	6	nmod:poss	_	_
+8	šakin	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=M	7	appos	_	_
+9	Enlil	_	_	PROPN	Gender=M	8	nmod:poss	_	_
+10	iššak	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=M	7	appos	_	_
+11	Aššur	_	_	PROPN	Gender=M	10	nmod:poss	_	_
+12	mār	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=M	7	appos	_	_
+13	Adad-nerari	_	_	PROPN	Gender=M	12	nmod:poss	_	_
+14	šakin	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=M	13	appos	_	_
+15	Enlil	_	_	PROPN	Gender=M	14	nmod:poss	_	_
+16	iššak	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=M	13	appos	_	_
+17	Aššur	_	_	PROPN	Gender=M	16	nmod:poss	_	_
+18	bīt	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=F	32	obj	_	_
+19	Ištar	_	_	PROPN	Gender=F	18	nmod:poss	_	_
+20	ša	_	_	ADP	_	21	case	_	_
+21	Nina	_	_	PROPN	_	19	nmod	_	_
+22-23	bēltiya	_	_	_	_	_	_	_	_
+22	bēlti	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	19	appos	_	_
+23	ya	_	_	PRON	Person=1|Number=Sg	22	det	_	_
+24	ultu	_	_	ADP	_	25	case	_	_
+25-26	uššēšu	_	_	_	_	_	_	_	_
+25	uššē	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	30	obl	_	_
+26	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	25	det	_	_
+27	adi	_	_	ADP	_	28	case	_	_
+28-29	gabadibbīšu	_	_	_	_	_	_	_	_
+28	gabadibbī	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	30	obl	_	_
+29	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	28	det	_	_
+30	ušaklil	_	_	VERB	Tense=Preterit|Person=1|Number=Sg|Mood=Indicative|Verbstem=S	_	_	_	_
+31	u	_	_	CONJ	_	32	cc	_	_
+32	aksir	_	_	VERB	Tense=Preterit|Person=1|Number=Sg|Mood=Indicative|Verbstem=G	30	conj	_	_
+

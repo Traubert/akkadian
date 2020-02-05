@@ -1,0 +1,45 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004500-1
+# text = Aššur-naṣir-apli šarru dannu x šar māt Aššur nišīt abi ki Enlil ša siqri šu x arhī pašqūte kiṣir huršānī dannūti x-ma kullat lā māgirī šu qās su ikšud x x x x bīt Ištar anhūs su x
+1	Aššur-naṣir-apli	_	_	PROPN	Gender=M	_	_	_	_
+2	šarru	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	1	appos	_	_
+3	dannu	_	_	ADJ	Gender=M|Case=Nom|Number=Sg	2	amod	_	_
+4	x	_	_	_	_	_	_	_	_
+5	šar	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
+6	māt	_	_	NOUN	Gender=F|Nounbase=Bound|Number=Sg	5	nmod:poss	_	_
+7	Aššur	_	_	PROPN	Gender=M	6	nmod:poss	_	_
+8	nišīt	_	_	NOUN	Gender=F|Nounbase=Bound|Number=Sg	1	appos	_	_
+9-10	abiki	_	_	_	_	_	_	_	_
+9	abi	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	8	nmod:poss	_	_
+10	ki	_	_	PRON	Gender=F|Number=Sg|Person=2	9	det	_	_
+11	Enlil	_	_	PROPN	Gender=M	9	appos	_	_
+12	ša	_	_	ADP	_	13	case	_	_
+13-14	siqrišu	_	_	_	_	_	_	_	_
+13	siqri	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	_	_	_	_
+14	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	13	det	_	_
+15	x	_	_	_	_	_	_	_	_
+16	arhī	_	_	NOUN	Gender=M|Number=Pl	_	_	_	_
+17	pašqūte	_	_	ADJ	Gender=M|Number=Pl	16	amod	_	_
+18	kiṣir	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	_	_	_	_
+19	huršānī	_	_	NOUN	Nounbase=Free|Number=Pl|Gender=M	18	nmod:poss	_	_
+20	dannūti	_	_	ADJ	Gender=M|Number=Pl	19	amod	_	_
+21	x-ma	_	_	_	_	_	_	_	_
+22	kullat	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	_	_	_	_
+23-24	lā māgirīšu	_	_	_	_	_	_	_	_
+23	lā māgirī	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	22	nmod:poss	_	_
+24	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	23	det	_	_
+25-26	qāssu	_	_	_	_	_	_	_	_
+25	qās	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	27	nsubj	_	_
+26	su	_	_	PRON	Gender=M|Number=Sg|Person=3	25	det	_	_
+27	ikšud	_	_	VERB	Verbstem=G|Number=Sg|Person=3|Mood=Indicative|Tense=Preterit	_	_	_	_
+28	x	_	_	_	_	_	_	_	_
+29	x	_	_	_	_	_	_	_	_
+30	x	_	_	_	_	_	_	_	_
+31	x	_	_	_	_	_	_	_	_
+32	bīt	_	_	NOUN	Gender=F|Nounbase=Bound|Number=Sg	_	_	_	_
+33	Ištar	_	_	PROPN	Gender=F	32	nmod:poss	_	_
+34-35	anhūssu	_	_	_	_	_	_	_	_
+34	anhūs	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	36	obj	_	_
+35	su	_	_	PRON	Gender=M|Number=Sg|Person=3	34	det	_	_
+36	x	_	_	VERB	_	_	_	_	_
+

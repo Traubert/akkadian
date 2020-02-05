@@ -1,0 +1,18 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004583-1
+# text = ēkal Aššur-naṣir-apli šar kiššati šar māt Aššur mār Tukulti-Ninurta šar māt Aššur ma
+1	ēkal	_	_	NOUN	Number=Sg|Gender=F|Nounbase=Bound	_	_	_	_
+2	Aššur-naṣir-apli	_	_	PROPN	Gender=M	1	nmod:poss	_	_
+3	šar	_	_	NOUN	Number=Sg|Gender=M|Nounbase=Bound	2	appos	_	_
+4	kiššati	_	_	NOUN	Gender=F|Number=Sg|Case=Gen|Nounbase=Free	3	nmod:poss	_	_
+5	šar	_	_	NOUN	Number=Sg|Gender=M|Nounbase=Bound	2	appos	_	_
+6	māt	_	_	NOUN	Number=Sg|Gender=F|Nounbase=Bound	5	nmod:poss	_	_
+7	Aššur	_	_	PROPN	Gender=M	6	nmod:poss	_	_
+8	mār	_	_	NOUN	Number=Sg|Gender=M|Nounbase=Bound	2	appos	_	_
+9	Tukulti-Ninurta	_	_	PROPN	Gender=M	8	nmod:poss	_	_
+10	šar	_	_	NOUN	Number=Sg|Gender=M|Nounbase=Bound	9	appos	_	_
+11	māt	_	_	NOUN	Number=Sg|Gender=F|Nounbase=Bound	10	nmod:poss	_	_
+12-13	Aššurma	_	_	_	_	_	_	_	_
+12	Aššur	_	_	PROPN	Gender=M	11	nmod:poss	_	_
+13	ma	_	_	PART	_	12	det	_	_
+
