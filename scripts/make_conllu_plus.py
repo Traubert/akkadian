@@ -2,6 +2,13 @@ import os, sys, string
 
 columns_comment = "# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC\n"
 
+def sort_featvals(featvals):
+    if '|' not in featvals:
+        return featvals
+    feats = list(sorted(featvals.split('|')))
+    
+    return '|'.join(feats)
+
 def convert_file(readfilename, writefilename):
     writefile = open(writefilename, 'w')
     writefile.write(columns_comment)
@@ -40,7 +47,7 @@ writedirpath = sys.argv[2]
 readdirpath = sys.argv[1]
 
 for filename in os.listdir(readdirpath):
-    if not filename.startswith("Q"):
+    if not filename.startswith("Q"):# or '_part_' in filename:
         continue
     readpath = os.path.realpath(os.path.join(readdirpath, filename))
     writepath = os.path.realpath(os.path.join(writedirpath, filename))
