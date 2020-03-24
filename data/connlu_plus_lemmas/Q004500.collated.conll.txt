@@ -1,0 +1,44 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004500-1
+# text = Aššur-naṣir-apli šarru dannu x šar māt Aššur nišīt abi ki Enlil ša siqri šu x arhī pašqūte kiṣir huršānī dannūti x-ma kullat lā māgirī šu qās su ikšud x x x x bīt Ištar anhūs su x
+1	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=M	_	_	_	{m}aš-šur-PAP-A
+2	šarru	šarru	NOUN	N	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	1	appos	_	MAN
+3	dannu	dannu	ADJ	AJ	Gender=M|Case=Nom|Number=Sg	2	amod	_	dan-nu
+4	x	_	_	u	_	_	_	_	x
+5	šar	šarru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	MAN
+6	māt	mātu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	5	nmod:poss	_	KUR
+7	Aššur	Aššur	PROPN	GN	Gender=M	6	nmod:poss	_	aš-šur
+8	nišīt	nišītu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	1	appos	_	ni-ši-it
+9-10	abiki	_	_	_	_	_	_	_	_
+9	abi	abu	NOUN	N	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	8	nmod:poss	_	a-bi-ki
+10	ki	_	_	PRON	Gender=F|Number=Sg|Person=2	9	det	_	_
+11	Enlil	Enlil	PROPN	DN	Gender=M	9	appos	_	{d}BAD
+12	ša	ša	ADP	DET	_	13	case	_	ša₂
+13-14	siqrišu	_	_	_	_	_	_	_	_
+13	siqri	zikru	NOUN	N	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	_	_	_	siq-ri-šu₂
+14	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	13	det	_	_
+15	x	_	_	u	_	_	_	_	x
+16	arhī	urhu	NOUN	N	Gender=M|Number=Pl	_	_	_	ar-hi
+17	pašqūte	pašqu	ADJ	AJ	Gender=M|Number=Pl	16	amod	_	pa-aš₂-qu-te
+18	kiṣir	kiṣru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	_	_	_	ki-ṣir
+19	huršānī	huršānu	NOUN	N	Nounbase=Free|Number=Pl|Gender=M	18	nmod:poss	_	hur-ša₂-ni
+20	dannūti	dannu	ADJ	AJ	Gender=M|Number=Pl	19	amod	_	dan-nu-ti
+21	x-ma	_	_	u	_	_	_	_	x-ma
+22	kullat	kullatu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=F	_	_	_	kul₂-lat
+23-24	lā māgirīšu	_	_	_	_	_	_	_	_
+23	lā māgirī	lā|māgiru	NOUN	MOD|N	Nounbase=Suffixal|Number=Pl|Gender=M	22	nmod:poss	_	la|ma-gi-ri-šu₂
+24	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	23	det	_	_
+25-26	qāssu	_	_	_	_	_	_	_	_
+25	qās	qātu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=F	27	nsubj	_	ŠU-su
+26	su	_	_	PRON	Gender=M|Number=Sg|Person=3	25	det	_	_
+27	ikšud	kašādu	VERB	V	Verbstem=G|Number=Sg|Person=3|Mood=Indicative|Tense=Preterit	_	_	_	ik-šu-ud
+28	x	_	_	u	_	_	_	_	x
+29	x	_	_	u	_	_	_	_	x
+30	x	_	_	u	_	_	_	_	x
+31	x	_	_	u	_	_	_	_	x
+32	bīt	bītu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	_	_	_	E₂
+33	Ištar	Ištar	PROPN	DN	Gender=F	32	nmod:poss	_	{d}INANNA
+34-35	anhūssu	_	_	_	_	_	_	_	_
+34	anhūs	anhūtu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=F	36	obj	_	an-hu-su
+35	su	_	_	PRON	Gender=M|Number=Sg|Person=3	34	det	_	_
+36	x	_	VERB	u	_	_	_	_	x

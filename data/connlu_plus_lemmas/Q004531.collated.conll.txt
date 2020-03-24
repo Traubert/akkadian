@@ -1,0 +1,21 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004531-1
+# text = sugullu ša pīrī tarbīt āli sugullu ša rīmī tarbīt āli sugullu ša x x x x-i-te x-x-te amhur
+1	sugullu	sugullu	NOUN	N	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	18	obj	_	su-gul-lu
+2	ša	ša	ADP	DET	_	3	case	_	ša₂
+3	pīrī	pīru	NOUN	N	Gender=M|Number=Pl	1	nmod	_	AM.SI.MEŠ
+4	tarbīt	tarbītu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=F	3	nmod:poss	_	tar-bit
+5	āli	ālu	NOUN	N	Gender=M|Nounbase=Free|Case=Gen|Number=Sg	4	nmod:poss	_	URU
+6	sugullu	sugullu	NOUN	N	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	18	obj	_	su-gul-lu
+7	ša	ša	ADP	DET	_	8	case	_	ša₂
+8	rīmī	rīmu	NOUN	N	Gender=M|Number=Pl	6	nmod	_	GU₄.AM.MEŠ
+9	tarbīt	tarbītu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=F	8	nmod:poss	_	tar-bit
+10	āli	ālu	NOUN	N	Gender=M|Nounbase=Free|Case=Gen|Number=Sg	9	nmod:poss	_	URU
+11	sugullu	sugullu	NOUN	N	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	12	case	_	su-gul-lu
+12	ša	ša	ADP	DET	_	_	_	_	ša₂
+13	x	_	_	u	_	_	_	_	x
+14	x	_	_	u	_	_	_	_	x
+15	x	_	_	u	_	_	_	_	x
+16	x-i-te	_	_	u	_	_	_	_	x-i-te
+17	x-x-te	_	_	u	_	_	_	_	x-x-te
+18	amhur	mahāru	VERB	V	Tense=Preterit|Number=Sg|Person=1|Verbstem=G|Mood=Indicative	_	_	_	am-hur
