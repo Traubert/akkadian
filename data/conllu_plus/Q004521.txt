@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004521-1
-# text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššur kāšid ištu x šiddi Lullumi Habhi ša bētāni Zamua Hašmar kalî šina adi Amurri Hamani u Labnani adi Tamdi-rabiti ana miṣir māti ya amnu ma šattišamma bilas sunu kabti ūbilū ma ina āli ya Aššur amhur enūma bīt Sin u Šamaš ilāni rabûti bēlē ya ša šarrāni ālikūt pāni ya ēpušū ēnah ištu uššē šu adi gabadibbī šu arṣip
+# text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššur kāšid ištu x šiddi Lullumi Habhi ša bētāni Zamua Hašmar kalîšina adi Amurri Hamani u Labnani adi Tamdi-rabiti ana miṣir mātiya amnuma
 1	Aššur-naṣir-apli	_	_	PROPN	Gender=M	_	_	_	_
 2	šakin	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	1	appos	_	_
 3	Enlil	_	_	PROPN	Gender=M	2	nmod:poss	_	_
@@ -46,45 +46,51 @@
 41-42	amnuma	_	_	_	_	_	_	_	_
 41	amnu	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	_	_	_	_
 42	ma	_	_	CONJ	_	_	_	_	_
-43	šattišamma	_	_	ADV	_	47	advmod	_	_
-44-45	bilassunu	_	_	_	_	_	_	_	_
-44	bilas	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	47	obj	_	_
-45	sunu	_	_	PRON	Gender=M|Number=Pl|Person=3	44	det	_	_
-46	kabti	_	_	ADJ	Gender=M|Number=Sg	44	amod	_	_
-47-48	ūbilūma	_	_	_	_	_	_	_	_
-47	ūbilū	_	_	VERB	Verbstem=G|Mood=Indicative|Gender=M|Number=Pl|Person=3|Tense=Preterit	_	_	_	_
-48	ma	_	_	CONJ	_	53	cc	_	_
-49	ina	_	_	ADP	_	50	case	_	_
-50-51	āliya	_	_	_	_	_	_	_	_
-50	āli	_	_	NOUN	Case=Gen|Nounbase=Bound|Number=Sg|Gender=M	53	obl	_	_
-51	ya	_	_	PRON	Person=1|Number=Sg	50	det	_	_
-52	Aššur	_	_	PROPN	Gender=M	50	appos	_	_
-53	amhur	_	_	VERB	Verbstem=G|Person=1|Mood=Indicative|Tense=Preterit|Number=Sg	47	conj	_	_
-54	enūma	_	_	ADV	_	69	advmod	_	_
-55	bīt	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	69	nsubj	_	_
-56	Sin	_	_	PROPN	Gender=M	55	nmod:poss	_	_
-57	u	_	_	CONJ	_	58	cc	_	_
-58	Šamaš	_	_	PROPN	Gender=M	56	conj	_	_
-59	ilāni	_	_	NOUN	Number=Pl|Gender=M	56	appos	_	_
-60	rabûti	_	_	ADJ	Number=Pl|Gender=M	59	amod	_	_
-61-62	bēlēya	_	_	_	_	_	_	_	_
-61	bēlē	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	56	appos	_	_
-62	ya	_	_	PRON	Person=1|Number=Sg	61	det	_	_
-63	ša	_	_	PRON	_	68	obj	_	_
-64	šarrāni	_	_	NOUN	Number=Pl|Gender=M	68	nsubj	_	_
-65	ālikūt	_	_	NOUN	Nounbase=Bound|Number=Pl|Gender=M	64	appos	_	_
-66-67	pāniya	_	_	_	_	_	_	_	_
-66	pāni	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	65	nmod:poss	_	_
-67	ya	_	_	PRON	Person=1|Number=Sg	66	det	_	_
-68	ēpušū	_	_	VERB	Verbstem=G|Mood=Subjunctive|Gender=M|Number=Pl|Person=3|Tense=Preterit	_	_	_	_
-69	ēnah	_	_	VERB	Verbstem=G|Person=3|Mood=Indicative|Tense=Preterit|Number=Sg	_	_	_	_
-70	ištu	_	_	ADP	_	71	case	_	_
-71-72	uššēšu	_	_	_	_	_	_	_	_
-71	uššē	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	76	obl	_	_
-72	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	71	det	_	_
-73	adi	_	_	ADP	_	74	case	_	_
-74-75	gabadibbīšu	_	_	_	_	_	_	_	_
-74	gabadibbī	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	76	obl	_	_
-75	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	74	det	_	_
-76	arṣip	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	_	_	_	_
+
+# sent_id = Q004521-2
+# text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššur kāšid ištu x šiddi Lullumi Habhi ša bētāni Zamua Hašmar kalîšina adi Amurri Hamani u Labnani adi Tamdi-rabiti ana miṣir mātiya amnuma šattišamma bilassunu kabti ūbilūma ina āliya Aššur amhur
+1	šattišamma	_	_	ADV	_	5	advmod	_	_
+2-3	bilassunu	_	_	_	_	_	_	_	_
+2	bilas	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	5	obj	_	_
+3	sunu	_	_	PRON	Gender=M|Number=Pl|Person=3	2	det	_	_
+4	kabti	_	_	ADJ	Gender=M|Number=Sg	2	amod	_	_
+5-6	ūbilūma	_	_	_	_	_	_	_	_
+5	ūbilū	_	_	VERB	Verbstem=G|Mood=Indicative|Gender=M|Number=Pl|Person=3|Tense=Preterit	_	_	_	_
+6	ma	_	_	CONJ	_	11	cc	_	_
+7	ina	_	_	ADP	_	8	case	_	_
+8-9	āliya	_	_	_	_	_	_	_	_
+8	āli	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	11	obl	_	_
+9	ya	_	_	PRON	Person=1|Number=Sg	8	det	_	_
+10	Aššur	_	_	PROPN	Gender=M	8	appos	_	_
+11	amhur	_	_	VERB	Verbstem=G|Person=1|Mood=Indicative|Tense=Preterit|Number=Sg	5	conj	_	_
+
+# sent_id = Q004521-3
+# text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššur kāšid ištu x šiddi Lullumi Habhi ša bētāni Zamua Hašmar kalîšina adi Amurri Hamani u Labnani adi Tamdi-rabiti ana miṣir mātiya amnuma šattišamma bilassunu kabti ūbilūma ina āliya Aššur amhur enūma bīt Sin u Šamaš ilāni rabûti bēlēya ša šarrāni ālikūt pāniya ēpušū ēnah ištu uššēšu adi gabadibbīšu arṣip
+1	enūma	_	_	ADV	_	16	advmod	_	_
+2	bīt	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	16	nsubj	_	_
+3	Sin	_	_	PROPN	Gender=M	2	nmod:poss	_	_
+4	u	_	_	CONJ	_	5	cc	_	_
+5	Šamaš	_	_	PROPN	Gender=M	3	conj	_	_
+6	ilāni	_	_	NOUN	Number=Pl|Gender=M	3	appos	_	_
+7	rabûti	_	_	ADJ	Number=Pl|Gender=M	6	amod	_	_
+8-9	bēlēya	_	_	_	_	_	_	_	_
+8	bēlē	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	3	appos	_	_
+9	ya	_	_	PRON	Person=1|Number=Sg	8	det	_	_
+10	ša	_	_	PRON	_	15	obj	_	_
+11	šarrāni	_	_	NOUN	Number=Pl|Gender=M	15	nsubj	_	_
+12	ālikūt	_	_	NOUN	Nounbase=Bound|Number=Pl|Gender=M	11	appos	_	_
+13-14	pāniya	_	_	_	_	_	_	_	_
+13	pāni	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	12	nmod:poss	_	_
+14	ya	_	_	PRON	Person=1|Number=Sg	13	det	_	_
+15	ēpušū	_	_	VERB	Verbstem=G|Mood=Subjunctive|Gender=M|Number=Pl|Person=3|Tense=Preterit	_	_	_	_
+16	ēnah	_	_	VERB	Verbstem=G|Person=3|Mood=Indicative|Tense=Preterit|Number=Sg	_	_	_	_
+17	ištu	_	_	ADP	_	18	case	_	_
+18-19	uššēšu	_	_	_	_	_	_	_	_
+18	uššē	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	23	obl	_	_
+19	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	18	det	_	_
+20	adi	_	_	ADP	_	21	case	_	_
+21-22	gabadibbīšu	_	_	_	_	_	_	_	_
+21	gabadibbī	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	23	obl	_	_
+22	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	21	det	_	_
+23	arṣip	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	_	_	_	_
 

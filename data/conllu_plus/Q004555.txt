@@ -1,11 +1,11 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004555-1
-# text = ana Ninurta gešru x parṣē x x ša ina tāhāzi lā iššannanu tību šu x x mukīl markas šamê u erṣeti pētû nagbē x-te Utulu bēl bēlē x ut-tim qātī šu iṣbat x
+# text = ana Ninurta gešru x parṣē x x ša ina tāhāzi lā iššannanu tībušu x x mukīl markas šamê u erṣeti pētû nagbē x-te Utulu bēl bēlē x ut-tim qātīšu iṣbat x
 1	ana	_	_	ADP	_	2	case	_	_
 2	Ninurta	_	_	PROPN	Gender=M	_	_	_	_
 3	gešru	_	_	ADJ	Gender=M|Number=Sg|Case=Nom	2	appos	_	_
-4	x	_	_	_	_	_	_	_	_
-5	parṣē	_	_	NOUN	Gender=M|Number=Pl	_	_	_	_
+4	x	_	_	NOUN	_	2	appos	_	_
+5	parṣē	_	_	NOUN	Gender=M|Number=Pl	4	nmod:poss	_	_
 6	x	_	_	_	_	_	_	_	_
 7	x	_	_	_	_	_	_	_	_
 8	ša	_	_	PRON	_	12	nsubj	_	_
@@ -30,7 +30,7 @@
 26	bēl	_	_	NOUN	Gender=M|Number=Sg|Nounbase=Bound	25	appos	_	_
 27	bēlē	_	_	NOUN	Nounbase=Free|Number=Pl|Gender=M	26	nmod:poss	_	_
 28	x	_	_	_	_	_	_	_	_
-29	ut-tim	_	_	_	_	_	_	_	_
+29	ut-tim	_	_	NOUN	_	32	obj	_	_
 30-31	qātīšu	_	_	_	_	_	_	_	_
 30	qātī	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=F	32	nsubj	_	_
 31	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	30	det	_	_

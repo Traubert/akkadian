@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004503-1
-# text = Aššur-naṣir-apli šarru dannu šarru x x šar kiššati lā šanān x x rubû naʾdu ša x x šamê erṣeti i-x x lā māgirī šu x x šangû ṣīru x Aššur Adad x šangûs su ina x rēʾû x na-x x x x x x zunnī x x x x x luddiš šum ī šaṭra x Aššur Adad bēlē x ša šum ī šaṭra ipaššiṭu x Ištar ilāni rabûti x
+# text = Aššur-naṣir-apli šarru dannu šarru x x šar kiššati lā šanān x x rubû naʾdu ša x x šamê erṣeti i-x x lā māgirīšu x x šangû ṣīru x Aššur Adad x šangûssu ina x rēʾû x na-x x x x x x zunnī x x x x x luddiš šumī šaṭra x Aššur Adad bēlē x ša šumī šaṭra ipaššiṭu x Ištar ilāni rabûti x
 1	Aššur-naṣir-apli	_	_	PROPN	Gender=M	_	_	_	_
 2	šarru	_	_	NOUN	Case=Nom|Number=Sg|Nounbase=Free|Gender=M	1	appos	_	_
 3	dannu	_	_	ADJ	Case=Nom|Number=Sg|Gender=M	2	amod	_	_
@@ -51,7 +51,7 @@
 46	x	_	_	_	_	_	_	_	_
 47	x	_	_	_	_	_	_	_	_
 48	x	_	_	_	_	_	_	_	_
-49	luddiš	_	_	VERB	Verbstem=D|Gender=M|Mood=Precative|Number=Sg|Person=3	_	_	_	_
+49	luddiš	_	_	VERB	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	_	_	_	_
 50-51	šumī	_	_	_	_	_	_	_	_
 50	šum	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=M	_	_	_	_
 51	ī	_	_	PRON	Person=1|Number=Sg	50	det	_	_
