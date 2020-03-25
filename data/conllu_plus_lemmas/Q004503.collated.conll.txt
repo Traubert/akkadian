@@ -1,0 +1,74 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004503-1
+# text = Aššur-naṣir-apli šarru dannu šarru x x šar kiššati lā šanān x x rubû naʾdu ša x x šamê erṣeti i-x x lā māgirī šu x x šangû ṣīru x Aššur Adad x šangûs su ina x rēʾû x na-x x x x x x zunnī x x x x x luddiš šum ī šaṭra x Aššur Adad bēlē x ša šum ī šaṭra ipaššiṭu x Ištar ilāni rabûti x
+1	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=M	_	_	_	{m}aš-šur-PAP-A
+2	šarru	šarru	NOUN	N	Case=Nom|Number=Sg|Nounbase=Free|Gender=M	1	appos	_	MAN
+3	dannu	dannu	ADJ	AJ	Case=Nom|Number=Sg|Gender=M	2	amod	_	dan-nu
+4	šarru	šarru	NOUN	N	Case=Nom|Number=Sg|Nounbase=Free|Gender=M	1	appos	_	MAN
+5	x	x	_	PN	_	_	_	_	x
+6	x	x	_	PN	_	_	_	_	x
+7	šar	šarru	NOUN	N	Number=Sg|Nounbase=Bound|Gender=M	1	appos	_	MAN
+8	kiššati	kiššatu	NOUN	N	Case=Gen|Number=Sg|Nounbase=Free|Gender=F	7	nmod:poss	_	KIŠ
+9	lā šanān	lā|šanānu	ADJ	MOD|V	Gender=M|Number=Sg|Case=Gen	7	amod	_	la|ša₂-na-an
+10	x	x	_	PN	_	_	_	_	x
+11	x	x	_	PN	_	_	_	_	x
+12	rubû	rubû	NOUN	N	Case=Nom|Number=Sg|Nounbase=Free|Gender=M	1	appos	_	NUN-u₂
+13	naʾdu	naʾdu	ADJ	AJ	Case=Nom|Number=Sg|Gender=M	12	amod	_	na-a-du
+14	ša	ša	PRON	DET	_	_	_	_	ša₂
+15	x	x	_	PN	_	_	_	_	x
+16	x	x	_	PN	_	_	_	_	x
+17	šamê	šamû	NOUN	N	Number=Pl|Gender=M	_	_	_	AN-e
+18	erṣeti	erṣetu	NOUN	N	Case=Gen|Number=Sg|Nounbase=Free|Gender=F	17	conj	_	_
+19	i-x	_	_	u	_	_	_	_	i-x
+20	x	x	_	PN	_	_	_	_	x
+21-22	lā māgirīšu	_	_	_	_	_	_	_	_
+21	lā māgirī	lā|māgiru	NOUN	MOD|N	Case=Gen|Nounbase=Suffixal|Number=Pl|Gender=M	_	_	_	la|ma-gi-ri-šu₂
+22	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	21	det	_	_
+23	x	x	_	PN	_	_	_	_	x
+24	x	x	_	PN	_	_	_	_	x
+25	šangû	šangû	NOUN	N	Case=Nom|Number=Sg|Nounbase=Free|Gender=M	1	appos	_	SANGA-u₂
+26	ṣīru	ṣīru	ADJ	AJ	Case=Nom|Number=Sg|Gender=M	25	amod	_	ṣi-ru
+27	x	x	_	PN	_	_	_	_	x
+28	Aššur	Aššur	PROPN	DN	Gender=M	_	_	_	aš-šur
+29	Adad	Adad	PROPN	DN	Gender=M	28	conj	_	{d}IŠKUR
+30	x	x	_	PN	_	_	_	_	x
+31-32	šangûssu	_	_	_	_	_	_	_	_
+31	šangûs	šangûtu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=F	_	_	_	SANGA-su
+32	su	_	_	PRON	Gender=M|Number=Sg|Person=3	31	det	_	_
+33	ina	ina	ADP	PRP	_	_	_	_	i-na
+34	x	x	_	PN	_	_	_	_	x
+35	rēʾû	rēʾû	NOUN	N	Case=Nom|Number=Sg|Nounbase=Free|Gender=M	1	appos	_	{LU₂}SIPA
+36	x	x	_	PN	_	_	_	_	x
+37	na-x	_	_	u	_	_	_	_	na-x
+38	x	x	_	PN	_	_	_	_	x
+39	x	x	_	PN	_	_	_	_	x
+40	x	x	_	PN	_	_	_	_	x
+41	x	x	_	PN	_	_	_	_	x
+42	x	x	_	PN	_	_	_	_	x
+43	zunnī	zunnu	NOUN	N	Gender=M|Number=Pl	_	_	_	ŠEG₃.MEŠ
+44	x	x	_	PN	_	_	_	_	x
+45	x	x	_	PN	_	_	_	_	x
+46	x	x	_	PN	_	_	_	_	x
+47	x	x	_	PN	_	_	_	_	x
+48	x	x	_	PN	_	_	_	_	x
+49	luddiš	edēšu	VERB	V	Verbstem=D|Gender=M|Mood=Precative|Number=Sg|Person=3	_	_	_	lu-ud-diš
+50-51	šumī	_	_	_	_	_	_	_	_
+50	šum	šumu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=M	_	_	_	MU
+51	ī	_	_	PRON	Person=1|Number=Sg	50	det	_	_
+52	šaṭra	šaṭru	ADJ	AJ	Case=Acc|Gender=M|Number=Sg	50	amod	_	šaṭ-ra
+53	x	x	_	PN	_	_	_	_	x
+54	Aššur	Aššur	PROPN	DN	Gender=M	_	_	_	aš-šur
+55	Adad	Adad	PROPN	DN	Gender=M	54	conj	_	{d}IŠKUR
+56	bēlē	bēlu	NOUN	N	Nounbase=Free|Number=Pl|Gender=M	54	appos	_	_
+57	x	x	_	PN	_	_	_	_	x
+58	ša	ša	PRON	REL	_	62	nsubj	_	ša₂
+59-60	šumī	_	_	_	_	_	_	_	_
+59	šum	šumu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=M	62	obj	_	MU
+60	ī	_	_	PRON	Person=1|Number=Sg	59	det	_	_
+61	šaṭra	šaṭru	ADJ	AJ	Case=Acc|Gender=M|Number=Sg	59	amod	_	šaṭ-ra
+62	ipaššiṭu	pašāṭu	VERB	V	Verbstem=G|Mood=Subjunctive|Gender=M|Number=Sg|Person=3|Tense=Present	_	_	_	i-pa-ši-ṭu
+63	x	x	_	PN	_	_	_	_	x
+64	Ištar	Ištar	PROPN	DN	Gender=F	54	conj	_	{d}INANNA
+65	ilāni	ilu	NOUN	N	Number=Pl|Gender=M	54	appos	_	DINGIR.MEŠ
+66	rabûti	rabû	ADJ	AJ	Number=Pl|Gender=M	65	amod	_	GAL.MEŠ
+67	x	x	_	PN	_	_	_	_	x

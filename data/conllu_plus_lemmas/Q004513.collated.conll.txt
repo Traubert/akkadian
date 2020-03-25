@@ -1,0 +1,28 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004513-1
+# text = Aššur-naṣir-apli x šar kullat kibrāt arba’i x x Ninurta šangû ellu x lā māgirī muparriru x x zayyārī šar x kibrāti mār x enūma Emašmaš x
+1	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=M	_	_	_	{m}{d}AŠ-PAP-A
+2	x	x	_	PN	_	_	_	_	x
+3	šar	šarru	NOUN	N	Nounbase=Bound|Gender=M|Number=Sg	1	appos	_	MAN
+4	kullat	kullatu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=F	3	nmod:poss	_	kul₂-lat
+5	kibrāt	kibru	NOUN	N	Nounbase=Bound|Gender=F|Number=Pl	4	nmod:poss	_	kib-rat
+6	arba’i	_	NUM	_	Case=Gen|Nounbase=Free|Number=Sg|Gender=F	5	nummod	_	_
+7	x	x	_	PN	_	_	_	_	x
+8	x	x	_	PN	_	_	_	_	x
+9	Ninurta	Ninurta	PROPN	DN	Gender=M	_	_	_	{d}MAŠ
+10	šangû	šangû	NOUN	N	Case=Nom|Nounbase=Free|Gender=M|Number=Sg	9	appos	_	SANGA-u₂
+11	ellu	ellu	ADJ	N	Case=Nom|Gender=M|Number=Sg	10	amod	_	_
+12	x	x	_	PN	_	_	_	_	x
+13	lā māgirī	lā|māgiru	NOUN	MOD|N	Nounbase=Free|Number=Pl|Gender=M	_	_	_	la|ma-gi-ri
+14	muparriru	muparriru	NOUN	N	Case=Nom|Nounbase=Free|Gender=M|Number=Sg	_	_	_	mu-par₂-ri-ru
+15	x	x	NOUN	PN	Case=Gen|Nounbase=Free	14	nmod:poss	_	x
+16	x	x	NOUN	PN	Nounbase=Bound	_	_	_	x
+17	zayyārī	zayyāru	NOUN	N	Nounbase=Free|Number=Pl|Gender=M	_	_	_	za-ia₂-a-ri
+18	šar	šarru	NOUN	N	Nounbase=Bound|Gender=M|Number=Sg	_	_	_	LUGAL
+19	x	x	_	PN	_	_	_	_	x
+20	kibrāti	kibru	NOUN	N	Nounbase=Bound|Gender=F|Number=Pl	_	_	_	UB.MEŠ
+21	mār	māru	NOUN	N	Nounbase=Bound|Gender=M|Number=Sg	_	_	_	DUMU
+22	x	x	_	PN	_	_	_	_	_
+23	enūma	inūma	ADV	SBJ	_	_	_	_	e-nu-ma
+24	Emašmaš	Emašmaš	PROPN	GN	_	_	_	_	e₂-maš-maš
+25	x	x	_	PN	_	_	_	_	_
