@@ -1,0 +1,42 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004588-1
+# text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššurma
+1	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=M	_	_	_	{m}AŠ-PAP-A
+2	šakin	šaknu	NOUN	N	Number=Sg|Gender=M|Nounbase=Bound	1	appos	_	GAR
+3	Enlil	Enlil	PROPN	DN	Gender=M	2	nmod:poss	_	{d}BAD
+4	iššak	iššiakku	NOUN	N	Number=Sg|Gender=M|Nounbase=Bound	1	appos	_	ŠID
+5	Aššur	Aššur	PROPN	DN	Gender=M	4	nmod:poss	_	AŠ
+6	mār	māru	NOUN	N	Number=Sg|Gender=M|Nounbase=Bound	1	appos	_	A
+7	Tukulti-Ninurta	Tukulti-Ninurta_II	PROPN	RN	Gender=M	6	nmod:poss	_	TUKUL-MAŠ
+8	šakin	šaknu	NOUN	N	Number=Sg|Gender=M|Nounbase=Bound	7	appos	_	GAR
+9	Enlil	Enlil	PROPN	DN	Gender=M	8	nmod:poss	_	{d}BAD
+10	iššak	iššiakku	NOUN	N	Number=Sg|Gender=M|Nounbase=Bound	7	appos	_	ŠID
+11	Aššur	Aššur	PROPN	DN	Gender=M	10	nmod:poss	_	AŠ
+12	mār	māru	NOUN	N	Number=Sg|Gender=M|Nounbase=Bound	7	appos	_	A
+13	Adad-nerari	Adad-narari_II	PROPN	RN	Gender=M	12	nmod:poss	_	10-ERIM.TAH₂
+14	šakin	šaknu	NOUN	N	Number=Sg|Gender=M|Nounbase=Bound	13	appos	_	GAR
+15	Enlil	Enlil	PROPN	DN	Gender=M	14	nmod:poss	_	{d}BAD
+16	iššak	iššiakku	NOUN	N	Number=Sg|Gender=M|Nounbase=Bound	13	appos	_	ŠID
+17-18	Aššurma	_	_	_	_	_	_	_	_
+17	Aššur	Aššur	PROPN	DN	Gender=M	16	nmod:poss	_	AŠ-ma
+18	ma	_	_	PART	_	17	det	_	_
+
+# sent_id = Q004588-2
+# text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššurma enūma bīt Ištar ša Nina bēltiya ultu uššēšu adi gabadibbīšu arṣip
+1	enūma	inūma	ADV	SBJ	_	14	advmod	_	e-nu-ma
+2	bīt	bītu	NOUN	N	Number=Sg|Gender=F|Nounbase=Bound	14	obj	_	E₂
+3	Ištar	Ištar	PROPN	DN	Gender=F	2	nmod:poss	_	{d}INANNA
+4	ša	ša	ADP	DET	_	5	case	_	ša
+5	Nina	Ninua	PROPN	SN	_	3	nmod	_	{URU}ni-na-a
+6-7	bēltiya	_	_	_	_	_	_	_	_
+6	bēlti	bēltu	NOUN	N	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=F	3	appos	_	NIN-ia
+7	ya	_	_	PRON	Person=1|Number=Sg	6	det	_	_
+8	ultu	ištu	ADP	PRP	_	9	case	_	TA
+9-10	uššēšu	_	_	_	_	_	_	_	_
+9	uššē	uššu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	14	obl	_	URU₄-šu₂
+10	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	9	det	_	_
+11	adi	adi	ADP	PRP	_	12	case	_	a-di
+12-13	gabadibbīšu	_	_	_	_	_	_	_	_
+12	gabadibbī	gabadibbu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	14	obl	_	gaba-dib-bi-šu
+13	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	12	det	_	_
+14	arṣip	raṣāpu	VERB	V	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	_	_	_	ar-ṣip

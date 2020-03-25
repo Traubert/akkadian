@@ -1,0 +1,19 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004528-1
+# text = maddattu ša {m}x kaspī hurāṣī x taphi erî diqārāte erî eršī uhhuzāte lubulti birme kitê amhur
+1	maddattu	maddattu	NOUN	N	Case=Nom|Gender=F|Number=Sg	16	obj	_	ma-da-tu₂
+2	ša	ša	ADP	DET	_	3	case	_	ša₂
+3	{m}x	_	PROPN	u	_	1	nmod	_	{m}x
+4	kaspī	kaspu	NOUN	N	Gender=M|Number=Pl	1	appos	_	KU₃.BABBAR.MEŠ
+5	hurāṣī	hurāṣu	NOUN	N	Nounbase=Free|Number=Pl|Gender=M	4	conj	_	KU₃.GI.MEŠ
+6	x	x	NOUN	PN	_	4	conj	_	x
+7	taphi	taphu	NOUN	N	Case=Gen|Nounbase=Free|Number=Sg|Gender=M	4	conj	_	tap-hi
+8	erî	werû	NOUN	N	Number=Sg|Gender=M|Case=Gen|Nounbase=Free	7	nmod:poss	_	_
+9	diqārāte	_	NOUN	_	Gender=M|Number=Pl|Nounbase=Free	4	conj	_	_
+10	erî	werû	NOUN	N	Number=Sg|Gender=M|Case=Gen|Nounbase=Free	9	nmod:poss	_	_
+11	eršī	eršu	NOUN	N	Nounbase=Free|Number=Pl|Gender=F	4	conj	_	{GIŠ}NU₂.MEŠ
+12	uhhuzāte	uhhuzu	ADJ	AJ	Gender=F|Number=Pl	11	amod	_	uh-hu-za-te
+13	lubulti	lubuštu	NOUN	N	Gender=F|Number=Sg|Nounbase=Bound	4	conj	_	_
+14	birme	birmu	NOUN	N	Gender=M|Number=Sgnounbase=Free|Case=Gen	13	nmod:poss	_	_
+15	kitê	kitû	NOUN	N	Gender=M|Number=Pl	14	nmod:poss	_	{TUG₂}GADA.MEŠ
+16	amhur	mahāru	VERB	V	Verbstem=G|Person=1|Tense=Preterit|Mood=Indicative	_	_	_	am-hur

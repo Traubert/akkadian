@@ -1,0 +1,32 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004577-1
+# text = ēkal Aššur-naṣir-apli šarru rabû šarru dannu šar kiššati šar māt Aššur mār Tukulti-Ninurta šar kiššati šar māt Aššur mār Adad-nerari šar kiššati šar māt Aššurma makkūr Kalhi
+1	ēkal	ēkallu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	_	_	_	E₂.GAL
+2	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=M	1	nmod:poss	_	{m}AŠ-PAP-A
+3	šarru	šarru	NOUN	N	Gender=M|Case=Nom|Nounbase=Free|Number=Sg	2	appos	_	MAN
+4	rabû	rabû	ADJ	AJ	Gender=M|Case=Nom|Number=Sg	3	amod	_	GAL
+5	šarru	šarru	NOUN	N	Gender=M|Case=Nom|Nounbase=Free|Number=Sg	2	appos	_	MAN
+6	dannu	dannu	ADJ	AJ	Gender=M|Case=Nom|Number=Sg	5	amod	_	dan-nu
+7	šar	šarru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	MAN
+8	kiššati	kiššatu	NOUN	N	Gender=F|Case=Gen|Nounbase=Free|Number=Sg	7	nmod:poss	_	ŠU₂
+9	šar	šarru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	MAN
+10	māt	mātu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	9	nmod:poss	_	KUR
+11	Aššur	Aššur	PROPN	GN	Gender=M	10	nmod:poss	_	AŠ
+12	mār	māru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	A
+13	Tukulti-Ninurta	Tukulti-Ninurta_II	PROPN	RN	Gender=M	12	nmod:poss	_	TUKUL-MAŠ
+14	šar	šarru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	13	appos	_	MAN
+15	kiššati	kiššatu	NOUN	N	Gender=F|Case=Gen|Nounbase=Free|Number=Sg	14	nmod:poss	_	ŠU₂
+16	šar	šarru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	13	appos	_	MAN
+17	māt	mātu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	16	nmod:poss	_	KUR
+18	Aššur	Aššur	PROPN	GN	Gender=M	17	nmod:poss	_	AŠ
+19	mār	māru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	13	appos	_	A
+20	Adad-nerari	Adad-narari_II	PROPN	RN	Gender=M	19	nmod:poss	_	10-ERIM.TAH₂
+21	šar	šarru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	20	appos	_	MAN
+22	kiššati	kiššatu	NOUN	N	Gender=F|Case=Gen|Nounbase=Free|Number=Sg	21	nmod:poss	_	ŠU₂
+23	šar	šarru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	20	appos	_	MAN
+24	māt	mātu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	23	nmod:poss	_	KUR
+25-26	Aššurma	_	_	_	_	_	_	_	_
+25	Aššur	Aššur	PROPN	GN	Gender=M	24	nmod:poss	_	AŠ-ma
+26	ma	_	_	PART	_	25	det	_	_
+27	makkūr	makkūru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	_	_	_	NIG₂.GA
+28	Kalhi	Kalhu	PROPN	SN	Case=Gen	27	nmod:poss	_	{URU}kal-hi

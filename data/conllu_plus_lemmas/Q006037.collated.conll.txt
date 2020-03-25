@@ -1,0 +1,23 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q006037-1
+# text = x Aššur mār Aššur-dan iššak Aššurma enūma nāmerī x x tibkī lū ulli 35 tibkī ana mahrûte x
+1	x	x	NOUN	PN	Nounbase=Bound|Number=Sg|Gender=M	_	_	_	x
+2	Aššur	Aššur	PROPN	DN	Gender=M	1	nmod:poss	_	aš-šur
+3	mār	māru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	A
+4	Aššur-dan	Aššur-dan_II	PROPN	RN	Gender=M	3	nmod:poss	_	aš-šur-KAL
+5	iššak	iššiakku	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	4	appos	_	ŠID
+6-7	Aššurma	_	_	_	_	_	_	_	_
+6	Aššur	Aššur	PROPN	DN	Gender=M	5	nmod:poss	_	aš-šur-ma
+7	ma	_	_	PART	_	6	det	_	_
+8	enūma	inūma	ADV	SBJ	_	_	_	_	e-nu-ma
+9	nāmerī	nāmaru	NOUN	N	Gender=M|Number=Pl	_	_	_	na-me₂-ri
+10	x	x	_	PN	_	_	_	_	x
+11	x	x	NUM	PN	_	12	nummod	_	x
+12	tibkī	tibku	NOUN	N	Gender=M|Number=Pl	_	_	_	ti-ib-ki
+13	lū	lū	PART	MOD	_	14	advmod:emph	_	lu
+14	ulli	elû	VERB	V	Verbstem=D|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	_	_	_	ul-li
+15	35	_	NUM	n	_	16	nummod	_	35
+16	tibkī	tibku	NOUN	N	Gender=M|Number=Pl	_	_	_	ti-ib-ki
+17	ana	ana	ADP	PRP	_	18	case	_	ana
+18	mahrûte	mahrû	NOUN	N	Nounbase=Free|Number=Pl|Gender=M	_	_	_	mah-ru-te
+19	x	x	_	PN	_	_	_	_	x
