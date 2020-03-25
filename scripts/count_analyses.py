@@ -30,3 +30,12 @@ for n in range(1, max_analyses + 1):
         for analysis in forms[form]:
             n_words += forms[form][analysis]
     print("{words} words with {n} analyses ({words_rel:.1f}%), {forms} forms with {n} analyses ({forms_rel:.1f}%)".format(words = n_words, forms = n_forms, n = n, words_rel = 100*n_words/total_words, forms_rel = 100*n_forms/len(forms)))
+
+multiple_analyses_limit = 2
+for n in range(multiple_analyses_limit, max_analyses + 1):
+    print("Cases with {} analyses:".format(n))
+    for form in forms:
+        if len(forms[form]) == n:
+            print("  " + form)
+            for analysis in forms[form]:
+                print("    {} ({} instances)".format(analysis, forms[form][analysis]))

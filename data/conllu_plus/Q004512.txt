@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004512-1
-# text = x adi tâmti x x Bit-nathi x x x bēlti ya ša Aššur-rabi rubû x x ašar šu umessi dannas su akšud x x ušeklil ussim ušarrih x x narî ya ina qerbi šu aškun x x narâ ana ašri šu lutēr x
+# text = x adi tâmti x x Bit-nathi x x x bēltiya ša Aššur-rabi rubû x x ašaršu umessi dannassu akšud x x ušeklil ussim ušarrih x x narîya ina qerbišu aškun x x narâ ana ašrišu lutēr x
 1	x	_	_	_	_	_	_	_	_
 2	adi	_	_	ADP	_	3	case	_	_
 3	tâmti	_	_	PROPN	_	_	_	_	_
@@ -48,6 +48,6 @@
 40-41	ašrišu	_	_	_	_	_	_	_	_
 40	ašri	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	42	obl	_	_
 41	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	40	det	_	_
-42	lutēr	_	_	VERB	Mood=Precative|Person=3|Verbstem=D|Number=Sg	_	_	_	_
+42	lutēr	_	_	VERB	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	_	_	_	_
 43	x	_	_	_	_	_	_	_	_
 

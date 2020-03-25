@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004485-1
-# text = Aššur-naṣir-apli šarru rabû šarru dannu šar kiššati šar māt Aššur mār Tukulti-Ninurta šarru rabû šarru dannu šar kiššati šar māt Aššur mār Adad-nerari šarru rabû šarru dannu šar kiššati šar māt Aššur ma eṭlu qardu ša ina tukulti Aššur bēli šu ittallaku ma ina malkī ša kibrāt erbetta šānin šu lā īšû rēʾû tabrâte lā ēdiru tuqumti edû gapšu ša māhira lā īšû šarru ša ultu ebertān Idiqlat adi Labnana u Tamti-rabite Laqe ana sihirti ša Suhi adi Rapiqi ana šēpī šu ušakniša ultu rēš ēni Subnat adi Nirib ša bētāni qās su ikšud ultu nēreb ša Habruri adi Gilzani ultu ebertān Zaba-šapliti adi Til-Bari ša ellān Zaban ultu Til-ša-Abtani adi Til-Zabdani Hirimu Harutu birāte ša Karduniaš ana miṣri māti ya uterra u rapšāte mātāt Nairi ana pāṭ gimri ša apēl
+# text = Aššur-naṣir-apli šarru rabû šarru dannu šar kiššati šar māt Aššur mār Tukulti-Ninurta šarru rabû šarru dannu šar kiššati šar māt Aššur mār Adad-nerari šarru rabû šarru dannu šar kiššati šar māt Aššurma eṭlu qardu ša ina tukulti Aššur bēlišu attallakuma ina malkī ša kibrāt erbetta šāninšu lā īšû rēʾû tabrâte lā ēdiru tuqumti edû gapšu ša māhira lā īšû šarru ša ultu ebertān Idiqlat adi Labnana u Tamti-rabite Laqe ana sihirtiša Suhi adi Rapiqi ana šēpīšu ušakniša ultu rēš ēni Subnat adi Nirib ša bētāni qāssu ikšud ultu nēreb ša Habruri adi Gilzani ultu ebertān Zaba-šapliti adi Til-Bari ša ellān Zaban ultu Til-ša-Abtani adi Til-Zabdani Hirimu Harutu birāte ša Karduniaš ana miṣri mātiya uterra u rapšāte mātāt Nairi ana pāṭ gimriša apēl
 1	Aššur-naṣir-apli	_	_	PROPN	Gender=M	_	_	_	_
 2	šarru	_	_	NOUN	Nounbase=Free|Case=Nom|Gender=M|Number=Sg	1	appos	_	_
 3	rabû	_	_	ADJ	Case=Nom|Gender=M|Number=Sg	2	amod	_	_
@@ -73,7 +73,7 @@
 66	ebertān	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	82	obl	_	_
 67	Idiqlat	_	_	PROPN	Gender=F	66	nmod:poss	_	_
 68	adi	_	_	ADP	_	69	case	_	_
-69	Labnana	_	_	PROPN	_	_	_	_	_
+69	Labnana	_	_	PROPN	_	82	obl	_	_
 70	u	_	_	CONJ	_	71	cc	_	_
 71	Tamti-rabite	_	_	PROPN	Gender=F	69	conj	_	_
 72	Laqe	_	_	PROPN	_	82	obj	_	_
@@ -142,7 +142,7 @@
 130	apēl	_	_	VERB	Number=Sg|Tense=Preterit|Person=1|Verbstem=G|Mood=Indicative	_	_	_	_
 
 # sent_id = Q004485-2
-# text = Kalhu ana eššūte aṣbat tīlu labēru unakkir adi muhhi mê lū ušappil 1 mē 20 tikpī ana mušpali lū uṭabbi bīt Ninurta bēli ya ina qereb šu lū addi enūma ṣalam Ninurta šuātu ša ina pān lā bašû ina hissat libbi ya lamassi ilūti šu rabīti ina dumuq aban šadê u hurāṣi huššê lū abni ana ilūti ya rabīte ina Kalhi lū amnu šu isinnāte šu ša Šabaṭi u Ululi lū aškun ēkurru šī ana nalbân lū akṣur
+# text = Aššur-naṣir-apli šarru rabû šarru dannu šar kiššati šar māt Aššur mār Tukulti-Ninurta šarru rabû šarru dannu šar kiššati šar māt Aššur mār Adad-nerari šarru rabû šarru dannu šar kiššati šar māt Aššurma eṭlu qardu ša ina tukulti Aššur bēlišu attallakuma ina malkī ša kibrāt erbetta šāninšu lā īšû rēʾû tabrâte lā ēdiru tuqumti edû gapšu ša māhira lā īšû šarru ša ultu ebertān Idiqlat adi Labnana u Tamti-rabite Laqe ana sihirtiša Suhi adi Rapiqi ana šēpīšu ušakniša ultu rēš ēni Subnat adi Nirib ša bētāni qāssu ikšud ultu nēreb ša Habruri adi Gilzani ultu ebertān Zaba-šapliti adi Til-Bari ša ellān Zaban ultu Til-ša-Abtani adi Til-Zabdani Hirimu Harutu birāte ša Karduniaš ana miṣri mātiya uterra u rapšāte mātāt Nairi ana pāṭ gimriša apēl Kalhu ana eššūte aṣbat tīlu labēru unakkir adi muhhi mê lū ušappil 1 mē 20 tikpī ana mušpali lū uṭabbi bīt Ninurta bēliya ina qerebšu lū addi enūma ṣalam Ninurta šuātu ša ina pān lā bašû ina hissat libbiya lamassi ilūtišu rabīti ina dumuq aban šadê u hurāṣi huššê lū abni ana ilūtiya rabīte ina Kalhi lū amnûšu isinnātešu ša Šabaṭi u Ululi lū aškun ēkurru šī ana nalbân lū akṣur
 1	Kalhu	_	_	PROPN	Case=Nom	4	obj	_	_
 2	ana	_	_	ADP	_	3	case	_	_
 3	eššūte	_	_	NOUN	Case=Gen|Gender=F|Number=Sg	4	obl	_	_
@@ -228,7 +228,7 @@
 76	akṣur	_	_	VERB	Number=Sg|Tense=Preterit|Person=1|Verbstem=G|Mood=Indicative	_	_	_	_
 
 # sent_id = Q004485-3
-# text = parak Ninurta bēli ya ina qereb šu lū addi enūma Ninurta bēlu ina parakki šu elli ina atmani šu ša ruʾāme ina hūd libbi šu ana dārâte uššabu kīniš lippardâ arāk ūmē ya liqbi šumʾud šanāti ya littasqar šangût ī lirām ēma qabli u tāhāzī ašar uṣammaru ṣumrāt libbi ya lū ušakšid anni
+# text = Aššur-naṣir-apli šarru rabû šarru dannu šar kiššati šar māt Aššur mār Tukulti-Ninurta šarru rabû šarru dannu šar kiššati šar māt Aššur mār Adad-nerari šarru rabû šarru dannu šar kiššati šar māt Aššurma eṭlu qardu ša ina tukulti Aššur bēlišu attallakuma ina malkī ša kibrāt erbetta šāninšu lā īšû rēʾû tabrâte lā ēdiru tuqumti edû gapšu ša māhira lā īšû šarru ša ultu ebertān Idiqlat adi Labnana u Tamti-rabite Laqe ana sihirtiša Suhi adi Rapiqi ana šēpīšu ušakniša ultu rēš ēni Subnat adi Nirib ša bētāni qāssu ikšud ultu nēreb ša Habruri adi Gilzani ultu ebertān Zaba-šapliti adi Til-Bari ša ellān Zaban ultu Til-ša-Abtani adi Til-Zabdani Hirimu Harutu birāte ša Karduniaš ana miṣri mātiya uterra u rapšāte mātāt Nairi ana pāṭ gimriša apēl Kalhu ana eššūte aṣbat tīlu labēru unakkir adi muhhi mê lū ušappil 1 mē 20 tikpī ana mušpali lū uṭabbi bīt Ninurta bēliya ina qerebšu lū addi enūma ṣalam Ninurta šuātu ša ina pān lā bašû ina hissat libbiya lamassi ilūtišu rabīti ina dumuq aban šadê u hurāṣi huššê lū abni ana ilūtiya rabīte ina Kalhi lū amnûšu isinnātešu ša Šabaṭi u Ululi lū aškun ēkurru šī ana nalbân lū akṣur parak Ninurta bēliya ina qerebšu lū addi enūma Ninurta bēlu ina parakkišu elli ina atmanišu ša ruʾāme ina hūd libbišu ana dārâte uššabu kīniš lippardâ arāk ūmēya liqbi šumʾud šanātiya littasqar šangûti lirām ēma qabli u tāhāzī ašar uṣammaru ṣumrāt libbiya lū ušakšidanni
 1	parak	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	9	obj	_	_
 2	Ninurta	_	_	PROPN	Gender=M	1	nmod:poss	_	_
 3-4	bēliya	_	_	_	_	_	_	_	_

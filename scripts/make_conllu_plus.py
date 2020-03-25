@@ -14,21 +14,34 @@ def convert_file(readfilename, writefilename):
     writefile.write(columns_comment)
     this_sentence_lines = []
     sentence_number = 1
+    this_text_surfaces = []
+    skip_surfaces_until = 0
     for line in open(readfilename):
         line = line.strip()
         basename = os.path.basename(readfilename)
         Q_number = basename[:7]
-        if line == '':
+        if line.startswith('#'):
+            continue
+        elif line == '':
             if len(this_sentence_lines) == 0:
                 continue
             writefile.write('# sent_id = {}-{}\n'.format(Q_number, sentence_number))
             sentence_number += 1
+            writefile.write('# text = {}\n'.format(' '.join(this_text_surfaces)))
+            this_text = []
             writefile.write('\n'.join(this_sentence_lines))
             writefile.write('\n\n')
             this_sentence_lines = []
+            skip_surfaces_until = 0
         else:
             parts = line.split('\t')
             if len(parts) == 10:
+                if '-' in parts[0]:
+                    this_text_surfaces.append(parts[1])
+                    skip_surfaces_until = int(parts[0].split('-')[1]) + 1
+                else:
+                    if int(parts[0]) >= skip_surfaces_until:
+                        this_text_surfaces.append(parts[1])
                 for index in [7, 8]:
                     if len(parts[index]) > 1:
                         parts[index] = parts[index].replace('_', ':')

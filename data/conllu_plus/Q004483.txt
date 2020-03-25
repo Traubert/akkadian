@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004483-1
-# text = x rēmēnû x x šar lā šanān x x Ninurta narām x x narām libbi ka rubû x x tušaršidu palâ šu eṭlu x x rēʾûti māti šu rabîš ib-x x šarrūt ī bēlūt ī kiššūt ī ša x x lēʾâku eršāku x
+# text = x rēmēnû x x šar lā šanān x x Ninurta narām x x narām libbika rubû x x tušaršidu palâšu eṭlu x x rēʾûti mātišu rabîš ib-x x šarrūti bēlūtī kiššūtī ša x x lēʾâku eršāku x
 1	x	_	_	_	_	_	_	_	_
 2	rēmēnû	_	_	ADJ	Case=Nom|Gender=M|Number=Sg	_	_	_	_
 3	x	_	_	_	_	_	_	_	_
@@ -51,7 +51,7 @@
 42	x	_	_	_	_	_	_	_	_
 
 # sent_id = Q004483-2
-# text = x māt Aššur rubû ālik pāni ya x x abni nišī kišitti x x sihirti ša ša {URU}x x mādūte Hatta x x bīt Enlil u Ninurta bīt x x bīt Sin u Gula x x ušarrih gušūrī x x ēpuš ina mesir siparri x x ina šumēli x ušazziz x
+# text = x rēmēnû x x šar lā šanān x x Ninurta narām x x narām libbika rubû x x tušaršidu palâšu eṭlu x x rēʾûti mātišu rabîš ib-x x šarrūti bēlūtī kiššūtī ša x x lēʾâku eršāku x x māt Aššur rubû ālik pāniya x x abni nišī kišitti x x sihirtiša ša {URU}x x mādūte Hatta x x bīt Enlil u Ninurta bīt x x bīt Sin u Gula x x ušarrih gušūrī x x ēpuš ina mesir siparri x x ina šumēli x ušazziz x
 1	x	_	_	NOUN	Nounbase=Bound	_	_	_	_
 2	māt	_	_	NOUN	Gender=F|Number=Sg|Nounbase=Bound	1	nmod:poss	_	_
 3	Aššur	_	_	PROPN	Gender=M	2	nmod:poss	_	_
@@ -81,10 +81,10 @@
 25	Enlil	_	_	PROPN	Gender=M	24	nmod:poss	_	_
 26	u	_	_	CONJ	_	27	cc	_	_
 27	Ninurta	_	_	PROPN	Gender=M	25	conj	_	_
-28	bīt	_	_	NOUN	Gender=F|Number=Sg|Nounbase=Bound	_	_	_	_
+28	bīt	_	_	NOUN	Gender=F|Number=Sg|Nounbase=Bound	24	conj	_	_
 29	x	_	_	_	_	_	_	_	_
 30	x	_	_	_	_	_	_	_	_
-31	bīt	_	_	NOUN	Gender=F|Number=Sg|Nounbase=Bound	_	_	_	_
+31	bīt	_	_	NOUN	Gender=F|Number=Sg|Nounbase=Bound	24	conj	_	_
 32	Sin	_	_	PROPN	Gender=M	31	nmod:poss	_	_
 33	u	_	_	CONJ	_	34	cc	_	_
 34	Gula	_	_	PROPN	Gender=F	32	conj	_	_
@@ -101,13 +101,13 @@
 45	x	_	_	_	_	_	_	_	_
 46	x	_	_	_	_	_	_	_	_
 47	ina	_	_	ADP	_	48	case	_	_
-48	šumēli	_	_	NOUN	Case=Gen|Nounbase=Free|Number=Sg|Gender=M	_	_	_	_
+48	šumēli	_	_	NOUN	Case=Gen|Nounbase=Free|Number=Sg|Gender=M	50	obl	_	_
 49	x	_	_	_	_	_	_	_	_
 50	ušazziz	_	_	VERB	Tense=Preterit|Number=Sg|Person=1|Mood=Indicative|Verbstem=S	_	_	_	_
 51	x	_	_	_	_	_	_	_	_
 
 # sent_id = Q004483-3
-# text = x arkû ina šarrāni x x anhūt ēkurrāti x x ana ašri šunu x x ašar taqrubti x x annu kīnu ippal šu x x ana pān ēkurri šu x
+# text = x rēmēnû x x šar lā šanān x x Ninurta narām x x narām libbika rubû x x tušaršidu palâšu eṭlu x x rēʾûti mātišu rabîš ib-x x šarrūti bēlūtī kiššūtī ša x x lēʾâku eršāku x x māt Aššur rubû ālik pāniya x x abni nišī kišitti x x sihirtiša ša {URU}x x mādūte Hatta x x bīt Enlil u Ninurta bīt x x bīt Sin u Gula x x ušarrih gušūrī x x ēpuš ina mesir siparri x x ina šumēli x ušazziz x x arkû ina šarrāni x x anhūt ēkurrāti x x ana ašrišunu x x ašar taqrubti x x annu kīnu ippalšu x x ana pān ēkurrišu x
 1	x	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	_	_	_	_
 2	arkû	_	_	ADJ	Case=Nom|Gender=M|Number=Sg	1	amod	_	_
 3	ina	_	_	ADP	_	4	case	_	_
@@ -143,7 +143,7 @@
 30	x	_	_	_	_	_	_	_	_
 
 # sent_id = Q004483-4
-# text = x šanî ma išakkanu x x Ištar bēlat qabli u tāhāzi x
+# text = x rēmēnû x x šar lā šanān x x Ninurta narām x x narām libbika rubû x x tušaršidu palâšu eṭlu x x rēʾûti mātišu rabîš ib-x x šarrūti bēlūtī kiššūtī ša x x lēʾâku eršāku x x māt Aššur rubû ālik pāniya x x abni nišī kišitti x x sihirtiša ša {URU}x x mādūte Hatta x x bīt Enlil u Ninurta bīt x x bīt Sin u Gula x x ušarrih gušūrī x x ēpuš ina mesir siparri x x ina šumēli x ušazziz x x arkû ina šarrāni x x anhūt ēkurrāti x x ana ašrišunu x x ašar taqrubti x x annu kīnu ippalšu x x ana pān ēkurrišu x x šanîma išakkanu x x Ištar bēlat qabli u tāhāzi x
 1	x	_	_	_	_	_	_	_	_
 2-3	šanîma	_	_	_	_	_	_	_	_
 2	šanî	_	_	ADJ	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	_	_	_	_

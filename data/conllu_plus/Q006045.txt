@@ -1,0 +1,31 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q006045-1
+# text = ēkal Tukulti-Ninurta šarru dannu šar kiššati šar māt Aššur mār Adad-nerari šarru dannu šar kiššati šar māt Aššur mār Aššur-dan šar kiššati šar māt Aššurma
+1	ēkal	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	_	_	_	_
+2	Tukulti-Ninurta	_	_	PROPN	Gender=M	1	nmod:poss	_	_
+3	šarru	_	_	NOUN	Nounbase=Free|Number=Sg|Gender=M|Case=Nom	2	appos	_	_
+4	dannu	_	_	ADJ	Case=Nom|Number=Sg|Gender=M	3	amod	_	_
+5	šar	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	2	appos	_	_
+6	kiššati	_	_	NOUN	Nounbase=Free|Number=Sg|Gender=F|Case=Gen	5	nmod:poss	_	_
+7	šar	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	2	appos	_	_
+8	māt	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	7	nmod:poss	_	_
+9	Aššur	_	_	PROPN	Gender=M	8	nmod:poss	_	_
+10	mār	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	2	appos	_	_
+11	Adad-nerari	_	_	PROPN	Gender=M	10	nmod:poss	_	_
+12	šarru	_	_	NOUN	Nounbase=Free|Number=Sg|Gender=M|Case=Nom	11	appos	_	_
+13	dannu	_	_	ADJ	Case=Nom|Number=Sg|Gender=M	12	amod	_	_
+14	šar	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	11	appos	_	_
+15	kiššati	_	_	NOUN	Nounbase=Free|Number=Sg|Gender=F|Case=Gen	14	nmod:poss	_	_
+16	šar	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	11	appos	_	_
+17	māt	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	16	nmod:poss	_	_
+18	Aššur	_	_	PROPN	Gender=M	17	nmod:poss	_	_
+19	mār	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	11	appos	_	_
+20	Aššur-dan	_	_	PROPN	Gender=M	19	nmod:poss	_	_
+21	šar	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	20	appos	_	_
+22	kiššati	_	_	NOUN	Nounbase=Free|Number=Sg|Gender=F|Case=Gen	21	nmod:poss	_	_
+23	šar	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	20	appos	_	_
+24	māt	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	23	nmod:poss	_	_
+25-26	Aššurma	_	_	_	_	_	_	_	_
+25	Aššur	_	_	PROPN	Gender=M	24	nmod:poss	_	_
+26	ma	_	_	PART	_	25	det	_	_
+

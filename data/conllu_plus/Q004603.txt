@@ -1,0 +1,15 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004603-1
+# text = kunuk Mušezib-Ninurta iššakku mār Ninurta-eriš MIN ma mār Samanuha-šar-ilani MIN ma
+1	kunuk	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	_	_	_	_
+2	Mušezib-Ninurta	_	_	PROPN	Gender=M	1	nmod:poss	_	_
+3	iššakku	_	_	NOUN	Case=Nom|Number=Sg|Gender=M|Nounbase=Free	2	appos	_	_
+4	mār	_	_	NOUN	Number=Sg|Gender=M|Nounbase=Bound	2	appos	_	_
+5	Ninurta-eriš	_	_	PROPN	Gender=M	4	nmod:poss	_	_
+6	MIN	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	5	appos	_	_
+7	ma	_	_	PART	_	6	det	_	_
+8	mār	_	_	NOUN	Number=Sg|Gender=M|Nounbase=Bound	5	appos	_	_
+9	Samanuha-šar-ilani	_	_	PROPN	Gender=M	8	nmod:poss	_	_
+10	MIN	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	9	appos	_	_
+11	ma	_	_	PART	_	10	det	_	_
+
