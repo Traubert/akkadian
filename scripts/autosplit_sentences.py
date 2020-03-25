@@ -33,14 +33,18 @@ def get_id(line):
     return line.split('\t')[0]
 
 def convert_file(name, read_fobj, write_fobj):
-    log_fobj.write("Converting {}\n".format(name))
-#    write_fobj.write(columns_comment)
+    log_fobj.write("Autosplitting {}\n".format(name))
+    write_fobj.write(columns_comment)
     sent_num = 1
 #    lines = list(filter(not_comment, read_fobj.readlines()))
     lines = read_fobj.readlines()
     sentences = split(lines, "\n")
     for sentence in sentences:
-        log_fobj.write("Reading sentence {}".format(sentence[0]))
+        if sentence[0].startswith("# sent_id = "):
+            sentence_id = sentence[0]
+        else:
+            sentence_id = sentence[1]
+        log_fobj.write("\n  Reading original sentence {}".format(sentence_id))
         head_ids = set()
         parent2children = {}
         heads = []
@@ -73,15 +77,25 @@ def convert_file(name, read_fobj, write_fobj):
                 heads.append(get_id(line))
                 sentence[i] = '\t'.join(parts)
         lastright = None
+        assigned_ids = set()
         for head in heads:
             children = list(map(int, collect_children(head)))
             leftmost = min(children + [int(head)])
             if lastright != None:
                 if not conservative or leftmost == lastright + 1:
-                    log_fobj.write("Inserting split at original id {}\n".format(lastright))
+                    log_fobj.write("    Inserting split at original id {}\n".format(lastright))
                     splits.append(lastright)
             lastright = max(children + [int(head)])
-        write_fobj.write(apply_splits(list(map(lambda x: x.strip('\n'), sentence)), splits))
+            log_fobj.write("    Apparent sentence root {}: leftmost child was {}, rightmost child was {}\n".format(head, leftmost, lastright))
+            this_range = set(range(leftmost, lastright + 1))
+            if not assigned_ids.isdisjoint(this_range):
+                log_fobj.write("    OVERLAPPING TREE\n")
+            assigned_ids.update(this_range)
+        for new_sentence, new_surface in apply_splits(list(map(lambda x: x.strip('\n'), filter(not_comment, sentence))), sorted(splits)):
+            write_fobj.write('# sent_id = {}-{}\n'.format(name, sent_num))
+            write_fobj.write('# text = {}\n'.format(new_surface))
+            sent_num += 1
+            write_fobj.write('\n'.join(new_sentence)+'\n\n')
     log_fobj.write("\n")
 #            print(leftmost, rightmost)
             
@@ -89,16 +103,20 @@ def convert_file(name, read_fobj, write_fobj):
 #    print(sentences)
         
 def apply_splits(lines, splits):
-    new_lines = []
+    new_sentences = []
+    new_texts = []
+    this_text = []
+    skip_surfaces_until = 0
+    this_sentence = []
     split = 0
     offset = 0
     for line in lines:
-        if line.startswith('#'):
-            new_lines.append(line)
-            continue
+        # if line.startswith('#'):
+        #     new_lines.append(line)
+        #     continue
         parts = line.split('\t')
         if len(parts) < 10:
-            new_lines.append(line)
+            this_sentence.append(line)
             continue
         if '-' in parts[0]:
             this_word_num = int(parts[0][:parts[0].index('-')])
@@ -107,11 +125,18 @@ def apply_splits(lines, splits):
         if len(splits) > split and this_word_num > splits[split]:
             offset = splits[split]
             split += 1
-            new_lines.append('')
+            new_sentences.append(this_sentence)
+            this_sentence = []
+            new_texts.append(' '.join(this_text))
+            this_text = []
         if '-' in parts[0]:
             start, stop = parts[0].split('-')
             part_0 = '{}-{}'.format(int(start) - offset, int(stop) - offset)
+            this_text.append(parts[1])
+            skip_surfaces_until = int(parts[0].split('-')[1]) + 1
         else:
+            if int(parts[0]) >= skip_surfaces_until:
+                this_text.append(parts[1])
             part_0 = str(int(parts[0]) - offset)
         part_6 = parts[6]
         if part_6 != '_' and part_6 != '0':
@@ -130,7 +155,7 @@ def apply_splits(lines, splits):
         else:
             part_8 = '_'
         assert(part_0 and parts[1] and parts[3] and parts[4] and parts[5] and part_6 and parts[7] and part_8 and parts[9])
-        new_lines.append('\t'.join(
+        this_sentence.append('\t'.join(
             (part_0,
              parts[1],
              '_',
@@ -142,7 +167,11 @@ def apply_splits(lines, splits):
              part_8,
              parts[9]
             )))
-    return '\n'.join(new_lines)
+    if this_sentence:
+        new_sentences.append(this_sentence)
+    if this_text:
+        new_texts.append(' '.join(this_text))
+    return zip(new_sentences, new_texts)
 
 for filename in os.listdir(readdirpath):
     if not filename.startswith("Q"):# or '_part_' in filename:
