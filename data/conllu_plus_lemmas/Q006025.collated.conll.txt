@@ -1,0 +1,34 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q006025-1
+# text = ēkal Adad-nerari šarri danni šar kiššati šar māt Aššur mār Aššur-dan šar kiššati šar māt Aššur x mār Tukulti-apil-Ešarra šar kiššati šar māt Aššurma x x x x x
+1	ēkal	ēkallu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	_	_	_	E₂.GAL
+2	Adad-nerari	Adad-narari_II	PROPN	RN	Gender=M	1	nmod:poss	_	{m}{d}IŠKUR-ERIM.TAH₂
+3	šarri	šarru	NOUN	N	Gender=M|Nounbase=Free|Case=Gen|Number=Sg	2	appos	_	MAN
+4	danni	dannu	ADJ	AJ	Case=Gen|Gender=M|Number=Sg	3	amod	_	dan-ni
+5	šar	šarru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	MAN
+6	kiššati	kiššatu	NOUN	N	Gender=F|Nounbase=Free|Case=Gen|Number=Sg	5	nmod:poss	_	KIŠ
+7	šar	šarru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	MAN
+8	māt	mātu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	7	nmod:poss	_	KUR
+9	Aššur	Aššur	PROPN	GN	Gender=M	8	nmod:poss	_	AŠ
+10	mār	māru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	A
+11	Aššur-dan	Aššur-dan_II	PROPN	RN	Gender=M	10	nmod:poss	_	aš-šur-KAL-an
+12	šar	šarru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	11	appos	_	MAN
+13	kiššati	kiššatu	NOUN	N	Gender=F|Nounbase=Free|Case=Gen|Number=Sg	12	nmod:poss	_	KIŠ
+14	šar	šarru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	11	appos	_	MAN
+15	māt	mātu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	14	nmod:poss	_	KUR
+16	Aššur	Aššur	PROPN	GN	Gender=M	15	nmod:poss	_	AŠ
+17	x	x	_	PN	_	_	_	_	x
+18	mār	māru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	11	appos	_	A
+19	Tukulti-apil-Ešarra	Tukulti-apil-Ešarra_I	PROPN	RN	Gender=M	18	nmod:poss	_	GISKIM-A-e₂-šar₂-ra
+20	šar	šarru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	19	appos	_	MAN
+21	kiššati	kiššatu	NOUN	N	Gender=F|Nounbase=Free|Case=Gen|Number=Sg	20	nmod:poss	_	KIŠ
+22	šar	šarru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	19	appos	_	MAN
+23	māt	mātu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	22	nmod:poss	_	KUR
+24-25	Aššurma	_	_	_	_	_	_	_	_
+24	Aššur	Aššur	PROPN	GN	Gender=M	23	nmod:poss	_	AŠ-ma
+25	ma	_	_	PART	_	24	det	_	_
+26	x	x	_	PN	_	_	_	_	x
+27	x	x	_	PN	_	_	_	_	x
+28	x	x	_	PN	_	_	_	_	x
+29	x	x	_	PN	_	_	_	_	x
+30	x	x	_	PN	_	_	_	_	x

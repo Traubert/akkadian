@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q006034-1
-# text = Marduk apkal ilāni bēl têrēte Ninurta qarrād Igigi u Anunnaki Nergal gitmālu šar tamhāri Nusku nāš haṭṭi elleti ilu multālu Ninlil hīrti Enlil ummi ilāni rabûti Ištar rēštīti šamê erṣeti ša paraṣ qardūte šuklulat ilāni rabûte gāmerūt purussî mušimmū šīmāti x x x ta šu Ninurta rubā naʾda x ša ina šassūr ummi kīniš x nabnīt ī ana nabnīt bēlē uštennû x x x x x nišī x x x x a hi elleti x x šikin bunnannî ya išeriš ušeklilū ma x x x x x a x x x x a šu x x u ina x x x x x ana pāni x x x ina bīt ili x x-a-ti ša ūmē x x x a x x x x x x x ga ru x x x iš x x x x
+# text = Marduk apkal ilāni bēl têrēte Ninurta qarrād Igigi u Anunnaki Nergal gitmālu šar tamhāri Nusku nāš haṭṭi elleti ilu multālu Ninlil hīrti Enlil ummi ilāni rabûti Ištar rēštīti šamê erṣeti ša paraṣ qardūte šuklulat ilāni rabûte gāmerūt purussî mušimmū šīmāti x x x ta šu Ninurta rubā naʾda x ša ina šassūr ummi kīniš x nabnīti ana nabnīt bēlē uštennû x x x x x nišī x x x x a hi elleti x x šikin bunnannîya išeriš ušekliluma x x x x x a x x x x a šu x x u ina x x x x x ana pāni x x x ina bīt ili x x-a-ti ša ūmē x x x a x x x x x x x ga ru x x x iš x x x x
 1	Marduk	Marduk	PROPN	DN	Gender=M	_	_	_	{d}AMAR.UTU
 2	apkal	apkallu	NOUN	N	Nounbase=Bound|Gender=M|Number=Sg	1	appos	_	ABGAL
 3	ilāni	ilu	NOUN	N	Gender=M|Number=Pl	2	nmod:poss	_	DINGIR.MEŠ
@@ -12,14 +12,14 @@
 9	u	u	CONJ	CNJ	_	10	cc	_	u₃
 10	Anunnaki	Anunnaku	PROPN	DN	Number=Pl	8	conj	_	{d}a-nun-na-ki
 11	Nergal	Nergal	PROPN	DN	Gender=M	1	conj	_	{d}U.GUR
-12	gitmālu	gitmālu	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	11	appos	_	git₂-ma-lu
+12	gitmālu	gitmālu	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	11	amod	_	git₂-ma-lu
 13	šar	šarru	NOUN	N	Nounbase=Bound|Gender=M|Number=Sg	11	appos	_	MAN
 14	tamhāri	tamhāru	NOUN	N	Nounbase=Free|Case=Gen|Gender=M|Number=Sg	13	nmod:poss	_	tam-ha-ri
 15	Nusku	Nusku	PROPN	DN	Gender=M	1	conj	_	{d}nusku
 16	nāš	nāšû	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	15	appos	_	na-a-aš₂
 17	haṭṭi	haṭṭu	NOUN	N	Nounbase=Free|Case=Gen|Gender=F|Number=Sg	16	nmod:poss	_	{GIŠ}GIDRU
 18	elleti	ellu	ADJ	AJ	Case=Gen|Gender=F|Number=Sg	17	amod	_	KU₃-ti
-19	ilu	il	NOUN	N	Nounbase=Free|Case=Nom|Gender=M|Number=Sg	15	appos	_	_
+19	ilu	ilu	NOUN	N	Nounbase=Free|Case=Nom|Gender=M|Number=Sg	15	appos	_	_
 20	multālu	muštālu	ADJ	N	Case=Nom|Gender=M|Number=Sg	19	amod	_	mul-ta-lu
 21	Ninlil	Ninlil	PROPN	DN	Gender=F	1	conj	_	{d}NIN.LIL₂
 22	hīrti	hīrtu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=F	21	appos	_	hi-ir-ti
@@ -32,7 +32,7 @@
 29	šamê	šamû	NOUN	N	Gender=M|Number=Pl	28	nmod:poss	_	AN-e
 30	erṣeti	erṣetu	NOUN	N	Nounbase=Free|Case=Gen|Gender=F|Number=Sg	28	nmod:poss	_	KI-ti
 31	ša	ša	PRON	DET	_	34	nsubj	_	ša₂
-32	paraṣ	parṣu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	_	_	_	pa-ra-aṣ
+32	paraṣ	parṣu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	34	obl	_	pa-ra-aṣ
 33	qardūte	qardu	NOUN	AJ	Case=Gen|Nounbase=Free|Number=Sg|Gender=F	32	nmod:poss	_	qar-du-te
 34	šuklulat	šuklulu	VERB	AJ	Verbstem=S|Gender=F|Mood=Stative|Number=Sg|Person=3	27	acl:relcl	_	šuk-lu-lat
 35	ilāni	ilu	NOUN	N	Gender=M|Number=Pl	_	_	_	DINGIR.MEŠ
@@ -47,12 +47,12 @@
 44	ta	_	_	u	_	_	_	_	ta
 45	šu	šû	_	N	_	_	_	_	šu
 46	Ninurta	Ninurta	PROPN	DN	Gender=M	_	_	_	{d}nin-urta
-47	rubā	rubû	NOUN	N	Case=Acc|Nounbase=Free|Number=Sg|Gender=M	46	appos	_	NUN-a
+47	rubā	rubû	NOUN	N	Case=Acc|Nounbase=Free|Number=Sg|Gender=M	_	_	_	NUN-a
 48	naʾda	naʾdu	ADJ	AJ	Case=Acc|Gender=M|Number=Sg	47	amod	_	na-a-da
 49	x	x	_	PN	_	_	_	_	x
 50	ša	ša	PRON	REL	_	55	nsubj	_	ša
 51	ina	ina	ADP	PRP	_	52	case	_	ina
-52	šassūr	šassūru	NOUN	N	Nounbase=Bound|Number=Sg|Gender=F	_	_	_	ŠA₃.TUR₃
+52	šassūr	šassūru	NOUN	N	Nounbase=Bound|Number=Sg|Gender=F	55	obl	_	ŠA₃.TUR₃
 53	ummi	ummu	NOUN	N	Nounbase=Bound|Gender=F|Number=Sg	52	nmod:poss	_	um-mi
 54	kīniš	kīniš	ADV	AV	_	55	advmod	_	ki-ni-iš
 55	x	x	VERB	PN	_	_	_	_	x

@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004602-1
-# text = ana Adad gugal šamê u erṣeti mušaznin nuhši nādin rîti u mašqīte ana nišī kal dadmē nādin išqu u nindabê ana ili ahhē šu gugal nārāti muṭahhidu kibrāti ilu rēmēnû ša sīpu šu ṭāb āšib Guzani bēlu rabû bēl šu
+# text = ana Adad gugal šamê u erṣeti mušaznin nuhši nādin rîti u mašqīte ana nišī kal dadmē nādin išqu u nindabê ana ili ahhīšu gugal nārāti muṭahhidu kibrāti ilu rēmēnû ša sīpûšu ṭāb āšib Guzani bēlu rabû bēlišu
 1	ana	ana	ADP	PRP	_	2	case	_	ana
 2	Adad	Adad	PROPN	DN	Gender=M	_	_	_	{d}IŠKUR
 3	gugal	gugallu	NOUN	N	Number=Sg|Nounbase=Bound|Gender=M	2	appos	_	GU₂.GAL
@@ -30,7 +30,7 @@
 26	nārāti	nāru	NOUN	N	Case=Gen|Nounbase=Free|Number=Pl|Gender=F	25	nmod:poss	_	_
 27	muṭahhidu	muṭahhidu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	2	appos	_	mu-ṭa-hi-du
 28	kibrāti	kibru	NOUN	N	Number=Pl|Nounbase=Bound|Gender=F	27	nmod:poss	_	kib-ra-ti
-29	ilu	il	NOUN	N	Number=Sg|Case=Nom|Nounbase=Free|Gender=M	2	appos	_	_
+29	ilu	ilu	NOUN	N	Number=Sg|Case=Nom|Nounbase=Free|Gender=M	2	appos	_	_
 30	rēmēnû	rēmēnû	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	29	amod	_	REM₂-u₂
 31	ša	ša	PRON	DET	_	_	_	_	ša₂
 32-33	sīpûšu	_	_	_	_	_	_	_	_
@@ -46,7 +46,7 @@
 40	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	39	det	_	_
 
 # sent_id = Q004602-2
-# text = Adad-itʾi šakin māt Guzani mār Šamaš-nuri šakin māt Guzani ana bulluṭ napšāti šu arāk ūmē šu šumʾud šanāti šu šalām bīti šu zērī šu u nišī šu ana nasāh murṣi ša zumri šu ikribī ya ana šemê qibīt pî ya ana magāri ikrum ma iqīš
+# text = ana Adad gugal šamê u erṣeti mušaznin nuhši nādin rîti u mašqīte ana nišī kal dadmē nādin išqu u nindabê ana ili ahhīšu gugal nārāti muṭahhidu kibrāti ilu rēmēnû ša sīpûšu ṭāb āšib Guzani bēlu rabû bēlišu Adad-itʾi šakin māt Guzani mār Šamaš-nuri šakin māt Guzani ana bulluṭ napšātišu arāk ūmēšu šumʾud šanātišu šalām bītišu zērīšu u nišīšu ana nasāh murṣi ša zumrišu ikribiya ana šemê qibīt pîya ana magāri ikrumma iqīš
 1	Adad-itʾi	Adad-itʾi	PROPN	PN	Gender=M	43	nsubj	_	{m}10-it-ʾi
 2	šakin	šaknu	NOUN	N	Number=Sg|Nounbase=Bound|Gender=M	1	appos	_	GAR.KUR
 3	māt	mātu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=F	2	nmod:poss	_	_
@@ -104,21 +104,21 @@
 45	iqīš	qiāšu	VERB	V	Person=3|Verbstem=G|Tense=Preterit|Number=Sg|Mood=Indicative	43	conj	_	NIG₂.BA
 
 # sent_id = Q004602-3
-# text = mannu arkû anhūs su luddiš šum ī ma liškun
+# text = ana Adad gugal šamê u erṣeti mušaznin nuhši nādin rîti u mašqīte ana nišī kal dadmē nādin išqu u nindabê ana ili ahhīšu gugal nārāti muṭahhidu kibrāti ilu rēmēnû ša sīpûšu ṭāb āšib Guzani bēlu rabû bēlišu Adad-itʾi šakin māt Guzani mār Šamaš-nuri šakin māt Guzani ana bulluṭ napšātišu arāk ūmēšu šumʾud šanātišu šalām bītišu zērīšu u nišīšu ana nasāh murṣi ša zumrišu ikribiya ana šemê qibīt pîya ana magāri ikrumma iqīš mannu arkû anhūssu luddiš šumīma liškun
 1	mannu	mannu	PRON	QP	_	5	nsubj	_	ma-nu
 2	arkû	warkû	ADJ	AJ	Number=Sg|Case=Nom|Gender=M	1	amod	_	EGIR-u₂
 3-4	anhūssu	_	_	_	_	_	_	_	_
 3	anhūs	anhūtu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=F	5	obj	_	an-hu-su
 4	su	_	_	PRON	Gender=M|Number=Sg|Person=3	3	det	_	_
-5	luddiš	edēšu	VERB	V	Verbstem=D|Gender=M|Mood=Precative|Number=Sg|Person=3	_	_	_	lu-diš
+5	luddiš	edēšu	VERB	V	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	_	_	_	lu-diš
 6-8	šumīma	_	_	_	_	_	_	_	_
 6	šum	šumu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=M	9	obj	_	MU-ma
 7	ī	_	_	PRON	Person=1|Number=Sg	6	det	_	_
 8	ma	_	_	PART	_	6	det	_	_
-9	liškun	šakānu	VERB	V	Mood=Precative|Number=Sg|Person=3|Verbstem=G	5	conj	_	liš-kun
+9	liškun	šakānu	VERB	V	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=G	5	conj	_	liš-kun
 
 # sent_id = Q004602-4
-# text = mannu ša šum ī unakkaru u šum šu išakkanu Adad qardu lū bēl dīni šu
+# text = ana Adad gugal šamê u erṣeti mušaznin nuhši nādin rîti u mašqīte ana nišī kal dadmē nādin išqu u nindabê ana ili ahhīšu gugal nārāti muṭahhidu kibrāti ilu rēmēnû ša sīpûšu ṭāb āšib Guzani bēlu rabû bēlišu Adad-itʾi šakin māt Guzani mār Šamaš-nuri šakin māt Guzani ana bulluṭ napšātišu arāk ūmēšu šumʾud šanātišu šalām bītišu zērīšu u nišīšu ana nasāh murṣi ša zumrišu ikribiya ana šemê qibīt pîya ana magāri ikrumma iqīš mannu arkû anhūssu luddiš šumīma liškun mannu ša šumī unakkaru u šumšu išakkanu Adad qardu lū bēl dīnišu
 1	mannu	mannu	PRON	QP	_	_	_	_	ma-nu
 2	ša	ša	PRON	REL	_	5	nsubj	9:nsubj	ša₂
 3-4	šumī	_	_	_	_	_	_	_	_
@@ -139,7 +139,7 @@
 15	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	14	det	_	_
 
 # sent_id = Q004602-5
-# text = ṣalam Adad-itʾi šakin māt Guzani Sikani u Zarani ana terēṣ kussî šu arāk palû šu qibīt pî šu eli ilāni u nišī ṭubbī ṣalmu šuāte eli mahrê ušātir ina pān Adad āšib Sikani bēl Habur ṣalma šu izqup
+# text = ana Adad gugal šamê u erṣeti mušaznin nuhši nādin rîti u mašqīte ana nišī kal dadmē nādin išqu u nindabê ana ili ahhīšu gugal nārāti muṭahhidu kibrāti ilu rēmēnû ša sīpûšu ṭāb āšib Guzani bēlu rabû bēlišu Adad-itʾi šakin māt Guzani mār Šamaš-nuri šakin māt Guzani ana bulluṭ napšātišu arāk ūmēšu šumʾud šanātišu šalām bītišu zērīšu u nišīšu ana nasāh murṣi ša zumrišu ikribiya ana šemê qibīt pîya ana magāri ikrumma iqīš mannu arkû anhūssu luddiš šumīma liškun mannu ša šumī unakkaru u šumšu išakkanu Adad qardu lū bēl dīnišu ṣalam Adad-itʾi šakin māt Guzani Sikani u Zarani ana terēṣ kussîšu arāk palûšu qibīt pîšu eli ilāni u nišī ṭubbī ṣalmu šuāte eli mahrê ušātir ina pān Adad āšib Sikani bēl Habur ṣalmašu izqup
 1	ṣalam	ṣalmu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	_	_	_	NU
 2	Adad-itʾi	Adad-itʾi	PROPN	PN	Gender=M	1	nmod:poss	_	{m}10-it-ʾi
 3	šakin	šaknu	NOUN	N	Number=Sg|Nounbase=Bound|Gender=M	2	appos	_	GAR.KUR
@@ -153,11 +153,11 @@
 11-12	kussîšu	_	_	_	_	_	_	_	_
 11	kussî	kussû	NOUN	N	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=F	10	nmod:poss	_	GIŠ.GU.ZA-šu₂
 12	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	11	det	_	_
-13	arāk	arāku	VERB	V	Verbstem=G|Nounbase=Bound|Mood=Infinitive|Number=Sg|Gender=M	_	_	_	_
+13	arāk	arāku	VERB	V	Verbstem=G|Nounbase=Bound|Mood=Infinitive|Number=Sg|Gender=M	10	conj	_	_
 14-15	palûšu	_	_	_	_	_	_	_	_
 14	palû	palû	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=M	13	nmod:poss	_	pa-lu-šu₂
 15	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	14	det	_	_
-16	qibīt	qibītu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=F	_	_	_	qi₂-bit
+16	qibīt	qibītu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=F	10	conj	_	qi₂-bit
 17-18	pîšu	_	_	_	_	_	_	_	_
 17	pî	pû	NOUN	N	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	16	nmod:poss	_	KA-šu₂
 18	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	17	det	_	_
@@ -184,11 +184,11 @@
 38	izqup	zaqāpu	VERB	V	Verbstem=G|Mood=Indicative|Gender=M|Number=Sg|Person=3|Tense=Preterit	23	conj	_	iz-qu-up
 
 # sent_id = Q004602-6
-# text = mannu ša šum ī ultu libbi unūte ša bīt Adad bēli ya ipaššiṭūni Adad bēl ī akal šu mê šu lā imahhar šu Šala bēles si akal šu mê šu tamahhar šu līriš lū lā eṣṣidi 1 līm līriš 1 sūtu liṣbat 1 mē agurrāti lā ušabbā hurāpi 1 mē liātu lā ušabbā mūri 1 mē ālidāte lā ušabbā māri 1 mē āpiāte lā umallā tinūri eli tubkinnāte lāqite lilqute diʾu šibṭu dilipte ultu māti šu lā ipparrasū
+# text = ana Adad gugal šamê u erṣeti mušaznin nuhši nādin rîti u mašqīte ana nišī kal dadmē nādin išqu u nindabê ana ili ahhīšu gugal nārāti muṭahhidu kibrāti ilu rēmēnû ša sīpûšu ṭāb āšib Guzani bēlu rabû bēlišu Adad-itʾi šakin māt Guzani mār Šamaš-nuri šakin māt Guzani ana bulluṭ napšātišu arāk ūmēšu šumʾud šanātišu šalām bītišu zērīšu u nišīšu ana nasāh murṣi ša zumrišu ikribiya ana šemê qibīt pîya ana magāri ikrumma iqīš mannu arkû anhūssu luddiš šumīma liškun mannu ša šumī unakkaru u šumšu išakkanu Adad qardu lū bēl dīnišu ṣalam Adad-itʾi šakin māt Guzani Sikani u Zarani ana terēṣ kussîšu arāk palûšu qibīt pîšu eli ilāni u nišī ṭubbī ṣalmu šuāte eli mahrê ušātir ina pān Adad āšib Sikani bēl Habur ṣalmašu izqup mannu ša šumī ultu libbi unūte ša bīt Adad bēliya ipaššiṭūni Adad bēlī akališu mûšu lā imahharšu Šala bēssi akališu mûšu tamahharšu līriš lū lā eṣṣidi 1 līm līriš 1 sūtu liṣbat 1 mē agurrāti lā ušabbā hurāpi 1 mē liātu lā ušabbā mūri 1 mē ālidāte lā ušabbā māri 1 mē āpiāte lā umallā tinūri eli tubkinnāte lāqite lilqute diʾu šibṭu dilipte ultu mātišu lā ipparrasū
 1	mannu	mannu	PRON	QP	_	_	_	_	ma-nu
 2	ša	ša	PRON	REL	_	13	nsubj	_	ša₂
 3-4	šumī	_	_	_	_	_	_	_	_
-3	šum	šumu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=M	_	_	_	šu-mi₃
+3	šum	šumu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=M	13	obj	_	šu-mi₃
 4	ī	_	_	PRON	Person=1|Number=Sg	3	det	_	_
 5	ultu	ištu	ADP	PRP	_	6	case	_	TA
 6	libbi	libbu	NOUN	N	Number=Sg|Case=Gen|Nounbase=Free|Gender=M	13	obl	_	lib₃-bi

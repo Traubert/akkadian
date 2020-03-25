@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q006015-1
-# text = Aššur-dan šarru dannu šar kiššati šar māt Aššur mār Tukulti-apil-Ešarra šarru dannu šar kiššati šar māt Aššur mār Aššur-reša-iši šarru dannu šar kiššati šar māt Aššur mār Aššur-rabi šarru dannu šar kiššati šar māt Aššur ma
+# text = Aššur-dan šarru dannu šar kiššati šar māt Aššur mār Tukulti-apil-Ešarra šarru dannu šar kiššati šar māt Aššur mār Aššur-reša-iši šarru dannu šar kiššati šar māt Aššur mār Aššur-rabi šarru dannu šar kiššati šar māt Aššurma
 1	Aššur-dan	Aššur-dan_II	PROPN	RN	Gender=M	_	_	_	{m}aš-šur-KAL-an
 2	šarru	šarru	NOUN	N	Gender=M|Number=Sg|Nounbase=Free|Case=Nom	1	appos	_	MAN
 3	dannu	dannu	ADJ	AJ	Gender=M|Case=Nom|Number=Sg	2	amod	_	dan-nu
@@ -40,7 +40,7 @@
 36	ma	_	_	PART	_	35	det	_	_
 
 # sent_id = Q006015-2
-# text = enūma Abul-tabira šuātu ša ina pān Tukulti-apil-Ešarra iššak Aššur mār Aššur-reša-iši iššak Aššur mār Mutakkil-Nusku iššak Aššur ma rubû ālik pāni ya ēpuš abullu šuātu ēnahu ma anhūs su unekkir ašer ša umessi dannas sa akšuda ištu uššē ša adi gabadibbī ša arṣip ušeklil eli mahrīti ussime ina ūme šu ma qumāšātu sakkī ēpušu ina rēš abul āli ya ussime
+# text = Aššur-dan šarru dannu šar kiššati šar māt Aššur mār Tukulti-apil-Ešarra šarru dannu šar kiššati šar māt Aššur mār Aššur-reša-iši šarru dannu šar kiššati šar māt Aššur mār Aššur-rabi šarru dannu šar kiššati šar māt Aššurma enūma Abul-tabira šuātu ša ina pān Tukulti-apil-Ešarra iššak Aššur mār Aššur-reša-iši iššak Aššur mār Mutakkil-Nusku iššak Aššurma rubû ālik pāniya ēpuš abullu šuātu ēnahuma anhūssu unekkir ašerša umessi dannassa akšuda ištu uššēša adi gabadibbīša arṣip ušeklil eli mahrīti ussime ina ūmešuma qumāšātu sakkī ēpušu ina rēš abul āliya ussime
 1	enūma	inūma	SCONJ	SBJ	_	26	mark	_	e-nu-ma
 2	Abul-tabira	Abul-tabira	PROPN	ON	_	_	_	_	KA₂.GAL-TIBIRA
 3	šuātu	šuāti	DET	IP	Nounbase=Free|Number=Sg|Gender=F	2	amod	_	šu-a-tu
@@ -66,7 +66,7 @@
 21	pāni	pānu	NOUN	N	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	20	nmod:poss	_	pa-ni-ia
 22	ya	_	_	PRON	Person=1|Number=Sg	21	det	_	_
 23	ēpuš	epēšu	VERB	V	Verbstem=G|Mood=Indicative|Tense=Preterit|Number=Sg|Person=1	_	_	_	e-pu-uš
-24	abullu	abullu	NOUN	N	Gender=F|Number=Sg|Nounbase=Free|Case=Nom	2	appos	_	_
+24	abullu	abullu	NOUN	N	Gender=F|Number=Sg|Nounbase=Free|Case=Nom	26	nsubj	_	_
 25	šuātu	šuāti	DET	IP	Case=Nom|Nounbase=Free|Number=Sg|Gender=F	24	amod	_	šu-a-tu
 26-27	ēnahuma	_	_	_	_	_	_	_	_
 26	ēnahu	_	VERB	_	Verbstem=G|Mood=Subjunctive|Gender=M|Number=Sg|Person=3|Tense=Preterit	_	_	_	_
@@ -74,7 +74,7 @@
 28-29	anhūssu	_	_	_	_	_	_	_	_
 28	anhūs	anhūtu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=F	30	obj	_	an-hu-su
 29	su	_	_	PRON	Gender=M|Number=Sg|Person=3	28	det	_	_
-30	unekkir	nakāru	VERB	V	Verbstem=D|Mood=Indicative|Tense=Preterit|Number=Sg|Person=1	_	_	_	u₂-ne₂-kir₆
+30	unekkir	nakāru	VERB	V	Verbstem=D|Mood=Indicative|Tense=Preterit|Number=Sg|Person=1	26	conj	_	u₂-ne₂-kir₆
 31-32	ašerša	_	_	_	_	_	_	_	_
 31	ašer	ašru	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=M	33	obj	_	a-šer₃-ša
 32	ša	_	_	PRON	Gender=F|Number=Sg|Person=3	31	det	_	_
@@ -113,12 +113,12 @@
 60	ussime	wasāmu	VERB	V	Verbstem=D|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	54	conj	_	u₂-si-me
 
 # sent_id = Q006015-3
-# text = ana arkât ūmē ana ūm ṣâtu enūma Abul-tabira ušalbaru ma ennahu rubû arkû anhūs sa luddiš šum ī šaṭra ana ašri šu lutēr Aššur Adad Sin u Šamaš Ištar ilāni rabûte ikribī šu išemmû
+# text = Aššur-dan šarru dannu šar kiššati šar māt Aššur mār Tukulti-apil-Ešarra šarru dannu šar kiššati šar māt Aššur mār Aššur-reša-iši šarru dannu šar kiššati šar māt Aššur mār Aššur-rabi šarru dannu šar kiššati šar māt Aššurma enūma Abul-tabira šuātu ša ina pān Tukulti-apil-Ešarra iššak Aššur mār Aššur-reša-iši iššak Aššur mār Mutakkil-Nusku iššak Aššurma rubû ālik pāniya ēpuš abullu šuātu ēnahuma anhūssu unekkir ašerša umessi dannassa akšuda ištu uššēša adi gabadibbīša arṣip ušeklil eli mahrīti ussime ina ūmešuma qumāšātu sakkī ēpušu ina rēš abul āliya ussime ana arkât ūmē ana ūm ṣâtu enūma Abul-tabira ušalbaruma ennahu rubû arkû anhūssa luddiš šumī šaṭra ana ašrišu lutēr Aššur Adad Sin u Šamaš Ištar ilāni rabûte ikribīšu išemmû
 1	ana	ana	ADP	PRP	_	2	case	_	a-na
-2	arkât	warkītu	NOUN	N	Nounbase=Bound|Number=Pl|Gender=F	_	_	_	_
+2	arkât	warkītu	NOUN	N	Nounbase=Bound|Number=Pl|Gender=F	16	obl	_	_
 3	ūmē	ūmu	NOUN	N	Gender=M|Number=Pl	2	nmod:poss	_	u₄-me
 4	ana	ana	ADP	PRP	_	5	case	_	a-na
-5	ūm	ūmu	NOUN	N	Gender=M|Number=Sg|Nounbase=Bound	_	_	_	u₄-um
+5	ūm	ūmu	NOUN	N	Gender=M|Number=Sg|Nounbase=Bound	16	obl	_	u₄-um
 6	ṣâtu	ṣiātu	NOUN	N	Nounbase=Free|Number=Pl|Gender=F	5	nmod:poss	_	ṣa-a-tu
 7	enūma	inūma	SCONJ	SBJ	_	9	mark	_	e-nu-ma
 8	Abul-tabira	Abul-tabira	PROPN	ON	_	9	nsubj	11:nsubj	KA₂.GAL-TIBIRA
@@ -131,7 +131,7 @@
 14-15	anhūssa	_	_	_	_	_	_	_	_
 14	anhūs	anhūtu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=F	16	obj	_	an-hu-sa
 15	sa	_	_	PRON	Gender=F|Number=Sg|Person=3	14	det	_	_
-16	luddiš	edēšu	VERB	V	Verbstem=D|Gender=M|Mood=Precative|Number=Sg|Person=3	_	_	_	lu-ud-diš
+16	luddiš	edēšu	VERB	V	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	_	_	_	lu-ud-diš
 17-18	šumī	_	_	_	_	_	_	_	_
 17	šum	šumu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=M	23	obj	_	MU
 18	ī	_	_	PRON	Person=1|Number=Sg	17	det	_	_
@@ -140,7 +140,7 @@
 21-22	ašrišu	_	_	_	_	_	_	_	_
 21	ašri	ašru	NOUN	N	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	23	obl	_	aš₂-ri-šu
 22	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	21	dep	_	_
-23	lutēr	târu	VERB	V	Number=Sg|Mood=Precative|Verbstem=D|Person=3	16	conj	_	lu-te-er
+23	lutēr	târu	VERB	V	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	16	conj	_	lu-te-er
 24	Aššur	Aššur	PROPN	DN	Gender=M	34	nsubj	_	aš-šur
 25	Adad	Adad	PROPN	DN	Gender=M	24	conj	_	{d}IŠKUR
 26	Sin	Sin	PROPN	DN	Gender=M	24	conj	_	{d}30
@@ -155,7 +155,7 @@
 34	išemmû	šemû	VERB	V	Verbstem=G|Mood=Indicative|Tense=Present|Number=Pl|Person=3	_	_	_	i-še-mu-u₂
 
 # sent_id = Q006015-4
-# text = Tašritu UD.1.KAM₂ līmu Ubrutu mār Nazi-Muruttaš
+# text = Aššur-dan šarru dannu šar kiššati šar māt Aššur mār Tukulti-apil-Ešarra šarru dannu šar kiššati šar māt Aššur mār Aššur-reša-iši šarru dannu šar kiššati šar māt Aššur mār Aššur-rabi šarru dannu šar kiššati šar māt Aššurma enūma Abul-tabira šuātu ša ina pān Tukulti-apil-Ešarra iššak Aššur mār Aššur-reša-iši iššak Aššur mār Mutakkil-Nusku iššak Aššurma rubû ālik pāniya ēpuš abullu šuātu ēnahuma anhūssu unekkir ašerša umessi dannassa akšuda ištu uššēša adi gabadibbīša arṣip ušeklil eli mahrīti ussime ina ūmešuma qumāšātu sakkī ēpušu ina rēš abul āliya ussime ana arkât ūmē ana ūm ṣâtu enūma Abul-tabira ušalbaruma ennahu rubû arkû anhūssa luddiš šumī šaṭra ana ašrišu lutēr Aššur Adad Sin u Šamaš Ištar ilāni rabûte ikribīšu išemmû Tašritu UD.1.KAM₂ līmu Ubrutu mār Nazi-Muruttaš
 1	Tašritu	Tašritu	PROPN	MN	Case=Nom	_	_	_	{ITI}DU₆
 2	UD.1.KAM₂	_	ADJ	n	_	1	amod	_	UD.1.KAM₂
 3	līmu	līmu	NOUN	N	Gender=M|Case=Nom|Number=Sg|Nounbase=Bound	1	conj	_	li-mu

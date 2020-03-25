@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004483-1
-# text = x rēmēnû x x šar lā šanān x x Ninurta narām x x narām libbi ka rubû x x tušaršidu palâ šu eṭlu x x rēʾûti māti šu rabîš ib-x x šarrūt ī bēlūt ī kiššūt ī ša x x lēʾâku eršāku x
+# text = x rēmēnû x x šar lā šanān x x Ninurta narām x x narām libbika rubû x x tušaršidu palâšu eṭlu x x rēʾûti mātišu rabîš ib-x x šarrūti bēlūtī kiššūtī ša x x lēʾâku eršāku x
 1	x	x	_	PN	_	_	_	_	x
 2	rēmēnû	rēmēnû	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	_	_	_	REM₂-u₂
 3	x	x	_	PN	_	_	_	_	x
@@ -51,7 +51,7 @@
 42	x	x	_	PN	_	_	_	_	x
 
 # sent_id = Q004483-2
-# text = x māt Aššur rubû ālik pāni ya x x abni nišī kišitti x x sihirti ša ša {URU}x x mādūte Hatta x x bīt Enlil u Ninurta bīt x x bīt Sin u Gula x x ušarrih gušūrī x x ēpuš ina mesir siparri x x ina šumēli x ušazziz x
+# text = x rēmēnû x x šar lā šanān x x Ninurta narām x x narām libbika rubû x x tušaršidu palâšu eṭlu x x rēʾûti mātišu rabîš ib-x x šarrūti bēlūtī kiššūtī ša x x lēʾâku eršāku x x māt Aššur rubû ālik pāniya x x abni nišī kišitti x x sihirtiša ša {URU}x x mādūte Hatta x x bīt Enlil u Ninurta bīt x x bīt Sin u Gula x x ušarrih gušūrī x x ēpuš ina mesir siparri x x ina šumēli x ušazziz x
 1	x	x	NOUN	PN	Nounbase=Bound	_	_	_	x
 2	māt	mātu	NOUN	N	Gender=F|Number=Sg|Nounbase=Bound	1	nmod:poss	_	KUR
 3	Aššur	Aššur	PROPN	GN	Gender=M	2	nmod:poss	_	aš-šur
@@ -81,10 +81,10 @@
 25	Enlil	Enlil	PROPN	DN	Gender=M	24	nmod:poss	_	{d}BAD
 26	u	u	CONJ	CNJ	_	27	cc	_	u
 27	Ninurta	Ninurta	PROPN	DN	Gender=M	25	conj	_	{d}nin-urta
-28	bīt	bītu	NOUN	N	Gender=F|Number=Sg|Nounbase=Bound	_	_	_	E₂
+28	bīt	bītu	NOUN	N	Gender=F|Number=Sg|Nounbase=Bound	24	conj	_	E₂
 29	x	x	_	PN	_	_	_	_	x
 30	x	x	_	PN	_	_	_	_	x
-31	bīt	bītu	NOUN	N	Gender=F|Number=Sg|Nounbase=Bound	_	_	_	E₂
+31	bīt	bītu	NOUN	N	Gender=F|Number=Sg|Nounbase=Bound	24	conj	_	E₂
 32	Sin	Sin	PROPN	DN	Gender=M	31	nmod:poss	_	{d}30
 33	u	u	CONJ	CNJ	_	34	cc	_	u
 34	Gula	Gula	PROPN	DN	Gender=F	32	conj	_	{d}gu-la
@@ -101,13 +101,13 @@
 45	x	x	_	PN	_	_	_	_	x
 46	x	x	_	PN	_	_	_	_	x
 47	ina	ina	ADP	PRP	_	48	case	_	ina
-48	šumēli	šumēla	NOUN	AV	Case=Gen|Nounbase=Free|Number=Sg|Gender=M	_	_	_	šu-me-li
+48	šumēli	šumēla	NOUN	AV	Case=Gen|Nounbase=Free|Number=Sg|Gender=M	50	obl	_	šu-me-li
 49	x	x	_	PN	_	_	_	_	x
 50	ušazziz	izuzzu	VERB	V	Tense=Preterit|Number=Sg|Person=1|Mood=Indicative|Verbstem=S	_	_	_	u₂-ša₂-zi-iz
 51	x	x	_	PN	_	_	_	_	x
 
 # sent_id = Q004483-3
-# text = x arkû ina šarrāni x x anhūt ēkurrāti x x ana ašri šunu x x ašar taqrubti x x annu kīnu ippal šu x x ana pān ēkurri šu x
+# text = x rēmēnû x x šar lā šanān x x Ninurta narām x x narām libbika rubû x x tušaršidu palâšu eṭlu x x rēʾûti mātišu rabîš ib-x x šarrūti bēlūtī kiššūtī ša x x lēʾâku eršāku x x māt Aššur rubû ālik pāniya x x abni nišī kišitti x x sihirtiša ša {URU}x x mādūte Hatta x x bīt Enlil u Ninurta bīt x x bīt Sin u Gula x x ušarrih gušūrī x x ēpuš ina mesir siparri x x ina šumēli x ušazziz x x arkû ina šarrāni x x anhūt ēkurrāti x x ana ašrišunu x x ašar taqrubti x x annu kīnu ippalšu x x ana pān ēkurrišu x
 1	x	x	NOUN	PN	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	_	_	_	x
 2	arkû	warkû	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	1	amod	_	ar-ku-u₂
 3	ina	ina	ADP	PRP	_	4	case	_	ina
@@ -143,7 +143,7 @@
 30	x	x	_	PN	_	_	_	_	x
 
 # sent_id = Q004483-4
-# text = x šanî ma išakkanu x x Ištar bēlat qabli u tāhāzi x
+# text = x rēmēnû x x šar lā šanān x x Ninurta narām x x narām libbika rubû x x tušaršidu palâšu eṭlu x x rēʾûti mātišu rabîš ib-x x šarrūti bēlūtī kiššūtī ša x x lēʾâku eršāku x x māt Aššur rubû ālik pāniya x x abni nišī kišitti x x sihirtiša ša {URU}x x mādūte Hatta x x bīt Enlil u Ninurta bīt x x bīt Sin u Gula x x ušarrih gušūrī x x ēpuš ina mesir siparri x x ina šumēli x ušazziz x x arkû ina šarrāni x x anhūt ēkurrāti x x ana ašrišunu x x ašar taqrubti x x annu kīnu ippalšu x x ana pān ēkurrišu x x šanîma išakkanu x x Ištar bēlat qabli u tāhāzi x
 1	x	x	_	PN	_	_	_	_	x
 2-3	šanîma	_	_	_	_	_	_	_	_
 2	šanî	šanû	ADJ	AJ	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	_	_	_	ša₂-ni-ma

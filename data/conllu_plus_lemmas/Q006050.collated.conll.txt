@@ -1,0 +1,12 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q006050-1
+# text = ēkal x šar kiššati šar x mār Adad-nerari x
+1	ēkal	ēkallu	NOUN	N	Gender=F|Number=Sg|Nounbase=Bound	_	_	_	E₂.GAL
+2	x	x	PROPN	PN	Gender=M	1	nmod:poss	_	x
+3	šar	šarru	NOUN	N	Gender=M|Number=Sg|Nounbase=Bound	2	appos	_	MAN
+4	kiššati	kiššatu	NOUN	N	Case=Gen|Number=Sg|Gender=F|Nounbase=Free	3	nmod:poss	_	KIŠ
+5	šar	šarru	NOUN	N	Gender=M|Number=Sg|Nounbase=Bound	2	appos	_	MAN
+6	x	x	NOUN	PN	_	5	nmod:poss	_	x
+7	mār	māru	NOUN	N	Gender=M|Number=Sg|Nounbase=Bound	2	appos	_	A
+8	Adad-nerari	Adad-narari_II	PROPN	RN	Gender=M	7	nmod:poss	_	10-ERIM.TAH
+9	x	x	NOUN	PN	_	8	appos	_	x

@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q006022-1
-# text = x x x.MEŠ x x x x.MEŠ x-ta x akšud x x MAH x x-be-šu₂ x ušalbaru ma x ana šapliš x narê ya aškun rubû arkû anhūs su luddiš šum ī šaṭra ina ašri šu lutēr Aššur bēlu rabû ikribē šu išemme munekkir šiṭri ya u šumi ya Aššur šarrūs su liskip šum šu zēr šu ina māti luhalliq x
+# text = x x x.MEŠ x x x x.MEŠ x-ta x akšud x x MAH x x-be-šu₂ x ušalbaruma x ana šapliš x narêya aškun rubû arkû anhūssu luddiš šumī šaṭra ina ašrišu lutēr Aššur bēlu rabû ikribēšu išemme munekkir šiṭriya u šumiya Aššur šarrūssu liskip šumšu zēršu ina māti luhalliq x
 1	x	x	_	PN	_	_	_	_	x
 2	x	x	_	PN	_	_	_	_	x
 3	x.MEŠ	_	_	u	_	_	_	_	x.MEŠ
@@ -33,7 +33,7 @@
 28-29	anhūssu	_	_	_	_	_	_	_	_
 28	anhūs	anhūtu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=F	30	obj	_	an-hu-su
 29	su	_	_	PRON	Gender=M|Number=Sg|Person=3	28	det	_	_
-30	luddiš	edēšu	VERB	V	Verbstem=D|Person=3|Number=Sg|Mood=Precative	_	_	_	lu-diš
+30	luddiš	edēšu	VERB	V	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	_	_	_	lu-diš
 31-32	šumī	_	_	_	_	_	_	_	_
 31	šum	šumu	NOUN	N	Case=Acc|Nounbase=Suffixal|Number=Sg|Gender=M	37	obj	_	MU
 32	ī	_	_	PRON	Person=1|Number=Sg	31	det	_	_
@@ -42,7 +42,7 @@
 35-36	ašrišu	_	_	_	_	_	_	_	_
 35	ašri	ašru	NOUN	N	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	37	obl	_	aš₂-ri-šu₂
 36	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	35	det	_	_
-37	lutēr	târu	VERB	V	Verbstem=D|Person=3|Mood=Precative|Number=Sg	_	_	_	lu-te-er
+37	lutēr	târu	VERB	V	Gender=M|Person=3|Mood=Precative|Number=Sg|Verbstem=D	30	conj	_	lu-te-er
 38	Aššur	Aššur	PROPN	DN	Gender=M	43	nsubj	_	aš-šur
 39	bēlu	bēlu	NOUN	N	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	38	appos	_	EN
 40	rabû	rabû	ADJ	AJ	Number=Sg|Gender=M|Case=Nom	39	amod	_	GAL-u₂
@@ -62,14 +62,14 @@
 51-52	šarrūssu	_	_	_	_	_	_	_	_
 51	šarrūs	šarrūtu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=F	_	_	_	MAN-su
 52	su	_	_	PRON	Gender=M|Number=Sg|Person=3	51	det	_	_
-53	liskip	sakāpu	VERB	V	Verbstem=G|Person=3|Mood=Precative|Number=Sg	_	_	_	_
+53	liskip	sakāpu	VERB	V	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=G	_	_	_	_
 54-55	šumšu	_	_	_	_	_	_	_	_
 54	šum	šumu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=M|Case=Acc	60	obj	_	MU-šu
 55	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	54	det	_	_
 56-57	zēršu	_	_	_	_	_	_	_	_
-56	zēr	zēru	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=M	60	obj	_	NUMUN-šu
+56	zēr	zēru	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=M	54	conj	_	NUMUN-šu
 57	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	56	det	_	_
 58	ina	ina	ADP	PRP	_	59	case	_	ina
 59	māti	mātu	NOUN	N	Case=Gen|Nounbase=Free|Number=Sg|Gender=F	60	obl	_	KUR
-60	luhalliq	halāqu	VERB	V	Verbstem=D|Person=3|Mood=Precative|Number=Sg	_	_	_	lu-hal-liq
+60	luhalliq	halāqu	VERB	V	Gender=M|Person=3|Mood=Precative|Number=Sg|Verbstem=D	53	conj	_	lu-hal-liq
 61	x	x	_	PN	_	_	_	_	x

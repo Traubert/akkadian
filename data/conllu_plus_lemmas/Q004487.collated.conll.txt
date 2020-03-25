@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004487-1
-# text = x x x x rubû na’du x mātāti kalî šina x mār Tukulti-Ninurta šar kiššati šar māt Aššur x kāšid ultu eberti {ID₂}x x ana šadê Hamani ēli gušūrī x ṣalam šarrūti ya ina libbi ašqup Hatte ana sihirti ša x ultu Gargamiš ša Hatte Laqe ana sihirti ša Suhi adi Rapiqi ana šēpī ya ušekniša ultu rēš ēni Subnat adi Nirib ša bētāni x adi Urume kīma Adad rāhiṣi eli šunu ašgum ultu nērebē ša Habruri adi Gilzani Hubuškia ana šēpī ya ušekniša Zamua ana pāṭ gimri ša ana nišī māti ya amnu
+# text = x x x x rubû na’du x mātāti kalîšina x mār Tukulti-Ninurta šar kiššati šar māt Aššur x kāšid ultu eberti {ID₂}x x ana šadê Hamani ēli gušūrī x ṣalam šarrūtiya ina libbi ašqup Hatte ana sihirtiša x ultu Gargamiš ša Hatte Laqe ana sihirtiša Suhi adi Rapiqi ana šēpīya ušekniša ultu rēš ēni Subnat adi Nirib ša bētāni x adi Urume kīma Adad rāhiṣi elišunu ašgum ultu nērebē ša Habruri adi Gilzani Hubuškia ana šēpīya ušekniša Zamua ana pāṭ gimriša ana nišī mātiya amnu
 1	x	x	_	PN	_	_	_	_	x
 2	x	x	_	PN	_	_	_	_	x
 3	x	x	_	PN	_	_	_	_	x
@@ -23,7 +23,7 @@
 19	x	x	_	PN	_	_	_	_	x
 20	kāšid	kāšidu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	4	appos	_	ka-šid
 21	ultu	ištu	ADP	PRP	_	22	case	_	TA
-22	eberti	ebertu	NOUN	N	Case=Gen|Number=Sg|Gender=F|Nounbase=Free	20	nmod	_	e-ber-ti
+22	eberti	ebertu	NOUN	N	Case=Gen|Number=Sg|Gender=F|Nounbase=Free	20	obl	_	e-ber-ti
 23	{ID₂}x	_	PROPN	u	Case=Gen	22	nmod:poss	_	{ID₂}x
 24	x	x	_	PN	_	_	_	_	x
 25	ana	ana	ADP	PRP	_	26	case	_	a-na
@@ -46,17 +46,17 @@
 40	ša	_	_	PRON	Gender=F|Number=Sg|Person=3	39	det	_	_
 41	x	x	VERB	PN	_	_	_	_	x
 42	ultu	ištu	ADP	PRP	_	43	case	_	TA
-43	Gargamiš	Gargamiš	PROPN	SN	_	_	_	_	{URU}gar-ga-miš
+43	Gargamiš	Gargamiš	PROPN	SN	_	56	obl	_	{URU}gar-ga-miš
 44	ša	ša	ADP	DET	_	45	case	_	ša₂
-45	Hatte	Hatti	PROPN	GN	_	_	_	_	{KUR}hat-te
+45	Hatte	Hatti	PROPN	GN	_	43	nmod	_	{KUR}hat-te
 46	Laqe	Laqu	PROPN	GN	_	56	obj	_	{KUR}la-qe-e
 47	ana	ana	ADP	PRP	_	48	case	_	a-na
 48-49	sihirtiša	_	_	_	_	_	_	_	_
-48	sihirti	sihirtu	NOUN	N	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=F	_	_	_	si-hir-ti-ša
+48	sihirti	sihirtu	NOUN	N	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=F	56	obl	_	si-hir-ti-ša
 49	ša	_	_	PRON	Gender=F|Number=Sg|Person=3	48	det	_	_
 50	Suhi	Suhu	PROPN	GN	_	56	obj	_	{KUR}su-hi
 51	adi	adi	ADP	PRP	_	52	case	_	a-di
-52	Rapiqi	Rapiqu	PROPN	GN	Case=Gen	_	_	_	{KUR}ra-pi-qi
+52	Rapiqi	Rapiqu	PROPN	GN	Case=Gen	56	obl	_	{KUR}ra-pi-qi
 53	ana	ana	ADP	PRP	_	54	case	_	a-na
 54-55	šēpīya	_	_	_	_	_	_	_	_
 54	šēpī	šēpu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	56	obl	_	GIR₃.II.MEŠ-ia
@@ -69,12 +69,12 @@
 61	adi	adi	ADP	PRP	_	62	case	_	a-di
 62	Nirib	Nirbu	PROPN	GN	_	_	_	_	{KUR}ni-rib
 63	ša	ša	ADP	DET	_	64	case	_	ša₂
-64	bētāni	bītānu	NOUN	N	Number=Sg|Gender=M|Nounbase=Free|Case=Gen	_	_	_	_
+64	bētāni	bītānu	NOUN	N	Number=Sg|Gender=M|Nounbase=Free|Case=Gen	62	nmod	_	_
 65	x	x	_	PN	_	_	_	_	x
 66	adi	adi	ADP	PRP	_	67	case	_	a-di
 67	Urume	Urumu	PROPN	GN	_	_	_	_	{KUR}u₂-ru-me
 68	kīma	kīma	ADP	PRP	_	69	case	_	GIM
-69	Adad	Adad	PROPN	DN	Gender=M	_	_	_	{d}IŠKUR
+69	Adad	Adad	PROPN	DN	Gender=M	73	obl	_	{d}IŠKUR
 70	rāhiṣi	rāhiṣu	NOUN	N	Case=Gen|Number=Sg|Gender=M|Nounbase=Free	69	appos	_	ra-hi-ṣi
 71-72	elišunu	_	_	_	_	_	_	_	_
 71	eli	eli	ADP	PRP	_	_	_	_	UGU-šu₂-nu
@@ -106,20 +106,20 @@
 94	amnu	manû	VERB	V	Person=1|Mood=Indicative|Verbstem=G|Tense=Preterit|Number=Sg	_	_	_	am-nu
 
 # sent_id = Q004487-2
-# text = ṣābit līṭē šākin līte ša kalî šina mātāti ana Tamti-rabite ša Amurri allik maddattu ša šarrāni ša šiddi tâmti ša Ṣurraya Ṣidunaya Gublaya x amhur ina Tamdi-rabite kakkī ya lū ullil nīqī ana ilāni ya lū aṣbat šarru ṣīru ša mātāti kalî šina ultu ṣīt Šamši adi ereb Šamši x
+# text = x x x x rubû na’du x mātāti kalîšina x mār Tukulti-Ninurta šar kiššati šar māt Aššur x kāšid ultu eberti {ID₂}x x ana šadê Hamani ēli gušūrī x ṣalam šarrūtiya ina libbi ašqup Hatte ana sihirtiša x ultu Gargamiš ša Hatte Laqe ana sihirtiša Suhi adi Rapiqi ana šēpīya ušekniša ultu rēš ēni Subnat adi Nirib ša bētāni x adi Urume kīma Adad rāhiṣi elišunu ašgum ultu nērebē ša Habruri adi Gilzani Hubuškia ana šēpīya ušekniša Zamua ana pāṭ gimriša ana nišī mātiya amnu ṣābit līṭē šākin līte ša kalîšina mātāti ana Tamti-rabite ša Amurri allik maddattu ša šarrāni ša šiddi tâmti ša Ṣurraya Ṣidunaya Gublaya x amhur ina Tamdi-rabite kakkīya lū ullil nīqī ana ilāniya lū aṣbat šarru ṣīru ša mātāti kalîšina ultu ṣīt Šamši adi ereb Šamši x
 1	ṣābit	ṣābitu	NOUN	N	Number=Sg|Gender=M|Nounbase=Bound	_	_	_	ṣa-bit
 2	līṭē	līṭu	NOUN	N	Number=Pl|Gender=M	1	nmod:poss	_	li-i-ṭe₂
 3	šākin	šākinu	NOUN	N	Number=Sg|Gender=M|Nounbase=Bound	1	conj	_	ša₂-kin
 4	līte	lītu	NOUN	N	Number=Sg|Gender=F|Case=Gen|Nounbase=Free	3	nmod:poss	_	_
 5	ša	ša	ADP	DET	_	6	case	_	ša₂
 6-7	kalîšina	_	_	_	_	_	_	_	_
-6	kalî	kalû	DET	N	_	4	nmod	_	DU₃-ši-na
+6	kalî	kalû	DET	N	_	8	amod	_	DU₃-ši-na
 7	šina	_	_	PRON	Gender=F|Number=Pl|Person=3	6	det	_	_
 8	mātāti	mātu	NOUN	N	Number=Pl|Gender=F|Nounbase=Free	_	_	_	KUR.KUR.MEŠ
 9	ana	ana	ADP	PRP	_	10	case	_	a-na
 10	Tamti-rabite	Tamtu-rabitu	PROPN	WN	Gender=F	13	obl	_	tam-ti-GAL-te
 11	ša	ša	ADP	DET	_	12	case	_	ša
-12	Amurri	Amurru	PROPN	GN	Case=Gen	_	_	_	{KUR}a-mur-ri
+12	Amurri	Amurru	PROPN	GN	Case=Gen	10	nmod	_	{KUR}a-mur-ri
 13	allik	alāku	VERB	V	Person=1|Mood=Indicative|Verbstem=G|Tense=Preterit|Number=Sg	_	_	_	a-lik
 14	maddattu	maddattu	NOUN	N	Case=Nom|Number=Sg|Gender=F|Nounbase=Free	25	obj	_	ma-da-tu₂
 15	ša	ša	ADP	DET	_	16	case	_	ša₂
@@ -143,7 +143,7 @@
 32	nīqī	nīqu	NOUN	N	Number=Pl|Gender=M	37	obj	_	UDU.SISKUR.MEŠ
 33	ana	ana	ADP	PRP	_	34	case	_	ana
 34-35	ilāniya	_	_	_	_	_	_	_	_
-34	ilāni	ilu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	_	_	_	DINGIR.MEŠ-ia
+34	ilāni	ilu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	37	obl	_	DINGIR.MEŠ-ia
 35	ya	_	_	PRON	Person=1|Number=Sg	34	det	_	_
 36	lū	lū	PART	MOD	_	37	advmod:emph	_	lu-u₂
 37	aṣbat	ṣabātu	VERB	V	Person=1|Mood=Indicative|Verbstem=G|Tense=Preterit|Number=Sg	31	conj	_	aṣ-bat
@@ -163,7 +163,7 @@
 50	x	x	VERB	PN	_	38	acl:relcl	_	x
 
 # sent_id = Q004487-3
-# text = Kalhu ana eššūte aṣbat tīlu labēru lū unakkir adi muhhi mê lū ušappil 1 mē 20 tikpī ana mušpali uṭabbi nišī kišitti qāti ya ša mātāti ša apēlu šina ni ša Suhi Laqe ana sihirti ša ša Sirqu ša nēberti Puratte Zamua ana pāṭ gimri ša alqâ ina libbi ušaṣbit nārtu ultu Zaba-eliti ahrâ Pattu-hegalli šum ša abbi kirâti ina limētuš ša azqup inbī karānī ana Aššur bēli ya u ēkurrāt māti ya aqqi āla šū ana Aššur bēli ya aqīš
+# text = x x x x rubû na’du x mātāti kalîšina x mār Tukulti-Ninurta šar kiššati šar māt Aššur x kāšid ultu eberti {ID₂}x x ana šadê Hamani ēli gušūrī x ṣalam šarrūtiya ina libbi ašqup Hatte ana sihirtiša x ultu Gargamiš ša Hatte Laqe ana sihirtiša Suhi adi Rapiqi ana šēpīya ušekniša ultu rēš ēni Subnat adi Nirib ša bētāni x adi Urume kīma Adad rāhiṣi elišunu ašgum ultu nērebē ša Habruri adi Gilzani Hubuškia ana šēpīya ušekniša Zamua ana pāṭ gimriša ana nišī mātiya amnu ṣābit līṭē šākin līte ša kalîšina mātāti ana Tamti-rabite ša Amurri allik maddattu ša šarrāni ša šiddi tâmti ša Ṣurraya Ṣidunaya Gublaya x amhur ina Tamdi-rabite kakkīya lū ullil nīqī ana ilāniya lū aṣbat šarru ṣīru ša mātāti kalîšina ultu ṣīt Šamši adi ereb Šamši x Kalhu ana eššūte aṣbat tīlu labēru lū unakkir adi muhhi mê lū ušappil 1 mē 20 tikpī ana mušpali uṭabbi nišī kišitti qātīya ša mātāti ša apēlušinani ša Suhi Laqe ana sihirtiša ša Sirqu ša nēberti Puratte Zamua ana pāṭ gimriša alqâ ina libbi ušaṣbit nārtu ultu Zaba-eliti ahrâ Pattu-hegalli šumša abbi kirâti ina limētušša azqup inbī karānī ana Aššur bēliya u ēkurrāt mātiya aqqi āla šū ana Aššur bēliya aqīš
 1	Kalhu	Kalhu	PROPN	SN	Case=Nom	4	obj	_	{URU}kal-hu
 2	ana	ana	ADP	PRP	_	3	case	_	a-na
 3	eššūte	eššūtu	NOUN	N	Case=Gen|Number=Sg|Gender=F	4	obl	_	eš-šu₂-te
@@ -254,7 +254,7 @@
 79	aqīš	qiāšu	VERB	V	Person=1|Mood=Indicative|Verbstem=G|Tense=Preterit|Number=Sg	_	_	_	_
 
 # sent_id = Q004487-4
-# text = rubû arkû ina šarrāni mārī ya ša Aššur šum šu ma ana rēʾût māt Aššur inabbû šu x amāt damiqtu x x x x x x
+# text = x x x x rubû na’du x mātāti kalîšina x mār Tukulti-Ninurta šar kiššati šar māt Aššur x kāšid ultu eberti {ID₂}x x ana šadê Hamani ēli gušūrī x ṣalam šarrūtiya ina libbi ašqup Hatte ana sihirtiša x ultu Gargamiš ša Hatte Laqe ana sihirtiša Suhi adi Rapiqi ana šēpīya ušekniša ultu rēš ēni Subnat adi Nirib ša bētāni x adi Urume kīma Adad rāhiṣi elišunu ašgum ultu nērebē ša Habruri adi Gilzani Hubuškia ana šēpīya ušekniša Zamua ana pāṭ gimriša ana nišī mātiya amnu ṣābit līṭē šākin līte ša kalîšina mātāti ana Tamti-rabite ša Amurri allik maddattu ša šarrāni ša šiddi tâmti ša Ṣurraya Ṣidunaya Gublaya x amhur ina Tamdi-rabite kakkīya lū ullil nīqī ana ilāniya lū aṣbat šarru ṣīru ša mātāti kalîšina ultu ṣīt Šamši adi ereb Šamši x Kalhu ana eššūte aṣbat tīlu labēru lū unakkir adi muhhi mê lū ušappil 1 mē 20 tikpī ana mušpali uṭabbi nišī kišitti qātīya ša mātāti ša apēlušinani ša Suhi Laqe ana sihirtiša ša Sirqu ša nēberti Puratte Zamua ana pāṭ gimriša alqâ ina libbi ušaṣbit nārtu ultu Zaba-eliti ahrâ Pattu-hegalli šumša abbi kirâti ina limētušša azqup inbī karānī ana Aššur bēliya u ēkurrāt mātiya aqqi āla šū ana Aššur bēliya aqīš rubû arkû ina šarrāni mārīya ša Aššur šumšuma ana rēʾût māt Aššur inabbûšu x amāt damiqtu x x x x x x
 1	rubû	rubû	NOUN	N	Case=Nom|Number=Sg|Gender=M|Nounbase=Free	_	_	_	NUN
 2	arkû	warkû	ADJ	AJ	Case=Nom|Number=Sg|Gender=M	1	amod	_	EGIR-u₂
 3	ina	ina	ADP	PRP	_	4	case	_	i-na
@@ -262,7 +262,7 @@
 5-6	mārīya	_	_	_	_	_	_	_	_
 5	mārī	māru	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	4	appos	_	DUMU.MEŠ-ia
 6	ya	_	_	PRON	Person=1|Number=Sg	5	det	_	_
-7	ša	ša	PRON	DET	_	_	_	_	ša
+7	ša	ša	PRON	DET	_	16	obj	_	ša
 8	Aššur	Aššur	PROPN	DN	Gender=M	16	nsubj	_	aš-šur
 9-11	šumšuma	_	_	_	_	_	_	_	_
 9	šum	šumu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=M	16	obj	_	MU-šu₂-ma

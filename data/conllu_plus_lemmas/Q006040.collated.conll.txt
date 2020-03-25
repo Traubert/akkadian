@@ -1,0 +1,31 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q006040-1
+# text = ēkal Tukulti-Ninurta šar kiššati šar māt Aššur mār Adad-nerari šar kiššati šar māt Aššur mār Aššur-dan šar kiššati šar māt Aššurma šinip manê ša KA {NA₄}x
+1	ēkal	ēkallu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=F	_	_	_	E₂.GAL
+2	Tukulti-Ninurta	Tukulti-Ninurta_II	PROPN	RN	Gender=M	1	nmod:poss	_	{m}GISKIM-{d}MAŠ
+3	šar	šarru	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	2	appos	_	MAN
+4	kiššati	kiššatu	NOUN	N	Case=Gen|Nounbase=Free|Number=Sg|Gender=F	3	nmod:poss	_	ŠU₂
+5	šar	šarru	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	2	appos	_	MAN
+6	māt	mātu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=F	5	nmod:poss	_	KUR
+7	Aššur	Aššur	PROPN	GN	Gender=M	6	nmod:poss	_	AŠ
+8	mār	māru	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	2	appos	_	A
+9	Adad-nerari	Adad-narari_II	PROPN	RN	Gender=M	8	nmod:poss	_	10-ERIM.TAH
+10	šar	šarru	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	9	appos	_	MAN
+11	kiššati	kiššatu	NOUN	N	Case=Gen|Nounbase=Free|Number=Sg|Gender=F	10	nmod:poss	_	ŠU₂
+12	šar	šarru	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	9	appos	_	MAN
+13	māt	mātu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=F	12	nmod:poss	_	KUR
+14	Aššur	Aššur	PROPN	GN	Gender=M	13	nmod:poss	_	AŠ
+15	mār	māru	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	9	appos	_	A
+16	Aššur-dan	Aššur-dan_II	PROPN	RN	Gender=M	15	nmod:poss	_	AŠ-KAL-an
+17	šar	šarru	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	16	appos	_	MAN
+18	kiššati	kiššatu	NOUN	N	Case=Gen|Nounbase=Free|Number=Sg|Gender=F	17	nmod:poss	_	ŠU₂
+19	šar	šarru	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	16	appos	_	MAN
+20	māt	mātu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=F	19	nmod:poss	_	KUR
+21-22	Aššurma	_	_	_	_	_	_	_	_
+21	Aššur	Aššur	PROPN	GN	Gender=M	20	nmod:poss	_	AŠ-ma
+22	ma	_	_	PART	_	21	det	_	_
+23	šinip	šinipu	NUM	NU	Nounbase=Bound|Number=Sg|Gender=M	24	nummod	_	_
+24	manê	manû	NOUN	N	Case=Gen|Gender=M|Number=Sg	_	_	_	MA.NA
+25	ša	ša	ADP	REL	_	26	case	_	_
+26	KA	_	NOUN	u	Case=Gen|Gender=M|Number=Sg	24	nmod	_	KA
+27	{NA₄}x	_	NOUN	u	_	26	nmod:poss	_	{NA₄}x

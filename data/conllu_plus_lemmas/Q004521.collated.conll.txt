@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004521-1
-# text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššur kāšid ištu x šiddi Lullumi Habhi ša bētāni Zamua Hašmar kalî šina adi Amurri Hamani u Labnani adi Tamdi-rabiti ana miṣir māti ya amnu ma šattišamma bilas sunu kabti ūbilū ma ina āli ya Aššur amhur enūma bīt Sin u Šamaš ilāni rabûti bēlē ya ša šarrāni ālikūt pāni ya ēpušū ēnah ištu uššē šu adi gabadibbī šu arṣip
+# text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššur kāšid ištu x šiddi Lullumi Habhi ša bētāni Zamua Hašmar kalîšina adi Amurri Hamani u Labnani adi Tamdi-rabiti ana miṣir mātiya amnuma
 1	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=M	_	_	_	{m}aš-šur-PAP-A
 2	šakin	šaknu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	1	appos	_	GAR
 3	Enlil	Enlil	PROPN	DN	Gender=M	2	nmod:poss	_	{d}BAD
@@ -46,44 +46,50 @@
 41-42	amnuma	_	_	_	_	_	_	_	_
 41	amnu	manû	VERB	V	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	_	_	_	am-nu-ma
 42	ma	_	_	CONJ	_	_	_	_	_
-43	šattišamma	šattišamma	ADV	AV	_	47	advmod	_	MU-šam₃-ma
-44-45	bilassunu	_	_	_	_	_	_	_	_
-44	bilas	biltu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=F	47	obj	_	GUN-su-nu
-45	sunu	_	_	PRON	Gender=M|Number=Pl|Person=3	44	det	_	_
-46	kabti	kabtu	ADJ	AJ	Gender=M|Number=Sg	44	amod	_	DUGUD
-47-48	ūbilūma	_	_	_	_	_	_	_	_
-47	ūbilū	wabālu	VERB	V	Verbstem=G|Mood=Indicative|Gender=M|Number=Pl|Person=3|Tense=Preterit	_	_	_	u₂-bi-lu-ma
-48	ma	_	_	CONJ	_	53	cc	_	_
-49	ina	ina	ADP	PRP	_	50	case	_	ina
-50-51	āliya	_	_	_	_	_	_	_	_
-50	āli	ālu	NOUN	N	Case=Gen|Nounbase=Bound|Number=Sg|Gender=M	53	obl	_	URU-ia
-51	ya	_	_	PRON	Person=1|Number=Sg	50	det	_	_
-52	Aššur	Aššur	PROPN	SN	Gender=M	50	appos	_	aš-šur
-53	amhur	mahāru	VERB	V	Verbstem=G|Person=1|Mood=Indicative|Tense=Preterit|Number=Sg	47	conj	_	am-hur
-54	enūma	inūma	ADV	SBJ	_	69	advmod	_	e-nu-ma
-55	bīt	bītu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=F	69	nsubj	_	E₂
-56	Sin	Sin	PROPN	DN	Gender=M	55	nmod:poss	_	{d}30
-57	u	u	CONJ	CNJ	_	58	cc	_	u
-58	Šamaš	Šamaš	PROPN	DN	Gender=M	56	conj	_	{d}UTU
-59	ilāni	ilu	NOUN	N	Number=Pl|Gender=M	56	appos	_	DINGIR.MEŠ
-60	rabûti	rabû	ADJ	AJ	Number=Pl|Gender=M	59	amod	_	GAL.MEŠ
-61-62	bēlēya	_	_	_	_	_	_	_	_
-61	bēlē	bēlu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	56	appos	_	EN.MEŠ-a
-62	ya	_	_	PRON	Person=1|Number=Sg	61	det	_	_
-63	ša	ša	PRON	DET	_	68	obj	_	ša
-64	šarrāni	šarru	NOUN	N	Number=Pl|Gender=M	68	nsubj	_	MAN.MEŠ
-65	ālikūt	āliku	NOUN	N	Nounbase=Bound|Number=Pl|Gender=M	64	appos	_	a-li-kut
-66-67	pāniya	_	_	_	_	_	_	_	_
-66	pāni	pānu	NOUN	N	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	65	nmod:poss	_	pa-ni-ia
-67	ya	_	_	PRON	Person=1|Number=Sg	66	det	_	_
-68	ēpušū	epēšu	VERB	V	Verbstem=G|Mood=Subjunctive|Gender=M|Number=Pl|Person=3|Tense=Preterit	_	_	_	e-pu-šu
-69	ēnah	anāhu	VERB	V	Verbstem=G|Person=3|Mood=Indicative|Tense=Preterit|Number=Sg	_	_	_	e-na-ah
-70	ištu	ištu	ADP	PRP	_	71	case	_	iš-tu
-71-72	uššēšu	_	_	_	_	_	_	_	_
-71	uššē	uššu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	76	obl	_	uš-še-šu₂
-72	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	71	det	_	_
-73	adi	adi	ADP	PRP	_	74	case	_	a-di
-74-75	gabadibbīšu	_	_	_	_	_	_	_	_
-74	gabadibbī	gabadibbu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	76	obl	_	gaba-dib-bi-šu₂
-75	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	74	det	_	_
-76	arṣip	raṣāpu	VERB	V	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	_	_	_	ar-ṣip
+
+# sent_id = Q004521-2
+# text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššur kāšid ištu x šiddi Lullumi Habhi ša bētāni Zamua Hašmar kalîšina adi Amurri Hamani u Labnani adi Tamdi-rabiti ana miṣir mātiya amnuma šattišamma bilassunu kabti ūbilūma ina āliya Aššur amhur
+1	šattišamma	šattišamma	ADV	AV	_	5	advmod	_	MU-šam₃-ma
+2-3	bilassunu	_	_	_	_	_	_	_	_
+2	bilas	biltu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=F	5	obj	_	GUN-su-nu
+3	sunu	_	_	PRON	Gender=M|Number=Pl|Person=3	2	det	_	_
+4	kabti	kabtu	ADJ	AJ	Gender=M|Number=Sg	2	amod	_	DUGUD
+5-6	ūbilūma	_	_	_	_	_	_	_	_
+5	ūbilū	wabālu	VERB	V	Verbstem=G|Mood=Indicative|Gender=M|Number=Pl|Person=3|Tense=Preterit	_	_	_	u₂-bi-lu-ma
+6	ma	_	_	CONJ	_	11	cc	_	_
+7	ina	ina	ADP	PRP	_	8	case	_	ina
+8-9	āliya	_	_	_	_	_	_	_	_
+8	āli	ālu	NOUN	N	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	11	obl	_	URU-ia
+9	ya	_	_	PRON	Person=1|Number=Sg	8	det	_	_
+10	Aššur	Aššur	PROPN	SN	Gender=M	8	appos	_	aš-šur
+11	amhur	mahāru	VERB	V	Verbstem=G|Person=1|Mood=Indicative|Tense=Preterit|Number=Sg	5	conj	_	am-hur
+
+# sent_id = Q004521-3
+# text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššur kāšid ištu x šiddi Lullumi Habhi ša bētāni Zamua Hašmar kalîšina adi Amurri Hamani u Labnani adi Tamdi-rabiti ana miṣir mātiya amnuma šattišamma bilassunu kabti ūbilūma ina āliya Aššur amhur enūma bīt Sin u Šamaš ilāni rabûti bēlēya ša šarrāni ālikūt pāniya ēpušū ēnah ištu uššēšu adi gabadibbīšu arṣip
+1	enūma	inūma	ADV	SBJ	_	16	advmod	_	e-nu-ma
+2	bīt	bītu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=F	16	nsubj	_	E₂
+3	Sin	Sin	PROPN	DN	Gender=M	2	nmod:poss	_	{d}30
+4	u	u	CONJ	CNJ	_	5	cc	_	u
+5	Šamaš	Šamaš	PROPN	DN	Gender=M	3	conj	_	{d}UTU
+6	ilāni	ilu	NOUN	N	Number=Pl|Gender=M	3	appos	_	DINGIR.MEŠ
+7	rabûti	rabû	ADJ	AJ	Number=Pl|Gender=M	6	amod	_	GAL.MEŠ
+8-9	bēlēya	_	_	_	_	_	_	_	_
+8	bēlē	bēlu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	3	appos	_	EN.MEŠ-a
+9	ya	_	_	PRON	Person=1|Number=Sg	8	det	_	_
+10	ša	ša	PRON	DET	_	15	obj	_	ša
+11	šarrāni	šarru	NOUN	N	Number=Pl|Gender=M	15	nsubj	_	MAN.MEŠ
+12	ālikūt	āliku	NOUN	N	Nounbase=Bound|Number=Pl|Gender=M	11	appos	_	a-li-kut
+13-14	pāniya	_	_	_	_	_	_	_	_
+13	pāni	pānu	NOUN	N	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	12	nmod:poss	_	pa-ni-ia
+14	ya	_	_	PRON	Person=1|Number=Sg	13	det	_	_
+15	ēpušū	epēšu	VERB	V	Verbstem=G|Mood=Subjunctive|Gender=M|Number=Pl|Person=3|Tense=Preterit	_	_	_	e-pu-šu
+16	ēnah	anāhu	VERB	V	Verbstem=G|Person=3|Mood=Indicative|Tense=Preterit|Number=Sg	_	_	_	e-na-ah
+17	ištu	ištu	ADP	PRP	_	18	case	_	iš-tu
+18-19	uššēšu	_	_	_	_	_	_	_	_
+18	uššē	uššu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	23	obl	_	uš-še-šu₂
+19	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	18	det	_	_
+20	adi	adi	ADP	PRP	_	21	case	_	a-di
+21-22	gabadibbīšu	_	_	_	_	_	_	_	_
+21	gabadibbī	gabadibbu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	23	obl	_	gaba-dib-bi-šu₂
+22	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	21	det	_	_
+23	arṣip	raṣāpu	VERB	V	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	_	_	_	ar-ṣip

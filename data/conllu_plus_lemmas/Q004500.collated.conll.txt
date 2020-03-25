@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004500-1
-# text = Aššur-naṣir-apli šarru dannu x šar māt Aššur nišīt abi ki Enlil ša siqri šu x arhī pašqūte kiṣir huršānī dannūti x-ma kullat lā māgirī šu qās su ikšud x x x x bīt Ištar anhūs su x
+# text = Aššur-naṣir-apli šarru dannu x šar māt Aššur nišīt abiki Enlil ša siqrišu x arhī pašqūte kiṣir huršānī dannūti x-ma kullat lā māgirīšu qāssu ikšud x x x x bīt Ištar anhūssu x
 1	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=M	_	_	_	{m}aš-šur-PAP-A
 2	šarru	šarru	NOUN	N	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	1	appos	_	MAN
 3	dannu	dannu	ADJ	AJ	Gender=M|Case=Nom|Number=Sg	2	amod	_	dan-nu
@@ -20,11 +20,11 @@
 15	x	x	_	PN	_	_	_	_	x
 16	arhī	urhu	NOUN	N	Gender=M|Number=Pl	_	_	_	ar-hi
 17	pašqūte	pašqu	ADJ	AJ	Gender=M|Number=Pl	16	amod	_	pa-aš₂-qu-te
-18	kiṣir	kiṣru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	_	_	_	ki-ṣir
+18	kiṣir	kiṣru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	16	conj	_	ki-ṣir
 19	huršānī	huršānu	NOUN	N	Nounbase=Free|Number=Pl|Gender=M	18	nmod:poss	_	hur-ša₂-ni
 20	dannūti	dannu	ADJ	AJ	Gender=M|Number=Pl	19	amod	_	dan-nu-ti
 21	x-ma	x-ma	_	PN	_	_	_	_	x-ma
-22	kullat	kullatu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=F	_	_	_	kul₂-lat
+22	kullat	kullatu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=F	27	obj	_	kul₂-lat
 23-24	lā māgirīšu	_	_	_	_	_	_	_	_
 23	lā māgirī	lā|māgiru	NOUN	MOD|N	Nounbase=Suffixal|Number=Pl|Gender=M	22	nmod:poss	_	la|ma-gi-ri-šu₂
 24	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	23	det	_	_

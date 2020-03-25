@@ -1,7 +1,7 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004493-1
-# text = Aššur-naṣir-apli šarru rabû šarru dannu šar kiššati šar māt Aššur mār Tukulti-Ninurta šarru rabû šarru dannu šar kiššati šar māt Aššur mār Adad-nerari šarru rabû šarru dannu šar kiššati šar māt Aššur ma kāšid ultu ebertān Idiqlat adi Labnana u Tamti-rabiti mātāti kalî šina ištu ṣīt -{d} šamši adi ereb Šamši ana šēpī šu ušekniša
-1	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=M	55	nsubj	_	{m}aš-šur-PAP-A
+# text = Aššur-naṣir-apli šarru rabû šarru dannu šar kiššati šar māt Aššur mār Tukulti-Ninurta šarru rabû šarru dannu šar kiššati šar māt Aššur mār Adad-nerari šarru rabû šarru dannu šar kiššati šar māt Aššurma kāšid ultu ebertān Idiqlat adi Labnana u Tamti-rabiti mātāti kalîšina ištu ṣīt Šamši adi ereb Šamši ana šēpīšu ušekniša
+1	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=M	54	nsubj	_	{m}aš-šur-PAP-A
 2	šarru	šarru	NOUN	N	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	1	appos	_	MAN
 3	rabû	rabû	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	2	amod	_	GAL
 4	šarru	šarru	NOUN	N	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	1	appos	_	MAN
@@ -35,28 +35,26 @@
 32-33	Aššurma	_	_	_	_	_	_	_	_
 32	Aššur	Aššur	PROPN	GN	Gender=M	31	nmod:poss	_	aš-šur-ma
 33	ma	_	_	PART	_	32	det	_	_
-34	kāšid	kāšidu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	_	_	_	ka-šid
+34	kāšid	kāšidu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	1	appos	_	ka-šid
 35	ultu	ištu	ADP	PRP	_	36	case	_	TA
-36	ebertān	ebertān	NOUN	AV	Nounbase=Bound|Number=Sg|Gender=F	_	_	_	e-ber-ta-an
-37	Idiqlat	Idiqlat	PROPN	WN	_	34	nmod	_	{ID₂}HAL.HAL
+36	ebertān	ebertān	NOUN	AV	Nounbase=Bound|Number=Sg|Gender=F	34	obl	_	e-ber-ta-an
+37	Idiqlat	Idiqlat	PROPN	WN	_	36	nmod:poss	_	{ID₂}HAL.HAL
 38	adi	adi	ADP	PRP	_	39	case	_	a-di
-39	Labnana	Labnana	PROPN	GN	_	34	nmod	_	{KUR}lab-na-na
+39	Labnana	Labnana	PROPN	GN	_	34	obl	_	{KUR}lab-na-na
 40	u	u	CONJ	CNJ	_	41	cc	_	u
-41	Tamti-rabiti	Tamtu-rabitu	PROPN	WN	_	34	nmod	_	A.AB.BA-GAL-ti
-42	mātāti	mātu	NOUN	N	Case=Acc|Nounbase=Free|Number=Pl|Gender=F	55	obj	_	KUR.KUR.MEŠ
+41	Tamti-rabiti	Tamtu-rabitu	PROPN	WN	_	39	conj	_	A.AB.BA-GAL-ti
+42	mātāti	mātu	NOUN	N	Case=Acc|Nounbase=Free|Number=Pl|Gender=F	54	obj	_	KUR.KUR.MEŠ
 43-44	kalîšina	_	_	_	_	_	_	_	_
 43	kalî	kalû	DET	N	_	42	amod	_	DU₃-ši-na
 44	šina	_	_	PRON	Gender=F|Number=Pl|Person=3	43	det	_	_
 45	ištu	ištu	ADP	PRP	_	46	case	_	iš-tu
-46-48	ṣīt-šamši	_	_	_	_	_	_	_	_
-46	ṣīt	_	NOUN	_	Nounbase=Bound|Number=Sg|Gender=F	_	_	_	_
-47	-{d}	_	_	_	_	_	_	_	_
-48	šamši	_	_	PROPN	Case=Gen|Gender=M|Nounbase=Free	_	_	_	_
-49	adi	adi	ADP	PRP	_	50	case	_	a-di
-50	ereb	erbu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	_	_	_	e-reb
-51	Šamši	Šamaš	PROPN	DN	Case=Gen|Gender=M|Nounbase=Free	_	_	_	{d}šam-ši
-52	ana	ana	ADP	PRP	_	53	case	_	a-na
-53-54	šēpīšu	_	_	_	_	_	_	_	_
-53	šēpī	šēpu	NOUN	N	Case=Gen|Nounbase=Suffixal|Number=Pl|Gender=M	55	obl	_	GIR₃.II-šu₂
-54	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	53	det	_	_
-55	ušekniša	kanāšu	VERB	V	Verbstem=S|Person=3|Tense=Preterit|Mood=Ventive	_	_	_	u₂-šek₂-ni-ša₂
+46	ṣīt	ṣītu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=F	54	obl	_	_
+47	Šamši	Šamaš	PROPN	DN	Case=Gen|Gender=M|Nounbase=Free	46	nmod:poss	_	{d}šam-ši
+48	adi	adi	ADP	PRP	_	50	case	_	a-di
+49	ereb	erbu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	54	obl	_	e-reb
+50	Šamši	Šamši-Adad_I	PROPN	RN	Case=Gen|Gender=M|Nounbase=Free	49	nmod:poss	_	_
+51	ana	ana	ADP	PRP	_	52	case	_	a-na
+52-53	šēpīšu	_	_	_	_	_	_	_	_
+52	šēpī	šēpu	NOUN	N	Case=Gen|Nounbase=Suffixal|Number=Pl|Gender=M	54	obl	_	GIR₃.II-šu₂
+53	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	52	det	_	_
+54	ušekniša	kanāšu	VERB	V	Verbstem=S|Person=3|Tense=Preterit|Mood=Ventive	_	_	_	u₂-šek₂-ni-ša₂
