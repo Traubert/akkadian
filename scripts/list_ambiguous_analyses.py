@@ -3,6 +3,11 @@ import sys, os
 rootdir = sys.argv[1]
 filenames = os.listdir(rootdir)
 
+def valid_filename(textname):
+    q_num = os.path.basename(textname)[1:7]
+    num = int(q_num)
+    return 4455 <= num <= 4605 or 6013 <= num <= 6050
+
 def superset_relationship(p):
     a, b = p
     a_parts = set(a)
@@ -11,7 +16,7 @@ def superset_relationship(p):
 
 forms = {}
 
-for f in filenames:
+for f in filter(valid_filename, filenames):
     f_name = os.path.join(rootdir, f)
     for line in open(f_name):
         parts = line.strip().split('\t')
@@ -28,12 +33,12 @@ for f in filenames:
 for form in sorted(forms):
     # if len(forms[form].keys()) < 2:
     #     continue
-    if len(forms[form].keys()) <= 2:
+    if len(forms[form].keys()) != 2:
         continue
         # if ('_',) in forms[form].keys():
         #     continue
-    # if superset_relationship(forms[form].keys()):
-    #     continue
+    if superset_relationship(forms[form].keys()):
+        continue
     print(form)
     for analysis in forms[form]:
         print("  " + str(forms[form][analysis]) + "  " + '|'.join(analysis))
