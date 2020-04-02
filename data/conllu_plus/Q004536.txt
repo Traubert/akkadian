@@ -1,28 +1,31 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004536-1
-# text = ēkal Aššur-naṣir-apli šar kiššati šar māt Aššur mār Tukulti-Ninurta šar māt Aššur mār Adad-nerari šar māt Aššurma šallutu ša Ellipi ša Hatte
-1	ēkal	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	_	_	_	_
-2	Aššur-naṣir-apli	_	_	PROPN	_	1	nmod:poss	_	_
+# text = ēkal Aššur-naṣir-apli šar kiššati šar māt Aššur mār Tukulti-Ninurta šar māt Aššur mār Adad-nerari šar māt Aššurma
+1	ēkal	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	0	root	0:root	_
+2	Aššur-naṣir-apli	_	_	PROPN	Gender=M	1	nmod:poss	_	_
 3	šar	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	2	appos	_	_
 4	kiššati	_	_	NOUN	Case=Gen|Gender=F|Number=Sg|Nounbase=Free	3	nmod:poss	_	_
 5	šar	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	2	appos	_	_
 6	māt	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	5	nmod:poss	_	_
 7	Aššur	_	_	PROPN	Gender=M	6	nmod:poss	_	_
 8	mār	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	2	appos	_	_
-9	Tukulti-Ninurta	_	_	PROPN	_	8	nmod:poss	_	_
+9	Tukulti-Ninurta	_	_	PROPN	Gender=M	8	nmod:poss	_	_
 10	šar	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	9	appos	_	_
 11	māt	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	10	nmod:poss	_	_
 12	Aššur	_	_	PROPN	Gender=M	11	nmod:poss	_	_
 13	mār	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	9	appos	_	_
-14	Adad-nerari	_	_	PROPN	_	13	nmod:poss	_	_
+14	Adad-nerari	_	_	PROPN	Gender=M	13	nmod:poss	_	_
 15	šar	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	14	appos	_	_
 16	māt	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	15	nmod:poss	_	_
 17-18	Aššurma	_	_	_	_	_	_	_	_
 17	Aššur	_	_	PROPN	Gender=M	16	nmod:poss	_	_
 18	ma	_	_	PART	_	17	det	_	_
-19	šallutu	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=F	_	_	_	_
-20	ša	_	_	ADP	_	21	case	_	_
-21	Ellipi	_	_	PROPN	Case=Gen	19	nmod	_	_
-22	ša	_	_	ADP	_	23	case	_	_
-23	Hatte	_	_	PROPN	Case=Gen	21	nmod	_	_
+
+# sent_id = Q004536-2
+# text = šallutu ša Ellipi ša Hatte
+1	šallutu	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=F	0	root	0:root	_
+2	ša	_	_	ADP	_	3	case	_	_
+3	Ellipi	_	_	PROPN	Case=Gen	1	nmod	_	_
+4	ša	_	_	ADP	_	5	case	_	_
+5	Hatte	_	_	PROPN	Case=Gen	3	nmod	_	_
 

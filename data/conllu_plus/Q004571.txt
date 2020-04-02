@@ -1,7 +1,7 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004571-1
 # text = Aššur-naṣir-apli šar māt Aššur mār Tukulti-Ninurta šar māt Aššurma
-1	Aššur-naṣir-apli	_	_	PROPN	Gender=M	_	_	_	_
+1	Aššur-naṣir-apli	_	_	PROPN	Gender=M	0	root	0:root	_
 2	šar	_	_	NOUN	Number=Sg|Gender=M|Nounbase=Bound	1	appos	_	_
 3	māt	_	_	NOUN	Number=Sg|Gender=F|Nounbase=Bound	2	nmod:poss	_	_
 4	Aššur	_	_	PROPN	Gender=M	3	nmod:poss	_	_

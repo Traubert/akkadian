@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004593-1
-# text = x Tukulti-Ninurta x x akšud {URU}x x x narîya alṭur x x ana ašrīšunu x
+# text = x Tukulti-Ninurta x x akšud {URU}x x x narîya alṭur
 1	x	_	_	_	_	_	_	_	_
 2	Tukulti-Ninurta	_	_	PROPN	Gender=M	_	_	_	_
 3	x	_	_	_	_	_	_	_	_
@@ -12,12 +12,15 @@
 9-10	narîya	_	_	_	_	_	_	_	_
 9	narî	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=M	11	obj	_	_
 10	ya	_	_	PRON	Person=1|Number=Sg	9	det	_	_
-11	alṭur	_	_	VERB	Mood=Indicative|Verbstem=G|Number=Sg|Person=1|Tense=Preterit	_	_	_	_
-12	x	_	_	_	_	_	_	_	_
-13	x	_	_	_	_	_	_	_	_
-14	ana	_	_	ADP	_	15	case	_	_
-15-16	ašrīšunu	_	_	_	_	_	_	_	_
-15	ašrī	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	_	_	_	_
-16	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	15	det	_	_
-17	x	_	_	_	_	_	_	_	_
+11	alṭur	_	_	VERB	Mood=Indicative|Verbstem=G|Number=Sg|Person=1|Tense=Preterit	0	root	0:root	_
+
+# sent_id = Q004593-2
+# text = x x ana ašrīšunu x
+1	x	_	_	_	_	_	_	_	_
+2	x	_	_	_	_	_	_	_	_
+3	ana	_	_	ADP	_	4	case	_	_
+4-5	ašrīšunu	_	_	_	_	_	_	_	_
+4	ašrī	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	0	root	0:root	_
+5	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	4	det	_	_
+6	x	_	_	_	_	_	_	_	_
 

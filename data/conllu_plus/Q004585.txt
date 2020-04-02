@@ -1,7 +1,7 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004585-1
-# text = ēkal Aššur-naṣir-apli šar kiššati šar māt Aššur mār Tukulti-Ninurta šar māt Aššur mār Adad-nerari šar māt Aššurma kisirti būrti ša bīt Sebetti
-1	ēkal	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=F	_	_	_	_
+# text = ēkal Aššur-naṣir-apli šar kiššati šar māt Aššur mār Tukulti-Ninurta šar māt Aššur mār Adad-nerari šar māt Aššurma
+1	ēkal	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=F	0	root	0:root	_
 2	Aššur-naṣir-apli	_	_	PROPN	Gender=M	1	nmod:poss	_	_
 3	šar	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=M	2	appos	_	_
 4	kiššati	_	_	NOUN	Case=Gen|Nounbase=Free|Number=Sg|Gender=F	3	nmod:poss	_	_
@@ -20,9 +20,12 @@
 17-18	Aššurma	_	_	_	_	_	_	_	_
 17	Aššur	_	_	PROPN	Gender=M	16	nmod:poss	_	_
 18	ma	_	_	PART	_	17	det	_	_
-19	kisirti	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	_	_	_	_
-20	būrti	_	_	NOUN	Case=Gen|Nounbase=Free|Number=Sg|Gender=F	19	nmod:poss	_	_
-21	ša	_	_	ADP	_	22	case	_	_
-22	bīt	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=F	20	nmod	_	_
-23	Sebetti	_	_	PROPN	Case=Gen|Number=Pl	22	nmod:poss	_	_
+
+# sent_id = Q004585-2
+# text = kisirti būrti ša bīt Sebetti
+1	kisirti	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	0	root	0:root	_
+2	būrti	_	_	NOUN	Case=Gen|Nounbase=Free|Number=Sg|Gender=F	1	nmod:poss	_	_
+3	ša	_	_	ADP	_	4	case	_	_
+4	bīt	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=F	2	nmod	_	_
+5	Sebetti	_	_	PROPN	Case=Gen|Number=Pl	4	nmod:poss	_	_
 

@@ -1,15 +1,15 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004513-1
-# text = Aššur-naṣir-apli x šar kullat kibrāt arba’i x x Ninurta šangû ellu x lā māgirī muparriru x x zayyārī šar x kibrāti mār x enūma Emašmaš x
-1	Aššur-naṣir-apli	_	_	PROPN	Gender=M	_	_	_	_
+# text = Aššur-naṣir-apli x šar kullat kibrāt arba’i x x Ninurta šangû ellu x lā māgirī muparriru x x zayyārī šar x kibrāti mār
+1	Aššur-naṣir-apli	_	_	PROPN	Gender=M	0	root	0:root	_
 2	x	_	_	_	_	_	_	_	_
 3	šar	_	_	NOUN	Nounbase=Bound|Gender=M|Number=Sg	1	appos	_	_
 4	kullat	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	3	nmod:poss	_	_
 5	kibrāt	_	_	NOUN	Nounbase=Bound|Gender=F|Number=Pl	4	nmod:poss	_	_
-6	arba’i	_	_	NUM	Case=Gen|Nounbase=Free|Number=Sg|Gender=F	5	nummod	_	_
+6	arba’i	_	_	NUM	Case=Gen|Nounbase=Free|Number=Sg|Gender=M	5	nummod	_	_
 7	x	_	_	_	_	_	_	_	_
 8	x	_	_	_	_	_	_	_	_
-9	Ninurta	_	_	PROPN	Gender=M	_	_	_	_
+9	Ninurta	_	_	PROPN	Gender=M	0	root	0:root	_
 10	šangû	_	_	NOUN	Case=Nom|Nounbase=Free|Gender=M|Number=Sg	9	appos	_	_
 11	ellu	_	_	ADJ	Case=Nom|Gender=M|Number=Sg	10	amod	_	_
 12	x	_	_	_	_	_	_	_	_
@@ -22,8 +22,11 @@
 19	x	_	_	_	_	_	_	_	_
 20	kibrāti	_	_	NOUN	Nounbase=Bound|Gender=F|Number=Pl	_	_	_	_
 21	mār	_	_	NOUN	Nounbase=Bound|Gender=M|Number=Sg	1	appos	_	_
-22	x	_	_	_	_	_	_	_	_
-23	enūma	_	_	ADV	_	_	_	_	_
-24	Emašmaš	_	_	PROPN	_	_	_	_	_
-25	x	_	_	_	_	_	_	_	_
+
+# sent_id = Q004513-2
+# text = x enūma Emašmaš x
+1	x	_	_	_	_	_	_	_	_
+2	enūma	_	_	ADV	_	_	_	_	_
+3	Emašmaš	_	_	PROPN	_	_	_	_	_
+4	x	_	_	_	_	_	_	_	_
 

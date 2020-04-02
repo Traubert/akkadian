@@ -1,39 +1,48 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004498-1
-# text = x ʾa x x x kalîš huršānī x x māt Aššur mār Adad-nerari x x Urume rapaštu x x Babite adi x x birāte x x-a rabītu ša x x utēr x x x x
+# text = x ʾa x x x kalîš huršānī
 1	x	_	_	_	_	_	_	_	_
 2	ʾa	_	_	_	_	_	_	_	_
 3	x	_	_	_	_	_	_	_	_
 4	x	_	_	_	_	_	_	_	_
 5	x	_	_	_	_	_	_	_	_
-6	kalîš	_	_	DET	_	_	_	_	_
+6	kalîš	_	_	DET	_	0	root	0:root	_
 7	huršānī	_	_	NOUN	Nounbase=Free|Number=Pl|Gender=M	6	nmod	_	_
-8	x	_	_	_	_	_	_	_	_
+
+# sent_id = Q004498-2
+# text = x x māt Aššur
+1	x	_	_	_	_	_	_	_	_
+2	x	_	_	_	_	_	_	_	_
+3	māt	_	_	NOUN	Nounbase=Bound|Gender=F|Number=Sg	0	root	0:root	_
+4	Aššur	_	_	PROPN	Gender=M	3	nmod:poss	_	_
+
+# sent_id = Q004498-3
+# text = mār Adad-nerari
+1	mār	_	_	NOUN	Nounbase=Bound|Gender=M|Number=Sg	0	root	0:root	_
+2	Adad-nerari	_	_	PROPN	Gender=M	1	nmod:poss	_	_
+
+# sent_id = Q004498-4
+# text = x x Urume rapaštu x x Babite adi x x birāte x x-a rabītu ša x x utēr x x x x
+1	x	_	_	_	_	_	_	_	_
+2	x	_	_	_	_	_	_	_	_
+3	Urume	_	_	PROPN	_	0	root	0:root	_
+4	rapaštu	_	_	ADJ	Gender=F|Number=Sg	3	amod	_	_
+5	x	_	_	_	_	_	_	_	_
+6	x	_	_	_	_	_	_	_	_
+7	Babite	_	_	PROPN	Case=Gen	_	_	_	_
+8	adi	_	_	ADP	_	_	_	_	_
 9	x	_	_	_	_	_	_	_	_
-10	māt	_	_	NOUN	Nounbase=Bound|Gender=F|Number=Sg	_	_	_	_
-11	Aššur	_	_	PROPN	Gender=M	10	nmod:poss	_	_
-12	mār	_	_	NOUN	Nounbase=Bound|Gender=M|Number=Sg	_	_	_	_
-13	Adad-nerari	_	_	PROPN	Gender=M	12	nmod:poss	_	_
-14	x	_	_	_	_	_	_	_	_
-15	x	_	_	_	_	_	_	_	_
-16	Urume	_	_	PROPN	_	_	_	_	_
-17	rapaštu	_	_	ADJ	Gender=F|Number=Sg	16	amod	_	_
-18	x	_	_	_	_	_	_	_	_
+10	x	_	_	_	_	_	_	_	_
+11	birāte	_	_	NOUN	Gender=F|Number=Pl	_	_	_	_
+12	x	_	_	_	_	_	_	_	_
+13	x-a	_	_	_	_	_	_	_	_
+14	rabītu	_	_	ADJ	Gender=F|Case=Nom|Number=Sg	_	_	_	_
+15	ša	_	_	_	_	_	_	_	_
+16	x	_	_	_	_	_	_	_	_
+17	x	_	_	_	_	_	_	_	_
+18	utēr	_	_	VERB	Verbstem=D|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	_	_	_	_
 19	x	_	_	_	_	_	_	_	_
-20	Babite	_	_	PROPN	Case=Gen	_	_	_	_
-21	adi	_	_	ADP	_	_	_	_	_
+20	x	_	_	_	_	_	_	_	_
+21	x	_	_	_	_	_	_	_	_
 22	x	_	_	_	_	_	_	_	_
-23	x	_	_	_	_	_	_	_	_
-24	birāte	_	_	NOUN	Gender=F|Number=Pl	_	_	_	_
-25	x	_	_	_	_	_	_	_	_
-26	x-a	_	_	_	_	_	_	_	_
-27	rabītu	_	_	ADJ	Gender=F|Case=Nom|Number=Sg	_	_	_	_
-28	ša	_	_	_	_	_	_	_	_
-29	x	_	_	_	_	_	_	_	_
-30	x	_	_	_	_	_	_	_	_
-31	utēr	_	_	VERB	Verbstem=D|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	_	_	_	_
-32	x	_	_	_	_	_	_	_	_
-33	x	_	_	_	_	_	_	_	_
-34	x	_	_	_	_	_	_	_	_
-35	x	_	_	_	_	_	_	_	_
 

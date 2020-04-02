@@ -1,37 +1,46 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004478-1
-# text = lū ušamqit ina rēṣūṭe ša Šamaš u Adad ilāni tiklēya ummānāt mātāt Nairi Habhi Šubare u Nirib kīma Adad rāhiṣi elišunu ašgum šarru ša ultu ebertān Idiqlat adi Labnana
+# text = lū ušamqit
 1	lū	_	_	PART	_	2	advmod:emph	_	_
-2	ušamqit	_	_	VERB	Verbstem=S|Person=1|Tense=Preterit|Mood=Indicative	_	_	_	_
-3	ina	_	_	ADP	_	4	case	_	_
-4	rēṣūṭe	_	_	NOUN	Case=Gen|Nounbase=Free|Number=Sg|Gender=F	24	obl	_	_
-5	ša	_	_	ADP	_	6	case	_	_
-6	Šamaš	_	_	PROPN	Gender=M	4	nmod	_	_
-7	u	_	_	CONJ	_	8	cc	_	_
-8	Adad	_	_	PROPN	Gender=M	6	conj	_	_
-9	ilāni	_	_	NOUN	Nounbase=Bound|Number=Pl|Gender=M	6	appos	_	_
-10-11	tiklēya	_	_	_	_	_	_	_	_
-10	tiklē	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Pl|Gender=M	6	appos	_	_
-11	ya	_	_	PRON	Person=1|Number=Sg	10	det	_	_
-12	ummānāt	_	_	NOUN	Nounbase=Bound|Number=Pl|Gender=F	24	obl	_	_
-13	mātāt	_	_	NOUN	Nounbase=Bound|Number=Pl|Gender=F	12	nmod:poss	_	_
-14	Nairi	_	_	PROPN	Case=Gen	13	nmod:poss	_	_
-15	Habhi	_	_	PROPN	Case=Gen	14	conj	_	_
-16	Šubare	_	_	PROPN	Case=Gen	14	conj	_	_
-17	u	_	_	CONJ	_	18	cc	_	_
-18	Nirib	_	_	PROPN	Case=Gen	14	conj	_	_
-19	kīma	_	_	ADP	_	20	case	_	_
-20	Adad	_	_	PROPN	Gender=M	24	obl	_	_
-21	rāhiṣi	_	_	NOUN	Case=Gen|Nounbase=Free|Number=Sg|Gender=M	20	appos	_	_
-22-23	elišunu	_	_	_	_	_	_	_	_
-22	eli	_	_	ADP	_	_	_	_	_
-23	šunu	_	_	PRON	_	24	obl	_	_
-24	ašgum	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Mood=Indicative	_	_	_	_
-25	šarru	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	_	_	_	_
-26	ša	_	_	PRON	_	_	_	_	_
-27	ultu	_	_	ADP	_	28	case	_	_
-28	ebertān	_	_	NOUN	Nounbase=Bound|Gender=F	_	_	_	_
-29	Idiqlat	_	_	PROPN	_	28	nmod:poss	_	_
-30	adi	_	_	ADP	_	31	case	_	_
-31	Labnana	_	_	PROPN	_	_	_	_	_
+2	ušamqit	_	_	VERB	Verbstem=S|Person=1|Tense=Preterit|Mood=Indicative	0	root	0:root	_
+
+# sent_id = Q004478-2
+# text = ina rēṣūṭe ša Šamaš u Adad ilāni tiklēya ummānāt mātāt Nairi Habhi Šubare u Nirib kīma Adad rāhiṣi elišunu ašgum
+1	ina	_	_	ADP	_	2	case	_	_
+2	rēṣūṭe	_	_	NOUN	Case=Gen|Nounbase=Free|Number=Sg|Gender=F	22	obl	_	_
+3	ša	_	_	ADP	_	4	case	_	_
+4	Šamaš	_	_	PROPN	Gender=M	2	nmod	_	_
+5	u	_	_	CONJ	_	6	cc	_	_
+6	Adad	_	_	PROPN	Gender=M	4	conj	_	_
+7	ilāni	_	_	NOUN	Nounbase=Bound|Number=Pl|Gender=M	4	appos	_	_
+8-9	tiklēya	_	_	_	_	_	_	_	_
+8	tiklē	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Pl|Gender=M	4	appos	_	_
+9	ya	_	_	PRON	Person=1|Number=Sg	8	det	_	_
+10	ummānāt	_	_	NOUN	Nounbase=Bound|Number=Pl|Gender=F	22	obl	_	_
+11	mātāt	_	_	NOUN	Nounbase=Bound|Number=Pl|Gender=F	10	nmod:poss	_	_
+12	Nairi	_	_	PROPN	Case=Gen	11	nmod:poss	_	_
+13	Habhi	_	_	PROPN	Case=Gen	12	conj	_	_
+14	Šubare	_	_	PROPN	Case=Gen	12	conj	_	_
+15	u	_	_	CONJ	_	16	cc	_	_
+16	Nirib	_	_	PROPN	Case=Gen	12	conj	_	_
+17	kīma	_	_	ADP	_	18	case	_	_
+18	Adad	_	_	PROPN	Gender=M	22	obl	_	_
+19	rāhiṣi	_	_	NOUN	Case=Gen|Nounbase=Free|Number=Sg|Gender=M	18	appos	_	_
+20-21	elišunu	_	_	_	_	_	_	_	_
+20	eli	_	_	ADP	_	_	_	_	_
+21	šunu	_	_	PRON	_	22	obl	_	_
+22	ašgum	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Mood=Indicative	0	root	0:root	_
+
+# sent_id = Q004478-3
+# text = šarru ša ultu ebertān Idiqlat
+1	šarru	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	_	_	_	_
+2	ša	_	_	PRON	_	_	_	_	_
+3	ultu	_	_	ADP	_	4	case	_	_
+4	ebertān	_	_	NOUN	Nounbase=Bound|Gender=F|Number=Sg	0	root	0:root	_
+5	Idiqlat	_	_	PROPN	Gender=F	4	nmod:poss	_	_
+
+# sent_id = Q004478-4
+# text = adi Labnana
+1	adi	_	_	ADP	_	2	case	_	_
+2	Labnana	_	_	PROPN	_	0	root	0:root	_
 

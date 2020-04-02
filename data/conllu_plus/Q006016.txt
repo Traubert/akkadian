@@ -1,62 +1,68 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q006016-1
-# text = ana Aššur abu ilāni rabûte bēlišu Aššur-dan šakan Enlil iššak Aššur mār Tukulti-apil-Ešarra šakan Enlil iššak Aššur mār Aššur-reša-iši šakan Enlil iššak Aššur mār Aššur-rabi šakan Enlil iššak Aššurma ana balāṭ napšātiya arāk ūmēya šumʾud šanātiya šalām zēriya u mātiya x ili x x
+# text = ana Aššur abu ilāni rabûte bēlišu
 1	ana	_	_	ADP	_	2	case	_	_
-2	Aššur	_	_	PROPN	Gender=M	_	_	_	_
+2	Aššur	_	_	PROPN	Gender=M	0	root	0:root	_
 3	abu	_	_	NOUN	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	2	appos	_	_
 4	ilāni	_	_	NOUN	Gender=M|Number=Pl	3	nmod:poss	_	_
 5	rabûte	_	_	ADJ	Gender=M|Number=Pl	4	amod	_	_
 6-7	bēlišu	_	_	_	_	_	_	_	_
-6	bēli	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=M	2	appos	_	_
+6	bēli	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	2	appos	_	_
 7	šu	_	_	PRON	Person=3|Number=Sg	6	det	_	_
-8	Aššur-dan	_	_	PROPN	Gender=M	_	_	_	_
-9	šakan	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	8	appos	_	_
-10	Enlil	_	_	PROPN	Gender=M	9	nmod:poss	_	_
-11	iššak	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	8	appos	_	_
-12	Aššur	_	_	PROPN	Gender=M	11	nmod:poss	_	_
-13	mār	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	8	appos	_	_
-14	Tukulti-apil-Ešarra	_	_	PROPN	Gender=M	13	nmod:poss	_	_
-15	šakan	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	14	appos	_	_
-16	Enlil	_	_	PROPN	Gender=M	15	nmod:poss	_	_
-17	iššak	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	14	appos	_	_
-18	Aššur	_	_	PROPN	Gender=M	17	nmod:poss	_	_
-19	mār	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	14	appos	_	_
-20	Aššur-reša-iši	_	_	PROPN	Gender=M	19	nmod:poss	_	_
-21	šakan	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	20	appos	_	_
-22	Enlil	_	_	PROPN	Gender=M	21	nmod:poss	_	_
-23	iššak	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	20	appos	_	_
-24	Aššur	_	_	PROPN	Gender=M	23	nmod:poss	_	_
-25	mār	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	20	appos	_	_
-26	Aššur-rabi	_	_	PROPN	Gender=M	25	nmod:poss	_	_
-27	šakan	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	26	appos	_	_
-28	Enlil	_	_	PROPN	Gender=M	27	nmod:poss	_	_
-29	iššak	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	26	appos	_	_
-30-31	Aššurma	_	_	_	_	_	_	_	_
-30	Aššur	_	_	PROPN	Gender=M	29	nmod:poss	_	_
-31	ma	_	_	PART	_	30	det	_	_
-32	ana	_	_	ADP	_	33	case	_	_
-33	balāṭ	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	48	obl	_	_
-34-35	napšātiya	_	_	_	_	_	_	_	_
-34	napšāti	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=F|Case=Gen	33	nmod:poss	_	_
-35	ya	_	_	PRON	Person=1|Number=Sg	34	det	_	_
-36	arāk	_	_	VERB	Verbstem=G|Nounbase=Bound|Mood=Infinitive|Number=Sg|Gender=M	33	conj	_	_
-37-38	ūmēya	_	_	_	_	_	_	_	_
-37	ūmē	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	36	nmod:poss	_	_
-38	ya	_	_	PRON	Person=1|Number=Sg	37	det	_	_
-39	šumʾud	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	33	conj	_	_
-40-41	šanātiya	_	_	_	_	_	_	_	_
-40	šanāti	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=F	39	nmod:poss	_	_
-41	ya	_	_	PRON	Person=1|Number=Sg	40	det	_	_
-42	šalām	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	33	conj	_	_
-43-44	zēriya	_	_	_	_	_	_	_	_
-43	zēri	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	42	nmod:poss	_	_
-44	ya	_	_	PRON	Person=1|Number=Sg	43	det	_	_
-45	u	_	_	CONJ	_	46	cc	_	_
-46-47	mātiya	_	_	_	_	_	_	_	_
-46	māti	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=F	43	conj	_	_
-47	ya	_	_	PRON	Person=1|Number=Sg	46	det	_	_
-48	x	_	_	VERB	_	_	_	_	_
-49	ili	_	_	X	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	_	_	_	_
-50	x	_	_	_	_	_	_	_	_
-51	x	_	_	_	_	_	_	_	_
+
+# sent_id = Q006016-2
+# text = Aššur-dan šakan Enlil iššak Aššur mār Tukulti-apil-Ešarra šakan Enlil iššak Aššur mār Aššur-reša-iši šakan Enlil iššak Aššur mār Aššur-rabi šakan Enlil iššak Aššurma
+1	Aššur-dan	_	_	PROPN	Gender=M	0	root	0:root	_
+2	šakan	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	1	appos	_	_
+3	Enlil	_	_	PROPN	Gender=M	2	nmod:poss	_	_
+4	iššak	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
+5	Aššur	_	_	PROPN	Gender=M	4	nmod:poss	_	_
+6	mār	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
+7	Tukulti-apil-Ešarra	_	_	PROPN	Gender=M	6	nmod:poss	_	_
+8	šakan	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	7	appos	_	_
+9	Enlil	_	_	PROPN	Gender=M	8	nmod:poss	_	_
+10	iššak	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	7	appos	_	_
+11	Aššur	_	_	PROPN	Gender=M	10	nmod:poss	_	_
+12	mār	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	7	appos	_	_
+13	Aššur-reša-iši	_	_	PROPN	Gender=M	12	nmod:poss	_	_
+14	šakan	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	13	appos	_	_
+15	Enlil	_	_	PROPN	Gender=M	14	nmod:poss	_	_
+16	iššak	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	13	appos	_	_
+17	Aššur	_	_	PROPN	Gender=M	16	nmod:poss	_	_
+18	mār	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	13	appos	_	_
+19	Aššur-rabi	_	_	PROPN	Gender=M	18	nmod:poss	_	_
+20	šakan	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	19	appos	_	_
+21	Enlil	_	_	PROPN	Gender=M	20	nmod:poss	_	_
+22	iššak	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	19	appos	_	_
+23-24	Aššurma	_	_	_	_	_	_	_	_
+23	Aššur	_	_	PROPN	Gender=M	22	nmod:poss	_	_
+24	ma	_	_	PART	_	23	det	_	_
+
+# sent_id = Q006016-3
+# text = ana balāṭ napšātiya arāk ūmēya šumʾud šanātiya šalām zēriya u mātiya x ili x x
+1	ana	_	_	ADP	_	2	case	_	_
+2	balāṭ	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	17	obl	_	_
+3-4	napšātiya	_	_	_	_	_	_	_	_
+3	napšāti	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=F|Case=Gen	2	nmod:poss	_	_
+4	ya	_	_	PRON	Person=1|Number=Sg	3	det	_	_
+5	arāk	_	_	VERB	Verbstem=G|Nounbase=Bound|Mood=Infinitive|Number=Sg|Gender=M	2	conj	_	_
+6-7	ūmēya	_	_	_	_	_	_	_	_
+6	ūmē	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	5	nmod:poss	_	_
+7	ya	_	_	PRON	Person=1|Number=Sg	6	det	_	_
+8	šumʾud	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	2	conj	_	_
+9-10	šanātiya	_	_	_	_	_	_	_	_
+9	šanāti	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=F	8	nmod:poss	_	_
+10	ya	_	_	PRON	Person=1|Number=Sg	9	det	_	_
+11	šalām	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	2	conj	_	_
+12-13	zēriya	_	_	_	_	_	_	_	_
+12	zēri	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	11	nmod:poss	_	_
+13	ya	_	_	PRON	Person=1|Number=Sg	12	det	_	_
+14	u	_	_	CONJ	_	15	cc	_	_
+15-16	mātiya	_	_	_	_	_	_	_	_
+15	māti	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=F	12	conj	_	_
+16	ya	_	_	PRON	Person=1|Number=Sg	15	det	_	_
+17	x	_	_	VERB	_	0	root	0:root	_
+18	ili	_	_	X	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	_	_	_	_
+19	x	_	_	_	_	_	_	_	_
+20	x	_	_	_	_	_	_	_	_
 

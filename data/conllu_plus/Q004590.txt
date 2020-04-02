@@ -1,7 +1,7 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004590-1
-# text = ēkal Aššur-naṣir-apli šar māt Aššur mār Tukulti-Ninurta šar kiššati šar māt Aššurma bīt Ištar ša Ninua ēpušma arṣip
-1	ēkal	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	_	_	_	_
+# text = ēkal Aššur-naṣir-apli šar māt Aššur mār Tukulti-Ninurta šar kiššati šar māt Aššurma
+1	ēkal	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	0	root	0:root	_
 2	Aššur-naṣir-apli	_	_	PROPN	Gender=M	1	nmod:poss	_	_
 3	šar	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	2	appos	_	_
 4	māt	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	3	nmod:poss	_	_
@@ -15,12 +15,15 @@
 12-13	Aššurma	_	_	_	_	_	_	_	_
 12	Aššur	_	_	PROPN	Gender=M	11	nmod:poss	_	_
 13	ma	_	_	PART	_	12	det	_	_
-14	bīt	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	18	obj	_	_
-15	Ištar	_	_	PROPN	Gender=F	14	nmod:poss	_	_
-16	ša	_	_	ADP	_	17	case	_	_
-17	Ninua	_	_	PROPN	_	15	nmod	_	_
-18-19	ēpušma	_	_	_	_	_	_	_	_
-18	ēpuš	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	_	_	_	_
-19	ma	_	_	CONJ	_	20	cc	_	_
-20	arṣip	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	18	conj	_	_
+
+# sent_id = Q004590-2
+# text = bīt Ištar ša Ninua ēpušma arṣip
+1	bīt	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	5	obj	_	_
+2	Ištar	_	_	PROPN	Gender=F	1	nmod:poss	_	_
+3	ša	_	_	ADP	_	4	case	_	_
+4	Ninua	_	_	PROPN	_	2	nmod	_	_
+5-6	ēpušma	_	_	_	_	_	_	_	_
+5	ēpuš	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	0	root	0:root	_
+6	ma	_	_	CONJ	_	7	cc	_	_
+7	arṣip	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	5	conj	_	_
 
