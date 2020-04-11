@@ -1,6 +1,6 @@
 import os, sys, string
 
-columns_comment = "# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC\n"
+from akkadian import *
 
 def sort_featvals(featvals):
     if '|' not in featvals:
@@ -10,6 +10,8 @@ def sort_featvals(featvals):
     return '|'.join(feats)
 
 def convert_file(readfilename, writefilename):
+    basename = os.path.basename(readfilename)
+    Q_number = basename[:7]
     writefile = open(writefilename, 'w')
     writefile.write(columns_comment)
     this_sentence_lines = []
@@ -18,8 +20,6 @@ def convert_file(readfilename, writefilename):
     skip_surfaces_until = 0
     for line in open(readfilename):
         line = line.strip()
-        basename = os.path.basename(readfilename)
-        Q_number = basename[:7]
         if line.startswith('#'):
             continue
         elif line == '':
@@ -60,7 +60,7 @@ writedirpath = sys.argv[2]
 readdirpath = sys.argv[1]
 
 for filename in os.listdir(readdirpath):
-    if not filename.startswith("Q"):# or '_part_' in filename:
+    if not valid_filename(filename):
         continue
     readpath = os.path.realpath(os.path.join(readdirpath, filename))
     writepath = os.path.realpath(os.path.join(writedirpath, filename))
