@@ -1,12 +1,9 @@
 import sys, os
 
+from akkadian import *
+
 rootdir = sys.argv[1]
 filenames = os.listdir(rootdir)
-
-def valid_filename(textname):
-    q_num = os.path.basename(textname)[1:7]
-    num = int(q_num)
-    return 4455 <= num <= 4605 or 6013 <= num <= 6050
 
 def superset_relationship(p):
     a, b = p
