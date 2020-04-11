@@ -143,7 +143,7 @@
 6	amhaṣ	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	0	root	0:root	_
 
 # sent_id = Q006020-9
-# text = dīktašunu maʾattu addâk šallassunu būšīšunu makkūrīšunu alpīšunu ṣēnīšunu
+# text = dīktašunu maʾattu addâk šallassunu būšīšunu makkūrīšunu alpīšunu ṣēnīšunu ana āliya Aššur ubla
 1-2	dīktašunu	_	_	_	_	_	_	_	_
 1	dēktu	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	4	obj	_	_
 2	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	1	det	_	_
@@ -164,17 +164,14 @@
 13-14	ṣēnīšunu	_	_	_	_	_	_	_	_
 13	ṣēnī	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=F	5	conj	_	_
 14	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	13	det	_	_
+15	ana	_	_	ADP	_	16	case	_	_
+16-17	āliya	_	_	_	_	_	_	_	_
+16	āli	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	19	obl	_	_
+17	ya	_	_	PRON	Person=1|Number=Sg	16	det	_	_
+18	Aššur	_	_	PROPN	Gender=M	16	appos	_	_
+19	ubla	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Ventive	4	conj	_	_
 
 # sent_id = Q006020-10
-# text = ana āliya Aššur ubla
-1	ana	_	_	ADP	_	2	case	_	_
-2-3	āliya	_	_	_	_	_	_	_	_
-2	āli	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	5	obl	_	_
-3	ya	_	_	PRON	Person=1|Number=Sg	2	det	_	_
-4	Aššur	_	_	PROPN	Gender=M	2	appos	_	_
-5	ubla	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Ventive	-10	conj	_	_
-
-# sent_id = Q006020-11
 # text = ilānišunu kī qīšūte ana Aššur bēliya aqīš
 1-2	ilānišunu	_	_	_	_	_	_	_	_
 1	ilāni	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	9	obj	_	_
@@ -188,7 +185,7 @@
 8	ya	_	_	PRON	Person=1|Number=Sg	7	det	_	_
 9	aqīš	_	_	VERB	Tense=Preterit|Mood=Indicative|Number=Sg|Person=1|Verbstem=G	0	root	0:root	_
 
-# sent_id = Q006020-12
+# sent_id = Q006020-11
 # text = sītāt ummānātišunu ša ištu pān kakkīya ipparšidūni itūrūni
 1	sītāt	_	_	NOUN	Gender=F|Number=Pl|Nounbase=Bound	10	nsubj	_	_
 2-3	ummānātišunu	_	_	_	_	_	_	_	_
@@ -203,7 +200,7 @@
 9	ipparšidūni	_	_	VERB	Tense=Preterit|Mood=Subjunctive|Number=Pl|Person=3|Verbstem=G	1	acl:relcl	_	_
 10	itūrūni	_	_	VERB	Verbstem=G|Mood=Subjunctive|Gender=M|Number=Pl|Person=3|Tense=Preterit	0	root	0:root	_
 
-# sent_id = Q006020-13
+# sent_id = Q006020-12
 # text = šubtu nēhtu ušēšibšunūti
 1	šubtu	_	_	NOUN	Nounbase=Free|Number=Sg|Gender=F	3	obl	_	_
 2	nēhtu	_	_	ADJ	Gender=F|Number=Sg	1	amod	_	_
@@ -211,7 +208,7 @@
 3	ušēšib	_	_	VERB	Verbstem=S|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	0	root	0:root	_
 4	šunūti	_	_	PRON	Gender=M|Number=Pl|Person=3	3	obj	_	_
 
-# sent_id = Q006020-14
+# sent_id = Q006020-13
 # text = x x x x x x x rap ha x x x Idiqlat x 40 ālāni
 1	x	_	_	_	_	_	_	_	_
 2	x	_	_	_	_	_	_	_	_
@@ -228,7 +225,7 @@
 13	40	_	_	NUM	_	14	nummod	_	_
 14	ālāni	_	_	NOUN	Gender=M|Number=Pl	0	root	0:root	_
 
-# sent_id = Q006020-15
+# sent_id = Q006020-14
 # text = x x re-e x 3 ālānišunu attasha
 1	x	_	_	_	_	_	_	_	_
 2	x re-e	_	_	PROPN	_	_	_	_	_
@@ -239,7 +236,7 @@
 6	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	5	det	_	_
 7	attasha	_	_	VERB	Verbstem=G|Person=1|Tense=Perfect|Number=Sg|Mood=Ventive	0	root	0:root	_
 
-# sent_id = Q006020-16
+# sent_id = Q006020-15
 # text = dīktašunu maʾattu adūk
 1-2	dīktašunu	_	_	_	_	_	_	_	_
 1	dēktu	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	4	obj	_	_
@@ -247,7 +244,7 @@
 3	maʾattu	_	_	ADJ	Gender=F|Case=Nom|Number=Sg	1	amod	_	_
 4	adūk	_	_	VERB	Tense=Preterit|Mood=Indicative|Number=Sg|Person=1|Verbstem=G	0	root	0:root	_
 
-# sent_id = Q006020-17
+# sent_id = Q006020-16
 # text = ilānišunu šallassunu būšīšunu makkūrīšunu alpīšunu ṣēnīšunu ušēṣâ ana āliya Aššur ubla
 1-2	ilānišunu	_	_	_	_	_	_	_	_
 1	ilāni	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	13	obj	_	_
@@ -275,7 +272,7 @@
 17	Aššur	_	_	PROPN	Gender=M	15	appos	_	_
 18	ubla	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Ventive	13	conj	_	_
 
-# sent_id = Q006020-18
+# sent_id = Q006020-17
 # text = ina Kislimi UD.4.KAM₂ ana Habhi lū allik
 1	ina	_	_	ADP	_	2	case	_	_
 2	Kislimi	_	_	PROPN	Case=Gen	7	obl	_	_
@@ -285,7 +282,7 @@
 6	lū	_	_	PART	_	7	advmod:emph	_	_
 7	allik	_	_	VERB	Tense=Preterit|Mood=Indicative|Number=Sg|Person=1|Verbstem=G	0	root	0:root	_
 
-# sent_id = Q006020-19
+# sent_id = Q006020-18
 # text = Baza Sarbalia Diduala adi ālāni ša šiddi Ruru ša Mehri
 1	Baza	_	_	PROPN	Case=Acc	11	obj	_	_
 2	Sarbalia	_	_	PROPN	Case=Acc	1	conj	_	_
@@ -298,27 +295,24 @@
 9	ša	_	_	ADP	_	10	case	_	_
 10	Mehri	_	_	PROPN	Case=Gen	8	nmod	_	_
 
-# sent_id = Q006020-20
-# text = akšud
+# sent_id = Q006020-19
+# text = akšud šallassunu būšīšunu ušēṣâ ana āliya Aššur ubla
 1	akšud	_	_	VERB	Tense=Preterit|Mood=Indicative|Number=Sg|Person=1|Verbstem=G	0	root	0:root	_
+2-3	šallassunu	_	_	_	_	_	_	_	_
+2	šallas	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	6	obj	_	_
+3	sunu	_	_	PRON	Gender=M|Number=Pl|Person=3	2	det	_	_
+4-5	būšīšunu	_	_	_	_	_	_	_	_
+4	būšī	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	2	conj	_	_
+5	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	4	det	_	_
+6	ušēṣâ	_	_	VERB	Tense=Preterit|Mood=Ventive|Number=Sg|Person=1|Verbstem=S	0	root	0:root	_
+7	ana	_	_	ADP	_	8	case	_	_
+8-9	āliya	_	_	_	_	_	_	_	_
+8	āli	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	11	obl	_	_
+9	ya	_	_	PRON	Person=1|Number=Sg	8	det	_	_
+10	Aššur	_	_	PROPN	Gender=M	8	appos	_	_
+11	ubla	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Ventive	6	conj	_	_
 
-# sent_id = Q006020-21
-# text = šallassunu būšīšunu ušēṣâ ana āliya Aššur ubla
-1-2	šallassunu	_	_	_	_	_	_	_	_
-1	šallas	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	5	obj	_	_
-2	sunu	_	_	PRON	Gender=M|Number=Pl|Person=3	1	det	_	_
-3-4	būšīšunu	_	_	_	_	_	_	_	_
-3	būšī	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	1	conj	_	_
-4	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	3	det	_	_
-5	ušēṣâ	_	_	VERB	Tense=Preterit|Mood=Ventive|Number=Sg|Person=1|Verbstem=S	0	root	0:root	_
-6	ana	_	_	ADP	_	7	case	_	_
-7-8	āliya	_	_	_	_	_	_	_	_
-7	āli	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	10	obl	_	_
-8	ya	_	_	PRON	Person=1|Number=Sg	7	det	_	_
-9	Aššur	_	_	PROPN	Gender=M	7	appos	_	_
-10	ubla	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Ventive	5	conj	_	_
-
-# sent_id = Q006020-22
+# sent_id = Q006020-20
 # text = enūma kisirtu ša sippi āli šapla bīt Aššur
 1	enūma	_	_	ADV	_	22	advmod	_	_
 2	kisirtu	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=F	22	nsubj	_	_
@@ -329,7 +323,7 @@
 7	bīt	_	_	NOUN	Gender=F|Number=Sg|Nounbase=Bound	0	root	0:root	_
 8	Aššur	_	_	PROPN	Gender=M	7	nmod:poss	_	_
 
-# sent_id = Q006020-23
+# sent_id = Q006020-21
 # text = ša Adad-nerari iššak Aššur mār Arik-den-ili iššak Aššur rubû ālik pāniya ēpušu
 1	ša	_	_	PRON	_	13	obl	_	_
 2	Adad-nerari	_	_	PROPN	Gender=M	13	nsubj	_	_
@@ -346,25 +340,22 @@
 12	ya	_	_	PRON	Person=1|Number=Sg	11	det	_	_
 13	ēpušu	_	_	VERB	Verbstem=G|Mood=Subjunctive|Gender=M|Number=Sg|Person=3|Tense=Preterit	0	root	0:root	_
 
-# sent_id = Q006020-24
-# text = ēnahma i’’abit
+# sent_id = Q006020-22
+# text = ēnahma i’’abit anhūssu uddiš dannassa umessi
 1-2	ēnahma	_	_	_	_	_	_	_	_
 1	ēnah	_	_	VERB	Verbstem=G|Mood=Indicative|Gender=M|Number=Sg|Person=3|Tense=Preterit	0	root	0:root	_
 2	ma	_	_	CONJ	_	3	cc	_	_
 3	i’’abit	_	_	VERB	Verbstem=N|Mood=Indicative|Gender=M|Number=Sg|Person=3|Tense=Preterit	1	conj	_	_
+4-5	anhūssu	_	_	_	_	_	_	_	_
+4	anhūs	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	6	obj	_	_
+5	su	_	_	PRON	Gender=M|Number=Sg|Person=3	4	det	_	_
+6	uddiš	_	_	VERB	Verbstem=D|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	0	root	0:root	_
+7-8	dannassa	_	_	_	_	_	_	_	_
+7	dannas	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	9	obj	_	_
+8	sa	_	_	PRON	Gender=F|Number=Sg|Person=3	7	det	_	_
+9	umessi	_	_	VERB	Tense=Preterit|Mood=Indicative|Number=Sg|Person=1|Verbstem=D	6	conj	_	_
 
-# sent_id = Q006020-25
-# text = anhūssu uddiš dannassa umessi
-1-2	anhūssu	_	_	_	_	_	_	_	_
-1	anhūs	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	3	obj	_	_
-2	su	_	_	PRON	Gender=M|Number=Sg|Person=3	1	det	_	_
-3	uddiš	_	_	VERB	Verbstem=D|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	0	root	0:root	_
-4-5	dannassa	_	_	_	_	_	_	_	_
-4	dannas	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	6	obj	_	_
-5	sa	_	_	PRON	Gender=F|Number=Sg|Person=3	4	det	_	_
-6	umessi	_	_	VERB	Tense=Preterit|Mood=Indicative|Number=Sg|Person=1|Verbstem=D	3	conj	_	_
-
-# sent_id = Q006020-26
+# sent_id = Q006020-23
 # text = ištu uššīšu adi gabadibbīšu arṣip ušeklil eli mahrê ussim
 1	ištu	_	_	ADP	_	2	case	_	_
 2-3	uššīšu	_	_	_	_	_	_	_	_
@@ -380,7 +371,7 @@
 10	mahrê	_	_	ADV	_	11	obl	_	_
 11	ussim	_	_	VERB	Tense=Preterit|Mood=Indicative|Number=Sg|Person=1|Verbstem=D	7	conj	_	_
 
-# sent_id = Q006020-27
+# sent_id = Q006020-24
 # text = narêya alṭur ina qerbišu aškun
 1-2	narêya	_	_	_	_	_	_	_	_
 1	narê	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	3	obj	7:obj	_
@@ -392,7 +383,7 @@
 6	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	5	det	_	_
 7	aškun	_	_	VERB	Tense=Preterit|Mood=Indicative|Number=Sg|Person=1|Verbstem=G	3	conj	_	_
 
-# sent_id = Q006020-28
+# sent_id = Q006020-25
 # text = rubû arkû anhūssa luddiš šumī šaṭra ana ašrišu lutēr
 1	rubû	_	_	NOUN	Gender=M|Number=Sg|Case=Nom|Nounbase=Free	5	nsubj	_	_
 2	arkû	_	_	ADJ	Gender=M|Case=Nom|Number=Sg	1	amod	_	_
@@ -410,7 +401,7 @@
 11	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	10	det	_	_
 12	lutēr	_	_	VERB	Gender=M|Mood=Precative|Person=3|Verbstem=D|Number=Sg	5	conj	_	_
 
-# sent_id = Q006020-29
+# sent_id = Q006020-26
 # text = Aššur bēlu rabû ikribīšu išemme
 1	Aššur	_	_	PROPN	Gender=M	6	nsubj	_	_
 2	bēlu	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	1	appos	_	_
@@ -420,7 +411,7 @@
 5	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	4	det	_	_
 6	išemme	_	_	VERB	Tense=Present|Mood=Indicative|Number=Sg|Person=3|Verbstem=G	0	root	0:root	_
 
-# sent_id = Q006020-30
+# sent_id = Q006020-27
 # text = Kislimu UD.6.KAM₂ līmu Šeʾi-Aššur šakin māt Kalzi
 1	Kislimu	_	_	PROPN	Case=Nom	0	root	0:root	_
 2	UD.6.KAM₂	_	_	ADJ	_	1	amod	_	_
@@ -430,7 +421,7 @@
 6	māt	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	5	nmod:poss	_	_
 7	Kalzi	_	_	PROPN	Case=Gen	6	nmod:poss	_	_
 
-# sent_id = Q006020-31
+# sent_id = Q006020-28
 # text = Gabbiya-ana-Aššur šakin māt Libbi-ali Adad-aha-iddina ša-muhhi-āli qīpūtu ša kisirte
 1	Gabbiya-ana-Aššur	_	_	PROPN	Gender=M	0	root	0:root	_
 2	šakin	_	_	NOUN	Gender=M|Number=Sg|Nounbase=Bound	1	appos	_	_

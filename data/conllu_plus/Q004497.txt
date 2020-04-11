@@ -1,18 +1,15 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004497-1
-# text = x Šamšu kiššat nišī
+# text = x Šamšu kiššat nišī rubû iššak Aššur
 1	x	_	_	PROPN	Gender=M	0	root	0:root	_
 2	Šamšu	_	_	PROPN	Case=Nom|Gender=M	1	appos	_	_
 3	kiššat	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	0	root	0:root	_
 4	nišī	_	_	NOUN	Gender=F|Number=Pl	3	nmod:poss	_	_
+5	rubû	_	_	NOUN	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	appos	_	_
+6	iššak	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
+7	Aššur	_	_	PROPN	Gender=M	6	nmod:poss	_	_
 
 # sent_id = Q004497-2
-# text = rubû iššak Aššur
-1	rubû	_	_	NOUN	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	-3	appos	_	_
-2	iššak	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	-3	appos	_	_
-3	Aššur	_	_	PROPN	Gender=M	2	nmod:poss	_	_
-
-# sent_id = Q004497-3
 # text = x x ittallakuma x x x de ē nu x x mušekniš x x muttallik sangāni
 1	x	_	_	_	_	_	_	_	_
 2	x	_	_	_	_	_	_	_	_
@@ -33,14 +30,14 @@
 16	muttallik	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	0	root	0:root	_
 17	sangāni	_	_	NOUN	Nounbase=Free|Number=Pl|Gender=M	16	nmod:poss	_	_
 
-# sent_id = Q004497-4
+# sent_id = Q004497-3
 # text = x x arhī pašqūte
 1	x	_	_	_	_	_	_	_	_
 2	x	_	_	_	_	_	_	_	_
 3	arhī	_	_	NOUN	Gender=M|Number=Pl	0	root	0:root	_
 4	pašqūte	_	_	ADJ	Gender=M|Number=Pl	3	amod	_	_
 
-# sent_id = Q004497-5
+# sent_id = Q004497-4
 # text = x x māt zāʾirīšu
 1	x	_	_	_	_	_	_	_	_
 2	x	_	_	_	_	_	_	_	_
@@ -49,7 +46,7 @@
 4	zāʾirī	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	3	nmod:poss	_	_
 5	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	4	det	_	_
 
-# sent_id = Q004497-6
+# sent_id = Q004497-5
 # text = x x gērîšu
 1	x	_	_	_	_	_	_	_	_
 2	x	_	_	_	_	_	_	_	_
@@ -57,7 +54,7 @@
 3	gērî	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	0	root	0:root	_
 4	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	3	det	_	_
 
-# sent_id = Q004497-7
+# sent_id = Q004497-6
 # text = id-du-x x-tu ṣâtu x x rēʾû kibrāt erbetta
 1	id-du-x	_	_	_	_	_	_	_	_
 2	x-tu	_	_	_	_	_	_	_	_
@@ -68,7 +65,7 @@
 7	kibrāt	_	_	NOUN	Gender=F|Nounbase=Bound|Number=Pl	6	nmod:poss	_	_
 8	erbetta	_	_	NUM	Gender=F	7	nmod:poss	_	_
 
-# sent_id = Q004497-8
+# sent_id = Q004497-7
 # text = ša naphar x x mutēr gimilli māt Aššur
 1	ša	_	_	PRON	_	_	_	_	_
 2	naphar	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	_	_	_	_
@@ -79,7 +76,7 @@
 7	māt	_	_	NOUN	Gender=F|Nounbase=Bound|Number=Sg	6	nmod:poss	_	_
 8	Aššur	_	_	PROPN	Gender=M	7	nmod:poss	_	_
 
-# sent_id = Q004497-9
+# sent_id = Q004497-8
 # text = x x enūma Anu Enlil u Ea
 1	x	_	_	_	_	_	_	_	_
 2	x	_	_	_	_	_	_	_	_
@@ -89,7 +86,7 @@
 6	u	_	_	CONJ	_	7	cc	_	_
 7	Ea	_	_	PROPN	Gender=M	5	conj	_	_
 
-# sent_id = Q004497-10
+# sent_id = Q004497-9
 # text = x x kakki agâ x x šakin Enlil iššak Aššur mār Adad-nerari
 1	x	_	_	_	_	_	_	_	_
 2	x	_	_	_	_	_	_	_	_
@@ -104,7 +101,7 @@
 11	mār	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	6	appos	_	_
 12	Adad-nerari	_	_	PROPN	Gender=M	11	nmod:poss	_	_
 
-# sent_id = Q004497-11
+# sent_id = Q004497-10
 # text = x x Idiqlat x x Amurri ša šulmu Šamši
 1	x	_	_	_	_	_	_	_	_
 2	x	_	_	_	_	_	_	_	_
@@ -116,7 +113,7 @@
 8	šulmu	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	6	nmod	_	_
 9	Šamši	_	_	PROPN	Case=Gen|Gender=M	8	nmod:poss	_	_
 
-# sent_id = Q004497-12
+# sent_id = Q004497-11
 # text = x x Subnat x x mātāt Nairi
 1	x	_	_	_	_	_	_	_	_
 2	x	_	_	_	_	_	_	_	_
@@ -126,7 +123,7 @@
 6	mātāt	_	_	NOUN	Gender=F|Nounbase=Bound|Number=Pl	0	root	0:root	_
 7	Nairi	_	_	PROPN	Case=Gen	6	nmod:poss	_	_
 
-# sent_id = Q004497-13
+# sent_id = Q004497-12
 # text = ana pāṭ gimriša
 1	ana	_	_	ADP	_	2	case	_	_
 2	pāṭ	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	_
@@ -134,7 +131,7 @@
 3	gimri	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	2	nmod:poss	_	_
 4	ša	_	_	PRON	Gender=F|Number=Sg|Person=3	3	det	_	_
 
-# sent_id = Q004497-14
+# sent_id = Q004497-13
 # text = x x Suhi adi Rapiqi x x Habruri adi x x Dur-Lullumaya x x-ša₂ akšud ištu x x Til-Bari x x Til-ša-Zabdani x
 1	x	_	_	_	_	_	_	_	_
 2	x	_	_	_	_	_	_	_	_

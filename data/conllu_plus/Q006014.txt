@@ -152,7 +152,7 @@
 4	adūk	_	_	VERB	Person=1|Verbstem=G|Mood=Indicative|Tense=Preterit|Number=Sg	0	root	0:root	_
 
 # sent_id = Q006014-12
-# text = x šallassunu būšīšunu ašlulma sitātešunu
+# text = x šallassunu būšīšunu ašlulma sitātešunu assuha ina x x
 1	x	_	_	_	_	_	_	_	_
 2-3	šallassunu	_	_	_	_	_	_	_	_
 2	šallas	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	6	obj	_	_
@@ -166,27 +166,24 @@
 8-9	sitātešunu	_	_	_	_	_	_	_	_
 8	sītāte	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=F	0	root	0:root	_
 9	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	8	det	_	_
+10	assuha	_	_	VERB	Person=1|Verbstem=G|Mood=Ventive|Tense=Preterit|Number=Sg	6	conj	_	_
+11	ina	_	_	ADP	_	12	case	_	_
+12	x	_	_	NOUN	Case=Gen	13	obl	_	_
+13	x	_	_	VERB	_	6	conj	_	_
 
 # sent_id = Q006014-13
-# text = assuha ina x x
-1	assuha	_	_	VERB	Person=1|Verbstem=G|Mood=Ventive|Tense=Preterit|Number=Sg	-3	conj	_	_
-2	ina	_	_	ADP	_	3	case	_	_
-3	x	_	_	NOUN	Case=Gen	4	obl	_	_
-4	x	_	_	VERB	_	-3	conj	_	_
-
-# sent_id = Q006014-14
 # text = Kundabhale šar Katmuhi
 1	Kundabhale	_	_	PROPN	_	0	root	0:root	_
 2	šar	_	_	NOUN	Nounbase=Bound|Gender=M|Number=Sg	1	appos	_	_
 3	Katmuhi	_	_	PROPN	Case=Gen	2	nmod:poss	_	_
 
-# sent_id = Q006014-15
+# sent_id = Q006014-14
 # text = x biltu maddattu
 1	x	_	_	_	_	_	_	_	_
 2	biltu	_	_	NOUN	Nounbase=Free|Number=Sg|Gender=F	0	root	0:root	_
 3	maddattu	_	_	NOUN	Nounbase=Free|Gender=F|Case=Nom|Number=Sg	2	conj	_	_
 
-# sent_id = Q006014-16
+# sent_id = Q006014-15
 # text = ana x ṣīrāte ina x
 1	ana	_	_	ADP	_	_	_	_	_
 2	x	_	_	_	_	_	_	_	_
@@ -194,7 +191,7 @@
 4	ina	_	_	ADP	_	5	case	_	_
 5	x	_	_	NOUN	Case=Gen	0	root	0:root	_
 
-# sent_id = Q006014-17
+# sent_id = Q006014-16
 # text = x ša Adad u x adki x x x
 1	x	_	_	_	_	_	_	_	_
 2	ša	_	_	ADP	_	3	case	_	_

@@ -242,19 +242,16 @@
 7	ša	_	_	PRON	_	1	acl:relcl	_	_
 
 # sent_id = Q004504-14
-# text = Aššur inabbûšu
+# text = Aššur inabbûšu ēkurru šī ennahu
 1	Aššur	_	_	PROPN	Gender=M	2	nsubj	_	_
 2-3	inabbûšu	_	_	_	_	_	_	_	_
 2	inabbû	_	_	VERB	Verbstem=G|Mood=Subjunctive|Gender=M|Number=Sg|Person=3|Tense=Present	0	root	0:root	_
 3	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	2	obj	_	_
+4	ēkurru	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=F	6	nsubj	_	_
+5	šī	_	_	DET	Case=Nom|Gender=F|Number=Sg|Person=3	4	amod	_	_
+6	ennahu	_	_	VERB	Tense=Present|Verbstem=G|Mood=Subjunctive|Number=Sg|Person=3	0	root	0:root	_
 
 # sent_id = Q004504-15
-# text = ēkurru šī ennahu
-1	ēkurru	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=F	3	nsubj	_	_
-2	šī	_	_	DET	Case=Nom|Gender=F|Number=Sg|Person=3	1	amod	_	_
-3	ennahu	_	_	VERB	Tense=Present|Verbstem=G|Mood=Subjunctive|Number=Sg|Person=3	0	root	0:root	_
-
-# sent_id = Q004504-16
 # text = narûwa tammarma tašassû
 1-2	narûwa	_	_	_	_	_	_	_	_
 1	narû	_	_	NOUN	Number=Sg|Gender=M|Nounbase=Suffixal	3	obj	_	_
@@ -264,7 +261,7 @@
 4	ma	_	_	CONJ	_	5	cc	_	_
 5	tašassû	_	_	VERB	Verbstem=G|Mood=Subjunctive|Gender=M|Number=Sg|Person=2|Tense=Present	3	conj	_	_
 
-# sent_id = Q004504-17
+# sent_id = Q004504-16
 # text = anhūssa uddiš šumka itti šumiya šuṭur ana ašrišu tēr
 1-2	anhūssa	_	_	_	_	_	_	_	_
 1	anhūs	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	3	obj	_	_
@@ -284,7 +281,7 @@
 12	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	11	det	_	_
 13	tēr	_	_	VERB	Verbstem=G|Gender=M|Mood=Imperative|Number=Sg|Person=2	3	conj	_	_
 
-# sent_id = Q004504-18
+# sent_id = Q004504-17
 # text = Aššur bēlu rubû Mamu āšib ēkurri šī ina nīši īnīšunu kīniš liṭṭulūšu šumšu zēršu ina mātišunu lukinnū
 1	Aššur	_	_	PROPN	Gender=M	13	nsubj	_	_
 2	bēlu	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	1	appos	_	_
@@ -314,7 +311,7 @@
 21	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	20	det	_	_
 22	lukinnū	_	_	VERB	Verbstem=D|Gender=M|Mood=Precative|Number=Pl|Person=3	13	conj	_	_
 
-# sent_id = Q004504-19
+# sent_id = Q004504-18
 # text = ša narûwa emmaruma annâ mīna iqabbû
 1	ša	_	_	PRON	_	4	nsubj	_	_
 2-3	narûwa	_	_	_	_	_	_	_	_
@@ -327,7 +324,7 @@
 7	mīna	_	_	PRON	_	8	obj	_	_
 8	iqabbû	_	_	VERB	Verbstem=G|Mood=Subjunctive|Gender=M|Number=Sg|Person=3|Tense=Present	4	conj	_	_
 
-# sent_id = Q004504-20
+# sent_id = Q004504-19
 # text = Ištar bēlat qabli u tāhāzi kakkīšu lū tušabbir kussâšu lū tēkimšu
 1	Ištar	_	_	PROPN	Gender=F	9	nsubj	_	_
 2	bēlat	_	_	NOUN	Number=Sg|Gender=F|Nounbase=Bound	1	appos	_	_
@@ -347,7 +344,7 @@
 13	tēkim	_	_	VERB	Verbstem=G|Mood=Indicative|Gender=F|Number=Sg|Person=3|Tense=Preterit	9	conj	_	_
 14	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	13	obl	_	_
 
-# sent_id = Q004504-21
+# sent_id = Q004504-20
 # text = ša narûwa emmaruma išassū šamnī ipaššašu nīqa inaqqû ana ašrišu uterru
 1	ša	_	_	PRON	_	4	nsubj	_	_
 2-3	narûwa	_	_	_	_	_	_	_	_
@@ -367,7 +364,7 @@
 13	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	12	det	_	_
 14	uterru	_	_	VERB	Verbstem=D|Gender=M|Mood=Subjunctive|Number=Sg|Person=3|Tense=Present	4	conj	_	_
 
-# sent_id = Q004504-22
+# sent_id = Q004504-21
 # text = Aššur bēlu rabû ikribīšu išemme
 1	Aššur	_	_	PROPN	Gender=M	6	nsubj	_	_
 2	bēlu	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	1	appos	_	_
@@ -377,7 +374,7 @@
 5	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	4	det	_	_
 6	išemme	_	_	VERB	Tense=Present|Verbstem=G|Mood=Indicative|Number=Sg|Person=3	0	root	0:root	_
 
-# sent_id = Q004504-23
+# sent_id = Q004504-22
 # text = ina tāhāzi ša šarrāni ašar taqrubte ammar libbišu ušamṣâšu
 1	ina	_	_	ADP	_	2	case	_	_
 2	tāhāzi	_	_	NOUN	Case=Gen|Nounbase=Free|Number=Sg|Gender=M	10	obl	_	_
