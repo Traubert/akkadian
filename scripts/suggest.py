@@ -54,19 +54,56 @@ for f in filter(valid_filename, filenames):
         else:
             pos2loc[lemma_with_pos].append(loc)
 
-print("Suggestions for completing absent POS fields:")
+# print("Suggestions for completing absent POS fields:")
             
-for lemma in sorted(lemma2pos):
+# for lemma in sorted(lemma2pos):
+#     # if len(forms[form].keys()) < 2:
+#     #     continue
+#     tags = list(lemma2pos[lemma].keys())
+#     if len(tags) == 2 and '_' in tags:
+#         tags.remove("_")
+#         print()
+#         print("{}: _ -> {}".format(lemma, tags[0]))
+#         print("  _ occurs in following locations:")
+#         for location in pos2loc[(lemma, "_")]:
+#             print("    {}, line number {}".format(location[0], location[1]))
+#     # elif superset_relationship(forms[form].keys()):
+#     #     continue
+#         # if ('_',) in forms[form].keys():
+#         #     continue
+#     # print(form)
+#     # for analysis in forms[form]:
+#     #     print("  " + str(forms[form][analysis]) + "  " + '|'.join(analysis))
+
+print()
+#print(morpho2loc)
+print("Suggestions for completing absent or subset morpho fields:")
+for lemma in sorted(lemma2morpho):
     # if len(forms[form].keys()) < 2:
     #     continue
-    tags = list(lemma2pos[lemma].keys())
-    if len(tags) == 2 and '_' in tags:
-        tags.remove("_")
-        print()
-        print("{}: _ -> {}".format(lemma, tags[0]))
-        print("  _ occurs in following locations:")
-        for location in pos2loc[(lemma, "_")]:
-            print("    {}, line number {}".format(location[0], location[1]))
+    tags = list(lemma2morpho[lemma].keys())
+    if len(tags) == 2:
+
+        if ('_',) in tags:
+            tags.remove(('_',))
+            print()
+            print("{}: _ -> {}".format(lemma, '|'.join(tags[0])))
+            print("  _ occurs in following locations:")
+            for location in morpho2loc[(lemma, ("_",))]:
+                print("    {}, line number {}".format(location[0], location[1]))
+        elif superset_relationship(tags):
+            if len(tags[0]) > len(tags[1]):
+                sup = tags[0]
+                sub = tags[1]
+            else:
+                sup = tags[1]
+                sub = tags[0]
+            print()
+            print("{}: {} -> {}".format(lemma, '|'.join(sub), '|'.join(sup)))
+            print("  {} occurs in following locations:".format('|'.join(sub)))
+            for location in morpho2loc[(lemma, sub)]:
+                print("    {}, line number {}".format(location[0], location[1]))
+
     # elif superset_relationship(forms[form].keys()):
     #     continue
         # if ('_',) in forms[form].keys():
