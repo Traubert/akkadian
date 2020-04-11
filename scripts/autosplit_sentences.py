@@ -1,6 +1,6 @@
 import sys, os
 
-columns_comment = "# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC\n"
+from akkadian import *
 
 conservative = False
 
@@ -10,19 +10,6 @@ writedirpath = sys.argv[2]
 if len(sys.argv) > 3:
     logfilename = sys.argv[3]
 log_fobj = open(logfilename, "w")
-
-def split(l, val):
-    retval = []
-    curlist = []
-    for item in l:
-        if item == val:
-            retval.append(curlist)
-            curlist = []
-        else:
-            curlist.append(item)
-    if len(curlist) > 0:
-        retval.append(curlist)
-    return retval
 
 def not_comment(line):
     return not line.lstrip().startswith("#")
@@ -36,10 +23,11 @@ def convert_file(name, read_fobj, write_fobj):
     log_fobj.write("Autosplitting {}\n".format(name))
     write_fobj.write(columns_comment)
     sent_num = 1
-#    lines = list(filter(not_comment, read_fobj.readlines()))
     lines = read_fobj.readlines()
+#    non_comment_lines = list(filter(not_comment, lines))
     sentences = split(lines, "\n")
     for sentence in sentences:
+        non_comment_line_parts = list(map(lambda x: x.split('\t'), filter(line_is_wordtoken, sentence)))
         if sentence[0].startswith("# sent_id = "):
             sentence_id = sentence[0]
         else:
@@ -67,7 +55,7 @@ def convert_file(name, read_fobj, write_fobj):
             else:
                 parent2children[head].append(this_id)
         for i, line in enumerate(sentence):
-            if not not_comment(line):
+            if not line_is_wordtoken(line):
                 continue
             if get_id(line) in head_ids and get_head(line) == '_':
                 parts = line.split('\t')
@@ -79,19 +67,31 @@ def convert_file(name, read_fobj, write_fobj):
         lastright = None
         assigned_ids = set()
         for head in heads:
+            made_split = False
             children = list(map(int, collect_children(head)))
             leftmost = min(children + [int(head)])
+            rightmost = max(children + [int(head)])
+            log_fobj.write("    Apparent sentence root {}: leftmost node was {}, rightmost node was {}\n".format(head, leftmost, rightmost))
             if lastright != None:
                 if not conservative or leftmost == lastright + 1:
-                    log_fobj.write("    Inserting split at original id {}\n".format(lastright))
+                    log_fobj.write("      Trying to insert split at original id {}...".format(rightmost))
                     splits.append(lastright)
-            lastright = max(children + [int(head)])
-            log_fobj.write("    Apparent sentence root {}: leftmost child was {}, rightmost child was {}\n".format(head, leftmost, lastright))
-            this_range = set(range(leftmost, lastright + 1))
-            if not assigned_ids.isdisjoint(this_range):
-                log_fobj.write("    OVERLAPPING TREE\n")
+                    made_split = True
+            this_range = set(range(leftmost, rightmost + 1))
+            if made_split and not assigned_ids.isdisjoint(this_range):
+#                print(non_comment_line_parts)
+                this_tree_surfaces = filter(lambda x: ('-' not in x[0]) and (int(x[0]) in this_range), non_comment_line_parts)
+                log_fobj.write(" OVERLAPPING TREE, so not splitting:\n")
+                log_fobj.write("          ...{}...\n".format(' '.join(map(lambda x: x[1], this_tree_surfaces))))
+                splits.pop()
+                continue
+            elif made_split:
+                log_fobj.write(" ok\n")
+            lastright = rightmost
             assigned_ids.update(this_range)
+        log_fobj.write(f"{sorted(splits)}")
         for new_sentence, new_surface in apply_splits(list(map(lambda x: x.strip('\n'), filter(not_comment, sentence))), sorted(splits)):
+            log_fobj.write('# sent_id = {}-{}\n'.format(name, sent_num))
             write_fobj.write('# sent_id = {}-{}\n'.format(name, sent_num))
             write_fobj.write('# text = {}\n'.format(new_surface))
             sent_num += 1
@@ -115,9 +115,7 @@ def apply_splits(lines, splits):
         #     new_lines.append(line)
         #     continue
         parts = line.split('\t')
-        if len(parts) < 10:
-            this_sentence.append(line)
-            continue
+        assert(len(parts) == 10)
         if '-' in parts[0]:
             this_word_num = int(parts[0][:parts[0].index('-')])
         else:
@@ -169,12 +167,14 @@ def apply_splits(lines, splits):
             )))
     if this_sentence:
         new_sentences.append(this_sentence)
+    assert(len(new_sentences) == len(splits) + 1)
+    
     if this_text:
         new_texts.append(' '.join(this_text))
     return zip(new_sentences, new_texts)
 
 for filename in os.listdir(readdirpath):
-    if not filename.startswith("Q"):# or '_part_' in filename:
+    if not filename.startswith("Q") or '_part_' in filename:
         continue
     name = filename[:7]
     readpath = os.path.realpath(os.path.join(readdirpath, filename))
