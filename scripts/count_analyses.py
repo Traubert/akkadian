@@ -3,11 +3,12 @@ import sys, os
 filenames = sys.argv[1:]
 
 forms = {}
+analysis2loc = {}
 total_words = 0
 max_analyses = 0
 
 for f in filenames:
-    for line in open(f):
+    for linenum, line in enumerate(open(f)):
         parts = line.strip().split('\t')
         if len(parts) != 10:
             continue
@@ -16,10 +17,15 @@ for f in filenames:
         tag_parts = (parts[4],) + tuple(sorted(parts[5].split('|')))
         if lemma not in forms:
             forms[lemma] = {tag_parts: 1}
-            continue
-        forms[lemma][tag_parts] = forms[lemma].get(tag_parts, 0) + 1
+        else:            
+            forms[lemma][tag_parts] = forms[lemma].get(tag_parts, 0) + 1
         max_analyses = max(max_analyses, len(forms[lemma]))
-
+        form_with_analysis = (lemma, tag_parts)
+        if form_with_analysis not in analysis2loc:
+            analysis2loc[form_with_analysis] = [(os.path.basename(f), linenum + 1)]
+        else:
+            analysis2loc[form_with_analysis].append((os.path.basename(f), linenum + 1))
+            
 print("Total words: {}  Total forms: {}".format(total_words, len(forms)))
 print()        
 for n in range(1, max_analyses + 1):
@@ -39,3 +45,7 @@ for n in range(multiple_analyses_limit, max_analyses + 1):
             print("  " + form)
             for analysis in forms[form]:
                 print("    {} ({} instances)".format(analysis, forms[form][analysis]))
+                if forms[form][analysis] == 1:
+                    loc = analysis2loc[(form, (analysis))][0]
+#                    print(loc)
+                    print("      at {}, line {}".format(loc[0], loc[1]))
