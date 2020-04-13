@@ -89,9 +89,7 @@ def convert_file(name, read_fobj, write_fobj):
                 log_fobj.write(" ok\n")
             lastright = rightmost
             assigned_ids.update(this_range)
-        log_fobj.write(f"{sorted(splits)}")
         for new_sentence, new_surface in apply_splits(list(map(lambda x: x.strip('\n'), filter(not_comment, sentence))), sorted(splits)):
-            log_fobj.write('# sent_id = {}-{}\n'.format(name, sent_num))
             write_fobj.write('# sent_id = {}-{}\n'.format(name, sent_num))
             write_fobj.write('# text = {}\n'.format(new_surface))
             sent_num += 1
