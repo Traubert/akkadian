@@ -55,7 +55,7 @@
 5	abūbe	_	_	NOUN	Gender=M|Case=Gen|Number=Sg|Nounbase=Free	6	obl	_	_
 6	asappan	_	_	VERB	Verbstem=G|Person=1|Tense=Present|Number=Sg|Mood=Indicative	3	conj	_	_
 7	x-ša-te	_	_	_	_	_	_	_	_
-8	munehha	_	_	NOUN	Nounbase=Free|Number=Sg|Gender=M	10	obj	_	_
+8	munehha	_	_	NOUN	Case=Acc|Nounbase=Free|Number=Sg|Gender=M	10	obj	_	_
 9	ul	_	_	PART	_	10	neg	_	_
 10	īšu	_	_	VERB	Verbstem=G|Mood=Indicative|Gender=M|Number=Sg|Person=3|Tense=Preterit	3	conj	_	_
 11	kīma	_	_	ADP	_	12	case	_	_
@@ -75,7 +75,7 @@
 25	šitmurāku	_	_	ADJ	Person=1|Number=Sg|Mood=Stative	3	conj	_	_
 26	kīma	_	_	ADP	_	27	case	_	_
 27	x	_	_	NOUN	Case=Gen	29	obl	_	_
-28	zayyārī	_	_	NOUN	Nounbase=Free|Number=Pl|Gender=M	29	obj	_	_
+28	zayyārī	_	_	NOUN	Number=Pl|Gender=M	29	obj	_	_
 29	unassah	_	_	VERB	Verbstem=D|Person=1|Tense=Present|Number=Sg|Mood=Indicative	3	conj	_	_
 30	kīma	_	_	ADP	_	31	case	_	_
 31	šuškalli	_	_	NOUN	Case=Gen|Nounbase=Free|Number=Sg|Gender=M	32	obl	_	_
@@ -94,7 +94,7 @@
 5	danni	_	_	ADJ	Case=Gen|Gender=M|Number=Sg	3	amod	_	_
 6	malkī	_	_	NOUN	Nounbase=Free|Number=Pl|Gender=M	12	nsubj	_	_
 7	kibrāt	_	_	NOUN	Gender=F|Number=Pl|Nounbase=Bound	6	nmod:poss	_	_
-8	erbetti	_	_	NUM	Case=Gen|Nounbase=Free|Number=Sg|Gender=F	7	nummod	_	_
+8	erbetti	_	_	NUM	Case=Gen|Number=Sg|Gender=F	7	nummod	_	_
 9	kīma	_	_	ADP	_	10	case	_	_
 10	qanî	_	_	NOUN	Case=Gen|Nounbase=Bound|Number=Sg|Gender=M	12	obl	_	_
 11	mehê	_	_	NOUN	Case=Gen|Nounbase=Free|Number=Sg|Gender=M	10	nmod:poss	_	_
@@ -129,7 +129,7 @@
 13	Lullume	_	_	PROPN	Case=Gen	12	nmod:poss	_	_
 14	Habhi	_	_	PROPN	Case=Gen	13	conj	_	_
 15	ša	_	_	ADP	_	16	case	_	_
-16	bītāni	_	_	NOUN	_	14	nmod	_	_
+16	bītāni	_	_	NOUN	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	14	nmod	_	_
 17	māt	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	23	obl	_	_
 18	Zamua	_	_	PROPN	_	17	nmod:poss	_	_
 19	adi	_	_	ADP	_	20	case	_	_
@@ -202,13 +202,13 @@
 2	ana	_	_	ADP	_	3	case	_	_
 3	pāṭ	_	_	NOUN	Gender=M|Number=Sg|Nounbase=Bound	6	obl	_	_
 4-5	gimriša	_	_	_	_	_	_	_	_
-4	gimri	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=M	3	nmod:poss	_	_
+4	gimri	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	3	nmod:poss	_	_
 5	ša	_	_	PRON	Gender=F|Number=Sg|Person=3	4	det	_	_
 6-7	ipēluma	_	_	_	_	_	_	_	_
 6	ipēlu	_	_	VERB	Verbstem=G|Mood=Subjunctive|Gender=M|Number=Sg|Person=3|Tense=Preterit	0	root	0:root	_
 7	ma	_	_	PART	_	12	cc	_	_
 8	ana	_	_	ADP	_	9	case	_	_
-9	miṣir	_	_	NOUN	_	12	obl	_	_
+9	miṣir	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	12	obl	_	_
 10-11	mātišu	_	_	_	_	_	_	_	_
 10	māti	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F|Case=Gen	9	nmod:poss	_	_
 11	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	10	det	_	_

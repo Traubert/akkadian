@@ -146,7 +146,7 @@
 # sent_id = Q004486-6
 # text = Kalhu mahrâ ša Salmanu-ašared šar māt Aššur rubû ālik pāniya ēpušu ālu šū
 1	Kalhu	_	_	PROPN	Case=Nom	12	obj	_	_
-2	mahrâ	_	_	ADJ	Case=Acc|Nounbase=Free|Number=Sg|Gender=M	1	amod	_	_
+2	mahrâ	_	_	ADJ	Case=Acc|Number=Sg|Gender=M	1	amod	_	_
 3	ša	_	_	PRON	_	0	root	0:root	_
 4	Salmanu-ašared	_	_	PROPN	Gender=M	12	nsubj	_	_
 5	šar	_	_	NOUN	Nounbase=Bound|Gender=M|Number=Sg	4	appos	_	_
@@ -169,7 +169,7 @@
 3	iṣlal	_	_	VERB	Verbstem=G|Mood=Indicative|Gender=M|Number=Sg|Person=3|Tense=Preterit	1	conj	_	_
 4	ana	_	_	ADP	_	5	case	_	_
 5	arkât	_	_	NOUN	Nounbase=Bound|Number=Pl|Gender=F	11	obl	_	_
-6	ūmē	_	_	NOUN	Nounbase=Free|Number=Pl|Gender=M	5	nmod:poss	_	_
+6	ūmē	_	_	NOUN	Number=Pl|Gender=M	5	nmod:poss	_	_
 7	ana	_	_	ADP	_	8	case	_	_
 8	tīli	_	_	NOUN	Case=Gen|Nounbase=Free|Number=Sg|Gender=M	11	obl	_	_
 9	u	_	_	CONJ	_	10	cc	_	_
@@ -189,7 +189,7 @@
 8	apsî	_	_	NOUN	Nounbase=Free|Gender=M|Case=Gen|Number=Sg	7	nmod:poss	_	_
 9	uzna	_	_	NOUN	Case=Acc|Nounbase=Free|Number=Sg|Gender=F	6	appos	_	_
 10	rapašta	_	_	ADJ	Gender=F|Case=Acc|Number=Sg	9	amod	_	_
-11	iqīš	_	_	VERB	Verbstem=G|Tense=Preterit|Mood=Indicative|Number=Sg|Person=3	5	obj	_	_
+11	iqīš	_	_	VERB	Gender=M|Verbstem=G|Tense=Preterit|Mood=Indicative|Number=Sg|Person=3	5	obj	_	_
 
 # sent_id = Q004486-9
 # text = āla šū ana eššūte aṣbat tīlu labēru unakkir adi muhhi mê ušappil
@@ -232,7 +232,7 @@
 # sent_id = Q004486-12
 # text = ēkurru šī ana nalbân lū akṣur šubat ilāni rabûti ina libbi ukīn
 1	ēkurru	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=F	6	obj	_	_
-2	šī	_	_	DET	Case=Nom|Nounbase=Free|Number=Sg|Gender=F	1	amod	_	_
+2	šī	_	_	DET	Gender=F|Number=Sg|Person=3	1	amod	_	_
 3	ana	_	_	ADP	_	4	case	_	_
 4	nalbân	_	_	ADV	_	6	obl	_	_
 5	lū	_	_	PART	_	6	advmod:emph	_	_
@@ -246,8 +246,8 @@
 
 # sent_id = Q004486-13
 # text = ēkurru šī ana nanmar malkī u rubê ša dārâte ēpuš
-1	ēkurru	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=F	10	obj	_	_
-2	šī	_	_	PRON	_	1	amod	_	_
+1	ēkurru	_	_	NOUN	Gender=F|Number=Sg|Person=3	10	obj	_	_
+2	šī	_	_	PRON	Gender=F|Number=Sg|Person=3	1	amod	_	_
 3	ana	_	_	ADP	_	4	case	_	_
 4	nanmar	_	_	VERB	Verbstem=N|Nounbase=Bound|Mood=Infinitive|Number=Sg|Gender=M	10	obl	_	_
 5	malkī	_	_	NOUN	Gender=M|Number=Pl	4	nmod:poss	_	_
@@ -318,7 +318,7 @@
 # sent_id = Q004486-17
 # text = ēkurru šī ussim ušarrih
 1	ēkurru	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=F	4	obj	_	_
-2	šī	_	_	DET	Case=Nom|Nounbase=Free|Number=Sg|Gender=F	1	amod	_	_
+2	šī	_	_	DET	Gender=F|Number=Sg|Person=3	1	amod	_	_
 3	ussim	_	_	VERB	Verbstem=D|Tense=Preterit|Mood=Indicative|Number=Sg|Person=1	0	root	0:root	_
 4	ušarrih	_	_	VERB	Verbstem=D|Tense=Preterit|Mood=Indicative|Number=Sg|Person=1	3	xcomp	_	_
 
@@ -480,7 +480,7 @@
 2	ī	_	_	PRON	Person=1|Number=Sg	1	det	_	_
 3	šaṭra	_	_	ADJ	Gender=M|Case=Acc|Number=Sg	1	amod	_	_
 4	lā	_	_	PART	_	5	neg	_	_
-5	tapaššiṭ	_	_	VERB	Verbstem=G|Gender=M|Mood=Prohibitive|Number=Sg|Person=2	0	root	0:root	_
+5	tapaššiṭ	_	_	VERB	Verbstem=G|Gender=M|Mood=Prohibitive|Number=Sg|Person=2|Tense=Present	0	root	0:root	_
 
 # sent_id = Q004486-32
 # text = anhūssunu uddiš šumī šaṭra ana ašrišu tēr
@@ -496,7 +496,7 @@
 8-9	ašrišu	_	_	_	_	_	_	_	_
 8	ašri	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	10	obl	_	_
 9	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	8	det	_	_
-10	tēr	_	_	VERB	Verbstem=G|Person=2|Number=Sg|Mood=Imperative|Gender=M	3	conj	_	_
+10	tēr	_	_	VERB	Verbstem=D|Person=2|Number=Sg|Mood=Imperative|Gender=M	3	conj	_	_
 
 # sent_id = Q004486-33
 # text = Aššur bēlu rabû Ninurta u Ištar āšib ēkurri šuātu nuhšu ṭuhdu hegallu ina mātišu lukinnū
@@ -508,7 +508,7 @@
 6	Ištar	_	_	PROPN	Gender=F	1	conj	_	_
 7	āšib	_	_	NOUN	Nounbase=Bound|Gender=M|Number=Sg	6	appos	_	_
 8	ēkurri	_	_	NOUN	Case=Gen|Nounbase=Free|Number=Sg|Gender=F	7	nmod:poss	_	_
-9	šuātu	_	_	DET	Nounbase=Free|Number=Sg|Gender=F	8	amod	_	_
+9	šuātu	_	_	DET	Gender=F|Number=Sg|Person=3	8	amod	_	_
 10	nuhšu	_	_	NOUN	Case=Acc|Nounbase=Free|Number=Sg|Gender=M	16	obj	_	_
 11	ṭuhdu	_	_	NOUN	Case=Acc|Nounbase=Free|Number=Sg|Gender=M	10	conj	_	_
 12	hegallu	_	_	NOUN	Case=Acc|Nounbase=Free|Gender=M|Number=Sg	10	conj	_	_
@@ -572,7 +572,7 @@
 23	maruṣti	_	_	NOUN	Case=Gen|Nounbase=Free|Number=Sg|Gender=F	22	nmod:poss	_	_
 24	pān	_	_	NOUN	Nounbase=Bound|Gender=M|Number=Sg	27	obl	_	_
 25	ēkurri	_	_	NOUN	Case=Gen|Nounbase=Free|Number=Sg|Gender=F	24	nmod:poss	_	_
-26	šuātu	_	_	DET	Nounbase=Free|Number=Sg|Gender=F	25	amod	_	_
+26	šuātu	_	_	DET	Gender=F|Number=Sg|Person=3	25	amod	_	_
 27	ušapraku	_	_	VERB	Verbstem=S|Mood=Subjunctive|Gender=M|Number=Sg|Person=3|Tense=Present	5	conj	_	_
 
 # sent_id = Q004486-36

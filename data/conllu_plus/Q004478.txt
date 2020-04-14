@@ -2,7 +2,7 @@
 # sent_id = Q004478-1
 # text = lū ušamqit
 1	lū	_	_	PART	_	2	advmod:emph	_	_
-2	ušamqit	_	_	VERB	Verbstem=S|Person=1|Tense=Preterit|Mood=Indicative	0	root	0:root	_
+2	ušamqit	_	_	VERB	Verbstem=S|Person=1|Tense=Preterit|Mood=Indicative|Number=Sg	0	root	0:root	_
 
 # sent_id = Q004478-2
 # text = ina rēṣūṭe ša Šamaš u Adad ilāni tiklēya ummānāt mātāt Nairi Habhi Šubare u Nirib kīma Adad rāhiṣi elišunu ašgum
@@ -12,9 +12,9 @@
 4	Šamaš	_	_	PROPN	Gender=M	2	nmod	_	_
 5	u	_	_	CONJ	_	6	cc	_	_
 6	Adad	_	_	PROPN	Gender=M	4	conj	_	_
-7	ilāni	_	_	NOUN	Nounbase=Bound|Number=Pl|Gender=M	4	appos	_	_
+7	ilāni	_	_	NOUN	Number=Pl|Gender=M	4	appos	_	_
 8-9	tiklēya	_	_	_	_	_	_	_	_
-8	tiklē	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Pl|Gender=M	4	appos	_	_
+8	tiklē	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	4	appos	_	_
 9	ya	_	_	PRON	Person=1|Number=Sg	8	det	_	_
 10	ummānāt	_	_	NOUN	Nounbase=Bound|Number=Pl|Gender=F	22	obl	_	_
 11	mātāt	_	_	NOUN	Nounbase=Bound|Number=Pl|Gender=F	10	nmod:poss	_	_
@@ -29,7 +29,7 @@
 20-21	elišunu	_	_	_	_	_	_	_	_
 20	eli	_	_	ADP	_	_	_	_	_
 21	šunu	_	_	PRON	_	22	obl	_	_
-22	ašgum	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Mood=Indicative	0	root	0:root	_
+22	ašgum	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Mood=Indicative|Number=Sg	0	root	0:root	_
 
 # sent_id = Q004478-3
 # text = šarru ša ultu ebertān Idiqlat

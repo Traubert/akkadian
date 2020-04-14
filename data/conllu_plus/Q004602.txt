@@ -20,7 +20,7 @@
 17	nādin	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	2	appos	_	_
 18	išqu	_	_	NOUN	Nounbase=Free|Number=Sg|Gender=M	17	nmod:poss	_	_
 19	u	_	_	CONJ	_	20	cc	_	_
-20	nindabê	_	_	NOUN	Case=Gen|Number=Pl|Gender=M	18	conj	_	_
+20	nindabê	_	_	NOUN	Number=Pl|Gender=M	18	conj	_	_
 21	ana	_	_	ADP	_	22	case	_	_
 22	ili	_	_	NOUN	Number=Sg|Case=Gen|Nounbase=Free|Gender=M	17	obl	_	_
 23-24	ahhīšu	_	_	_	_	_	_	_	_
@@ -101,7 +101,7 @@
 43-44	ikrumma	_	_	_	_	_	_	_	_
 43	ikrum	_	_	VERB	Verbstem=G|Mood=Indicative|Gender=M|Number=Sg|Person=3|Tense=Preterit	0	root	0:root	_
 44	ma	_	_	PART	_	45	cc	_	_
-45	iqīš	_	_	VERB	Person=3|Verbstem=G|Tense=Preterit|Number=Sg|Mood=Indicative	43	conj	_	_
+45	iqīš	_	_	VERB	Gender=M|Person=3|Verbstem=G|Tense=Preterit|Number=Sg|Mood=Indicative	43	conj	_	_
 
 # sent_id = Q004602-3
 # text = mannu arkû anhūssu luddiš šumīma liškun
@@ -214,7 +214,7 @@
 # text = Adad bēlī akališu mûšu lā imahharšu
 1	Adad	_	_	PROPN	Gender=M	9	nsubj	_	_
 2-3	bēlī	_	_	_	_	_	_	_	_
-2	bēl	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=M	1	appos	_	_
+2	bēl	_	_	NOUN	Case=Nom|Nounbase=Suffixal|Number=Sg|Gender=M	1	appos	_	_
 3	ī	_	_	PRON	Person=1|Number=Sg	2	det	_	_
 4-5	akališu	_	_	_	_	_	_	_	_
 4	akal	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=M	9	obj	_	_
@@ -228,20 +228,21 @@
 10	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	9	obl	_	_
 
 # sent_id = Q004602-11
-# text = Šala bēssi akališu mûšu tamahharšu
-1	Šala	_	_	PROPN	Gender=F	8	nsubj	_	_
+# text = Šala bēssi akališu mûšu lā tamahharšu
+1	Šala	_	_	PROPN	Gender=F	9	nsubj	_	_
 2-3	bēssi	_	_	_	_	_	_	_	_
 2	bēles	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	1	appos	_	_
 3	si	_	_	PRON	Gender=F|Number=Sg|Person=3	2	det	_	_
 4-5	akališu	_	_	_	_	_	_	_	_
-4	akal	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=M	8	obj	_	_
+4	akal	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=M	9	obj	_	_
 5	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	4	det	_	_
 6-7	mûšu	_	_	_	_	_	_	_	_
 6	mê	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	4	conj	_	_
 7	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	6	det	_	_
-8-9	tamahharšu	_	_	_	_	_	_	_	_
-8	tamahhar	_	_	VERB	Verbstem=G|Gender=F|Mood=Prohibitive|Number=Sg|Person=3	0	root	0:root	_
-9	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	8	obl	_	_
+8	lā	_	_	PART	_	9	neg	_	_
+9-10	tamahharšu	_	_	_	_	_	_	_	_
+9	tamahhar	_	_	VERB	Verbstem=G|Gender=F|Mood=Prohibitive|Number=Sg|Person=3	0	root	0:root	_
+10	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	9	obl	_	_
 
 # sent_id = Q004602-12
 # text = līriš lū lā eṣṣidi

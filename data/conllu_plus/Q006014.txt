@@ -15,20 +15,18 @@
 # sent_id = Q006014-2
 # text = ina siqir Aššur bēliya ana hubtāni lū ahtabta
 1	ina	_	_	ADP	_	2	case	_	_
-2	siqir	_	_	NOUN	Nounbase=Bound|Gender=M|Number=Sg	9	obl	_	_
+2	siqir	_	_	NOUN	Nounbase=Bound|Gender=M|Number=Sg	8	obl	_	_
 3	Aššur	_	_	PROPN	Gender=M	2	nmod:poss	_	_
 4-5	bēliya	_	_	_	_	_	_	_	_
 4	bēli	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	3	appos	_	_
 5	ya	_	_	PRON	Person=1|Number=Sg	4	det	_	_
 6	ana	_	_	ADP	_	7	case	_	_
-7-8	hubtāni	_	_	_	_	_	_	_	_
-7	hubtāni	_	_	NOUN	Number=Pl|Gender=M	10	obl	_	_
-8	i	_	_	_	_	_	_	_	_
-9	lū	_	_	PART	_	10	advmod:emph	_	_
-10	ahtabta	_	_	VERB	Verbstem=G|Person=1|Tense=Perfect|Number=Sg|Mood=Ventive	0	root	0:root	_
+7	hubtāni	_	_	NOUN	Number=Pl|Gender=M	9	obl	_	_
+8	lū	_	_	PART	_	9	advmod:emph	_	_
+9	ahtabta	_	_	VERB	Verbstem=G|Person=1|Tense=Perfect|Number=Sg|Mood=Ventive	0	root	0:root	_
 
 # sent_id = Q006014-3
-# text = dīktašunu maʾatta x adūk šallassunu būšīšunu makkūršunu alpīšunu immer ṣēnīšunu ašlulma ana āliya Aššur ubla
+# text = dīktašunu maʾatta x adūk šallassunu būšīšunu makkūršunu alpīšunu ṣēnīšunu ašlulma ana āliya Aššur ubla x
 1-2	dīktašunu	_	_	_	_	_	_	_	_
 1	dīkta	_	_	NOUN	Case=Acc|Nounbase=Suffixal|Number=Sg|Gender=F	5	obj	_	_
 2	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	1	det	_	_
@@ -36,7 +34,7 @@
 4	x	_	_	_	_	_	_	_	_
 5	adūk	_	_	VERB	Person=1|Verbstem=G|Mood=Indicative|Tense=Preterit|Number=Sg	0	root	0:root	_
 6-7	šallassunu	_	_	_	_	_	_	_	_
-6	šallas	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	17	obj	_	_
+6	šallas	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	16	obj	_	_
 7	sunu	_	_	PRON	Gender=M|Number=Pl|Person=3	6	det	_	_
 8-9	būšīšunu	_	_	_	_	_	_	_	_
 8	būšī	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	6	conj	_	_
@@ -47,29 +45,28 @@
 12-13	alpīšunu	_	_	_	_	_	_	_	_
 12	alpī	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	6	conj	_	_
 13	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	12	det	_	_
-14	immer	_	_	_	_	_	_	_	_
-15-16	ṣēnīšunu	_	_	_	_	_	_	_	_
-15	ṣēnī	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=F	6	conj	_	_
-16	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	15	det	_	_
-17-18	ašlulma	_	_	_	_	_	_	_	_
-17	ašlul	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	5	conj	_	_
-18	ma	_	_	CONJ	_	23	cc	_	_
-19	ana	_	_	ADP	_	20	case	_	_
-20-21	āliya	_	_	_	_	_	_	_	_
-20	āli	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	23	obl	_	_
-21	ya	_	_	PRON	Person=1|Number=Sg	20	det	_	_
-22	Aššur	_	_	PROPN	Gender=M	20	appos	_	_
-23	ubla	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Ventive	17	conj	_	_
+14-15	ṣēnīšunu	_	_	_	_	_	_	_	_
+14	ṣēnī	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=F	6	conj	_	_
+15	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	14	det	_	_
+16-17	ašlulma	_	_	_	_	_	_	_	_
+16	ašlul	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	5	conj	_	_
+17	ma	_	_	CONJ	_	22	cc	_	_
+18	ana	_	_	ADP	_	19	case	_	_
+19-20	āliya	_	_	_	_	_	_	_	_
+19	āli	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	22	obl	_	_
+20	ya	_	_	PRON	Person=1|Number=Sg	19	det	_	_
+21	Aššur	_	_	PROPN	Gender=M	19	appos	_	_
+22	ubla	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Ventive	16	conj	_	_
+23	x	_	_	_	_	_	_	_	_
 
 # sent_id = Q006014-4
-# text = x Uluzu-x x ana abiya
-1	x	_	_	_	_	_	_	_	_
-2	Uluzu-x	_	_	PROPN	_	_	_	_	_
-3	x	_	_	_	_	_	_	_	_
-4	ana	_	_	ADP	_	5	case	_	_
-5-6	abiya	_	_	_	_	_	_	_	_
-5	abi	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	0	root	0:root	_
-6	ya	_	_	PRON	Person=1|Number=Sg	5	det	_	_
+# text = Uluzu-x x ana abiya
+1	Uluzu-x	_	_	PROPN	_	_	_	_	_
+2	x	_	_	_	_	_	_	_	_
+3	ana	_	_	ADP	_	4	case	_	_
+4-5	abiya	_	_	_	_	_	_	_	_
+4	abi	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	0	root	0:root	_
+5	ya	_	_	PRON	Person=1|Number=Sg	4	det	_	_
 
 # sent_id = Q006014-5
 # text = x ana ramānišunu uṣabbitūni
@@ -129,7 +126,7 @@
 7-8	kakkīya	_	_	_	_	_	_	_	_
 7	kakkī	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	6	nmod:poss	_	_
 8	ya	_	_	PRON	Person=1|Number=Sg	7	det	_	_
-9	ipparšidūni	_	_	VERB	Person=3|Verbstem=G|Mood=Subjunctive|Tense=Preterit|Number=Pl	1	acl:relcl	_	_
+9	ipparšidūni	_	_	VERB	Gender=M|Person=3|Verbstem=G|Mood=Subjunctive|Tense=Preterit|Number=Pl	1	acl:relcl	_	_
 
 # sent_id = Q006014-10
 # text = ištu x adi Halhalauš x arkišunu artedi
@@ -180,7 +177,7 @@
 # sent_id = Q006014-14
 # text = x biltu maddattu
 1	x	_	_	_	_	_	_	_	_
-2	biltu	_	_	NOUN	Nounbase=Free|Number=Sg|Gender=F	0	root	0:root	_
+2	biltu	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=F	0	root	0:root	_
 3	maddattu	_	_	NOUN	Nounbase=Free|Gender=F|Case=Nom|Number=Sg	2	conj	_	_
 
 # sent_id = Q006014-15

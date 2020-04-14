@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q006032-1
-# text = Aššur šar gimrat ilāni rabûti Anu šar Igigi u Anunnaki bēl mātāti Enlil ṣīru abu ilāni Ea šar apsî mušimmu šīmāti Sin šar agê bēl namrīri Adad gešru šūturu bēl hegalli Šamaš dayyān šamê u erṣete mumaʾʾer gimri Marduk apkal ilāni bēl têrēte Ninurta qarrād Igigi u Anunnaki Nergal gitmālu šar tamhāri Nusku nāši haṭṭi ellete ilu multālu Ninlil hīrti Enlil ummi ilāni rabûti Ištar rēštīti šamê u erṣete ša paraṣ qardūte šuklulat ilāni rabûte mušimmū šīmāti x ša tībūšunu tuqumtu šašmu mušerbū šarrūt Tukulti-Ninurta x narām bibil libbišun x ša ina šassūr ummi kīniš x nabnītī ana nabnīti bēlē uštennû x
+# text = Aššur šar gimrat ilāni rabûti Anu šar Igigi u Anunnaki bēl mātāti Enlil ṣīru abu ilāni Ea šar apsî mušimmu šīmāti Sin šar agê bēl namrīri Adad gešru šūturu bēl hegalli Šamaš dayyān šamê u erṣete mumaʾʾer gimri Marduk apkal ilāni bēl têrēte Ninurta qarrād Igigi u Anunnaki Nergal gitmālu šar tamhāri Nusku nāši haṭṭi ellete ilu multālu Ninlil hīrti Enlil ummi ilāni rabûti Ištar rēštīti šamê u erṣete ša paraṣ qardūte šuklulat
 1	Aššur	_	_	PROPN	Gender=M	0	root	0:root	_
 2	šar	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	1	appos	_	_
 3	gimrat	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	2	nmod:poss	_	_
@@ -74,43 +74,46 @@
 71	paraṣ	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	73	obl	_	_
 72	qardūte	_	_	NOUN	Case=Gen|Nounbase=Free|Number=Sg|Gender=F	71	nmod:poss	_	_
 73	šuklulat	_	_	VERB	Verbstem=S|Gender=F|Mood=Stative|Number=Sg|Person=3	65	acl:relcl	_	_
-74	ilāni	_	_	NOUN	Number=Pl|Gender=M	1	appos	_	_
-75	rabûte	_	_	ADJ	Number=Pl|Gender=M	74	amod	_	_
-76	mušimmū	_	_	NOUN	Nounbase=Bound|Number=Pl|Gender=M	74	appos	_	_
-77	šīmāti	_	_	NOUN	Nounbase=Free|Number=Pl|Gender=F	76	nmod:poss	_	_
-78	x	_	_	_	_	_	_	_	_
-79	ša	_	_	PRON	_	_	_	_	_
-80-81	tībūšunu	_	_	_	_	_	_	_	_
-80	tību	_	_	NOUN	Case=Nom|Nounbase=Suffixal|Number=Sg|Gender=M	0	root	0:root	_
-81	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	80	det	_	_
-82	tuqumtu	_	_	NOUN	Nounbase=Free|Number=Sg|Case=Nom|Gender=F	0	root	0:root	_
-83	šašmu	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	82	conj	_	_
-84	mušerbū	_	_	NOUN	Nounbase=Bound|Number=Pl|Gender=M	74	appos	_	_
-85	šarrūt	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	84	nmod:poss	_	_
-86	Tukulti-Ninurta	_	_	PROPN	Gender=M	85	nmod:poss	_	_
-87	x	_	_	_	_	_	_	_	_
-88	narām	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	86	appos	_	_
-89	bibil	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	88	nmod:poss	_	_
-90-91	libbišun	_	_	_	_	_	_	_	_
-90	libbi	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	89	nmod:poss	_	_
-91	šun	_	_	PRON	Gender=M|Number=Pl|Person=3	90	det	_	_
-92	x	_	_	_	_	_	_	_	_
-93	ša	_	_	PRON	_	98	nsubj	_	_
-94	ina	_	_	ADP	_	95	case	_	_
-95	šassūr	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	98	obl	_	_
-96	ummi	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	95	nmod:poss	_	_
-97	kīniš	_	_	ADV	_	98	advmod	_	_
-98	x	_	_	VERB	_	0	root	0:root	_
-99-100	nabnītī	_	_	_	_	_	_	_	_
-99	nabnīt	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	0	root	0:root	_
-100	ī	_	_	PRON	Person=1|Number=Sg	99	det	_	_
-101	ana	_	_	ADP	_	102	case	_	_
-102	nabnīti	_	_	NOUN	Case=Gen|Nounbase=Bound|Number=Sg|Gender=F	104	obl	_	_
-103	bēlē	_	_	NOUN	Gender=M|Number=Pl	102	nmod:poss	_	_
-104	uštennû	_	_	VERB	Verbstem=St|Mood=Subjunctive|Gender=M|Number=Pl|Person=3|Tense=Preterit	74	acl:relcl	_	_
-105	x	_	_	_	_	_	_	_	_
 
 # sent_id = Q006032-2
+# text = ilāni rabûte mušimmū šīmāti x ša tībūšunu tuqumtu šašmu mušerbū šarrūt Tukulti-Ninurta x narām bibil libbišun x ša ina šassūr ummi kīniš x nabnītī ana nabnīti bēlē uštennû x
+1	ilāni	_	_	NOUN	Number=Pl|Gender=M	0	root	0:root	_
+2	rabûte	_	_	ADJ	Number=Pl|Gender=M	1	amod	_	_
+3	mušimmū	_	_	NOUN	Nounbase=Bound|Number=Pl|Gender=M	1	appos	_	_
+4	šīmāti	_	_	NOUN	Nounbase=Free|Number=Pl|Gender=F	3	nmod:poss	_	_
+5	x	_	_	_	_	_	_	_	_
+6	ša	_	_	PRON	_	_	_	_	_
+7-8	tībūšunu	_	_	_	_	_	_	_	_
+7	tību	_	_	NOUN	Case=Nom|Nounbase=Suffixal|Number=Sg|Gender=M	0	root	0:root	_
+8	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	7	det	_	_
+9	tuqumtu	_	_	NOUN	Nounbase=Free|Number=Sg|Case=Nom|Gender=F	0	root	0:root	_
+10	šašmu	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	9	conj	_	_
+11	mušerbū	_	_	NOUN	Nounbase=Bound|Number=Pl|Gender=M	1	appos	_	_
+12	šarrūt	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	11	nmod:poss	_	_
+13	Tukulti-Ninurta	_	_	PROPN	Gender=M	12	nmod:poss	_	_
+14	x	_	_	_	_	_	_	_	_
+15	narām	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	13	appos	_	_
+16	bibil	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	15	nmod:poss	_	_
+17-18	libbišun	_	_	_	_	_	_	_	_
+17	libbi	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	16	nmod:poss	_	_
+18	šun	_	_	PRON	Gender=M|Number=Pl|Person=3	17	det	_	_
+19	x	_	_	_	_	_	_	_	_
+20	ša	_	_	PRON	_	25	nsubj	_	_
+21	ina	_	_	ADP	_	22	case	_	_
+22	šassūr	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	25	obl	_	_
+23	ummi	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	22	nmod:poss	_	_
+24	kīniš	_	_	ADV	_	25	advmod	_	_
+25	x	_	_	VERB	_	0	root	0:root	_
+26-27	nabnītī	_	_	_	_	_	_	_	_
+26	nabnīt	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	0	root	0:root	_
+27	ī	_	_	PRON	Person=1|Number=Sg	26	det	_	_
+28	ana	_	_	ADP	_	29	case	_	_
+29	nabnīti	_	_	NOUN	Case=Gen|Nounbase=Bound|Number=Sg|Gender=F	31	obl	_	_
+30	bēlē	_	_	NOUN	Gender=M|Number=Pl	29	nmod:poss	_	_
+31	uštennû	_	_	VERB	Verbstem=St|Mood=Subjunctive|Gender=M|Number=Pl|Person=3|Tense=Preterit	1	acl:relcl	_	_
+32	x	_	_	_	_	_	_	_	_
+
+# sent_id = Q006032-3
 # text = enūma dūru ša Baltil ša x rubû ālik pāniya ēpuš
 1	enūma	_	_	ADV	_	12	advmod	_	_
 2	dūru	_	_	NOUN	Nounbase=Free|Number=Sg|Case=Nom|Gender=M	12	nsubj	_	_
@@ -125,7 +128,7 @@
 10	ya	_	_	PRON	Person=1|Number=Sg	9	det	_	_
 11	ēpuš	_	_	VERB	Mood=Indicative|Tense=Preterit|Verbstem=G|Number=Sg|Person=1	0	root	0:root	_
 
-# sent_id = Q006032-3
+# sent_id = Q006032-4
 # text = ēnahma ašaršu umessi dannassu akšud ištu uššīšu adi gabadibbīšu arṣip ušeklil eli mahrî ussim ušerrih
 1-2	ēnahma	_	_	_	_	_	_	_	_
 1	ēnah	_	_	VERB	Verbstem=G|Mood=Indicative|Gender=M|Number=Sg|Person=3|Tense=Preterit	0	root	0:root	_
@@ -149,11 +152,11 @@
 15	arṣip	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	0	root	0:root	_
 16	ušeklil	_	_	VERB	Mood=Indicative|Tense=Preterit|Verbstem=S|Number=Sg|Person=1	15	xcomp	_	_
 17	eli	_	_	ADP	_	18	case	_	_
-18	mahrî	_	_	ADV	_	19	obl	_	_
+18	mahrî	_	_	NOUN	Number=Sg|Case=Gen|Gender=M|Nounbase=Free	19	obl	_	_
 19	ussim	_	_	VERB	Mood=Indicative|Tense=Preterit|Verbstem=D|Number=Sg|Person=1	15	conj	_	_
 20	ušerrih	_	_	VERB	Verbstem=D|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	19	xcomp	_	_
 
-# sent_id = Q006032-4
+# sent_id = Q006032-5
 # text = narîya alṭur ina qerebšu aškun
 1-2	narîya	_	_	_	_	_	_	_	_
 1	narî	_	_	NOUN	Case=Acc|Nounbase=Suffixal|Number=Sg|Gender=M	3	obj	_	_
@@ -165,7 +168,7 @@
 6	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	5	det	_	_
 7	aškun	_	_	VERB	Mood=Indicative|Tense=Preterit|Verbstem=G|Number=Sg|Person=1	3	conj	_	_
 
-# sent_id = Q006032-5
+# sent_id = Q006032-6
 # text = rubû arkû anhūssu luddiš u narîya līmurma lilsi
 1	rubû	_	_	NOUN	Nounbase=Free|Number=Sg|Case=Nom|Gender=M	5	nsubj	_	_
 2	arkû	_	_	ADJ	Case=Nom|Number=Sg|Gender=M	1	amod	_	_
@@ -182,7 +185,7 @@
 10	ma	_	_	CONJ	_	11	cc	_	_
 11	lilsi	_	_	VERB	Verbstem=G|Gender=M|Mood=Precative|Number=Sg|Person=3	5	conj	_	_
 
-# sent_id = Q006032-6
+# sent_id = Q006032-7
 # text = šamna lipšuš nīqa liqqi ana ašriša lutēr
 1	šamna	_	_	NOUN	Nounbase=Free|Number=Sg|Case=Acc|Gender=M	2	obj	_	_
 2	lipšuš	_	_	VERB	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=G	0	root	0:root	_
@@ -194,7 +197,7 @@
 7	ša	_	_	PRON	Gender=F|Number=Sg|Person=3	6	det	_	_
 8	lutēr	_	_	VERB	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	2	conj	_	_
 
-# sent_id = Q006032-7
+# sent_id = Q006032-8
 # text = Aššur bēlu rabû u Ištar bēlat Nina ikribīšu išemmû ina tāhāzi ša šarrāni ašar taqrubte ammar libbišu ušamṣašu
 1	Aššur	_	_	PROPN	Gender=M	10	nsubj	_	_
 2	bēlu	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	1	appos	_	_
@@ -221,7 +224,7 @@
 20	ušamṣa	_	_	VERB	Mood=Indicative|Gender=M|Number=Sg|Person=3|Tense=Present|Verbstem=S	10	conj	_	_
 21	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	20	obj	_	_
 
-# sent_id = Q006032-8
+# sent_id = Q006032-9
 # text = {ITI}x UD.x.KAM₂ līmu Aššur-lākīnu-ubāša
 1	{ITI}x	_	_	PROPN	_	0	root	0:root	_
 2	UD.x.KAM₂	_	_	ADJ	_	1	amod	_	_

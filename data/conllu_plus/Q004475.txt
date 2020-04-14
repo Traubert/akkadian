@@ -9,7 +9,7 @@
 6	x	_	_	_	_	_	_	_	_
 7	x	_	_	_	_	_	_	_	_
 8	x	_	_	_	_	_	_	_	_
-9	ummānāte	_	_	NOUN	Gender=F|Number=Pl	_	_	_	_
+9	ummānāte	_	_	NOUN	Gender=F|Nounbase=Free|Number=Pl	_	_	_	_
 10	x	_	_	_	_	_	_	_	_
 11	x	_	_	_	_	_	_	_	_
 12	x	_	_	_	_	_	_	_	_
@@ -19,7 +19,7 @@
 16	x	_	_	_	_	_	_	_	_
 17-18	ušēridaššunūte	_	_	_	_	_	_	_	_
 17	ušēridaš	_	_	VERB	Verbstem=S|Person=1|Tense=Preterit|Number=Sg|Mood=Ventive	0	root	0:root	_
-18	šunūte	_	_	PRON	Person=3|Number=Pl	17	obj	_	_
+18	šunūte	_	_	PRON	Person=3|Number=Pl|Gender=M	17	obj	_	_
 
 # sent_id = Q004475-2
 # text = x dēktašunu ma’attu
@@ -41,19 +41,19 @@
 # text = x mundahṣīšunu rittīšunu
 1	x	_	_	_	_	_	_	_	_
 2-3	mundahṣīšunu	_	_	_	_	_	_	_	_
-2	mundahṣī	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	0	root	0:root	_
-3	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	2	det	_	_
+2	mundahṣī	_	_	_	Nounbase=Suffixal|Number=Pl|Gender=M	_	_	_	_
+3	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	_	_	_	_
 4-5	rittīšunu	_	_	_	_	_	_	_	_
-4	ritti	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	2	appos	_	_
+4	ritti	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	0	root	0:root	_
 5	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	4	det	_	_
 
 # sent_id = Q004475-5
 # text = x-2 mē ṣābē tidūkišunu x x uneppil
 1	x-2 mē	_	_	NUM	_	3	nummod	_	_
-2	ṣābē	_	_	NOUN	Nounbase=Bound|Gender=M|Number=Pl	0	root	0:root	_
+2	ṣābē	_	_	NOUN	Gender=M|Number=Pl	0	root	0:root	_
 3-4	tidūkišunu	_	_	_	_	_	_	_	_
 3	tidūki	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	2	nmod:poss	_	_
-4	šunu	_	_	PRON	Person=3|Number=Pl	3	det	_	_
+4	šunu	_	_	PRON	Gender=M|Person=3|Number=Pl	3	det	_	_
 5	x	_	_	_	_	_	_	_	_
 6	x	_	_	_	_	_	_	_	_
 7	uneppil	_	_	VERB	Verbstem=D|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	_	_	_	_
@@ -201,7 +201,7 @@
 6	akūṣ	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	4	conj	_	_
 7-8	maškīšunu	_	_	_	_	_	_	_	_
 7	maškī	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	6	obj	_	_
-8	šunu	_	_	PRON	Gender=M|Person=3	7	det	_	_
+8	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	7	det	_	_
 9	x	_	_	_	_	_	_	_	_
 10	x	_	_	_	_	_	_	_	_
 11-12	īnīšunu	_	_	_	_	_	_	_	_
@@ -250,7 +250,7 @@
 6	x	_	_	_	_	_	_	_	_
 7-8	maršīssunu	_	_	_	_	_	_	_	_
 7	maršīs	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	0	root	0:root	_
-8	sunu	_	_	PRON	Person=3|Number=Pl	7	det	_	_
+8	sunu	_	_	PRON	Gender=M|Person=3|Number=Pl	7	det	_	_
 
 # sent_id = Q004475-22
 # text = x x appul aqqur x
@@ -266,7 +266,7 @@
 2	x	_	_	_	_	_	_	_	_
 3	šid	_	_	_	_	_	_	_	_
 4	ša₂	_	_	_	_	_	_	_	_
-5	aban	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	_	_	_	_
+5	aban	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	_	_	_	_
 6	x	_	_	_	_	_	_	_	_
 7	x	_	_	_	_	_	_	_	_
 8	ukallūni	_	_	VERB	Verbstem=D|Mood=Subjunctive|Gender=M|Number=Pl|Person=3|Tense=Present	_	_	_	_

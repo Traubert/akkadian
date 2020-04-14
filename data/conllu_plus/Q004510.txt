@@ -30,7 +30,7 @@
 27	kullat	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	26	nmod:poss	_	_
 28	nakirē	_	_	NOUN	Gender=M|Number=Pl	27	nmod:poss	_	_
 29	muparriru	_	_	NOUN	Gender=M|Case=Nom|Number=Sg|Nounbase=Free	1	appos	_	_
-30	huršānī	_	_	NOUN	Nounbase=Free|Number=Pl|Gender=M	29	nmod:poss	_	_
+30	huršānī	_	_	NOUN	Number=Pl|Gender=M	29	nmod:poss	_	_
 31	šaqûti	_	_	ADJ	Gender=M|Number=Pl	30	amod	_	_
 32	ša	_	_	PRON	_	_	_	_	_
 33-34	durugšunu	_	_	_	_	_	_	_	_
@@ -114,7 +114,7 @@
 102	kibrāt	_	_	NOUN	Gender=F|Number=Pl|Nounbase=Bound	100	nmod	_	_
 103	erbetta	_	_	NUM	Gender=F	102	nummod	_	_
 104-105	šāninšu	_	_	_	_	_	_	_	_
-104	šānin	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	107	obj	_	_
+104	šānin	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=M	107	obj	_	_
 105	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	104	det	_	_
 106	lā	_	_	PART	_	107	neg	_	_
 107	īšû	_	_	VERB	Verbstem=G|Mood=Subjunctive|Gender=M|Number=Sg|Person=3|Tense=Preterit	97	conj	_	_
@@ -141,7 +141,7 @@
 127-128	qāssu	_	_	_	_	_	_	_	_
 127	qās	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	129	nsubj	_	_
 128	su	_	_	PRON	Gender=M|Number=Sg|Person=3	127	det	_	_
-129	ikšudu	_	_	VERB	Person=3|Verbstem=G|Number=Sg|Tense=Preterit|Mood=Subjunctive	108	acl:relcl	_	_
+129	ikšudu	_	_	VERB	Gender=M|Person=3|Verbstem=G|Number=Sg|Tense=Preterit|Mood=Subjunctive	108	acl:relcl	_	_
 
 # sent_id = Q004510-2
 # text = ultu rēš ēni Subnat adi Nirbi ša bētāni rapšāte mātāt Nairi ana pāṭ gimriša apēl
@@ -186,7 +186,7 @@
 # sent_id = Q004510-5
 # text = ištu nērebī ša Habruri adi Gilzani ultu nērebi ša Babiti adi Hašmar Zamua ana sihirtiša akšud
 1	ištu	_	_	ADP	_	2	case	_	_
-2	nērebī	_	_	NOUN	Nounbase=Free|Number=Pl|Gender=M	17	obl	_	_
+2	nērebī	_	_	NOUN	Number=Pl|Gender=M	17	obl	_	_
 3	ša	_	_	ADP	_	4	case	_	_
 4	Habruri	_	_	PROPN	Case=Gen	2	nmod	_	_
 5	adi	_	_	ADP	_	6	case	_	_
@@ -256,7 +256,7 @@
 # text = urdūti uppušu biltu mādātu ukīn elišunu
 1	urdūti	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	2	obj	_	_
 2	uppušu	_	_	VERB	Verbstem=D|Gender=M|Mood=Infinitive|Number=Sg|Person=3	0	root	0:root	_
-3	biltu	_	_	NOUN	Nounbase=Free|Number=Sg|Gender=F	5	obj	_	_
+3	biltu	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=F	5	obj	_	_
 4	mādātu	_	_	NOUN	Nounbase=Free|Number=Sg|Gender=F	3	conj	_	_
 5	ukīn	_	_	VERB	Verbstem=D|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	2	conj	_	_
 6-7	elišunu	_	_	_	_	_	_	_	_
@@ -291,7 +291,7 @@
 # sent_id = Q004510-13
 # text = bītu šuʾātu ēnahma ultu tarṣi Bit-nathi adi x ēnahma
 1	bītu	_	_	NOUN	Gender=M|Case=Nom|Number=Sg|Nounbase=Free	3	nsubj	_	_
-2	šuʾātu	_	_	DET	Nounbase=Free|Number=Sg|Gender=M	1	amod	_	_
+2	šuʾātu	_	_	DET	Case=Nom|Number=Sg|Gender=M	1	amod	_	_
 3-4	ēnahma	_	_	_	_	_	_	_	_
 3	ēnah	_	_	VERB	Verbstem=G|Mood=Indicative|Gender=M|Number=Sg|Person=3|Tense=Preterit	0	root	0:root	_
 4	ma	_	_	CONJ	_	10	cc	_	_

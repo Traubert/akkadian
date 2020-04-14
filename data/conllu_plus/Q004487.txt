@@ -48,7 +48,7 @@
 
 # sent_id = Q004487-4
 # text = Hatte ana sihirtiša x
-1	Hatte	_	_	PROPN	_	5	obj	_	_
+1	Hatte	_	_	PROPN	Case=Gen	5	obj	_	_
 2	ana	_	_	ADP	_	3	case	_	_
 3-4	sihirtiša	_	_	_	_	_	_	_	_
 3	sihirti	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=F	5	obl	_	_
@@ -60,7 +60,7 @@
 1	ultu	_	_	ADP	_	2	case	_	_
 2	Gargamiš	_	_	PROPN	_	15	obl	_	_
 3	ša	_	_	ADP	_	4	case	_	_
-4	Hatte	_	_	PROPN	_	2	nmod	_	_
+4	Hatte	_	_	PROPN	Case=Gen	2	nmod	_	_
 5	Laqe	_	_	PROPN	_	15	obj	_	_
 6	ana	_	_	ADP	_	7	case	_	_
 7-8	sihirtiša	_	_	_	_	_	_	_	_
@@ -85,7 +85,7 @@
 # sent_id = Q004487-7
 # text = adi Nirib ša bētāni
 1	adi	_	_	ADP	_	2	case	_	_
-2	Nirib	_	_	PROPN	_	0	root	0:root	_
+2	Nirib	_	_	PROPN	Case=Gen	0	root	0:root	_
 3	ša	_	_	ADP	_	4	case	_	_
 4	bētāni	_	_	NOUN	Number=Sg|Gender=M|Nounbase=Free|Case=Gen	2	nmod	_	_
 
@@ -93,7 +93,7 @@
 # text = x adi Urume
 1	x	_	_	_	_	_	_	_	_
 2	adi	_	_	ADP	_	3	case	_	_
-3	Urume	_	_	PROPN	_	0	root	0:root	_
+3	Urume	_	_	PROPN	Case=Gen	0	root	0:root	_
 
 # sent_id = Q004487-9
 # text = kīma Adad rāhiṣi elišunu ašgum
@@ -273,7 +273,7 @@
 19	ina	_	_	ADP	_	20	case	_	_
 20	libbi	_	_	NOUN	Case=Gen|Number=Sg|Gender=M|Nounbase=Free	21	obl	_	_
 21	ušaṣbit	_	_	VERB	Person=1|Mood=Indicative|Verbstem=S|Tense=Preterit|Number=Sg	18	conj	_	_
-22	nārtu	_	_	NOUN	Nounbase=Free|Number=Sg|Gender=F	25	obj	_	_
+22	nārtu	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=F	25	obj	_	_
 23	ultu	_	_	ADP	_	24	case	_	_
 24	Zaba-eliti	_	_	PROPN	Gender=F	25	obl	_	_
 25	ahrâ	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Ventive	0	root	0:root	_

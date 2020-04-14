@@ -23,7 +23,7 @@
 # text = ṣibtāti ša sisê ištu Gilzani amhur
 1	ṣibtāti	_	_	NOUN	Nounbase=Free|Number=Pl|Gender=F	6	obj	_	_
 2	ša	_	_	ADP	_	3	case	_	_
-3	sisê	_	_	NOUN	Nounbase=Free|Number=Pl|Gender=M	1	nmod	_	_
+3	sisê	_	_	NOUN	Number=Pl|Gender=M	1	nmod	_	_
 4	ištu	_	_	ADP	_	5	case	_	_
 5	Gilzani	_	_	PROPN	Case=Gen	6	obl	_	_
 6	amhur	_	_	VERB	Tense=Preterit|Mood=Indicative|Number=Sg|Person=1|Verbstem=G	0	root	0:root	_
@@ -42,14 +42,14 @@
 # sent_id = Q004472-6
 # text = aššu sisê ana bitte lā ušēribūni
 1	aššu	_	_	SCONJ	_	6	mark	_	_
-2	sisê	_	_	NOUN	Nounbase=Free|Number=Pl|Gender=M	6	obj	_	_
+2	sisê	_	_	NOUN	Number=Pl|Gender=M	6	obj	_	_
 3	ana	_	_	ADP	_	4	case	_	_
 4	bitte	_	_	ADV	_	6	obl	_	_
 5	lā	_	_	PART	_	6	neg	_	_
 6	ušēribūni	_	_	VERB	Verbstem=S|Mood=Vent+subj|Gender=M|Number=Pl|Person=3|Tense=Preterit	0	root	0:root	_
 
 # sent_id = Q004472-7
-# text = allabibma ana Harira Halhalauš ša bēlē ni bēlē hīṭi allik
+# text = allabibma ana Harira Halhalauš ša bēlēni bēlē hīṭi allik
 1-2	allabibma	_	_	_	_	_	_	_	_
 1	allabib	_	_	VERB	Verbstem=N|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	0	root	0:root	_
 2	ma	_	_	CONJ	_	11	cc	_	_
@@ -57,9 +57,10 @@
 4	Harira	_	_	PROPN	_	11	obl	_	_
 5	Halhalauš	_	_	PROPN	_	4	conj	_	_
 6	ša	_	_	PRON	_	_	_	_	_
+7-8	bēlēni	_	_	_	_	_	_	_	_
 7	bēlē	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	0	root	0:root	_
 8	ni	_	_	PART	_	7	det	_	_
-9	bēlē	_	_	NOUN	Nounbase=Bound|Number=Pl|Gender=M	0	root	0:root	_
+9	bēlē	_	_	NOUN	Number=Pl|Gender=M	0	root	0:root	_
 10	hīṭi	_	_	NOUN	Case=Gen|Nounbase=Free|Number=Sg|Gender=M	9	nmod:poss	_	_
 11	allik	_	_	VERB	Tense=Preterit|Mood=Indicative|Number=Sg|Person=1|Verbstem=G	1	conj	_	_
 
@@ -79,7 +80,7 @@
 3	šallas	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	1	conj	_	_
 4	sunu	_	_	PRON	Gender=M|Number=Pl|Person=3	3	det	_	_
 5-6	būšašunu	_	_	_	_	_	_	_	_
-5	būša	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=M	1	conj	_	_
+5	būša	_	_	NOUN	Case=Acc|Nounbase=Suffixal|Number=Sg|Gender=M	1	conj	_	_
 6	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	5	det	_	_
 7-8	maršīssunu	_	_	_	_	_	_	_	_
 7	maršīs	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	1	conj	_	_
@@ -120,7 +121,7 @@
 4	x	_	_	_	_	_	_	_	_
 5	x	_	_	_	_	_	_	_	_
 6	akšud	_	_	VERB	Tense=Preterit|Mood=Indicative|Number=Sg|Person=1|Verbstem=G	_	_	_	_
-7	bēlē	_	_	NOUN	Nounbase=Free|Number=Pl|Gender=M	_	_	_	_
+7	bēlē	_	_	NOUN	Number=Pl|Gender=M	_	_	_	_
 8	x	_	_	_	_	_	_	_	_
 9	x	_	_	_	_	_	_	_	_
 10	ša	_	_	PRON	_	_	_	_	_
@@ -143,7 +144,7 @@
 10	ittaklū	_	_	VERB	Verbstem=N|Mood=Indicative|Gender=M|Number=Pl|Person=3|Tense=Preterit	0	root	0:root	_
 
 # sent_id = Q004472-13
-# text = x x x x x x Anu x x x iṣbutū ina qibīt Aššur x x bēli rabê bēliya narkabāte x x ummānāteya adki
+# text = x x x x x x x x x x iṣbutū ina qibīt Aššur x x bēli rabê bēliya narkabāte x x ummānāteya adki
 1	ma	_	_	CONJ	_	_	_	_	_
 2	x	_	_	_	_	_	_	_	_
 3	x	_	_	_	_	_	_	_	_
@@ -151,7 +152,7 @@
 5	x	_	_	_	_	_	_	_	_
 6	x	_	_	_	_	_	_	_	_
 7	x	_	_	_	_	_	_	_	_
-8	Anu	_	_	_	_	_	_	_	_
+8	x	_	_	_	_	_	_	_	_
 9	x	_	_	_	_	_	_	_	_
 10	x	_	_	_	_	_	_	_	_
 11	x	_	_	_	_	_	_	_	_
@@ -188,8 +189,8 @@
 
 # sent_id = Q004472-16
 # text = sisê alpī x x GIS GAB šu₂ x RA x x narkabāti ina GUB.BA idki
-1	sisê	_	_	NOUN	Nounbase=Free|Number=Pl|Gender=M	15	obj	_	_
-2	alpī	_	_	NOUN	Nounbase=Free|Number=Pl|Gender=M	1	conj	_	_
+1	sisê	_	_	NOUN	Number=Pl|Gender=M	15	obj	_	_
+2	alpī	_	_	NOUN	Number=Pl|Gender=M	1	conj	_	_
 3	x	_	_	_	_	_	_	_	_
 4	x	_	_	_	_	_	_	_	_
 5	GIS	_	_	_	_	_	_	_	_
@@ -218,7 +219,7 @@
 4	šēpī	_	_	NOUN	Nounbase=Suffixal|Number=Pl|Gender=M	10	obl	_	_
 5	ya	_	_	PRON	Person=1|Number=Sg	4	det	_	_
 6	libbi	_	_	NOUN	Gender=M|Number=Sg|Nounbase=Bound	10	obj	_	_
-7	Kašiyari	_	_	PROPN	_	6	nmod:poss	_	_
+7	Kašiyari	_	_	PROPN	Case=Gen	6	nmod:poss	_	_
 8	hanṭiš	_	_	ADV	_	10	advmod	_	_
 9	lū	_	_	PART	_	10	advmod:emph	_	_
 10	abbalkit	_	_	VERB	Tense=Preterit|Mood=Indicative|Number=Sg|Person=1|Verbstem=N	1	conj	_	_
@@ -245,7 +246,7 @@
 1	x	_	_	_	_	_	_	_	_
 2	ina	_	_	ADP	_	3	case	_	_
 3	Šamaš	_	_	PROPN	Gender=M	10	obl	_	_
-4	napāhi	_	_	VERB	Case=Gen|Nounbase=Free|Mood=Infinitive|Number=Sg|Gender=M	3	nmod:poss	_	_
+4	napāhi	_	_	VERB	Case=Gen|Nounbase=Free|Mood=Infinitive|Number=Sg|Gender=M|Verbstem=G	3	nmod:poss	_	_
 5	itti	_	_	ADP	_	6	case	_	_
 6	gipiš	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	10	obl	_	_
 7	narkabāti	_	_	NOUN	Gender=F|Nounbase=Free|Number=Pl	6	nmod:poss	_	_
@@ -283,7 +284,7 @@
 4	šallas	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	10	obj	_	_
 5	sunu	_	_	PRON	Gender=M|Number=Pl|Person=3	4	det	_	_
 6-7	būšašunu	_	_	_	_	_	_	_	_
-6	būša	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=M	4	conj	_	_
+6	būša	_	_	NOUN	Case=Acc|Nounbase=Suffixal|Number=Sg|Gender=M	4	conj	_	_
 7	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	6	det	_	_
 8-9	namkuršunu	_	_	_	_	_	_	_	_
 8	namkūr	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=M	4	conj	_	_

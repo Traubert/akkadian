@@ -17,12 +17,12 @@
 14	lā	_	_	PART	_	15	neg	_	_
 15	iššannanu	_	_	VERB	Verbstem=N|Mood=Subjunctive|Gender=M|Number=Sg|Person=3|Tense=Present	0	root	0:root	_
 16-17	tībušu	_	_	_	_	_	_	_	_
-16	tību	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=M	0	root	0:root	_
+16	tību	_	_	NOUN	Case=Nom|Nounbase=Suffixal|Number=Sg|Gender=M	0	root	0:root	_
 17	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	16	det	_	_
 18	aplu	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	2	appos	_	_
 19	rēštû	_	_	ADJ	Case=Nom|Gender=M|Number=Sg	18	amod	_	_
 20	hāmim	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	2	appos	_	_
-21	tuqmāte	_	_	NOUN	Case=Gen|Nounbase=Free|Number=Pl|Gender=F	20	nmod:poss	_	_
+21	tuqmāte	_	_	NOUN	Nounbase=Free|Number=Pl|Gender=F	20	nmod:poss	_	_
 22	bukur	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	2	appos	_	_
 23	Nudimmud	_	_	PROPN	Gender=M	22	nmod:poss	_	_
 24	qurād	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	2	appos	_	_
@@ -36,7 +36,7 @@
 32	markas	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	31	nmod:poss	_	_
 33	šamê	_	_	NOUN	Gender=M|Number=Pl	32	nmod:poss	_	_
 34	erṣeti	_	_	NOUN	Case=Gen|Nounbase=Free|Gender=F|Number=Sg	33	conj	_	_
-35	pētû	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	2	appos	_	_
+35	pētû	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	2	appos	_	_
 36	nagbē	_	_	NOUN	Gender=M|Number=Pl	35	nmod:poss	_	_
 37	kābisi	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	2	appos	_	_
 38	erṣeti	_	_	NOUN	Case=Gen|Nounbase=Free|Gender=F|Number=Sg	37	nmod:poss	_	_
@@ -114,7 +114,7 @@
 106	lā pādû	_	_	ADJ	Case=Nom|Gender=M|Number=Sg	2	amod	_	_
 107	ša	_	_	PRON	_	_	_	_	_
 108-109	tībušu	_	_	_	_	_	_	_	_
-108	tību	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=M	0	root	0:root	_
+108	tību	_	_	NOUN	Case=Nom|Nounbase=Suffixal|Number=Sg|Gender=M	0	root	0:root	_
 109	šu	_	_	PRON	Gender=M|Number=Pl|Person=3	108	det	_	_
 110	abūbu	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	_	_	_	_
 111	sāpin	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	2	appos	_	_
@@ -157,7 +157,7 @@
 147	rēmēnû	_	_	ADJ	Case=Nom|Gender=M|Number=Sg	146	amod	_	_
 148	ša	_	_	PRON	_	_	_	_	_
 149-150	sīpûšu	_	_	_	_	_	_	_	_
-149	sīpu	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=M	0	root	0:root	_
+149	sīpu	_	_	NOUN	Case=Nom|Nounbase=Suffixal|Number=Sg|Gender=M	0	root	0:root	_
 150	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	149	det	_	_
 151	ṭāb	_	_	VERB	Gender=M|Number=Sg|Verbstem=G|Mood=Stative|Person=3	_	_	_	_
 152	āšib	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	_
@@ -291,7 +291,7 @@
 105	qāt	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	107	nsubj	_	_
 106	su	_	_	PRON	Gender=M|Number=Sg|Person=3	105	det	_	_
 107	ikšud	_	_	VERB	Mood=Indicative|Person=3|Tense=Preterit|Number=Sg|Verbstem=G|Gender=M	100	conj	_	_
-108	huršānī	_	_	NOUN	Nounbase=Free|Number=Pl|Gender=M	111	obj	_	_
+108	huršānī	_	_	NOUN	Number=Pl|Gender=M	111	obj	_	_
 109-110	kalîšunu	_	_	_	_	_	_	_	_
 109	kalî	_	_	DET	_	108	amod	_	_
 110	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	109	det	_	_
@@ -377,7 +377,7 @@
 7	Nirib	_	_	PROPN	Case=Gen	3	conj	_	_
 8	kīma	_	_	ADP	_	9	case	_	_
 9	Adad	_	_	PROPN	Gender=M	13	obl	_	_
-10	rāhiṣi	_	_	NOUN	Case=Gen|Gender=M|Number=Sg	9	appos	_	_
+10	rāhiṣi	_	_	NOUN	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	9	appos	_	_
 11-12	elišunu	_	_	_	_	_	_	_	_
 11	eli	_	_	ADP	_	_	_	_	_
 12	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	13	obl	_	_
@@ -393,11 +393,11 @@
 6	adi	_	_	ADP	_	7	case	_	_
 7	Labnana	_	_	PROPN	_	20	obl	_	_
 8	u	_	_	CONJ	_	9	cc	_	_
-9	Tamti-rabiti	_	_	PROPN	_	7	conj	_	_
+9	Tamti-rabiti	_	_	PROPN	Gender=F	7	conj	_	_
 10	Laqe	_	_	PROPN	_	20	obj	_	_
 11	ana	_	_	ADP	_	12	case	_	_
 12-13	sihirtiša	_	_	_	_	_	_	_	_
-12	sihirti	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	20	obl	_	_
+12	sihirti	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=F	20	obl	_	_
 13	ša	_	_	PRON	Gender=F|Number=Sg|Person=3	12	det	_	_
 14	Suhi	_	_	PROPN	_	20	obj	_	_
 15	adi	_	_	ADP	_	16	case	_	_
@@ -427,7 +427,7 @@
 # sent_id = Q004457-10
 # text = ultu nērebī ša Habruri adi Gilzani ultu ebertān Zaba-šapliti adi Til-Bari ša ellān Zaban ultu Til-ša-Abtani adi Til-ša-Zabdani Hirimu Harutu birāte ša Karduniaš ana miṣri mātiya utēr
 1	ultu	_	_	ADP	_	2	case	_	_
-2	nērebī	_	_	NOUN	Nounbase=Free|Number=Pl|Gender=M	28	obl	_	_
+2	nērebī	_	_	NOUN	Number=Pl|Gender=M	28	obl	_	_
 3	ša	_	_	ADP	_	4	case	_	_
 4	Habruri	_	_	PROPN	_	2	nmod	_	_
 5	adi	_	_	ADP	_	6	case	_	_
