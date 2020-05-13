@@ -1,20 +1,20 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004582-1
 # text = Aššur-naṣir-apli šar māt Aššur mār Tukulti-Ninurta šar māt Aššur mār Adad-nerari šar māt Aššurma
-1	Aššur-naṣir-apli	_	_	PROPN	Gender=M	0	root	0:root	_
-2	šar	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=M	1	appos	_	_
-3	māt	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	7	nmod:poss	_	_
-4	Aššur	_	_	PROPN	Gender=M	3	nmod:poss	_	_
-5	mār	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	1	appos	_	_
-6	Tukulti-Ninurta	_	_	PROPN	Gender=M	5	nmod:poss	_	_
-7	šar	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	6	appos	_	_
-8	māt	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	7	nmod:poss	_	_
-9	Aššur	_	_	PROPN	Gender=M	8	nmod:poss	_	_
-10	mār	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	6	appos	_	_
-11	Adad-nerari	_	_	PROPN	Gender=M	10	nmod:poss	_	_
-12	šar	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	11	appos	_	_
-13	māt	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=F	12	nmod:poss	_	_
+1	Aššur-naṣir-apli	_	PROPN	_	Gender=M	0	root	0:root	_
+2	šar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
+3	māt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	7	nmod:poss	_	_
+4	Aššur	_	PROPN	_	Gender=M	3	nmod:poss	_	_
+5	mār	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
+6	Tukulti-Ninurta	_	PROPN	_	Gender=M	5	nmod:poss	_	_
+7	šar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	6	appos	_	_
+8	māt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	7	nmod:poss	_	_
+9	Aššur	_	PROPN	_	Gender=M	8	nmod:poss	_	_
+10	mār	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	6	appos	_	_
+11	Adad-nerari	_	PROPN	_	Gender=M	10	nmod:poss	_	_
+12	šar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	11	appos	_	_
+13	māt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	12	nmod:poss	_	_
 14-15	Aššurma	_	_	_	_	_	_	_	_
-14	Aššur	_	_	PROPN	Gender=M	13	nmod:poss	_	_
-15	ma	_	_	PART	_	14	det	_	_
+14	Aššur	_	PROPN	_	Gender=M	13	nmod:poss	_	_
+15	ma	_	PART	_	_	14	det	_	_
 

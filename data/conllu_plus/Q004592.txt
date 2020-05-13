@@ -1,40 +1,40 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004592-1
 # text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššur
-1	Aššur-naṣir-apli	_	_	PROPN	Gender=M	0	root	0:root	_
-2	šakin	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
-3	Enlil	_	_	PROPN	Gender=M	2	nmod:poss	_	_
-4	iššak	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
-5	Aššur	_	_	PROPN	Gender=M	4	nmod:poss	_	_
-6	mār	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
-7	Tukulti-Ninurta	_	_	PROPN	Gender=M	6	nmod:poss	_	_
-8	šakin	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	7	appos	_	_
-9	Enlil	_	_	PROPN	Gender=M	8	nmod:poss	_	_
-10	iššak	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	7	appos	_	_
-11	Aššur	_	_	PROPN	Gender=M	10	nmod:poss	_	_
-12	mār	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	7	appos	_	_
-13	Adad-nerari	_	_	PROPN	Gender=M	12	nmod:poss	_	_
-14	šakin	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	13	appos	_	_
-15	Enlil	_	_	PROPN	Gender=M	14	nmod:poss	_	_
-16	iššak	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	13	appos	_	_
-17	Aššur	_	_	PROPN	Gender=M	16	nmod:poss	_	_
+1	Aššur-naṣir-apli	_	PROPN	_	Gender=M	0	root	0:root	_
+2	šakin	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
+3	Enlil	_	PROPN	_	Gender=M	2	nmod:poss	_	_
+4	iššak	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
+5	Aššur	_	PROPN	_	Gender=M	4	nmod:poss	_	_
+6	mār	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
+7	Tukulti-Ninurta	_	PROPN	_	Gender=M	6	nmod:poss	_	_
+8	šakin	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	7	appos	_	_
+9	Enlil	_	PROPN	_	Gender=M	8	nmod:poss	_	_
+10	iššak	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	7	appos	_	_
+11	Aššur	_	PROPN	_	Gender=M	10	nmod:poss	_	_
+12	mār	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	7	appos	_	_
+13	Adad-nerari	_	PROPN	_	Gender=M	12	nmod:poss	_	_
+14	šakin	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	13	appos	_	_
+15	Enlil	_	PROPN	_	Gender=M	14	nmod:poss	_	_
+16	iššak	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	13	appos	_	_
+17	Aššur	_	PROPN	_	Gender=M	16	nmod:poss	_	_
 
 # sent_id = Q004592-2
 # text = 5 nāmerū ištu nāmerī ša bāb Kalkala adi nāmerī ša bābāni ana kisal Nunnamnir x x
-1	5	_	_	NUM	_	2	nummod	_	_
-2	nāmerū	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Pl|Gender=M	15	obj	_	_
-3	ištu	_	_	ADP	_	4	case	_	_
-4	nāmerī	_	_	NOUN	Number=Pl|Gender=M	15	obl	_	_
-5	ša	_	_	ADP	_	6	case	_	_
-6	bāb	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	4	nmod	_	_
-7	Kalkala	_	_	PROPN	_	6	nmod:poss	_	_
-8	adi	_	_	ADP	_	9	case	_	_
-9	nāmerī	_	_	NOUN	Number=Pl|Gender=M	15	obl	_	_
-10	ša	_	_	ADP	_	11	case	_	_
-11	bābāni	_	_	NOUN	Case=Gen|Number=Pl|Gender=M	9	nmod	_	_
-12	ana	_	_	ADP	_	13	case	_	_
-13	kisal	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	15	obl	_	_
-14	Nunnamnir	_	_	PROPN	Gender=M	13	nmod:poss	_	_
-15	x	_	_	VERB	_	0	root	0:root	_
+1	5	_	NUM	_	_	2	nummod	_	_
+2	nāmerū	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Pl	15	obj	_	_
+3	ištu	_	ADP	_	_	4	case	_	_
+4	nāmerī	_	NOUN	_	Gender=M|Number=Pl	15	obl	_	_
+5	ša	_	ADP	_	_	6	case	_	_
+6	bāb	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	4	nmod	_	_
+7	Kalkala	_	PROPN	_	_	6	nmod:poss	_	_
+8	adi	_	ADP	_	_	9	case	_	_
+9	nāmerī	_	NOUN	_	Gender=M|Number=Pl	15	obl	_	_
+10	ša	_	ADP	_	_	11	case	_	_
+11	bābāni	_	NOUN	_	Case=Gen|Gender=M|Number=Pl	9	nmod	_	_
+12	ana	_	ADP	_	_	13	case	_	_
+13	kisal	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	15	obl	_	_
+14	Nunnamnir	_	PROPN	_	Gender=M	13	nmod:poss	_	_
+15	x	_	VERB	_	_	0	root	0:root	_
 16	x	_	_	_	_	_	_	_	_
 

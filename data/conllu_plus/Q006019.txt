@@ -1,13 +1,13 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q006019-1
 # text = ilāni rabûti
-1	ilāni	_	_	NOUN	Number=Pl|Gender=M	0	root	0:root	_
-2	rabûti	_	_	ADJ	Number=Pl|Gender=M	1	amod	_	_
+1	ilāni	_	NOUN	_	Gender=M|Number=Pl	0	root	0:root	_
+2	rabûti	_	ADJ	_	Gender=M|Number=Pl	1	amod	_	_
 
 # sent_id = Q006019-2
 # text = x mār Aššur-reša-iši x
 1	x	_	_	_	_	_	_	_	_
-2	mār	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	0	root	0:root	_
-3	Aššur-reša-iši	_	_	PROPN	Gender=M	2	nmod:poss	_	_
+2	mār	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	_
+3	Aššur-reša-iši	_	PROPN	_	Gender=M	2	nmod:poss	_	_
 4	x	_	_	_	_	_	_	_	_
 

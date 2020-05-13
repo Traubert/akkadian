@@ -1,53 +1,61 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004515-1
-# text = x x x x u šaknūtaya x x x x.MEŠ-ia u₂-x x x Dur-Lullumaya x x ellān Zaban
+# text = x x x x u GAR nu ta a x x x x.MEŠ-ia
 1	x	_	_	_	_	_	_	_	_
 2	x	_	_	_	_	_	_	_	_
 3	x	_	_	_	_	_	_	_	_
 4	x	_	_	_	_	_	_	_	_
-5	u	_	_	CONJ	_	_	_	_	_
-6	šaknūtaya	_	_	_	_	_	_	_	_
-7	x	_	_	_	_	_	_	_	_
-8	x	_	_	_	_	_	_	_	_
-9	x	_	_	_	_	_	_	_	_
-10	x.MEŠ-ia	_	_	_	_	_	_	_	_
-11	u₂-x	_	_	_	_	_	_	_	_
+5	u	_	_	_	_	_	_	_	_
+6	GAR	_	_	_	_	_	_	_	_
+7	nu	_	_	_	_	_	_	_	_
+8	ta	_	_	_	_	_	_	_	_
+9	a	_	_	_	_	_	_	_	_
+10	x	_	_	_	_	_	_	_	_
+11	x	_	_	_	_	_	_	_	_
 12	x	_	_	_	_	_	_	_	_
-13	x	_	_	_	_	_	_	_	_
-14	Dur-Lullumaya	_	_	PROPN	Gender=M	_	_	_	_
-15	x	_	_	_	_	_	_	_	_
-16	x	_	_	_	_	_	_	_	_
-17	ellān	_	_	ADV	_	0	root	0:root	_
-18	Zaban	_	_	PROPN	Gender=F	17	nmod:poss	_	_
+13-14	x.MEŠ-ia	_	_	_	_	_	_	_	_
+13	x.MEŠ	_	NOUN	_	Number=Pl	0	root	0:root	_
+14	ia	_	PRON	_	Number=Sg|Person=1	13	det	_	_
 
 # sent_id = Q004515-2
+# text = u₂-x x x Dur-Lullumaya x x ellān Zaban
+1	u₂-x	_	_	_	_	_	_	_	_
+2	x	_	_	_	_	_	_	_	_
+3	x	_	_	_	_	_	_	_	_
+4	Dur-Lullumaya	_	PROPN	_	Gender=M	_	_	_	_
+5	x	_	_	_	_	_	_	_	_
+6	x	_	_	_	_	_	_	_	_
+7	ellān	_	ADV	_	_	0	root	0:root	_
+8	Zaban	_	PROPN	_	Gender=F	7	nmod:poss	_	_
+
+# sent_id = Q004515-3
 # text = x x x miṣir mātiya amnu
 1	x	_	_	_	_	_	_	_	_
 2	x	_	_	_	_	_	_	_	_
 3	x	_	_	_	_	_	_	_	_
-4	miṣir	_	_	NOUN	Gender=M|Nounbase=Bound|Number=Sg	7	obl	_	_
+4	miṣir	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	7	obl	_	_
 5-6	mātiya	_	_	_	_	_	_	_	_
-5	māti	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=F	4	nmod:poss	_	_
-6	ya	_	_	PRON	Person=1|Number=Sg	5	det	_	_
-7	amnu	_	_	VERB	Person=1|Number=Sg|Tense=Preterit|Verbstem=G|Mood=Indicative	0	root	0:root	_
+5	māti	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	4	nmod:poss	_	_
+6	ya	_	PRON	_	Number=Sg|Person=1	5	det	_	_
+7	amnu	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
 
-# sent_id = Q004515-3
+# sent_id = Q004515-4
 # text = x x x x maddattu x x x anhūssu x x x ušaklil x x x x
 1	x	_	_	_	_	_	_	_	_
 2	x	_	_	_	_	_	_	_	_
 3	x	_	_	_	_	_	_	_	_
 4	x	_	_	_	_	_	_	_	_
-5	maddattu	_	_	NOUN	Case=Nom|Gender=F|Nounbase=Free|Number=Sg	_	_	_	_
+5	maddattu	_	NOUN	_	Case=Nom|Gender=F|Nounbase=Free|Number=Sg	_	_	_	_
 6	x	_	_	_	_	_	_	_	_
 7	x	_	_	_	_	_	_	_	_
 8	x	_	_	_	_	_	_	_	_
 9-10	anhūssu	_	_	_	_	_	_	_	_
-9	anhūs	_	_	NOUN	Nounbase=Suffixal|Number=Sg|Gender=F	0	root	0:root	_
-10	su	_	_	PRON	Gender=M|Number=Sg|Person=3	9	det	_	_
+9	anhūs	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Sg	0	root	0:root	_
+10	su	_	PRON	_	Gender=M|Number=Sg|Person=3	9	det	_	_
 11	x	_	_	_	_	_	_	_	_
 12	x	_	_	_	_	_	_	_	_
 13	x	_	_	_	_	_	_	_	_
-14	ušaklil	_	_	VERB	Person=1|Number=Sg|Tense=Preterit|Verbstem=S|Mood=Indicative	_	_	_	_
+14	ušaklil	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	_	_	_	_
 15	x	_	_	_	_	_	_	_	_
 16	x	_	_	_	_	_	_	_	_
 17	x	_	_	_	_	_	_	_	_

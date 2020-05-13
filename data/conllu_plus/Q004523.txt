@@ -1,32 +1,32 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004523-1
 # text = x šar kiššati šarru dannu šar māt Aššur
-1	x	_	_	PROPN	Gender=M	0	root	0:root	_
-2	šar	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=M	1	appos	_	_
-3	kiššati	_	_	NOUN	Number=Sg|Nounbase=Free|Gender=F|Case=Gen	2	nmod:poss	_	_
-4	šarru	_	_	NOUN	Number=Sg|Nounbase=Free|Gender=M|Case=Nom	1	appos	_	_
-5	dannu	_	_	ADJ	Number=Sg|Case=Nom|Gender=M	4	amod	_	_
-6	šar	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=M	1	appos	_	_
-7	māt	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=F	6	nmod:poss	_	_
-8	Aššur	_	_	PROPN	Gender=M	7	nmod:poss	_	_
+1	x	_	PROPN	_	Gender=M	0	root	0:root	_
+2	šar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
+3	kiššati	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	2	nmod:poss	_	_
+4	šarru	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	appos	_	_
+5	dannu	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	4	amod	_	_
+6	šar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
+7	māt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	6	nmod:poss	_	_
+8	Aššur	_	PROPN	_	Gender=M	7	nmod:poss	_	_
 
 # sent_id = Q004523-2
 # text = x x māt Aššur mār Adad-nerari šar kiššati x x ālik pāniya ēpušu x x x-u₂-ni x x x x a la x
-1	x	_	_	PROPN	Gender=M	0	root	0:root	_
-2	x	_	_	NOUN	Nounbase=Bound|Number=Sg|Gender=M	1	appos	_	_
-3	māt	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=F	2	nmod:poss	_	_
-4	Aššur	_	_	PROPN	Gender=M	3	nmod:poss	_	_
-5	mār	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=M	1	appos	_	_
-6	Adad-nerari	_	_	PROPN	Gender=M	5	nmod:poss	_	_
-7	šar	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=M	6	appos	_	_
-8	kiššati	_	_	NOUN	Number=Sg|Nounbase=Free|Gender=F|Case=Gen	7	nmod:poss	_	_
+1	x	_	PROPN	_	Gender=M	0	root	0:root	_
+2	x	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
+3	māt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	2	nmod:poss	_	_
+4	Aššur	_	PROPN	_	Gender=M	3	nmod:poss	_	_
+5	mār	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
+6	Adad-nerari	_	PROPN	_	Gender=M	5	nmod:poss	_	_
+7	šar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	6	appos	_	_
+8	kiššati	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	7	nmod:poss	_	_
 9	x	_	_	_	_	_	_	_	_
 10	x	_	_	_	_	_	_	_	_
-11	ālik	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=M	6	appos	_	_
+11	ālik	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	6	appos	_	_
 12-13	pāniya	_	_	_	_	_	_	_	_
-12	pāni	_	_	NOUN	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	11	nmod:poss	_	_
-13	ya	_	_	PRON	Person=1|Number=Sg	12	det	_	_
-14	ēpušu	_	_	VERB	Verbstem=G|Mood=Subjunctive|Gender=M|Number=Sg|Person=3|Tense=Preterit	_	_	_	_
+12	pāni	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	11	nmod:poss	_	_
+13	ya	_	PRON	_	Number=Sg|Person=1	12	det	_	_
+14	ēpušu	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	_	_	_	_
 15	x	_	_	_	_	_	_	_	_
 16	x	_	_	_	_	_	_	_	_
 17	x-u₂-ni	_	_	_	_	_	_	_	_

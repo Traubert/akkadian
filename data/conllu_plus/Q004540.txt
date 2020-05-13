@@ -1,30 +1,30 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004540-1
 # text = ēkal Aššur-naṣir-apli šar kiššati šar māt Aššur mār Tukulti-Ninurta šar māt Aššur mār Adad-nerari šar māt Aššurma
-1	ēkal	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=F	0	root	0:root	_
-2	Aššur-naṣir-apli	_	_	PROPN	Gender=M	1	nmod:poss	_	_
-3	šar	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=M	2	appos	_	_
-4	kiššati	_	_	NOUN	Gender=F|Nounbase=Free|Case=Gen|Number=Sg	3	nmod:poss	_	_
-5	šar	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=M	2	appos	_	_
-6	māt	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=F	5	nmod:poss	_	_
-7	Aššur	_	_	PROPN	Gender=M	6	nmod:poss	_	_
-8	mār	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=M	2	appos	_	_
-9	Tukulti-Ninurta	_	_	PROPN	Gender=M	8	nmod:poss	_	_
-10	šar	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=M	9	appos	_	_
-11	māt	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=F	10	nmod:poss	_	_
-12	Aššur	_	_	PROPN	Gender=M	11	nmod:poss	_	_
-13	mār	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=M	9	appos	_	_
-14	Adad-nerari	_	_	PROPN	Gender=M	13	nmod:poss	_	_
-15	šar	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=M	14	appos	_	_
-16	māt	_	_	NOUN	Number=Sg|Nounbase=Bound|Gender=F	15	nmod:poss	_	_
+1	ēkal	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	_
+2	Aššur-naṣir-apli	_	PROPN	_	Gender=M	1	nmod:poss	_	_
+3	šar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	_
+4	kiššati	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	3	nmod:poss	_	_
+5	šar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	_
+6	māt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	5	nmod:poss	_	_
+7	Aššur	_	PROPN	_	Gender=M	6	nmod:poss	_	_
+8	mār	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	_
+9	Tukulti-Ninurta	_	PROPN	_	Gender=M	8	nmod:poss	_	_
+10	šar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	9	appos	_	_
+11	māt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	10	nmod:poss	_	_
+12	Aššur	_	PROPN	_	Gender=M	11	nmod:poss	_	_
+13	mār	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	9	appos	_	_
+14	Adad-nerari	_	PROPN	_	Gender=M	13	nmod:poss	_	_
+15	šar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	14	appos	_	_
+16	māt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	15	nmod:poss	_	_
 17-18	Aššurma	_	_	_	_	_	_	_	_
-17	Aššur	_	_	PROPN	Gender=M	16	nmod:poss	_	_
-18	ma	_	_	PART	_	17	det	_	_
+17	Aššur	_	PROPN	_	Gender=M	16	nmod:poss	_	_
+18	ma	_	PART	_	_	17	det	_	_
 
 # sent_id = Q004540-2
 # text = Rugulutu ša Bit-Adini akšud
-1	Rugulutu	_	_	PROPN	_	4	obj	_	_
-2	ša	_	_	ADP	_	3	case	_	_
-3	Bit-Adini	_	_	PROPN	_	1	nmod	_	_
-4	akšud	_	_	VERB	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	0	root	0:root	_
+1	Rugulutu	_	PROPN	_	_	4	obj	_	_
+2	ša	_	ADP	_	_	3	case	_	_
+3	Bit-Adini	_	PROPN	_	_	1	nmod	_	_
+4	akšud	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
 

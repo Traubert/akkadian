@@ -1,23 +1,23 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004561-1
 # text = ēkal Aššur-naṣir-apli šar kiššati šar māt Aššur mār Tukulti-Ninurta šar kiššati šar māt Aššur
-1	ēkal	_	_	NOUN	Number=Sg|Gender=F|Nounbase=Bound	0	root	0:root	_
-2	Aššur-naṣir-apli	_	_	PROPN	Gender=M	1	nmod:poss	_	_
-3	šar	_	_	NOUN	Number=Sg|Gender=M|Nounbase=Bound	2	appos	_	_
-4	kiššati	_	_	NOUN	Number=Sg|Gender=F|Nounbase=Free|Case=Gen	3	nmod:poss	_	_
-5	šar	_	_	NOUN	Number=Sg|Gender=M|Nounbase=Bound	2	appos	_	_
-6	māt	_	_	NOUN	Number=Sg|Gender=F|Nounbase=Bound	5	nmod:poss	_	_
-7	Aššur	_	_	PROPN	Gender=M	6	nmod:poss	_	_
-8	mār	_	_	NOUN	Number=Sg|Gender=M|Nounbase=Bound	2	appos	_	_
-9	Tukulti-Ninurta	_	_	PROPN	Gender=M	8	nmod:poss	_	_
-10	šar	_	_	NOUN	Number=Sg|Gender=M|Nounbase=Bound	9	appos	_	_
-11	kiššati	_	_	NOUN	Number=Sg|Gender=F|Nounbase=Free|Case=Gen	10	nmod:poss	_	_
-12	šar	_	_	NOUN	Number=Sg|Gender=M|Nounbase=Bound	9	appos	_	_
-13	māt	_	_	NOUN	Number=Sg|Gender=F|Nounbase=Bound	12	nmod:poss	_	_
-14	Aššur	_	_	PROPN	Gender=M	13	nmod:poss	_	_
+1	ēkal	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	_
+2	Aššur-naṣir-apli	_	PROPN	_	Gender=M	1	nmod:poss	_	_
+3	šar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	_
+4	kiššati	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	3	nmod:poss	_	_
+5	šar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	_
+6	māt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	5	nmod:poss	_	_
+7	Aššur	_	PROPN	_	Gender=M	6	nmod:poss	_	_
+8	mār	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	_
+9	Tukulti-Ninurta	_	PROPN	_	Gender=M	8	nmod:poss	_	_
+10	šar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	9	appos	_	_
+11	kiššati	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	10	nmod:poss	_	_
+12	šar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	9	appos	_	_
+13	māt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	12	nmod:poss	_	_
+14	Aššur	_	PROPN	_	Gender=M	13	nmod:poss	_	_
 
 # sent_id = Q004561-2
 # text = 10 manê
-1	10	_	_	NUM	_	2	nummod	_	_
-2	manê	_	_	NOUN	Case=Nom|Nounbase=Free|Number=Pl|Gender=M	0	root	0:root	_
+1	10	_	NUM	_	_	2	nummod	_	_
+2	manê	_	NOUN	_	Gender=M|Number=Pl	0	root	0:root	_
 
