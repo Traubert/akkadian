@@ -13,7 +13,7 @@
 10	Anunnaki	_	PROPN	_	Number=Pl	8	conj	_	_
 11	bēl	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	_
 12	mātāti	_	NOUN	_	Gender=F|Nounbase=Free|Number=Pl	11	nmod:poss	_	_
-13	Enlil	_	PROPN	_	Gender=M	11	appos	_	_
+13	Enlil	_	PROPN	_	Gender=M	1	conj	_	_
 14	ṣīru	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	13	appos	_	_
 15	abu	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	13	appos	_	_
 16	ilāni	_	NOUN	_	Gender=M|Number=Pl	15	nmod:poss	_	_
@@ -454,7 +454,7 @@
 1	3 mē	_	NUM	_	_	2	nummod	_	_
 2	tibkī	_	NOUN	_	Gender=M|Number=Pl	14	obj	_	_
 3	ana	_	ADP	_	_	4	case	_	_
-4	20	_	NUM	_	_	14	obl	_	_
+4	20	_	NUM	_	_	5	nummod	_	_
 5	libnāti	_	NOUN	_	Gender=F|Nounbase=Free|Number=Pl	0	root	0:root	_
 6	rapšāti	_	ADJ	_	Gender=F|Number=Pl	5	amod	_	_
 
@@ -558,33 +558,33 @@
 5	išemmû	_	VERB	_	Gender=M|Mood=Indicative|Number=Pl|Person=3|Tense=Present|Verbstem=G	0	root	0:root	_
 
 # sent_id = Q006033-23
-# text = ša šumī šaṭra
+# text = ša šumī šaṭra ipaššiṭu u narê ištu ašrišunu ušamsaku
 1	ša	_	PROPN	_	_	5	nsubj	11:nsubj	_
 2-3	šumī	_	_	_	_	_	_	_	_
-2	šum	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	0	root	0:root	_
+2	šum	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	5	obj	_	_
 3	ī	_	PRON	_	Number=Sg|Person=1	2	det	_	_
 4	šaṭra	_	ADJ	_	Case=Acc|Gender=M|Number=Sg	2	amod	_	_
+5	ipaššiṭu	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Sg|Person=3|Tense=Present|Verbstem=G	0	root	0:root	_
+6	u	_	CCONJ	_	_	11	cc	_	_
+7	narê	_	NOUN	_	Gender=M|Number=Pl	11	obj	_	_
+8	ištu	_	ADP	_	_	9	case	_	_
+9-10	ašrišunu	_	_	_	_	_	_	_	_
+9	ašrī	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	11	obl	_	_
+10	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	9	det	_	_
+11	ušamsaku	_	VERB	_	Mood=Subjunctive|Number=Sg|Person=3|Tense=Present|Verbstem=S	5	conj	_	_
 
 # sent_id = Q006033-24
-# text = ipaššiṭu u narê ištu ašrišunu ušamsaku Aššur Adad šumšu u zēršu ina māti luhalliqū
-1	ipaššiṭu	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Sg|Person=3|Tense=Present|Verbstem=G	0	root	0:root	_
-2	u	_	CCONJ	_	_	7	cc	_	_
-3	narê	_	NOUN	_	Gender=M|Number=Pl	7	obj	_	_
-4	ištu	_	ADP	_	_	5	case	_	_
-5-6	ašrišunu	_	_	_	_	_	_	_	_
-5	ašrī	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	7	obl	_	_
-6	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	5	det	_	_
-7	ušamsaku	_	VERB	_	Mood=Subjunctive|Number=Sg|Person=3|Tense=Present|Verbstem=S	1	conj	_	_
-8	Aššur	_	PROPN	_	Gender=M	17	nsubj	_	_
-9	Adad	_	PROPN	_	Gender=M	8	conj	17:nsubj	_
-10-11	šumšu	_	_	_	_	_	_	_	_
-10	šum	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	17	obj	_	_
-11	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	10	det	_	_
-12	u	_	CCONJ	_	_	13	cc	_	_
-13-14	zēršu	_	_	_	_	_	_	_	_
-13	zēr	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	10	conj	_	_
-14	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	13	det	_	_
-15	ina	_	ADP	_	_	16	case	_	_
-16	māti	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	17	obl	_	_
-17	luhalliqū	_	VERB	_	Gender=M|Mood=Precative|Number=Pl|Person=3|Verbstem=D	0	root	0:root	_
+# text = Aššur Adad šumšu u zēršu ina māti luhalliqū
+1	Aššur	_	PROPN	_	Gender=M	10	nsubj	_	_
+2	Adad	_	PROPN	_	Gender=M	1	conj	10:nsubj	_
+3-4	šumšu	_	_	_	_	_	_	_	_
+3	šum	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	10	obj	_	_
+4	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	3	det	_	_
+5	u	_	CCONJ	_	_	6	cc	_	_
+6-7	zēršu	_	_	_	_	_	_	_	_
+6	zēr	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	3	conj	_	_
+7	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	6	det	_	_
+8	ina	_	ADP	_	_	9	case	_	_
+9	māti	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	10	obl	_	_
+10	luhalliqū	_	VERB	_	Gender=M|Mood=Precative|Number=Pl|Person=3|Verbstem=D	0	root	0:root	_
 

@@ -1,29 +1,29 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q006014-1
-# text = kullat mārīšunu mārātišunu ana kaspī ipšurūni
-1	kullat	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	_	_	_	_
+# text = kullat mārīšunu mārātišunu
+1	kullat	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	_
 2-3	mārīšunu	_	_	_	_	_	_	_	_
-2	mārī	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	8	obj	_	_
+2	mārī	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	1	nmod:poss	_	_
 3	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	2	det	_	_
 4-5	mārātišunu	_	_	_	_	_	_	_	_
 4	mārāti	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Pl	2	conj	_	_
 5	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	4	det	_	_
-6	ana	_	ADP	_	_	7	case	_	_
-7	kaspī	_	NOUN	_	Gender=M|Number=Pl	8	obl	_	_
-8	ipšurūni	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Pl|Person=3|Tense=Preterit|Verbstem=G	0	root	0:root	_
 
 # sent_id = Q006014-2
-# text = ina siqir Aššur bēliya ana hubtāni lū ahtabta
-1	ina	_	ADP	_	_	2	case	_	_
-2	siqir	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	8	obl	_	_
-3	Aššur	_	PROPN	_	Gender=M	2	nmod:poss	_	_
-4-5	bēliya	_	_	_	_	_	_	_	_
-4	bēli	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	3	appos	_	_
-5	ya	_	PRON	_	Number=Sg|Person=1	4	det	_	_
-6	ana	_	ADP	_	_	7	case	_	_
-7	hubtāni	_	NOUN	_	Gender=M|Number=Pl	9	obl	_	_
-8	lū	_	PART	_	_	9	advmod:emph	_	_
-9	ahtabta	_	VERB	_	Mood=Ventive|Number=Sg|Person=1|Tense=Perfect|Verbstem=G	0	root	0:root	_
+# text = ana kaspī ipšurūni ina siqir Aššur bēliya ana hubtāni lū ahtabta
+1	ana	_	ADP	_	_	2	case	_	_
+2	kaspī	_	NOUN	_	Gender=M|Number=Pl	3	obl	_	_
+3	ipšurūni	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Pl|Person=3|Tense=Preterit|Verbstem=G	12	advcl	_	_
+4	ina	_	ADP	_	_	5	case	_	_
+5	siqir	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	11	obl	_	_
+6	Aššur	_	PROPN	_	Gender=M	5	nmod:poss	_	_
+7-8	bēliya	_	_	_	_	_	_	_	_
+7	bēli	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	6	appos	_	_
+8	ya	_	PRON	_	Number=Sg|Person=1	7	det	_	_
+9	ana	_	ADP	_	_	10	case	_	_
+10	hubtāni	_	NOUN	_	Gender=M|Number=Pl	12	obl	_	_
+11	lū	_	PART	_	_	12	advmod:emph	_	_
+12	ahtabta	_	VERB	_	Mood=Ventive|Number=Sg|Person=1|Tense=Perfect|Verbstem=G	0	root	0:root	_
 
 # sent_id = Q006014-3
 # text = dīktašunu maʾatta x adūk šallassunu būšīšunu makkūršunu alpīšunu ṣēnīšunu ašlulma ana āliya Aššur ubla x
@@ -161,7 +161,7 @@
 6	ašlul	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
 7	ma	_	CCONJ	_	_	10	cc	_	_
 8-9	sitātešunu	_	_	_	_	_	_	_	_
-8	sītāte	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Pl	0	root	0:root	_
+8	sītāte	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Pl	10	obj	_	_
 9	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	8	det	_	_
 10	assuha	_	VERB	_	Mood=Ventive|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	6	conj	_	_
 11	ina	_	ADP	_	_	12	case	_	_

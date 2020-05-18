@@ -81,9 +81,9 @@
 77	šarrāni	_	NOUN	_	Gender=M|Number=Pl	76	nmod:poss	_	_
 78	išippu	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	43	appos	_	_
 79	naʾdu	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	78	amod	_	_
-80	ša	_	PRON	_	_	91	obl	_	_
+80	ša	_	PRON	_	_	96	nsubj	_	_
 81	ina	_	ADP	_	_	82	case	_	_
-82	siqri	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	_
+82	siqri	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Bound|Number=Sg	91	obl	_	_
 83	Aššur	_	PROPN	_	Gender=M	82	nmod:poss	_	_
 84	u	_	CCONJ	_	_	85	cc	_	_
 85	Ninurta	_	PROPN	_	Gender=M	83	conj	_	_
@@ -100,7 +100,7 @@
 
 # sent_id = Q004501-2
 # text = x Aššur-naṣir-apli šarru dannu nibīt x eṭlu qardu
-1	x	_	_	_	_	_	_	_	_
+1	x	_	VERB	_	_	0	root	0:root	_
 2	Aššur-naṣir-apli	_	PROPN	_	Gender=M	0	root	0:root	_
 3	šarru	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	2	appos	_	_
 4	dannu	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	3	amod	_	_

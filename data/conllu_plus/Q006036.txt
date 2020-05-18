@@ -37,19 +37,19 @@
 7	Hatte	_	PROPN	_	Case=Gen	26	obl	_	_
 8	x	_	_	_	_	_	_	_	_
 9	ša	_	ADP	_	_	10	case	_	_
-10	mātāt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Pl	0	root	0:root	_
+10	mātāt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Pl	26	obl	_	_
 11	Nairi	_	PROPN	_	Case=Gen	10	nmod:poss	_	_
 12	ana	_	ADP	_	_	13	case	_	_
 13	pāṭ	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	11	appos	_	_
 14-15	gimriša	_	_	_	_	_	_	_	_
 14	gimri	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	13	nmod:poss	_	_
 15	ša	_	PRON	_	Gender=F|Number=Sg|Person=3	14	det	_	_
-16	Suhi	_	PROPN	_	Case=Gen	_	_	_	_
-17	adi	_	ADP	_	_	_	_	_	_
+16	Suhi	_	PROPN	_	Case=Gen	26	obj	_	_
+17	adi	_	ADP	_	_	19	case	_	_
 18	x	_	_	_	_	_	_	_	_
-19	Habruri	_	PROPN	_	Case=Gen	_	_	_	_
+19	Habruri	_	PROPN	_	Case=Gen	26	obl	_	_
 20	adi	_	ADP	_	_	21	case	_	_
-21	Gilzani	_	PROPN	_	Case=Gen	0	root	0:root	_
+21	Gilzani	_	PROPN	_	Case=Gen	26	obl	_	_
 22	Apa	_	PROPN	_	Gender=M	26	obj	_	_
 23	šar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	22	appos	_	_
 24	Hubuškia	_	PROPN	_	_	23	nmod:poss	_	_
@@ -57,47 +57,44 @@
 26	iṣbat	_	VERB	_	Gender=M|Mood=Indicative|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	1	acl:relcl	_	_
 
 # sent_id = Q006036-4
-# text = ultu nērebē ša Babite adi x sihirtiša
+# text = ultu nērebē ša Babite adi x sihirtiša ultu Zaba-šapliti x ellān Zab Hirimu Harutu x-duniaš ultu Ṣuṣi ša eli Idiqlat adi x Dur-Kurigalzi adi Sippur-ša-Šamaš Sippur-x x qāssu ikšudu
 1	ultu	_	ADP	_	_	2	case	_	_
 2	nērebē	_	NOUN	_	Gender=M|Number=Pl	32	obl	_	_
 3	ša	_	ADP	_	_	4	case	_	_
 4	Babite	_	PROPN	_	Case=Gen	2	nmod	_	_
-5	adi	_	ADP	_	_	_	_	_	_
-6	x	_	_	_	_	_	_	_	_
+5	adi	_	ADP	_	_	6	case	_	_
+6	x	_	PROPN	_	_	32	obl	_	_
 7-8	sihirtiša	_	_	_	_	_	_	_	_
-7	sihirti	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	0	root	0:root	_
+7	sihirti	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	6	appos	_	_
 8	ša	_	PRON	_	Gender=F|Number=Sg|Person=3	7	det	_	_
+9	ultu	_	ADP	_	_	10	case	_	_
+10	Zaba-šapliti	_	PROPN	_	Gender=F	32	obl	_	_
+11	x	_	ADP	_	_	12	case	_	_
+12	ellān	_	ADV	_	_	10	nmod	_	_
+13	Zab	_	PROPN	_	_	12	nmod:poss	_	_
+14	Hirimu	_	PROPN	_	_	32	obj	_	_
+15	Harutu	_	PROPN	_	_	14	conj	_	_
+16-17	x-duniaš	_	_	_	_	_	_	_	_
+16	x-	_	_	_	_	_	_	_	_
+17	duniaš	_	PROPN	_	_	14	nmod:poss	_	_
+18	ultu	_	ADP	_	_	19	case	_	_
+19	Ṣuṣi	_	PROPN	_	Case=Gen	32	obl	_	_
+20	ša	_	ADP	_	_	21	case	_	_
+21	eli	_	ADP	_	_	22	case	_	_
+22	Idiqlat	_	PROPN	_	Gender=F	0	root	0:root	_
+23	adi	_	ADP	_	_	24	case	_	_
+24	x	_	PROPN	_	_	32	obl	_	_
+25	Dur-Kurigalzi	_	PROPN	_	_	24	conj	_	_
+26	adi	_	ADP	_	_	27	case	_	_
+27	Sippur-ša-Šamaš	_	PROPN	_	_	32	obl	_	_
+28	Sippur-x	_	PROPN	_	_	27	conj	_	_
+29	x	_	_	_	_	_	_	_	_
+30-31	qāssu	_	_	_	_	_	_	_	_
+30	qās	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Sg	32	nsubj	_	_
+31	su	_	PRON	_	Gender=M|Number=Sg|Person=3	30	det	_	_
+32	ikšudu	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	0	root	0:root	_
 
 # sent_id = Q006036-5
-# text = ultu Zaba-šapliti x ellān Zab Hirimu Harutu x-duniaš ultu Ṣuṣi ša eli Idiqlat adi x Dur-Kurigalzi adi Sippur-ša-Šamaš Sippur-x x qāssu ikšudu
-1	ultu	_	ADP	_	_	2	case	_	_
-2	Zaba-šapliti	_	PROPN	_	Gender=F	24	obl	_	_
-3	x	_	_	_	_	_	_	_	_
-4	ellān	_	ADV	_	_	0	root	0:root	_
-5	Zab	_	PROPN	_	_	4	nmod:poss	_	_
-6	Hirimu	_	PROPN	_	_	24	obj	_	_
-7	Harutu	_	PROPN	_	_	6	conj	_	_
-8-9	x-duniaš	_	_	_	_	_	_	_	_
-8	x-	_	_	_	_	_	_	_	_
-9	duniaš	_	PROPN	_	_	_	_	_	_
-10	ultu	_	ADP	_	_	11	case	_	_
-11	Ṣuṣi	_	PROPN	_	Case=Gen	24	obl	_	_
-12	ša	_	ADP	_	_	13	case	_	_
-13	eli	_	ADP	_	_	11	nmod	_	_
-14	Idiqlat	_	PROPN	_	Gender=F	_	_	_	_
-15	adi	_	ADP	_	_	_	_	_	_
-16	x	_	_	_	_	_	_	_	_
-17	Dur-Kurigalzi	_	PROPN	_	_	_	_	_	_
-18	adi	_	ADP	_	_	19	case	_	_
-19	Sippur-ša-Šamaš	_	PROPN	_	_	24	obl	_	_
-20	Sippur-x	_	PROPN	_	_	19	conj	_	_
-21	x	_	_	_	_	_	_	_	_
-22-23	qāssu	_	_	_	_	_	_	_	_
-22	qās	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Sg	24	nsubj	_	_
-23	su	_	PRON	_	Gender=M|Number=Sg|Person=3	22	det	_	_
-24	ikšudu	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	0	root	0:root	_
-
-# sent_id = Q006036-6
 # text = ša ēkalli ša Nemed-Tukulti-Ninurta
 1	ša	_	ADP	_	_	2	case	_	_
 2	ēkalli	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	0	root	0:root	_

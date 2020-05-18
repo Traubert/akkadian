@@ -13,7 +13,7 @@
 10	Anunnaki	_	PROPN	_	Number=Pl	8	conj	_	_
 11	bēl	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	_
 12	mātāti	_	NOUN	_	Gender=F|Nounbase=Free|Number=Pl	11	nmod:poss	_	_
-13	Enlil	_	PROPN	_	Gender=M	11	appos	_	_
+13	Enlil	_	PROPN	_	Gender=M	1	conj	_	_
 14	ṣīru	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	13	appos	_	_
 15	abu	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	13	appos	_	_
 16	ilāni	_	NOUN	_	Gender=M|Number=Pl	15	nmod:poss	_	_
@@ -103,14 +103,14 @@
 22	šassūr	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	25	obl	_	_
 23	ummi	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	22	nmod:poss	_	_
 24	kīniš	_	ADV	_	_	25	advmod	_	_
-25	x	_	VERB	_	_	0	root	0:root	_
+25	x	_	VERB	_	_	1	acl:relcl	_	_
 26-27	nabnītī	_	_	_	_	_	_	_	_
-26	nabnīt	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Sg	0	root	0:root	_
+26	nabnīt	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Sg	31	obj	_	_
 27	ī	_	PRON	_	Number=Sg|Person=1	26	det	_	_
 28	ana	_	ADP	_	_	29	case	_	_
 29	nabnīti	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Bound|Number=Sg	31	obl	_	_
 30	bēlē	_	NOUN	_	Gender=M|Number=Pl	29	nmod:poss	_	_
-31	uštennû	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Pl|Person=3|Tense=Preterit|Verbstem=St	1	acl:relcl	_	_
+31	uštennû	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Pl|Person=3|Tense=Preterit|Verbstem=St	25	conj	_	_
 32	x	_	_	_	_	_	_	_	_
 
 # sent_id = Q006032-3
@@ -178,7 +178,7 @@
 5	luddiš	_	VERB	_	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	0	root	0:root	_
 6	u	_	CCONJ	_	_	9	cc	_	_
 7-8	narîya	_	_	_	_	_	_	_	_
-7	narî	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	0	root	0:root	_
+7	narî	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	9	obj	_	_
 8	ya	_	PRON	_	Number=Sg|Person=1	7	det	_	_
 9-10	līmurma	_	_	_	_	_	_	_	_
 9	līmur	_	VERB	_	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=G	5	conj	_	_
@@ -214,8 +214,8 @@
 12	tāhāzi	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	20	obl	_	_
 13	ša	_	ADP	_	_	14	case	_	_
 14	šarrāni	_	NOUN	_	Gender=M|Number=Pl	12	nmod	_	_
-15	ašar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	_
-16	taqrubte	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	15	nmod:poss	_	_
+15	ašar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	_	_	_	_
+16	taqrubte	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	20	obl	_	_
 17	ammar	_	ADP	_	_	18	case	_	_
 18-19	libbišu	_	_	_	_	_	_	_	_
 18	libbi	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	20	obl	_	_

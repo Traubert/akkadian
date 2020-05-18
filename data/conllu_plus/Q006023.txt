@@ -153,27 +153,27 @@
 35	ušekniš	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	1	acl:relcl	_	_
 
 # sent_id = Q006023-6
-# text = ana nērārūte ša Kumme
+# text = ana nērārūte ša Kumme lū allik
 1	ana	_	ADP	_	_	2	case	_	_
 2	nērārūte	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	6	obl	_	_
 3	ša	_	ADP	_	_	4	case	_	_
-4	Kumme	_	PROPN	_	Case=Gen	0	root	0:root	_
+4	Kumme	_	PROPN	_	Case=Gen	2	nmod	_	_
+5	lū	_	PART	_	_	6	advmod:emph	_	_
+6	allik	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
 
 # sent_id = Q006023-7
-# text = lū allik nīqī ana pān Adad ša Kumme bēliya lū ēpuš
-1	lū	_	PART	_	_	2	advmod:emph	_	_
-2	allik	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
-3	nīqī	_	NOUN	_	Gender=M|Number=Pl	12	obj	_	_
-4	ana	_	ADP	_	_	5	case	_	_
-5	pān	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	12	obl	_	_
-6	Adad	_	PROPN	_	Gender=M	5	nmod:poss	_	_
-7	ša	_	ADP	_	_	8	case	_	_
-8	Kumme	_	PROPN	_	Case=Gen	6	nmod	_	_
-9-10	bēliya	_	_	_	_	_	_	_	_
-9	bēli	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	6	appos	_	_
-10	ya	_	PRON	_	Number=Sg|Person=1	9	det	_	_
-11	lū	_	PART	_	_	12	advmod:emph	_	_
-12	ēpuš	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
+# text = nīqī ana pān Adad ša Kumme bēliya lū ēpuš
+1	nīqī	_	NOUN	_	Gender=M|Number=Pl	10	obj	_	_
+2	ana	_	ADP	_	_	3	case	_	_
+3	pān	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	10	obl	_	_
+4	Adad	_	PROPN	_	Gender=M	3	nmod:poss	_	_
+5	ša	_	ADP	_	_	6	case	_	_
+6	Kumme	_	PROPN	_	Case=Gen	4	nmod	_	_
+7-8	bēliya	_	_	_	_	_	_	_	_
+7	bēli	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	4	appos	_	_
+8	ya	_	PRON	_	Number=Sg|Person=1	7	det	_	_
+9	lū	_	PART	_	_	10	advmod:emph	_	_
+10	ēpuš	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
 
 # sent_id = Q006023-8
 # text = sītāt ālāni ša māt Habhi nakrīšu ša Kumme ina kakkī ušamqit
@@ -254,8 +254,8 @@
 2	u	_	CCONJ	_	_	3	cc	_	_
 3	maddattu	_	NOUN	_	Case=Nom|Gender=F|Nounbase=Free|Number=Sg	1	conj	_	_
 4-5	elišunu	_	_	_	_	_	_	_	_
-4	eli	_	ADP	_	_	0	root	0:root	_
-5	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	4	det	_	_
+4	eli	_	ADP	_	_	_	_	_	_
+5	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	6	obl	_	_
 6	ukīn	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	0	root	0:root	_
 
 # sent_id = Q006023-15

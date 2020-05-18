@@ -40,7 +40,7 @@
 36	ša	_	PRON	_	_	42	nsubj	_	_
 37	ina	_	ADP	_	_	38	case	_	_
 38	tukulti	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Bound|Number=Sg	42	obl	_	_
-39	Aššur	_	PROPN	_	Gender=M	0	root	0:root	_
+39	Aššur	_	PROPN	_	Gender=M	38	nmod:poss	_	_
 40-41	bēlišu	_	_	_	_	_	_	_	_
 40	bēli	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	39	appos	_	_
 41	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	40	det	_	_
@@ -73,7 +73,7 @@
 65	lā kanšūte	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	64	nmod:poss	_	_
 66	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	65	det	_	_
 67	ša	_	PRON	_	_	71	nsubj	_	_
-68	naphar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	_
+68	naphar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	71	obj	_	_
 69	kiššat	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	68	nmod:poss	_	_
 70	nišī	_	NOUN	_	Gender=F|Number=Pl	69	nmod:poss	_	_
 71	ipēlu	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	63	acl:relcl	_	_
@@ -134,9 +134,9 @@
 4	mātāti	_	NOUN	_	Gender=F|Nounbase=Free|Number=Pl	0	root	0:root	_
 
 # sent_id = Q004505-3
-# text = enūma Aššur bēlu nābû šumiya mušarbû šarrūtiya
+# text = enūma Aššur bēlu nābû šumiya mušarbû šarrūtiya kakkašu lā pādâ ana idât bēlūtiya lū itmuh ummānāt Lullume rapšāte ina qereb tamhāri ina kakkī lū ušamqit
 1	enūma	_	ADV	_	_	18	advmod	_	_
-2	Aššur	_	PROPN	_	Gender=M	0	root	0:root	_
+2	Aššur	_	PROPN	_	Gender=M	18	nsubj	_	_
 3	bēlu	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	2	appos	_	_
 4	nābû	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	2	appos	_	_
 5-6	šumiya	_	_	_	_	_	_	_	_
@@ -146,54 +146,54 @@
 8-9	šarrūtiya	_	_	_	_	_	_	_	_
 8	šarrūti	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	7	nmod:poss	_	_
 9	ya	_	PRON	_	Number=Sg|Person=1	8	det	_	_
+10-11	kakkašu	_	_	_	_	_	_	_	_
+10	kakka	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	18	obj	_	_
+11	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	10	det	_	_
+12	lā pādâ	_	ADJ	_	Case=Acc|Gender=M|Number=Sg	10	amod	_	_
+13	ana	_	ADP	_	_	14	case	_	_
+14	idât	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Pl	18	obl	_	_
+15-16	bēlūtiya	_	_	_	_	_	_	_	_
+15	bēlūti	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	14	nmod:poss	_	_
+16	ya	_	PRON	_	Number=Sg|Person=1	15	det	_	_
+17	lū	_	PART	_	_	18	advmod:emph	_	_
+18	itmuh	_	VERB	_	Gender=M|Mood=Indicative|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	0	root	0:root	_
+19	ummānāt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Pl	28	obj	_	_
+20	Lullume	_	PROPN	_	Case=Gen	19	nmod:poss	_	_
+21	rapšāte	_	ADJ	_	Gender=F|Number=Pl	19	amod	_	_
+22	ina	_	ADP	_	_	23	case	_	_
+23	qereb	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Bound|Number=Sg	28	obl	_	_
+24	tamhāri	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	23	nmod:poss	_	_
+25	ina	_	ADP	_	_	26	case	_	_
+26	kakkī	_	NOUN	_	Gender=M|Number=Pl	28	obl	_	_
+27	lū	_	PART	_	_	28	advmod:emph	_	_
+28	ušamqit	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	18	conj	_	_
 
 # sent_id = Q004505-4
-# text = kakkašu lā pādâ ana idât bēlūtiya lū itmuh ummānāt Lullume rapšāte ina qereb tamhāri ina kakkī lū ušamqit ina rēṣūṭe ša Šamaš u Adad ilāni tiklēya ummānāt mātāt Nairi Habhi Šubare u Nirbi kīma Adad rāhiṣi elišunu ašgum
-1-2	kakkašu	_	_	_	_	_	_	_	_
-1	kakka	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	9	obj	_	_
-2	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	1	det	_	_
-3	lā pādâ	_	ADJ	_	Case=Acc|Gender=M|Number=Sg	1	amod	_	_
-4	ana	_	ADP	_	_	5	case	_	_
-5	idât	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Pl	9	obl	_	_
-6-7	bēlūtiya	_	_	_	_	_	_	_	_
-6	bēlūti	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	5	nmod:poss	_	_
-7	ya	_	PRON	_	Number=Sg|Person=1	6	det	_	_
-8	lū	_	PART	_	_	9	advmod:emph	_	_
-9	itmuh	_	VERB	_	Gender=M|Mood=Indicative|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	0	root	0:root	_
-10	ummānāt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Pl	19	obj	_	_
-11	Lullume	_	PROPN	_	Case=Gen	10	nmod:poss	_	_
-12	rapšāte	_	ADJ	_	Gender=F|Number=Pl	10	amod	_	_
-13	ina	_	ADP	_	_	14	case	_	_
-14	qereb	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Bound|Number=Sg	19	obl	_	_
-15	tamhāri	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	14	nmod:poss	_	_
-16	ina	_	ADP	_	_	17	case	_	_
-17	kakkī	_	NOUN	_	Gender=M|Number=Pl	19	obl	_	_
-18	lū	_	PART	_	_	19	advmod:emph	_	_
-19	ušamqit	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	9	conj	_	_
-20	ina	_	ADP	_	_	21	case	_	_
-21	rēṣūṭe	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	41	obl	_	_
-22	ša	_	ADP	_	_	23	case	_	_
-23	Šamaš	_	PROPN	_	Gender=M	21	nmod	_	_
-24	u	_	CCONJ	_	_	25	cc	_	_
-25	Adad	_	PROPN	_	Gender=M	23	conj	_	_
-26	ilāni	_	NOUN	_	Gender=M|Number=Pl	23	appos	_	_
-27-28	tiklēya	_	_	_	_	_	_	_	_
-27	tiklē	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	23	appos	_	_
-28	ya	_	PRON	_	Number=Sg|Person=1	27	det	_	_
-29	ummānāt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Pl	41	obl	_	_
-30	mātāt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Pl	29	nmod:poss	_	_
-31	Nairi	_	PROPN	_	Case=Gen	30	nmod:poss	_	_
-32	Habhi	_	PROPN	_	Case=Gen	31	conj	_	_
-33	Šubare	_	PROPN	_	Case=Gen	31	conj	_	_
-34	u	_	CCONJ	_	_	35	cc	_	_
-35	Nirbi	_	PROPN	_	Case=Gen	31	conj	_	_
-36	kīma	_	ADP	_	_	37	case	_	_
-37	Adad	_	PROPN	_	Gender=M	41	obl	_	_
-38	rāhiṣi	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	37	appos	_	_
-39-40	elišunu	_	_	_	_	_	_	_	_
-39	eli	_	ADP	_	_	_	_	_	_
-40	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	41	obl	_	_
-41	ašgum	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
+# text = ina rēṣūṭe ša Šamaš u Adad ilāni tiklēya ummānāt mātāt Nairi Habhi Šubare u Nirbi kīma Adad rāhiṣi elišunu ašgum
+1	ina	_	ADP	_	_	2	case	_	_
+2	rēṣūṭe	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	22	obl	_	_
+3	ša	_	ADP	_	_	4	case	_	_
+4	Šamaš	_	PROPN	_	Gender=M	2	nmod	_	_
+5	u	_	CCONJ	_	_	6	cc	_	_
+6	Adad	_	PROPN	_	Gender=M	4	conj	_	_
+7	ilāni	_	NOUN	_	Gender=M|Number=Pl	4	appos	_	_
+8-9	tiklēya	_	_	_	_	_	_	_	_
+8	tiklē	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	4	appos	_	_
+9	ya	_	PRON	_	Number=Sg|Person=1	8	det	_	_
+10	ummānāt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Pl	22	obl	_	_
+11	mātāt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Pl	10	nmod:poss	_	_
+12	Nairi	_	PROPN	_	Case=Gen	11	nmod:poss	_	_
+13	Habhi	_	PROPN	_	Case=Gen	12	conj	_	_
+14	Šubare	_	PROPN	_	Case=Gen	12	conj	_	_
+15	u	_	CCONJ	_	_	16	cc	_	_
+16	Nirbi	_	PROPN	_	Case=Gen	12	conj	_	_
+17	kīma	_	ADP	_	_	18	case	_	_
+18	Adad	_	PROPN	_	Gender=M	22	obl	_	_
+19	rāhiṣi	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	18	appos	_	_
+20-21	elišunu	_	_	_	_	_	_	_	_
+20	eli	_	ADP	_	_	_	_	_	_
+21	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	22	obl	_	_
+22	ašgum	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
 
 # sent_id = Q004505-5
 # text = šarru ša ultu ebertān Idiqlat adi Labnana u Tamti-rabite Laqe ana sihirtiša Suhi adi Rapiqi ana šēpīšu ušakniša

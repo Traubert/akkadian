@@ -32,11 +32,11 @@
 28	kibrāti	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Pl	27	nmod:poss	_	_
 29	ilu	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	2	appos	_	_
 30	rēmēnû	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	29	amod	_	_
-31	ša	_	PRON	_	_	_	_	_	_
+31	ša	_	PRON	_	_	34	obl	_	_
 32-33	sīpûšu	_	_	_	_	_	_	_	_
-32	sīpu	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Suffixal|Number=Sg	0	root	0:root	_
+32	sīpu	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Suffixal|Number=Sg	31	nmod:poss	_	_
 33	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	32	det	_	_
-34	ṭāb	_	VERB	_	Gender=M|Mood=Stative|Number=Sg|Person=3|Verbstem=G	_	_	_	_
+34	ṭāb	_	VERB	_	Gender=M|Mood=Stative|Number=Sg|Person=3|Verbstem=G	29	acl:relcl	_	_
 35	āšib	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	_
 36	Guzani	_	PROPN	_	Case=Gen	35	appos	_	_
 37	bēlu	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	2	appos	_	_

@@ -76,7 +76,7 @@
 73	u	_	CCONJ	_	_	74	cc	_	_
 74	erṣeti	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	72	conj	_	_
 75	ša	_	PRON	_	_	78	nsubj	_	_
-76	paraṣ	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	_
+76	paraṣ	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	78	obl	_	_
 77	qardūte	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	76	nmod:poss	_	_
 78	šuklulat	_	VERB	_	Gender=F|Mood=Stative|Number=Sg|Person=3|Verbstem=S	70	acl:relcl	_	_
 79	ilāni	_	NOUN	_	Gender=M|Number=Pl	1	appos	_	_
@@ -174,9 +174,9 @@
 165	rabûti	_	ADJ	_	Gender=M|Number=Pl	164	amod	_	_
 166	rubû	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	86	appos	_	_
 167	kēnu	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	166	amod	_	_
-168	ša	_	PRON	_	_	175	nsubj	_	_
+168	ša	_	PRON	_	_	175	obl	_	_
 169	ana	_	ADP	_	_	170	case	_	_
-170	šutēšur	_	VERB	_	Gender=M|Mood=Infinitive|Nounbase=Bound|Number=Sg|Verbstem=St	0	root	0:root	_
+170	šutēšur	_	VERB	_	Gender=M|Mood=Infinitive|Nounbase=Bound|Number=Sg|Verbstem=St	175	obl	_	_
 171	parṣē	_	NOUN	_	Gender=M|Number=Pl	170	nmod:poss	_	_
 172	ekurrāt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Pl	171	nmod:poss	_	_
 173-174	mātišu	_	_	_	_	_	_	_	_
@@ -184,8 +184,8 @@
 174	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	173	det	_	_
 175	pitqudu	_	VERB	_	Gender=M|Mood=Stative,subj|Number=Sg|Person=3|Verbstem=Gt	166	acl:relcl	_	_
 176	kayyāna	_	ADV	_	_	175	advmod	_	_
-177	ša	_	PRON	_	_	_	_	_	_
-178	epšēt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Pl	191	obj	_	_
+177	ša	_	PRON	_	_	191	obj	_	_
+178	epšēt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Pl	177	nmod:poss	_	_
 179-180	qātīšu	_	_	_	_	_	_	_	_
 179	qātī	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Pl	178	nmod:poss	_	_
 180	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	179	det	_	_
@@ -201,7 +201,7 @@
 189	u	_	CCONJ	_	_	190	cc	_	_
 190	erṣete	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	188	conj	_	_
 191-192	irammūma	_	_	_	_	_	_	_	_
-191	irammū	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Pl|Person=3|Tense=Present|Verbstem=G	0	root	0:root	_
+191	irammū	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Pl|Person=3|Tense=Present|Verbstem=G	166	acl:relcl	_	_
 192	ma	_	CCONJ	_	_	199	cc	_	_
 193-194	šangûssu	_	_	_	_	_	_	_	_
 193	šangûs	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Sg	199	obj	_	_
@@ -210,7 +210,7 @@
 196	ēkurrāti	_	NOUN	_	Gender=F|Nounbase=Free|Number=Pl	199	obl	_	_
 197	ana	_	ADP	_	_	198	case	_	_
 198	dāriš	_	ADV	_	_	199	obl	_	_
-199	ukinnū	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Pl|Person=3|Tense=Preterit|Verbstem=D	191	conj	_	_
+199	ukinnū	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Pl|Person=3|Tense=Preterit|Verbstem=D	166	acl:relcl	_	_
 200-201	kakkīšunu	_	_	_	_	_	_	_	_
 200	kakkī	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	207	obj	_	_
 201	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	200	det	_	_
@@ -220,7 +220,7 @@
 205-206	bēlūtešu	_	_	_	_	_	_	_	_
 205	bēlūte	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	204	nmod:poss	_	_
 206	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	205	det	_	_
-207	išrukū	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Pl|Person=3|Tense=Preterit|Verbstem=G	191	conj	_	_
+207	išrukū	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Pl|Person=3|Tense=Preterit|Verbstem=G	166	acl:relcl	_	_
 208	šalummat	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	219	obl	_	_
 209-210	kakkīšu	_	_	_	_	_	_	_	_
 209	kakkī	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	208	nmod:poss	_	_
@@ -253,8 +253,8 @@
 232	u	_	CCONJ	_	_	233	cc	_	_
 233	maddatta	_	NOUN	_	Case=Acc|Gender=F|Nounbase=Free|Number=Sg	231	conj	_	_
 234-235	elišunu	_	_	_	_	_	_	_	_
-234	eli	_	ADP	_	_	_	_	_	_
-235	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	236	obl	_	_
+234	eli	_	ADP	_	_	0	root	0:root	_
+235	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	234	det	_	_
 236	ukīnu	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Sg|Person=3|Tense=Preterit|Verbstem=D	229	conj	_	_
 237	kāšid	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	86	appos	_	_
 238	ayyābūt	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Pl	237	nmod:poss	_	_
