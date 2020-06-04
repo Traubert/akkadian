@@ -23,7 +23,7 @@
 14	rubû	rubû	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	2	appos	_	NUN
 15	x	_	_	u	_	_	_	_	x
 16	x	_	_	u	_	_	_	_	x
-17	tušaršidu	rašādu	VERB	V	Gender=M|Mood=Indicative|Number=Sg|Person=2|Subordinative=Yes|Tense=Preterit|Verbstem=S	0	root	0:root	tu-šar-ši-du
+17	tušaršidu	rašādu	VERB	V	Finiteness=Finite|Gender=M|Mood=Indicative|Number=Sg|Person=2|Subordinative=Yes|Tense=Preterit|Verbstem=S	0	root	0:root	tu-šar-ši-du
 18-19	palâšu	_	_	_	_	_	_	_	_
 18	palâ	palû	NOUN	N	Gender=M|Nounbase=Suffixal|Number=Sg	17	obj	_	BALA-šu₂
 19	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	18	det	_	_
@@ -77,7 +77,7 @@
 # text = x x abni nišī kišitti
 1	x	_	_	u	_	_	_	_	x
 2	x	_	_	u	_	_	_	_	x
-3	abni	banû	VERB	V	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	_	_	_	ab-ni
+3	abni	banû	VERB	V	Finiteness=Finite|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	_	_	_	ab-ni
 4	nišī	nišu	NOUN	N	Gender=F|Number=Pl	0	root	0:root	UN.MEŠ
 5	kišitti	kišittu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	4	appos	_	ki-šit-ti
 
@@ -117,11 +117,11 @@
 # text = x x ušarrih gušūrī x x ēpuš ina mesir siparri
 1	x	_	_	u	_	_	_	_	x
 2	x	_	_	u	_	_	_	_	x
-3	ušarrih	šarāhu	VERB	V	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	_	_	_	u₂-šar-ri-ih
+3	ušarrih	šarāhu	VERB	V	Finiteness=Finite|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	_	_	_	u₂-šar-ri-ih
 4	gušūrī	gušūru	NOUN	N	Gender=M|Number=Pl	_	_	_	GIŠ.UR₃.MEŠ
 5	x	_	_	u	_	_	_	_	x
 6	x	_	_	u	_	_	_	_	x
-7	ēpuš	epēšu	VERB	V	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	_	_	_	DU₃-uš
+7	ēpuš	epēšu	VERB	V	Finiteness=Finite|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	_	_	_	DU₃-uš
 8	ina	ina	ADP	PRP	_	9	case	_	ina
 9	mesir	misarru	NOUN	N	Case=Gen|Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	me-sir
 10	siparri	siparru	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	9	nmod:poss	_	ZABAR
@@ -133,7 +133,7 @@
 3	ina	ina	ADP	PRP	_	4	case	_	ina
 4	šumēli	šumēla	NOUN	AV	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	6	obl	_	šu-me-li
 5	x	_	_	u	_	_	_	_	x
-6	ušazziz	izuzzu	VERB	V	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	0	root	0:root	u₂-ša₂-zi-iz
+6	ušazziz	izuzzu	VERB	V	Finiteness=Finite|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	0	root	0:root	u₂-ša₂-zi-iz
 7	x	_	_	u	_	_	_	_	x
 
 # sent_id = Q004483-13
@@ -176,7 +176,7 @@
 3	annu	annu	NOUN	N	Gender=M|Nounbase=Free|Number=Sg	5	obj	_	an-nu
 4	kīnu	kīnu	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	3	amod	_	ki-i-nu
 5-6	ippalšu	_	_	_	_	_	_	_	_
-5	ippal	_	VERB	_	Gender=M|Mood=Indicative|Number=Sg|Person=3|Tense=Present|Verbstem=G	0	root	0:root	_
+5	ippal	_	VERB	_	Finiteness=Finite|Gender=M|Mood=Indicative|Number=Sg|Person=3|Tense=Present|Verbstem=G	0	root	0:root	_
 6	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	5	obl	_	_
 
 # sent_id = Q004483-19
@@ -199,7 +199,7 @@
 
 # sent_id = Q004483-21
 # text = išakkanu x x Ištar bēlat qabli u tāhāzi x
-1	išakkanu	šakānu	VERB	V	Gender=M|Mood=Indicative|Number=Sg|Person=3|Subordinative=Yes|Tense=Present|Verbstem=G	_	_	_	_
+1	išakkanu	šakānu	VERB	V	Finiteness=Finite|Gender=M|Mood=Indicative|Number=Sg|Person=3|Subordinative=Yes|Tense=Present|Verbstem=G	_	_	_	_
 2	x	_	_	u	_	_	_	_	x
 3	x	_	_	u	_	_	_	_	x
 4	Ištar	Ištar	PROPN	DN	Gender=F	0	root	0:root	{d}INANNA
