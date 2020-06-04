@@ -1,11 +1,11 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004527-1
 # text = x lubulti birme kitê nārāti ṣuhāri x amhur
-1	x	x	_	PN	_	_	_	_	x
-2	lubulti	lubuštu	NOUN	N	Gender=F|Number=Sg|Nounbase=Bound	8	obj	_	_
-3	birme	birmu	NOUN	N	Nounbase=Free|Number=Sg|Gender=M	2	nmod:poss	_	_
-4	kitê	kitû	NOUN	N	Nounbase=Free|Number=Pl|Gender=M	3	nmod:poss	_	{TUG₂}GADA.MEŠ
-5	nārāti	nārtu	NOUN	N	Nounbase=Free|Number=Pl|Gender=F	2	conj	_	{MUNUS}NAR.MEŠ
-6	ṣuhāri	ṣuhāru	NOUN	N	Nounbase=Free|Number=Pl|Gender=M	2	conj	_	{LU₂}TUR
-7	x	x	NOUN	PN	_	2	conj	_	x
-8	amhur	mahāru	VERB	V	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	_	_	_	am-hur
+1	x	_	_	u	_	_	_	_	x
+2	lubulti	lubuštu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	8	obj	_	_
+3	birme	birmu	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	2	nmod:poss	_	_
+4	kitê	kitû	NOUN	N	Gender=M|Number=Pl	3	nmod:poss	_	{TUG₂}GADA.MEŠ
+5	nārāti	nārtu	NOUN	N	Gender=F|Nounbase=Free|Number=Pl	2	conj	_	{MUNUS}NAR.MEŠ
+6	ṣuhāri	ṣuhāru	NOUN	N	Gender=M|Nounbase=Free|Number=Pl	2	conj	_	{LU₂}TUR
+7	x	_	NOUN	u	_	2	conj	_	x
+8	amhur	mahāru	VERB	V	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	am-hur

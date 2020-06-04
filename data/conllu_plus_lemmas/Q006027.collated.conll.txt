@@ -1,7 +1,7 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q006027-1
 # text = ēkal Adad-nerari šarru rabû šarru dannu šar kiššati šar māt Aššur mār Aššur-dan šar kiššati šar māt Aššur mār Tukulti-apil-Ešarra šar kiššati šar māt Aššurma
-1	ēkal	ēkallu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	_	_	_	E₂.GAL
+1	ēkal	ēkallu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	E₂.GAL
 2	Adad-nerari	Adad-narari_II	PROPN	RN	Gender=M	1	nmod:poss	_	{m}10-ERIM.TAH₂
 3	šarru	šarru	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	2	appos	_	MAN
 4	rabû	rabû	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	3	amod	_	GAL-u₂
@@ -27,4 +27,4 @@
 24	māt	mātu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	23	nmod:poss	_	KUR
 25-26	Aššurma	_	_	_	_	_	_	_	_
 25	Aššur	Aššur	PROPN	GN	Gender=M	24	nmod:poss	_	aš-šur-ma
-26	ma	_	_	PART	_	25	det	_	_
+26	ma	_	PART	_	_	25	det	_	_

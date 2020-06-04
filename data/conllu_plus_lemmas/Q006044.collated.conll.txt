@@ -1,22 +1,25 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q006044-1
-# text = ēkal Tukulti-Ninurta šar kiššati šar māt Aššur mār Adad-nerari šar māt Aššur anhūt bīt nāmerī ša bāb Enpi uddiš
-1	ēkal	ēkallu	NOUN	N	Nounbase=Bound|Gender=F|Number=Sg	_	_	_	E₂.GAL
+# text = ēkal Tukulti-Ninurta šar kiššati šar māt Aššur mār Adad-nerari šar māt Aššur
+1	ēkal	ēkallu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	E₂.GAL
 2	Tukulti-Ninurta	Tukulti-Ninurta_II	PROPN	RN	Gender=M	1	nmod:poss	_	{m}GISKIM-{d}MAŠ
-3	šar	šarru	NOUN	N	Nounbase=Bound|Gender=M|Number=Sg	2	appos	_	MAN
-4	kiššati	kiššatu	NOUN	N	Nounbase=Free|Gender=F|Number=Sg|Case=Gen	3	nmod:poss	_	KIŠ
-5	šar	šarru	NOUN	N	Nounbase=Bound|Gender=M|Number=Sg	2	appos	_	MAN
-6	māt	mātu	NOUN	N	Nounbase=Bound|Gender=F|Number=Sg	5	nmod:poss	_	KUR
+3	šar	šarru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	MAN
+4	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	3	nmod:poss	_	KIŠ
+5	šar	šarru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	MAN
+6	māt	mātu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	5	nmod:poss	_	KUR
 7	Aššur	Aššur	PROPN	GN	Gender=M	6	nmod:poss	_	AŠ
-8	mār	māru	NOUN	N	Nounbase=Bound|Gender=M|Number=Sg	2	appos	_	A
+8	mār	māru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	A
 9	Adad-nerari	Adad-narari_II	PROPN	RN	Gender=M	8	nmod:poss	_	10-ERIM.TAH₂
-10	šar	šarru	NOUN	N	Nounbase=Bound|Gender=M|Number=Sg	9	appos	_	MAN
-11	māt	mātu	NOUN	N	Nounbase=Bound|Gender=F|Number=Sg	10	nmod:poss	_	KUR
+10	šar	šarru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	9	appos	_	MAN
+11	māt	mātu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	10	nmod:poss	_	KUR
 12	Aššur	Aššur	PROPN	GN	Gender=M	11	nmod:poss	_	AŠ
-13	anhūt	anhūtu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=F	19	obj	_	an-hu-ut
-14	bīt	bītu	NOUN	N	Nounbase=Bound|Gender=F|Number=Sg	13	nmod:poss	_	E₂
-15	nāmerī	nāmaru	NOUN	N	Gender=M|Number=Pl	14	nmod:poss	_	na-me-ri
-16	ša	ša	ADP	DET	_	17	case	_	ša₂
-17	bāb	bābu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	14	nmod	_	KA₂
-18	Enpi	Enpi	PROPN	DN	Gender=M	17	nmod:poss	_	{d}en-pi
-19	uddiš	edēšu	VERB	V	Verbstem=D|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	_	_	_	ud-diš
+
+# sent_id = Q006044-2
+# text = anhūt bīt nāmerī ša bāb Enpi uddiš
+1	anhūt	anhūtu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	7	obj	_	an-hu-ut
+2	bīt	bītu	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	1	nmod:poss	_	E₂
+3	nāmerī	nāmaru	NOUN	N	Gender=M|Number=Pl	2	nmod:poss	_	na-me-ri
+4	ša	ša	ADP	DET	_	5	case	_	ša₂
+5	bāb	bābu	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	2	nmod	_	KA₂
+6	Enpi	Enpi	PROPN	DN	Gender=M	5	nmod:poss	_	{d}en-pi
+7	uddiš	edēšu	VERB	V	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	0	root	0:root	ud-diš

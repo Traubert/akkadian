@@ -1,15 +1,21 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q006042-1
-# text = Tukulti-Ninurta šarru rabû x x šarru rabû x x šarru rabû x
-1	Tukulti-Ninurta	Tukulti-Ninurta	PROPN	RN	Gender=M	_	_	_	_
-2	šarru	šarru	NOUN	N	Gender=M|Number=Sg|Case=Nom|Nounbase=Free	1	appos	_	MAN
-3	rabû	rabû	ADJ	AJ	Gender=M|Number=Sg|Case=Nom	2	amod	_	GAL
-4	x	x	NOUN	PN	_	1	appos	_	x
-5	x	x	PROPN	PN	Gender=M	_	_	_	x
-6	šarru	šarru	NOUN	N	Gender=M|Number=Sg|Case=Nom|Nounbase=Free	5	appos	_	MAN
-7	rabû	rabû	ADJ	AJ	Gender=M|Number=Sg|Case=Nom	6	amod	_	GAL
-8	x	x	NOUN	PN	_	5	appos	_	x
-9	x	x	PROPN	PN	Gender=M	_	_	_	x
-10	šarru	šarru	NOUN	N	Gender=M|Number=Sg|Case=Nom|Nounbase=Free	9	appos	_	MAN
-11	rabû	rabû	ADJ	AJ	Gender=M|Number=Sg|Case=Nom	10	amod	_	GAL
-12	x	x	NOUN	PN	_	9	appos	_	x
+# text = Tukulti-Ninurta šarru rabû x
+1	Tukulti-Ninurta	Tukulti-Ninurta	PROPN	RN	Gender=M	0	root	0:root	_
+2	šarru	šarru	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	appos	_	MAN
+3	rabû	rabû	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	2	amod	_	GAL
+4	x	_	NOUN	u	_	1	appos	_	x
+
+# sent_id = Q006042-2
+# text = x šarru rabû x
+1	x	_	PROPN	u	Gender=M	0	root	0:root	x
+2	šarru	šarru	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	appos	_	MAN
+3	rabû	rabû	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	2	amod	_	GAL
+4	x	_	NOUN	u	_	1	appos	_	x
+
+# sent_id = Q006042-3
+# text = x šarru rabû x
+1	x	_	PROPN	u	Gender=M	0	root	0:root	x
+2	šarru	šarru	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	appos	_	MAN
+3	rabû	rabû	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	2	amod	_	GAL
+4	x	_	NOUN	u	_	1	appos	_	x

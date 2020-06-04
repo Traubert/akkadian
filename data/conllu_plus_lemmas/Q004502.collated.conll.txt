@@ -1,25 +1,25 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004502-1
 # text = Aššur-naṣir-apli šar x Tukulti-Ninurta x x Ekur x x x x A x x LU x x Adad x ipaššiṭu x x
-1	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=M	_	_	_	{m}aš-šur-PAP-A
-2	šar	šarru	NOUN	N	Gender=M|Number=Sg|Nounbase=Bound	1	nmod:poss	_	MAN
-3	x	x	_	PN	_	_	_	_	x
+1	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=M	0	root	0:root	{m}aš-šur-PAP-A
+2	šar	šarru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	1	nmod:poss	_	MAN
+3	x	_	_	u	_	_	_	_	x
 4	Tukulti-Ninurta	Tukulti-Ninurta_II	PROPN	RN	Gender=M	_	_	_	{m}GIŠ.tukul-ti-{d}MAŠ
-5	x	x	_	PN	_	_	_	_	x
-6	x	x	_	PN	_	_	_	_	x
+5	x	_	_	u	_	_	_	_	x
+6	x	_	_	u	_	_	_	_	x
 7	Ekur	Ekur	PROPN	TN	_	_	_	_	E₂.KUR
-8	x	x	_	PN	_	_	_	_	x
-9	x	x	_	PN	_	_	_	_	x
-10	x	x	_	PN	_	_	_	_	x
-11	x	x	_	PN	_	_	_	_	x
+8	x	_	_	u	_	_	_	_	x
+9	x	_	_	u	_	_	_	_	x
+10	x	_	_	u	_	_	_	_	x
+11	x	_	_	u	_	_	_	_	x
 12	A	_	_	u	_	_	_	_	A
-13	x	x	_	PN	_	_	_	_	x
-14	x	x	_	PN	_	_	_	_	x
+13	x	_	_	u	_	_	_	_	x
+14	x	_	_	u	_	_	_	_	x
 15	LU	_	_	u	_	_	_	_	LU
-16	x	x	_	PN	_	_	_	_	x
-17	x	x	_	PN	_	_	_	_	x
+16	x	_	_	u	_	_	_	_	x
+17	x	_	_	u	_	_	_	_	x
 18	Adad	Adad	PROPN	DN	Gender=M	_	_	_	{d}IŠKUR
-19	x	x	_	PN	_	_	_	_	x
-20	ipaššiṭu	pašāṭu	VERB	V	Verbstem=G|Mood=Subjunctive|Gender=M|Number=Sg|Person=3|Tense=Present	_	_	_	i-pa-ši-ṭu
-21	x	x	_	PN	_	_	_	_	x
-22	x	x	_	PN	_	_	_	_	x
+19	x	_	_	u	_	_	_	_	x
+20	ipaššiṭu	pašāṭu	VERB	V	Gender=M|Mood=Indicative|Number=Sg|Person=3|Subordinative=Yes|Tense=Present|Verbstem=G	_	_	_	i-pa-ši-ṭu
+21	x	_	_	u	_	_	_	_	x
+22	x	_	_	u	_	_	_	_	x

@@ -1,48 +1,62 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004515-1
-# text = x x x x u šaknūtaya x x x x.MEŠ-ia u₂-x x x Dur-Lullumaya x x ellān Zaban x x x miṣir mātiya amnu x x x x maddattu x x x anhūssu x x x ušaklil x x x x
-1	x	x	_	PN	_	_	_	_	x
-2	x	x	_	PN	_	_	_	_	x
-3	x	x	_	PN	_	_	_	_	x
-4	x	x	_	PN	_	_	_	_	x
-5	u	u	CONJ	N	_	_	_	_	u
-6	šaknūtaya	šaknu	_	N	_	_	_	_	GAR-nu-ta-a
-7	x	x	_	PN	_	_	_	_	x
-8	x	x	_	PN	_	_	_	_	x
-9	x	x	_	PN	_	_	_	_	x
-10	x.MEŠ-ia	_	_	u	_	_	_	_	x.MEŠ-ia
-11	u₂-x	_	_	u	_	_	_	_	u₂-x
-12	x	x	_	PN	_	_	_	_	x
-13	x	x	_	PN	_	_	_	_	x
-14	Dur-Lullumaya	Dur-Lullumayu	PROPN	EN	Gender=M	_	_	_	{URU}BAD₃-lu-lu-ma-a-a
-15	x	x	_	PN	_	_	_	_	x
-16	x	x	_	PN	_	_	_	_	x
-17	ellān	elēnu	ADV	AV	_	_	_	_	el-la-an
-18	Zaban	Zaban	PROPN	GN	Gender=F	17	nmod:poss	_	{KUR}za-ban
-19	x	x	_	PN	_	_	_	_	x
-20	x	x	_	PN	_	_	_	_	x
-21	x	x	_	PN	_	_	_	_	x
-22	miṣir	miṣru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	25	obl	_	mi-ṣir
-23-24	mātiya	_	_	_	_	_	_	_	_
-23	māti	mātu	NOUN	N	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=F	22	nmod:poss	_	KUR-ia
-24	ya	_	_	PRON	Person=1|Number=Sg	23	det	_	_
-25	amnu	manû	VERB	V	Person=1|Number=Sg|Tense=Preterit|Verbstem=G|Mood=Indicative	_	_	_	am-nu
-26	x	x	_	PN	_	_	_	_	x
-27	x	x	_	PN	_	_	_	_	x
-28	x	x	_	PN	_	_	_	_	x
-29	x	x	_	PN	_	_	_	_	x
-30	maddattu	maddattu	NOUN	N	Case=Nom|Gender=F|Nounbase=Free|Number=Sg	_	_	_	ma-da-tu
-31	x	x	_	PN	_	_	_	_	x
-32	x	x	_	PN	_	_	_	_	x
-33	x	x	_	PN	_	_	_	_	x
-34-35	anhūssu	_	_	_	_	_	_	_	_
-34	anhūs	anhūtu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=F	_	_	_	an-hu-su
-35	su	_	_	PRON	Gender=M|Number=Sg|Person=3	34	det	_	_
-36	x	x	_	PN	_	_	_	_	x
-37	x	x	_	PN	_	_	_	_	x
-38	x	x	_	PN	_	_	_	_	x
-39	ušaklil	šuklulu	VERB	V	Person=1|Number=Sg|Tense=Preterit|Verbstem=S|Mood=Indicative	_	_	_	u₂-ša-ak-lil
-40	x	x	_	PN	_	_	_	_	x
-41	x	x	_	PN	_	_	_	_	x
-42	x	x	_	PN	_	_	_	_	x
-43	x	x	_	PN	_	_	_	_	x
+# text = x x x x u GAR nu ta a x x x x.MEŠ-ia
+1	x	_	_	u	_	_	_	_	x
+2	x	_	_	u	_	_	_	_	x
+3	x	_	_	u	_	_	_	_	x
+4	x	_	_	u	_	_	_	_	x
+5	u	u	_	N	_	_	_	_	u
+6	GAR	_	_	_	_	_	_	_	_
+7	nu	ŋešnu	_	N	_	_	_	_	_
+8	ta	_	_	_	_	_	_	_	_
+9	a	a	_	N	_	_	_	_	_
+10	x	_	_	u	_	_	_	_	x
+11	x	_	_	u	_	_	_	_	x
+12	x	_	_	u	_	_	_	_	x
+13-14	x.MEŠ-ia	_	_	_	_	_	_	_	_
+13	x.MEŠ	_	NOUN	u	Number=Pl	0	root	0:root	x.MEŠ-ia
+14	ia	_	PRON	_	Number=Sg|Person=1	13	det	_	_
+
+# sent_id = Q004515-2
+# text = u₂-x x x Dur-Lullumaya x x ellān Zaban
+1	u₂-x	_	_	u	_	_	_	_	u₂-x
+2	x	_	_	u	_	_	_	_	x
+3	x	_	_	u	_	_	_	_	x
+4	Dur-Lullumaya	Dur-Lullumayu	PROPN	EN	Gender=M	_	_	_	{URU}BAD₃-lu-lu-ma-a-a
+5	x	_	_	u	_	_	_	_	x
+6	x	_	_	u	_	_	_	_	x
+7	ellān	elēnu	ADV	AV	_	0	root	0:root	el-la-an
+8	Zaban	Zaban	PROPN	GN	Gender=F	7	nmod:poss	_	{KUR}za-ban
+
+# sent_id = Q004515-3
+# text = x x x miṣir mātiya amnu
+1	x	_	_	u	_	_	_	_	x
+2	x	_	_	u	_	_	_	_	x
+3	x	_	_	u	_	_	_	_	x
+4	miṣir	miṣru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	7	obl	_	mi-ṣir
+5-6	mātiya	_	_	_	_	_	_	_	_
+5	māti	mātu	NOUN	N	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	4	nmod:poss	_	KUR-ia
+6	ya	_	PRON	_	Number=Sg|Person=1	5	det	_	_
+7	amnu	manû	VERB	V	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	am-nu
+
+# sent_id = Q004515-4
+# text = x x x x maddattu x x x anhūssu x x x ušaklil x x x x
+1	x	_	_	u	_	_	_	_	x
+2	x	_	_	u	_	_	_	_	x
+3	x	_	_	u	_	_	_	_	x
+4	x	_	_	u	_	_	_	_	x
+5	maddattu	maddattu	NOUN	N	Case=Nom|Gender=F|Nounbase=Free|Number=Sg	_	_	_	ma-da-tu
+6	x	_	_	u	_	_	_	_	x
+7	x	_	_	u	_	_	_	_	x
+8	x	_	_	u	_	_	_	_	x
+9-10	anhūssu	_	_	_	_	_	_	_	_
+9	anhūs	anhūtu	NOUN	N	Gender=F|Nounbase=Suffixal|Number=Sg	0	root	0:root	an-hu-su
+10	su	_	PRON	_	Gender=M|Number=Sg|Person=3	9	det	_	_
+11	x	_	_	u	_	_	_	_	x
+12	x	_	_	u	_	_	_	_	x
+13	x	_	_	u	_	_	_	_	x
+14	ušaklil	šuklulu	VERB	V	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	_	_	_	u₂-ša-ak-lil
+15	x	_	_	u	_	_	_	_	x
+16	x	_	_	u	_	_	_	_	x
+17	x	_	_	u	_	_	_	_	x
+18	x	_	_	u	_	_	_	_	x

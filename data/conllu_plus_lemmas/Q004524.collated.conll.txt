@@ -1,10 +1,10 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004524-1
-# text = ēkal Aššur-naṣir-apli šar kiššati šar māt Aššur mār Tukulti-Ninurta šar māt Aššur mār Adad-nerari šar māt Aššurma kāšid mātāti kalîšina ultu ṣīt Šamši adi ereb Šamši ana šēpīšu ušaknišu
-1	ēkal	ēkallu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	_	_	_	E₂.GAL
+# text = ēkal Aššur-naṣir-apli šar kiššati šar māt Aššur mār Tukulti-Ninurta šar māt Aššur mār Adad-nerari šar māt Aššurma
+1	ēkal	ēkallu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	E₂.GAL
 2	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=M	1	nmod:poss	_	{m}AŠ-PAP-A
 3	šar	šarru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	MAN
-4	kiššati	kiššatu	NOUN	N	Gender=F|Case=Gen|Nounbase=Free|Number=Sg	3	nmod:poss	_	ŠU₂
+4	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	3	nmod:poss	_	ŠU₂
 5	šar	šarru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	MAN
 6	māt	mātu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	5	nmod:poss	_	KUR
 7	Aššur	Aššur	PROPN	GN	Gender=M	6	nmod:poss	_	AŠ
@@ -19,94 +19,103 @@
 16	māt	mātu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	15	nmod:poss	_	KUR
 17-18	Aššurma	_	_	_	_	_	_	_	_
 17	Aššur	Aššur	PROPN	GN	Gender=M	16	nmod:poss	_	AŠ-ma
-18	ma	_	_	PART	_	17	det	_	_
-19	kāšid	kāšidu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	30	nsubj	_	ka-šid
-20	mātāti	mātu	NOUN	N	Gender=F|Nounbase=Free|Number=Pl	19	nmod:poss	_	KUR.MEŠ
-21-22	kalîšina	_	_	_	_	_	_	_	_
-21	kalî	kalû	DET	N	_	20	amod	_	DU₃-ši-na
-22	šina	_	_	PRON	Gender=F|Number=Pl|Person=3	21	det	_	_
-23	ultu	ištu	ADP	PRP	_	24	case	_	TA
-24	ṣīt Šamši	ṣītu|_	NOUN	N|_	Gender=F|Nounbase=Bound|Number=Sg	30	obl	_	_|_
-25	adi	adi	ADP	SBJ	_	26	case	_	_
-26	ereb Šamši	erbu|_	NOUN	N|_	Gender=M|Nounbase=Bound|Number=Sg	30	obl	_	{d}UTU.ŠU₂.A|_
-27	ana	ana	ADP	PRP	_	28	case	_	ana
-28-29	šēpīšu	_	_	_	_	_	_	_	_
-28	šēpī	šēpu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	30	obl	_	GIR₃.MEŠ-šu₂
-29	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	28	det	_	_
-30	ušaknišu	kanāšu	VERB	V	Verbstem=S|Mood=Subjunctive|Gender=M|Number=Sg|Person=3|Tense=Preterit	_	_	_	u₂-šak-ni-šu₂
+18	ma	_	PART	_	_	17	det	_	_
 
 # sent_id = Q004524-2
-# text = ēkal Aššur-naṣir-apli šar kiššati šar māt Aššur mār Tukulti-Ninurta šar māt Aššur mār Adad-nerari šar māt Aššurma kāšid mātāti kalîšina ultu ṣīt Šamši adi ereb Šamši ana šēpīšu ušaknišu ēkal Apqi ana šubat šarrūtiya ina ṭuppi kaspi hurāṣi uššēša addi
-1	ēkal	ēkallu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	_	_	_	E₂.GAL
-2	Apqi	Apqu	PROPN	SN	Case=Gen	1	nmod:poss	_	{URU}ap-qi₂
-3	ana	ana	ADP	PRP	_	4	case	_	ana
-4	šubat	šubtu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	13	obl	_	šu-bat
-5-6	šarrūtiya	_	_	_	_	_	_	_	_
-5	šarrūti	šarrūtu	NOUN	N	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=F	4	nmod:poss	_	MAN-ti-a
-6	ya	_	_	PRON	Person=1|Number=Sg	5	det	_	_
-7	ina	ina	ADP	PRP	_	8	case	_	ina
-8	ṭuppi	ṭuppu	NOUN	N	Case=Gen|Nounbase=Free|Number=Sg|Gender=M	13	obl	_	ṭup-pi
-9	kaspi	kaspu	NOUN	N	Gender=M|Case=Gen|Nounbase=Free|Number=Sg	8	nmod:poss	_	_
-10	hurāṣi	hurāṣu	NOUN	N	Gender=M|Case=Gen|Nounbase=Free|Number=Sg	9	conj	_	_
-11-12	uššēša	_	_	_	_	_	_	_	_
-11	uššē	uššu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	13	obj	_	URU₄-ša₂
-12	ša	_	_	PRON	Gender=F|Number=Sg|Person=3	11	det	_	_
-13	addi	nadû	VERB	V	Number=Sg|Mood=Indicative|Verbstem=G|Person=1|Tense=Preterit	_	_	_	_
+# text = kāšid mātāti kalîšina ultu ṣīt Šamši adi ereb Šamši ana šēpīšu ušaknišu
+1	kāšid	kāšidu	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	12	nsubj	_	ka-šid
+2	mātāti	mātu	NOUN	N	Gender=F|Nounbase=Free|Number=Pl	1	nmod:poss	_	KUR.MEŠ
+3-4	kalîšina	_	_	_	_	_	_	_	_
+3	kalî	kalû	DET	N	_	2	amod	_	DU₃-ši-na
+4	šina	_	PRON	_	Gender=F|Number=Pl|Person=3	3	det	_	_
+5	ultu	ištu	ADP	PRP	_	6	case	_	TA
+6	ṣīt Šamši	ṣītu|_	NOUN	N|_	Gender=F|Nounbase=Bound|Number=Sg	12	obl	_	_|_
+7	adi	adi	ADP	SBJ	_	8	case	_	_
+8	ereb Šamši	erbu|_	NOUN	N|_	Gender=M|Nounbase=Bound|Number=Sg	12	obl	_	{d}UTU.ŠU₂.A|_
+9	ana	ana	ADP	PRP	_	10	case	_	ana
+10-11	šēpīšu	_	_	_	_	_	_	_	_
+10	šēpī	šēpu	NOUN	N	Gender=F|Nounbase=Suffixal|Number=Pl	12	obl	_	GIR₃.MEŠ-šu₂
+11	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	10	det	_	_
+12	ušaknišu	kanāšu	VERB	V	Gender=M|Mood=Indicative|Number=Sg|Person=3|Subordinative=Yes|Tense=Preterit|Verbstem=S	0	root	0:root	u₂-šak-ni-šu₂
 
 # sent_id = Q004524-3
-# text = ēkal Aššur-naṣir-apli šar kiššati šar māt Aššur mār Tukulti-Ninurta šar māt Aššur mār Adad-nerari šar māt Aššurma kāšid mātāti kalîšina ultu ṣīt Šamši adi ereb Šamši ana šēpīšu ušaknišu ēkal Apqi ana šubat šarrūtiya ina ṭuppi kaspi hurāṣi uššēša addi rubû arkû šumī šaṭra lā tapaššiṭ Aššur bēlu rabû ikribīšu išemme
-1	rubû	rubû	NOUN	N	Gender=M|Case=Nom|Nounbase=Free|Number=Sg	7	nsubj	_	NUN
-2	arkû	warkû	ADJ	AJ	Gender=M|Case=Nom|Number=Sg	1	amod	_	EGIR-u
-3-4	šumī	_	_	_	_	_	_	_	_
-3	šum	šumu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=M	7	obj	_	MU
-4	ī	_	_	PRON	Person=1|Number=Sg	3	det	_	_
-5	šaṭra	šaṭru	ADJ	AJ	Gender=M|Case=Acc|Number=Sg	3	amod	_	_
-6	lā	lā	PART	MOD	_	7	neg	_	NU
-7	tapaššiṭ	pašāṭu	VERB	V	Verbstem=G|Mood=Prohibitive|Gender=M|Number=Sg|Person=2|Tense=Present	_	_	_	_
-8	Aššur	Aššur	PROPN	DN	Gender=M	13	nsubj	_	AŠ
-9	bēlu	bēlu	NOUN	N	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	8	appos	_	_
-10	rabû	rabû	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	9	amod	_	GAL
-11-12	ikribīšu	_	_	_	_	_	_	_	_
-11	ikribī	ikribu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	13	obj	_	ŠUD₃-šu₂
-12	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	11	det	_	_
-13	išemme	šemû	VERB	V	Verbstem=G|Mood=Indicative|Gender=M|Number=Sg|Person=3|Tense=Present	_	_	_	_
+# text = ēkal Apqi ana šubat šarrūtiya ina ṭuppi kaspi hurāṣi uššēša addi
+1	ēkal	ēkallu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	13	obj	_	E₂.GAL
+2	Apqi	Apqu	PROPN	SN	Case=Gen	1	nmod:poss	_	{URU}ap-qi₂
+3	ana	ana	ADP	PRP	_	4	case	_	ana
+4	šubat	šubtu	NOUN	N	Case=Gen|Gender=F|Nounbase=Bound|Number=Sg	13	obl	_	šu-bat
+5-6	šarrūtiya	_	_	_	_	_	_	_	_
+5	šarrūti	šarrūtu	NOUN	N	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	4	nmod:poss	_	MAN-ti-a
+6	ya	_	PRON	_	Number=Sg|Person=1	5	det	_	_
+7	ina	ina	ADP	PRP	_	8	case	_	ina
+8	ṭuppi	ṭuppu	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	13	obl	_	ṭup-pi
+9	kaspi	kaspu	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	8	nmod:poss	_	_
+10	hurāṣi	hurāṣu	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	9	conj	_	_
+11-12	uššēša	_	_	_	_	_	_	_	_
+11	uššē	uššu	NOUN	N	Gender=M|Nounbase=Suffixal|Number=Pl	13	obj	_	URU₄-ša₂
+12	ša	_	PRON	_	Gender=F|Number=Sg|Person=3	11	det	_	_
+13	addi	nadû	VERB	V	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
 
 # sent_id = Q004524-4
-# text = ēkal Aššur-naṣir-apli šar kiššati šar māt Aššur mār Tukulti-Ninurta šar māt Aššur mār Adad-nerari šar māt Aššurma kāšid mātāti kalîšina ultu ṣīt Šamši adi ereb Šamši ana šēpīšu ušaknišu ēkal Apqi ana šubat šarrūtiya ina ṭuppi kaspi hurāṣi uššēša addi rubû arkû šumī šaṭra lā tapaššiṭ Aššur bēlu rabû ikribīšu išemme ša šumī šaṭra ipaššiṭu narâ šuātu ana šipri ša libbišu eppašu Aššur bēlu rabû kakkašu lišber kussâšu līkimūšu šumšu zēršu ina māti luhalliq
+# text = rubû arkû šumī šaṭra lā tapaššiṭ
+1	rubû	rubû	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	7	nsubj	_	NUN
+2	arkû	warkû	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	1	amod	_	EGIR-u
+3-4	šumī	_	_	_	_	_	_	_	_
+3	šum	šumu	NOUN	N	Gender=M|Nounbase=Suffixal|Number=Sg	7	obj	_	MU
+4	ī	_	PRON	_	Number=Sg|Person=1	3	det	_	_
+5	šaṭra	šaṭru	ADJ	AJ	Case=Acc|Gender=M|Number=Sg	3	amod	_	_
+6	lā	lā	PART	MOD	_	7	neg	_	NU
+7	tapaššiṭ	pašāṭu	VERB	V	Finiteness=Finite|Gender=M|Mood=Prohibitive|Number=Sg|Person=2|Tense=Present|Verbstem=G	0	root	0:root	_
+
+# sent_id = Q004524-5
+# text = Aššur bēlu rabû ikribīšu išemme
+1	Aššur	Aššur	PROPN	DN	Gender=M	6	nsubj	_	AŠ
+2	bēlu	bēlu	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	appos	_	_
+3	rabû	rabû	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	2	amod	_	GAL
+4-5	ikribīšu	_	_	_	_	_	_	_	_
+4	ikribī	ikribu	NOUN	N	Gender=M|Nounbase=Suffixal|Number=Pl	6	obj	_	ŠUD₃-šu₂
+5	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	4	det	_	_
+6	išemme	šemû	VERB	V	Gender=M|Mood=Indicative|Number=Sg|Person=3|Tense=Present|Verbstem=G	0	root	0:root	_
+
+# sent_id = Q004524-6
+# text = ša šumī šaṭra ipaššiṭu narâ šuātu ana šipri ša libbišu eppašu
 1	ša	ša	PRON	REL	_	5	nsubj	_	ša₂
 2-3	šumī	_	_	_	_	_	_	_	_
-2	šum	šumu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=M	5	obj	_	MU
-3	ī	_	_	PRON	Person=1|Number=Sg	2	det	_	_
-4	šaṭra	šaṭru	ADJ	AJ	Gender=M|Case=Acc|Number=Sg	2	amod	_	_
-5	ipaššiṭu	pašāṭu	VERB	V	Verbstem=G|Mood=Subjunctive|Gender=M|Number=Sg|Person=3|Tense=Present	_	_	_	i-pa-ši-ṭu
-6	narâ	narû	NOUN	N	Gender=M|Case=Acc|Nounbase=Free|Number=Sg	13	obj	_	NA.RU₂.A-a
-7	šuātu	šuāti	DET	IP	Nounbase=Free|Number=Sg|Gender=M	6	amod	_	šu₂-a-tu₂
+2	šum	šumu	NOUN	N	Gender=M|Nounbase=Suffixal|Number=Sg	5	obj	_	MU
+3	ī	_	PRON	_	Number=Sg|Person=1	2	det	_	_
+4	šaṭra	šaṭru	ADJ	AJ	Case=Acc|Gender=M|Number=Sg	2	amod	_	_
+5	ipaššiṭu	pašāṭu	VERB	V	Gender=M|Mood=Indicative|Number=Sg|Person=3|Subordinative=Yes|Tense=Present|Verbstem=G	0	root	0:root	i-pa-ši-ṭu
+6	narâ	narû	NOUN	N	Case=Acc|Gender=M|Nounbase=Free|Number=Sg	13	obj	_	NA.RU₂.A-a
+7	šuātu	šuāti	DET	IP	Gender=M|Number=Sg|Person=3	6	amod	_	šu₂-a-tu₂
 8	ana	ana	ADP	PRP	_	9	case	_	ana
-9	šipri	šipru	NOUN	N	Case=Gen|Nounbase=Free|Number=Sg|Gender=M	13	obl	_	šip-ri
+9	šipri	šipru	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	13	obl	_	šip-ri
 10	ša	ša	ADP	DET	_	11	case	_	ša₂
 11-12	libbišu	_	_	_	_	_	_	_	_
-11	libbi	libbu	NOUN	N	Case=Gen|Nounbase=Suffixal|Number=Sg|Gender=M	9	nmod	_	ŠA₃-šu₂
-12	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	11	det	_	_
-13	eppašu	epēšu	VERB	V	Number=Sg|Mood=Subjunctive|Verbstem=G|Person=1|Tense=Present	5	conj	_	_
-14	Aššur	Aššur	PROPN	DN	Gender=M	19	nsubj	_	AŠ
-15	bēlu	bēlu	NOUN	N	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	14	appos	_	_
-16	rabû	rabû	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	15	amod	_	GAL
-17-18	kakkašu	_	_	_	_	_	_	_	_
-17	kakka	kakku	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=M	19	obj	_	{GIŠ}TUKUL-šu₂
-18	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	17	det	_	_
-19	lišber	šebēru	VERB	V	Verbstem=G|Gender=M|Mood=Precative|Number=Sg|Person=3	_	_	_	liš-ber
-20-21	kussâšu	_	_	_	_	_	_	_	_
-20	kussâ	_	NOUN	_	Nounbase=Suffixal|Number=Sg|Gender=F	22	obj	_	_
-21	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	20	det	_	_
-22-23	līkimūšu	_	_	_	_	_	_	_	_
-22	līkim	ekēmu	VERB	V	Verbstem=G|Gender=M|Mood=Precative|Number=Sg|Person=3	19	conj	_	KAR-šu₂
-23	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	22	obl	_	_
-24-25	šumšu	_	_	_	_	_	_	_	_
-24	šum	šumu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=M	30	obj	_	MU-šu₂
-25	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	24	det	_	_
-26-27	zēršu	_	_	_	_	_	_	_	_
-26	zēr	zēru	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=M	24	conj	30:obj	NUMUN-šu₂
-27	šu	_	_	PRON	Gender=F|Number=Sg|Person=3	26	det	_	_
-28	ina	ina	ADP	PRP	_	29	case	_	ina
-29	māti	mātu	NOUN	N	Case=Gen|Nounbase=Free|Number=Sg|Gender=F	30	obl	_	KUR
-30	luhalliq	halāqu	VERB	V	Verbstem=D|Gender=M|Mood=Precative|Number=Sg|Person=3	19	conj	_	_
+11	libbi	libbu	NOUN	N	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	9	nmod	_	ŠA₃-šu₂
+12	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	11	det	_	_
+13	eppašu	epēšu	VERB	V	Mood=Indicative|Number=Sg|Person=1|Subordinative=Yes|Tense=Present|Verbstem=G	5	conj	_	_
+
+# sent_id = Q004524-7
+# text = Aššur bēlu rabû kakkašu lišber kussâšu līkimūšu šumšu zēršu ina māti luhalliq
+1	Aššur	Aššur	PROPN	DN	Gender=M	6	nsubj	_	AŠ
+2	bēlu	bēlu	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	appos	_	_
+3	rabû	rabû	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	2	amod	_	GAL
+4-5	kakkašu	_	_	_	_	_	_	_	_
+4	kakka	kakku	NOUN	N	Gender=M|Nounbase=Suffixal|Number=Sg	6	obj	_	{GIŠ}TUKUL-šu₂
+5	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	4	det	_	_
+6	lišber	šebēru	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=G	0	root	0:root	liš-ber
+7-8	kussâšu	_	_	_	_	_	_	_	_
+7	kussâ	_	NOUN	_	Case=Acc|Gender=F|Nounbase=Suffixal|Number=Sg	9	obj	_	_
+8	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	7	det	_	_
+9-10	līkimūšu	_	_	_	_	_	_	_	_
+9	līkim	ekēmu	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=G	6	conj	_	KAR-šu₂
+10	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	9	obl	_	_
+11-12	šumšu	_	_	_	_	_	_	_	_
+11	šum	šumu	NOUN	N	Gender=M|Nounbase=Suffixal|Number=Sg	17	obj	_	MU-šu₂
+12	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	11	det	_	_
+13-14	zēršu	_	_	_	_	_	_	_	_
+13	zēr	zēru	NOUN	N	Gender=M|Nounbase=Suffixal|Number=Sg	11	conj	17:obj	NUMUN-šu₂
+14	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	13	det	_	_
+15	ina	ina	ADP	PRP	_	16	case	_	ina
+16	māti	mātu	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	17	obl	_	KUR
+17	luhalliq	halāqu	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	6	conj	_	_

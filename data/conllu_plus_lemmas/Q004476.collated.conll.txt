@@ -1,99 +1,137 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004476-1
-# text = x x ša ultu tarṣi {m}x x ṣalam šumi ša Tukulti-apil-Ešarra x x Nairi allik Barzaništun x x būšīšunu makkūrīšunu alpīšunu ṣēnīšunu x x karmē utēr qaqqad muqtablīšunu x x ša mātāt Nairi sisê imērī x x-a-ni ina išāti aqlu appul aqqur ana tīli u karmē utēr x-bi-ru Tille ittabalkutū x x ussēli’ū ana Kahat ussēli’ū x x x ištu Ninua attumuš nāri x x šallassunu būšīšunu alpīšunu ṣēnīšunu x x-li arkišu irtaṭū dēkta x x uttērūni x
-1	x	x	_	PN	_	_	_	_	x
-2	x	x	_	PN	_	_	_	_	x
+# text = x x ša ultu tarṣi {m}x x
+1	x	_	_	u	_	_	_	_	x
+2	x	_	_	u	_	_	_	_	x
 3	ša	ša	PRON	REL	_	_	_	_	ša₂
 4	ultu	ištu	ADP	PRP	_	5	case	_	TA
-5	tarṣi	tarṣu	NOUN	N	Number=Sg|Nounbase=Free|Gender=M|Case=Gen	_	_	_	tar-ṣi
+5	tarṣi	tarṣu	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	0	root	0:root	tar-ṣi
 6	{m}x x	_|_	PROPN	u|u	Gender=M	5	nmod:poss	_	{m}x|x
-7	ṣalam	ṣalmu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	_	_	_	ṣa-lam
-8	šumi	šumu	NOUN	N	Case=Gen|Nounbase=Free|Number=Sg|Gender=M	7	nmod:poss	_	_
-9	ša	ša	ADP	DET	_	10	case	_	ša₂
-10	Tukulti-apil-Ešarra	Tukulti-apil-Ešarra_I	PROPN	RN	Gender=M	8	nmod	_	{m}{GIŠ}tukul-ti-A-e₂-šar₂-ra
-11	x	x	_	PN	_	_	_	_	x
-12	x	x	_	PN	_	_	_	_	x
-13	Nairi	Nairi	PROPN	GN	Case=Gen	_	_	_	na-i-ri
-14	allik	alāku	VERB	V	Number=Sg|Verbstem=G|Person=1|Mood=Indicative|Tense=Preterit	_	_	_	a-lik
-15	Barzaništun	Barzaništun	PROPN	SN	_	_	_	_	{URU}bar-za-ni-iš-tu-un
-16	x	x	_	PN	_	_	_	_	x
-17	x	x	_	PN	_	_	_	_	x
-18-19	būšīšunu	_	_	_	_	_	_	_	_
-18	būšī	būšu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	_	_	_	NIG₂.ŠU.MEŠ-šu₂-nu
-19	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	18	det	_	_
-20-21	makkūrīšunu	_	_	_	_	_	_	_	_
-20	makkūrī	makkūru	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	18	conj	_	NIG₂.GA.MEŠ-šu₂-nu
-21	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	20	det	_	_
-22-23	alpīšunu	_	_	_	_	_	_	_	_
-22	alpī	alpu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	18	conj	_	GU₄.MEŠ-šu₂-nu
-23	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	22	det	_	_
-24-25	ṣēnīšunu	_	_	_	_	_	_	_	_
-24	ṣēnī	ṣēnu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=F	18	conj	_	{UDU}ṣe-ni-šu₂-nu
-25	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	24	det	_	_
-26	x	x	_	PN	_	_	_	_	x
-27	x	x	_	PN	_	_	_	_	x
-28	karmē	karmu	NOUN	N	Number=Pl|Gender=M	29	obl	_	kar-me
-29	utēr	târu	VERB	V	Verbstem=D|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	_	_	_	u₂-ter
-30	qaqqad	qaqqadu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	_	_	_	SAG.DU
-31-32	muqtablīšunu	_	_	_	_	_	_	_	_
-31	muqtablī	muqtablu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	30	nmod:poss	_	muq-tab-li-šu₂-nu
-32	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	31	det	_	_
-33	x	x	_	PN	_	_	_	_	x
-34	x	x	_	PN	_	_	_	_	x
-35	ša	ša	ADP	DET	_	36	case	_	ša₂
-36	mātāt	mātu	NOUN	N	Number=Pl|Nounbase=Bound|Gender=F	_	_	_	KUR.KUR
-37	Nairi	Nairi	PROPN	GN	Case=Gen	36	nmod:poss	_	na-i-ri
-38	sisê	sisû	NOUN	N	Nounbase=Free|Number=Pl|Gender=M	_	_	_	ANŠE.KUR.RA.MEŠ
-39	imērī	imēru	NOUN	N	Gender=M|Number=Pl	38	conj	_	ANŠE.MEŠ
-40	x	x	_	PN	_	_	_	_	x
-41	x-a-ni	_	_	u	_	_	_	_	x-a-ni
-42	ina	ina	ADP	PRP	_	43	case	_	ina
-43	išāti	išātu	NOUN	N	Case=Gen|Nounbase=Free|Number=Sg|Gender=F	44	obl	_	IZI
-44	aqlu	_	VERB	_	Verbstem=G|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	_	_	_	_
-45	appul	napālu	VERB	V	Number=Sg|Verbstem=G|Person=1|Mood=Indicative|Tense=Preterit	44	conj	_	ap-pul₂
-46	aqqur	naqāru	VERB	V	Number=Sg|Verbstem=G|Person=1|Mood=Indicative|Tense=Preterit	44	conj	_	a-qur
-47	ana	ana	ADP	PRP	_	48	case	_	ana
-48	tīli	tīlu	NOUN	N	Case=Gen|Nounbase=Free|Number=Sg|Gender=M	51	obl	_	DU₆
-49	u	u	CONJ	CNJ	_	50	cc	_	u
-50	karmē	karmu	NOUN	N	Number=Pl|Gender=M	48	conj	_	kar-me
-51	utēr	târu	VERB	V	Verbstem=D|Person=1|Tense=Preterit|Number=Sg|Mood=Indicative	44	conj	_	u₂-ter
-52	x-bi-ru	_	_	u	_	_	_	_	x-bi-ru
-53	Tille	Tille	PROPN	SN	_	_	_	_	{URU}DU₆-le-e
-54	ittabalkutū	_	VERB	_	Verbstem=N|Mood=Indicative|Gender=M|Number=Pl|Person=3|Tense=Perfect	_	_	_	_
-55	x	x	_	PN	_	_	_	_	x
-56	x	x	_	PN	_	_	_	_	x
-57	ussēli’ū	_	VERB	_	Verbstem=S|Mood=Indicative|Gender=M|Number=Pl|Person=3|Tense=Perfect	_	_	_	_
-58	ana	ana	ADP	PRP	_	59	case	_	a-na
-59	Kahat	Kahat	PROPN	SN	_	60	obl	_	{URU}ka-ha-at
-60	ussēli’ū	_	VERB	_	Verbstem=S|Mood=Indicative|Gender=M|Number=Pl|Person=3|Tense=Perfect	_	_	_	_
-61	x	x	_	PN	_	_	_	_	x
-62	x	x	_	PN	_	_	_	_	x
-63	x	x	_	PN	_	_	_	_	x
-64	ištu	ištu	ADP	PRP	_	65	case	_	iš-tu
-65	Ninua	Ninua	PROPN	SN	_	66	obl	_	{URU}ni-nu-a
-66	attumuš	namāšu	VERB	V	Number=Sg|Verbstem=G|Person=1|Mood=Indicative|Tense=Perfect	_	_	_	at-tu-muš
-67	nāri x	nāru|_	PROPN	N|u	Gender=F	_	_	_	ID₂|x
-68	x	x	_	PN	_	_	_	_	x
-69-70	šallassunu	_	_	_	_	_	_	_	_
-69	šallas	šallatu	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=F	_	_	_	šal-la-su-nu
-70	sunu	_	_	PRON	Gender=M|Number=Pl|Person=3	69	det	_	_
-71-72	būšīšunu	_	_	_	_	_	_	_	_
-71	būšī	būšu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	69	conj	_	NIG₂.ŠU.MEŠ-šu₂-nu
-72	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	71	det	_	_
-73-74	alpīšunu	_	_	_	_	_	_	_	_
-73	alpī	alpu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	69	conj	_	GU₄.MEŠ-šu₂-nu
-74	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	73	det	_	_
-75-76	ṣēnīšunu	_	_	_	_	_	_	_	_
-75	ṣēnī	ṣēnu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=F	69	conj	_	{UDU}ṣe-ni-šu₂-nu
-76	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	75	det	_	_
-77	x	x	_	PN	_	_	_	_	x
-78	x-li	_	_	u	_	_	_	_	x-li
-79-80	arkišu	_	_	_	_	_	_	_	_
-79	arki	warki	ADP	PRP	_	_	_	_	ar-ki-šu₂
-80	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	81	obl	_	_
-81	irtaṭū	redû	VERB	V	Verbstem=G|Mood=Indicative|Gender=M|Number=Pl|Person=3|Tense=Perfect	_	_	_	ir-ta-ṭu
-82	dēkta	_	NOUN	_	Nounbase=Suffixal|Number=Sg|Gender=F	_	_	_	_
-83	x	x	_	PN	_	_	_	_	x
-84	x	x	_	PN	_	_	_	_	x
-85	uttērūni	_	VERB	_	Verbstem=D|Mood=Ventive|Gender=M|Number=Pl|Person=3|Tense=Perfect	_	_	_	_
-86	x	x	_	PN	_	_	_	_	x
+
+# sent_id = Q004476-2
+# text = ṣalam šumi ša Tukulti-apil-Ešarra
+1	ṣalam	ṣalmu	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	ṣa-lam
+2	šumi	šumu	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	1	nmod:poss	_	_
+3	ša	ša	ADP	DET	_	4	case	_	ša₂
+4	Tukulti-apil-Ešarra	Tukulti-apil-Ešarra_I	PROPN	RN	Gender=M	2	nmod	_	{m}{GIŠ}tukul-ti-A-e₂-šar₂-ra
+
+# sent_id = Q004476-3
+# text = x x Nairi allik Barzaništun x x būšīšunu makkūrīšunu alpīšunu ṣēnīšunu
+1	x	_	_	u	_	_	_	_	x
+2	x	_	_	u	_	_	_	_	x
+3	Nairi	Nairi	PROPN	GN	Case=Gen	_	_	_	na-i-ri
+4	allik	alāku	VERB	V	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	_	_	_	a-lik
+5	Barzaništun	Barzaništun	PROPN	SN	_	_	_	_	{URU}bar-za-ni-iš-tu-un
+6	x	_	_	u	_	_	_	_	x
+7	x	_	_	u	_	_	_	_	x
+8-9	būšīšunu	_	_	_	_	_	_	_	_
+8	būšī	būšu	NOUN	N	Gender=M|Nounbase=Suffixal|Number=Pl	0	root	0:root	NIG₂.ŠU.MEŠ-šu₂-nu
+9	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	8	det	_	_
+10-11	makkūrīšunu	_	_	_	_	_	_	_	_
+10	makkūrī	makkūru	NOUN	N	Gender=M|Nounbase=Suffixal|Number=Pl	8	conj	_	NIG₂.GA.MEŠ-šu₂-nu
+11	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	10	det	_	_
+12-13	alpīšunu	_	_	_	_	_	_	_	_
+12	alpī	alpu	NOUN	N	Gender=M|Nounbase=Suffixal|Number=Pl	8	conj	_	GU₄.MEŠ-šu₂-nu
+13	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	12	det	_	_
+14-15	ṣēnīšunu	_	_	_	_	_	_	_	_
+14	ṣēnī	ṣēnu	NOUN	N	Gender=F|Nounbase=Suffixal|Number=Pl	8	conj	_	{UDU}ṣe-ni-šu₂-nu
+15	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	14	det	_	_
+
+# sent_id = Q004476-4
+# text = x x karmē utēr
+1	x	_	_	u	_	_	_	_	x
+2	x	_	_	u	_	_	_	_	x
+3	karmē	karmu	NOUN	N	Gender=M|Number=Pl	4	obl	_	kar-me
+4	utēr	târu	VERB	V	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	0	root	0:root	u₂-ter
+
+# sent_id = Q004476-5
+# text = qaqqad muqtablīšunu
+1	qaqqad	qaqqadu	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	SAG.DU
+2-3	muqtablīšunu	_	_	_	_	_	_	_	_
+2	muqtablī	muqtablu	NOUN	N	Gender=M|Nounbase=Suffixal|Number=Pl	1	nmod:poss	_	muq-tab-li-šu₂-nu
+3	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	2	det	_	_
+
+# sent_id = Q004476-6
+# text = x x ša mātāt Nairi
+1	x	_	_	u	_	_	_	_	x
+2	x	_	_	u	_	_	_	_	x
+3	ša	ša	ADP	DET	_	4	case	_	ša₂
+4	mātāt	mātu	NOUN	N	Gender=F|Nounbase=Bound|Number=Pl	0	root	0:root	KUR.KUR
+5	Nairi	Nairi	PROPN	GN	Case=Gen	4	nmod:poss	_	na-i-ri
+
+# sent_id = Q004476-7
+# text = sisê imērī
+1	sisê	sisû	NOUN	N	Gender=M|Number=Pl	0	root	0:root	ANŠE.KUR.RA.MEŠ
+2	imērī	imēru	NOUN	N	Gender=M|Number=Pl	1	conj	_	ANŠE.MEŠ
+
+# sent_id = Q004476-8
+# text = x x-a-ni ina išāti aqlu appul aqqur ana tīli u karmē utēr
+1	x	_	_	u	_	_	_	_	x
+2	x-a-ni	_	_	u	_	_	_	_	x-a-ni
+3	ina	ina	ADP	PRP	_	4	case	_	ina
+4	išāti	išātu	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	5	obl	_	IZI
+5	aqlu	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
+6	appul	napālu	VERB	V	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	5	conj	_	ap-pul₂
+7	aqqur	naqāru	VERB	V	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	5	conj	_	a-qur
+8	ana	ana	ADP	PRP	_	9	case	_	ana
+9	tīli	tīlu	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	12	obl	_	DU₆
+10	u	u	CCONJ	CNJ	_	11	cc	_	u
+11	karmē	karmu	NOUN	N	Gender=M|Number=Pl	9	conj	_	kar-me
+12	utēr	târu	VERB	V	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	5	conj	_	u₂-ter
+
+# sent_id = Q004476-9
+# text = x-bi-ru Tille ittabalkutū x x ussēli’ū ana Kahat ussēli’ū
+1	x-bi-ru	_	_	u	_	_	_	_	x-bi-ru
+2	Tille	Tille	PROPN	SN	_	_	_	_	{URU}DU₆-le-e
+3	ittabalkutū	_	VERB	_	Gender=M|Mood=Indicative|Number=Pl|Person=3|Tense=Perfect|Verbstem=N	_	_	_	_
+4	x	_	_	u	_	_	_	_	x
+5	x	_	_	u	_	_	_	_	x
+6	ussēli’ū	_	VERB	_	Gender=M|Mood=Indicative|Number=Pl|Person=3|Tense=Perfect|Verbstem=S	_	_	_	_
+7	ana	ana	ADP	PRP	_	8	case	_	a-na
+8	Kahat	Kahat	PROPN	SN	_	9	obl	_	{URU}ka-ha-at
+9	ussēli’ū	_	VERB	_	Gender=M|Mood=Indicative|Number=Pl|Person=3|Tense=Perfect|Verbstem=S	0	root	0:root	_
+
+# sent_id = Q004476-10
+# text = x x x ištu Ninua attumuš
+1	x	_	_	u	_	_	_	_	x
+2	x	_	_	u	_	_	_	_	x
+3	x	_	_	u	_	_	_	_	x
+4	ištu	ištu	ADP	PRP	_	5	case	_	iš-tu
+5	Ninua	Ninua	PROPN	SN	_	6	obl	_	{URU}ni-nu-a
+6	attumuš	namāšu	VERB	V	Mood=Indicative|Number=Sg|Person=1|Tense=Perfect|Verbstem=G	0	root	0:root	at-tu-muš
+
+# sent_id = Q004476-11
+# text = nāri x x šallassunu būšīšunu alpīšunu ṣēnīšunu
+1	nāri x	nāru|_	PROPN	N|u	Gender=F	_	_	_	ID₂|x
+2	x	_	_	u	_	_	_	_	x
+3-4	šallassunu	_	_	_	_	_	_	_	_
+3	šallas	šallatu	NOUN	N	Gender=F|Nounbase=Suffixal|Number=Sg	0	root	0:root	šal-la-su-nu
+4	sunu	_	PRON	_	Gender=M|Number=Pl|Person=3	3	det	_	_
+5-6	būšīšunu	_	_	_	_	_	_	_	_
+5	būšī	būšu	NOUN	N	Gender=M|Nounbase=Suffixal|Number=Pl	3	conj	_	NIG₂.ŠU.MEŠ-šu₂-nu
+6	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	5	det	_	_
+7-8	alpīšunu	_	_	_	_	_	_	_	_
+7	alpī	alpu	NOUN	N	Gender=M|Nounbase=Suffixal|Number=Pl	3	conj	_	GU₄.MEŠ-šu₂-nu
+8	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	7	det	_	_
+9-10	ṣēnīšunu	_	_	_	_	_	_	_	_
+9	ṣēnī	ṣēnu	NOUN	N	Gender=F|Nounbase=Suffixal|Number=Pl	3	conj	_	{UDU}ṣe-ni-šu₂-nu
+10	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	9	det	_	_
+
+# sent_id = Q004476-12
+# text = x x-li arkišu irtaṭū
+1	x	_	_	u	_	_	_	_	x
+2	x-li	_	_	u	_	_	_	_	x-li
+3-4	arkišu	_	_	_	_	_	_	_	_
+3	arki	warki	ADP	PRP	_	_	_	_	ar-ki-šu₂
+4	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	5	obl	_	_
+5	irtaṭū	redû	VERB	V	Gender=M|Mood=Indicative|Number=Pl|Person=3|Tense=Perfect|Verbstem=G	0	root	0:root	ir-ta-ṭu
+
+# sent_id = Q004476-13
+# text = dēkta x x uttērūni x
+1	dēkta	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Sg	_	_	_	_
+2	x	_	_	u	_	_	_	_	x
+3	x	_	_	u	_	_	_	_	x
+4-5	uttērūni	_	_	_	_	_	_	_	_
+4	uttērū	_	VERB	_	Gender=M|Mood=Indicative|Number=Pl|Person=3|Tense=Perfect|Ventive=Yes|Verbstem=D	0	root	0:root	_
+5	ni	_	PRON	_	Number=Sg|Person=1	4	obl	_	_
+6	x	_	_	u	_	_	_	_	x

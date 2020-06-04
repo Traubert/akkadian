@@ -1,22 +1,25 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004593-1
-# text = x Tukulti-Ninurta x x akšud {URU}x x x narîya alṭur x x ana ašrīšunu x
-1	x	x	_	PN	_	_	_	_	x
+# text = x Tukulti-Ninurta x x akšud {URU}x x x narîya alṭur
+1	x	_	_	u	_	_	_	_	x
 2	Tukulti-Ninurta	Tukulti-Ninurta_II	PROPN	RN	Gender=M	_	_	_	{GIŠ}tukul-ti-{d}MAŠ
-3	x	x	_	PN	_	_	_	_	x
-4	x	x	_	PN	_	_	_	_	x
-5	akšud	kašādu	VERB	V	Mood=Indicative|Verbstem=G|Number=Sg|Person=1|Tense=Preterit	_	_	_	ak-šud
+3	x	_	_	u	_	_	_	_	x
+4	x	_	_	u	_	_	_	_	x
+5	akšud	kašādu	VERB	V	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	_	_	_	ak-šud
 6	{URU}x	_	PROPN	u	_	_	_	_	{URU}x
-7	x	x	_	PN	_	_	_	_	x
-8	x	x	_	PN	_	_	_	_	x
+7	x	_	_	u	_	_	_	_	x
+8	x	_	_	u	_	_	_	_	x
 9-10	narîya	_	_	_	_	_	_	_	_
-9	narî	narû	NOUN	N	Nounbase=Suffixal|Number=Sg|Gender=M	11	obj	_	{NA₄}NA-RU₂.A-ia
-10	ya	_	_	PRON	Person=1|Number=Sg	9	det	_	_
-11	alṭur	šaṭāru	VERB	V	Mood=Indicative|Verbstem=G|Number=Sg|Person=1|Tense=Preterit	_	_	_	al-ṭu-ur
-12	x	x	_	PN	_	_	_	_	x
-13	x	x	_	PN	_	_	_	_	x
-14	ana	ana	ADP	PRP	_	15	case	_	a-na
-15-16	ašrīšunu	_	_	_	_	_	_	_	_
-15	ašrī	ašru	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=M	_	_	_	aš₂-ri-šu-nu
-16	šunu	_	_	PRON	Gender=M|Number=Pl|Person=3	15	det	_	_
-17	x	x	_	PN	_	_	_	_	x
+9	narî	narû	NOUN	N	Gender=M|Nounbase=Suffixal|Number=Sg	11	obj	_	{NA₄}NA-RU₂.A-ia
+10	ya	_	PRON	_	Number=Sg|Person=1	9	det	_	_
+11	alṭur	šaṭāru	VERB	V	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	al-ṭu-ur
+
+# sent_id = Q004593-2
+# text = x x ana ašrīšunu x
+1	x	_	_	u	_	_	_	_	x
+2	x	_	_	u	_	_	_	_	x
+3	ana	ana	ADP	PRP	_	4	case	_	a-na
+4-5	ašrīšunu	_	_	_	_	_	_	_	_
+4	ašrī	ašru	NOUN	N	Gender=M|Nounbase=Suffixal|Number=Pl	0	root	0:root	aš₂-ri-šu-nu
+5	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	4	det	_	_
+6	x	_	_	u	_	_	_	_	x
