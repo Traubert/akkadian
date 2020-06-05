@@ -17,7 +17,7 @@
 14	šakin	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	13	appos	_	_
 15	Enlil	_	PROPN	_	Gender=M	14	nmod:poss	_	_
 16	iššak	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	13	appos	_	_
-17-18	Aššurma	_	_	_	_	_	_	_	_
+17-18	Aššurma	_	X	_	_	_	_	_	_
 17	Aššur	_	PROPN	_	Gender=M	16	nmod:poss	_	_
 18	ma	_	PART	_	_	17	det	_	_
 
@@ -29,7 +29,7 @@
 4	Ištar	_	PROPN	_	Gender=F	3	nmod:poss	_	_
 5	ša	_	ADP	_	_	6	case	_	_
 6	Ninua	_	PROPN	_	_	4	nmod	_	_
-7-8	bēltiya	_	_	_	_	_	_	_	_
+7-8	bēltiya	_	X	_	_	_	_	_	_
 7	bēlti	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	4	appos	_	_
 8	ya	_	PRON	_	Number=Sg|Person=1	7	det	_	_
 9	ša	_	PRON	_	_	17	obj	_	_
@@ -38,19 +38,19 @@
 12	Aššur	_	PROPN	_	Gender=M	11	nmod:poss	_	_
 13	rubû	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	10	appos	_	_
 14	ālik	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	10	appos	_	_
-15-16	pāniya	_	_	_	_	_	_	_	_
+15-16	pāniya	_	X	_	_	_	_	_	_
 15	pāni	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	14	nmod:poss	_	_
 16	ya	_	PRON	_	Number=Sg|Person=1	15	det	_	_
 17	ēpušu	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	2	acl:relcl	_	_
-18-19	ēnahma	_	_	_	_	_	_	_	_
+18-19	ēnahma	_	X	_	_	_	_	_	_
 18	ēnah	_	VERB	_	Gender=M|Mood=Indicative|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	0	root	0:root	_
 19	ma	_	CCONJ	_	_	26	cc	_	_
 20	ultu	_	ADP	_	_	21	case	_	_
-21-22	uššēšu	_	_	_	_	_	_	_	_
+21-22	uššēšu	_	X	_	_	_	_	_	_
 21	uššē	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	26	obl	_	_
 22	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	21	det	_	_
 23	adi	_	ADP	_	_	24	case	_	_
-24-25	gabadibbīšu	_	_	_	_	_	_	_	_
+24-25	gabadibbīšu	_	X	_	_	_	_	_	_
 24	gabadibbī	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	26	obl	_	_
 25	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	24	det	_	_
 26	arṣip	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	18	conj	_	_
@@ -66,7 +66,7 @@
 1	narâ	_	NOUN	_	Case=Acc|Gender=M|Nounbase=Free|Number=Sg	2	obj	_	_
 2	alṭur	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
 3	ina	_	ADP	_	_	4	case	_	_
-4-5	qerebšu	_	_	_	_	_	_	_	_
+4-5	qerebšu	_	X	_	_	_	_	_	_
 4	qereb	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	6	obl	_	_
 5	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	4	det	_	_
 6	aškun	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	2	conj	_	_
@@ -75,16 +75,16 @@
 # text = rubû arkû anhūssu luddiš šumī šaṭra ana ašrišu lutēr
 1	rubû	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	5	nsubj	_	_
 2	arkû	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	1	amod	_	_
-3-4	anhūssu	_	_	_	_	_	_	_	_
+3-4	anhūssu	_	X	_	_	_	_	_	_
 3	anhūs	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Sg	5	obj	_	_
 4	su	_	PRON	_	Gender=M|Number=Sg|Person=3	3	det	_	_
 5	luddiš	_	VERB	_	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	0	root	0:root	_
-6-7	šumī	_	_	_	_	_	_	_	_
+6-7	šumī	_	X	_	_	_	_	_	_
 6	šum	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	12	obj	_	_
 7	ī	_	PRON	_	Number=Sg|Person=1	6	det	_	_
 8	šaṭra	_	ADJ	_	Case=Acc|Gender=M|Number=Sg	6	amod	_	_
 9	ana	_	ADP	_	_	10	case	_	_
-10-11	ašrišu	_	_	_	_	_	_	_	_
+10-11	ašrišu	_	X	_	_	_	_	_	_
 10	ašri	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	12	obl	_	_
 11	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	10	det	_	_
 12	lutēr	_	VERB	_	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	5	conj	_	_
