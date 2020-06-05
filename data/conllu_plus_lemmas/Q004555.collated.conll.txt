@@ -1,38 +1,41 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004555-1
-# text = ana Ninurta gešru x parṣē x x ša ina tāhāzi lā iššannanu tībušu x x mukīl markas šamê u erṣeti pētû nagbē x-te Utulu bēl bēlē x ut-tim qātīšu iṣbat x
+# text = ana Ninurta gešru x parṣē x x ša ina tāhāzi lā iššannanu tībušu x x mukīl markas šamê u erṣeti pētû nagbē x-te Utulu bēl bēlē
 1	ana	ana	ADP	PRP	_	2	case	_	ana
-2	Ninurta	Ninurta	PROPN	DN	Gender=M	_	_	_	{d}MAŠ
-3	gešru	gašru	ADJ	N	Gender=M|Number=Sg|Case=Nom	2	appos	_	geš-ru
-4	x	x	NOUN	PN	_	2	appos	_	x
+2	Ninurta	Ninurta	PROPN	DN	Gender=M	0	root	0:root	{d}MAŠ
+3	gešru	gašru	ADJ	N	Case=Nom|Gender=M|Number=Sg	2	appos	_	geš-ru
+4	x	_	NOUN	u	_	2	appos	_	x
 5	parṣē	parṣu	NOUN	N	Gender=M|Number=Pl	4	nmod:poss	_	GARZA.MEŠ
-6	x	x	_	PN	_	_	_	_	x
-7	x	x	_	PN	_	_	_	_	x
-8	ša	ša	PRON	DET	_	12	nsubj	_	ša
+6	x	_	_	u	_	_	_	_	x
+7	x	_	_	u	_	_	_	_	x
+8	ša	ša	PRON	DET	_	12	obj	_	ša
 9	ina	ina	ADP	PRP	_	10	case	_	ina
-10	tāhāzi	tāhāzu	NOUN	N	Case=Gen|Nounbase=Free|Number=Sg|Gender=M	12	obl	_	ME₃
+10	tāhāzi	tāhāzu	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	12	obl	_	ME₃
 11	lā	lā	PART	MOD	_	12	neg	_	la-a
-12	iššannanu	šanānu	VERB	V	Verbstem=N|Mood=Subjunctive|Gender=M|Number=Sg|Person=3|Tense=Present	2	acl:relcl	_	iš-ša-na-nu
+12	iššannanu	šanānu	VERB	V	Finiteness=Finite|Gender=M|Mood=Indicative|Number=Sg|Person=3|Subordinative=Yes|Tense=Present|Verbstem=N	2	acl:relcl	_	iš-ša-na-nu
 13-14	tībušu	_	_	_	_	_	_	_	_
-13	tību	tību	NOUN	N	Case=Nom|Nounbase=Suffixal|Number=Sg|Gender=M	_	_	_	ti-bu-šu₂
-14	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	13	det	_	_
-15	x	x	_	PN	_	_	_	_	x
-16	x	x	_	PN	_	_	_	_	x
-17	mukīl	mukillu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	2	appos	_	mu-kil
-18	markas	markasu	NOUN	N	Nounbase=Bound|Number=Sg|Gender=M	17	nmod:poss	_	mar-kas
+13	tību	tību	NOUN	N	Case=Nom|Gender=M|Nounbase=Suffixal|Number=Sg	8	nmod:poss	_	ti-bu-šu₂
+14	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	13	det	_	_
+15	x	_	_	u	_	_	_	_	x
+16	x	_	_	u	_	_	_	_	x
+17	mukīl	mukillu	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	mu-kil
+18	markas	markasu	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	17	nmod:poss	_	mar-kas
 19	šamê	šamû	NOUN	N	Gender=M|Number=Pl	18	nmod:poss	_	AN-e
-20	u	u	CONJ	CNJ	_	21	cc	_	u₃
-21	erṣeti	erṣetu	NOUN	N	Case=Gen|Gender=F|Number=Sg|Nounbase=Free	19	conj	_	_
-22	pētû	pētû	NOUN	N	Case=Nom|Nounbase=Free|Number=Sg|Gender=M	2	appos	_	BAD-u₂
+20	u	u	CCONJ	CNJ	_	21	cc	_	u₃
+21	erṣeti	erṣetu	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	19	conj	_	_
+22	pētû	pētû	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	BAD-u₂
 23	nagbē	nagbu	NOUN	N	Gender=M|Number=Pl	22	nmod:poss	_	_
 24	x-te	_	_	u	_	_	_	_	x-te
 25	Utulu	Utulu	PROPN	DN	Gender=M	2	appos	_	{d}ut-u₁₈-lu
-26	bēl	bēlu	NOUN	N	Gender=M|Number=Sg|Nounbase=Bound	25	appos	_	EN
-27	bēlē	bēlu	NOUN	N	Nounbase=Free|Number=Pl|Gender=M	26	nmod:poss	_	_
-28	x	x	_	PN	_	_	_	_	x
-29	ut-tim	_	NOUN	u	_	32	obj	_	ut-tim
-30-31	qātīšu	_	_	_	_	_	_	_	_
-30	qātī	qātu	NOUN	N	Nounbase=Suffixal|Number=Pl|Gender=F	32	nsubj	_	ŠU.II-šu₂
-31	šu	_	_	PRON	Gender=M|Number=Sg|Person=3	30	det	_	_
-32	iṣbat	ṣabātu	VERB	V	Tense=Preterit|Number=Sg|Mood=Indicative|Verbstem=G|Person=3	_	_	_	iṣ-bat
-33	x	x	_	PN	_	_	_	_	x
+26	bēl	bēlu	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	25	appos	_	EN
+27	bēlē	bēlu	NOUN	N	Gender=M|Number=Pl	26	nmod:poss	_	_
+
+# sent_id = Q004555-2
+# text = x ut-tim qātīšu iṣbat x
+1	x	_	_	u	_	_	_	_	x
+2	ut-tim	_	NOUN	u	_	5	obj	_	ut-tim
+3-4	qātīšu	_	_	_	_	_	_	_	_
+3	qātī	qātu	NOUN	N	Gender=F|Nounbase=Suffixal|Number=Pl	5	nsubj	_	ŠU.II-šu₂
+4	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	3	det	_	_
+5	iṣbat	ṣabātu	VERB	V	Finiteness=Finite|Gender=M|Mood=Indicative|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	0	root	0:root	iṣ-bat
+6	x	_	_	u	_	_	_	_	x
