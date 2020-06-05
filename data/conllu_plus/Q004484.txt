@@ -869,7 +869,7 @@
 18	ušaṣbit	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	12	conj	_	_
 
 # sent_id = Q004484-41
-# text = ēkallāti mahrāte ša pirik mātiya ana eššūte arṣipšina
+# text = ēkallāti mahrāte ša pirik mātiya ana eššūte arṣipšina ussimšina ušarrihšina še’u u tibnu ina libbišina ašpuk
 1	ēkallāti	_	NOUN	_	Gender=F|Nounbase=Free|Number=Pl	9	obj	_	_
 2	mahrāte	_	ADJ	_	Gender=F|Number=Pl	1	amod	_	_
 3	ša	_	ADP	_	_	4	case	_	_
@@ -882,25 +882,22 @@
 9-10	arṣipšina	_	_	_	_	_	_	_	_
 9	arṣip	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
 10	šina	_	PRON	_	Gender=F|Number=Pl|Person=3	9	obj	_	_
+11-12	ussimšina	_	_	_	_	_	_	_	_
+11	ussim	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	0	root	0:root	_
+12	šina	_	PRON	_	Gender=F|Number=Pl|Person=3	11	obj	_	_
+13-14	ušarrihšina	_	_	_	_	_	_	_	_
+13	ušarrih	_	VERB	_	Gender=M|Mood=Indicative|Number=Sg|Person=3|Tense=Preterit|Verbstem=D	11	xcomp	_	_
+14	šina	_	PRON	_	Gender=F|Number=Pl|Person=3	13	obj	_	_
+15	še’u	_	NOUN	_	Gender=M|Nounbase=Free|Number=Sg	21	obj	_	_
+16	u	_	CCONJ	_	_	17	cc	_	_
+17	tibnu	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	15	conj	_	_
+18	ina	_	ADP	_	_	19	case	_	_
+19-20	libbišina	_	_	_	_	_	_	_	_
+19	libbi	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	21	obl	_	_
+20	šina	_	PRON	_	Gender=F|Number=Pl|Person=3	19	det	_	_
+21	ašpuk	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	11	conj	_	_
 
 # sent_id = Q004484-42
-# text = ussimšina ušarrihšina še’u u tibnu ina libbišina ašpuk
-1-2	ussimšina	_	_	_	_	_	_	_	_
-1	ussim	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	0	root	0:root	_
-2	šina	_	PRON	_	Gender=F|Number=Pl|Person=3	1	obj	_	_
-3-4	ušarrihšina	_	_	_	_	_	_	_	_
-3	ušarrih	_	VERB	_	Gender=M|Mood=Indicative|Number=Sg|Person=3|Tense=Preterit|Verbstem=D	1	xcomp	_	_
-4	šina	_	PRON	_	Gender=F|Number=Pl|Person=3	3	obj	_	_
-5	še’u	_	NOUN	_	Gender=M|Nounbase=Free|Number=Sg	11	obj	_	_
-6	u	_	CCONJ	_	_	7	cc	_	_
-7	tibnu	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	5	conj	_	_
-8	ina	_	ADP	_	_	9	case	_	_
-9-10	libbišina	_	_	_	_	_	_	_	_
-9	libbi	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	11	obl	_	_
-10	šina	_	PRON	_	Gender=F|Number=Pl|Person=3	9	det	_	_
-11	ašpuk	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	1	conj	_	_
-
-# sent_id = Q004484-43
 # text = Ninurta u Nergal ša šangûti irammū būl ṣēri ušatlimūnima epēš buʾʾuri iqbûni
 1	Ninurta	_	PROPN	_	Gender=M	10	nsubj	_	_
 2	u	_	CCONJ	_	_	3	cc	_	_
@@ -922,14 +919,14 @@
 15	iqbû	_	VERB	_	Gender=M|Mood=Indicative|Number=Pl|Person=3|Tense=Preterit|Verbstem=G	10	conj	_	_
 16	ni	_	PRON	_	Number=Sg|Person=1	15	obj	_	_
 
-# sent_id = Q004484-44
+# sent_id = Q004484-43
 # text = arbaʾu mē 50 nēšē dannūti adūk
 1	arbaʾu mē 50	_	NUM	_	_	2	nummod	_	_
 2	nēšē	_	NOUN	_	Gender=M|Number=Pl	4	obj	_	_
 3	dannūti	_	ADJ	_	Gender=M|Number=Pl	2	amod	_	_
 4	adūk	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
 
-# sent_id = Q004484-45
+# sent_id = Q004484-44
 # text = 3 mē 90 rīmī ina narkabātiya pattûte ina qitrub bēlūtiya adūk
 1	3 mē 90	_	NUM	_	_	2	nummod	_	_
 2	rīmī	_	NOUN	_	Gender=M|Number=Pl	11	obj	_	_
@@ -945,7 +942,7 @@
 10	ya	_	PRON	_	Number=Sg|Person=1	9	det	_	_
 11	adūk	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
 
-# sent_id = Q004484-46
+# sent_id = Q004484-45
 # text = 2 mē lurmē kīma iṣṣūrī quppi unappiṣ
 1	2 mē	_	NUM	_	_	2	nummod	_	_
 2	lurmē	_	NOUN	_	Gender=M|Number=Pl	6	obj	_	_
@@ -954,7 +951,7 @@
 5	quppi	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	4	nmod:poss	_	_
 6	unappiṣ	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	0	root	0:root	_
 
-# sent_id = Q004484-47
+# sent_id = Q004484-46
 # text = 30 pīrī ina šubti addi
 1	30	_	NUM	_	_	2	nummod	_	_
 2	pīrī	_	NOUN	_	Gender=M|Number=Pl	5	obj	_	_
@@ -962,7 +959,7 @@
 4	šubti	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	5	obl	_	_
 5	addi	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
 
-# sent_id = Q004484-48
+# sent_id = Q004484-47
 # text = 50 rīmī balṭūti 1 mē 40 lurmē balṭūti 20 nēšē dannūti ištu šadê u qišāti ina qāte lū uṣabbita
 1	50	_	NUM	_	_	2	nummod	_	_
 2	rīmī	_	NOUN	_	Gender=M|Number=Pl	17	obj	_	_
@@ -982,7 +979,7 @@
 16	lū	_	PART	_	_	17	advmod:emph	_	_
 17	uṣabbita	_	VERB	_	Mood=Ventive|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	0	root	0:root	_
 
-# sent_id = Q004484-49
+# sent_id = Q004484-48
 # text = 5 pīrī balṭūti maddattu ša šakin māt Suhi u šakin māt Lubda lū amhur ina gerri ittiya ittanallaka
 1	5	_	NUM	_	_	2	nummod	_	_
 2	pīrī	_	NOUN	_	Gender=M|Number=Pl	14	obj	_	_
@@ -1005,7 +1002,7 @@
 18	ya	_	PRON	_	Number=Sg|Person=1	19	obl	_	_
 19	ittanallaka	_	VERB	_	Gender=M|Mood=Ventive|Number=Sg|Person=3|Tense=Present|Verbstem=Gtn	14	conj	_	_
 
-# sent_id = Q004484-50
+# sent_id = Q004484-49
 # text = ša rīmī nēšē lurmē pagê pagāte sugullātešunu akṣur maršīssina ušālid
 1	ša	_	ADP	_	_	2	case	_	_
 2	rīmī	_	NOUN	_	Gender=M|Number=Pl	9	obj	_	_
@@ -1022,7 +1019,7 @@
 11	sina	_	PRON	_	Gender=F|Number=Pl|Person=3	10	det	_	_
 12	ušālid	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	9	conj	_	_
 
-# sent_id = Q004484-51
+# sent_id = Q004484-50
 # text = eli māt Aššur māta eli nišīša nišī anassah uraddi
 1	eli	_	ADP	_	_	2	case	_	_
 2	māt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	9	obl	_	_
@@ -1036,7 +1033,7 @@
 9	anassah	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Present|Verbstem=G	0	root	0:root	_
 10	uraddi	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	9	xcomp	_	_
 
-# sent_id = Q004484-52
+# sent_id = Q004484-51
 # text = ina ūme Aššur-naṣir-apli šar māt Aššur ēkal hūd libbi ēkal kullat nēmeqi ša Kalhi ušarriūni Aššur bēlu rabû u ilāni ša māti gabbi ša ina libbi iqrāni
 1	ina	_	ADP	_	_	2	case	_	_
 2	ūme	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	15	mark	_	_
@@ -1066,7 +1063,7 @@
 26	libbi	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	27	obl	_	_
 27	iqrāni	_	VERB	_	Gender=M|Mood=Vent,subj|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	15	conj	_	_
 
-# sent_id = Q004484-53
+# sent_id = Q004484-52
 # text = 1 mē alpī marûte 1 līm būrī u immerī urê 14 līm {UDU}DAM.GAR₃.MEŠ ina pān Ištar bēltiya 2 mē alpī ina pān Ištar bēltiya 1 līm siserhū 1 līm hurāpī 5 mē ayyalī 5 mē ṣabâtu 1 līm iṣṣūrū rabûtu 5 mē ūsī 5 mē kurkî 1 līm mesukkī 1 līm qāribē 10 līm summāti 10 līm sukannīnī 10 līm iṣṣūrū ṣehrūtu 10 līm nūnī 10 līm akbirī 10 līm pelî 10 līm akalī 10 līm šikarī 10 līm ziqqū ša karānī 10 līm ziqpāni ša šuʾē šamaššammē 10 līm lummū ša ṣarhi 1 līm habarahhū ša urqī 3 mē šamnī 3 mē buqlī 3 mē raqqūtu samuhtu 1 mē kudimmē 1 mē MUN.GAD.NI 1 mē gubibāte 1 mē ubuhšennū 1 mē billatu damiqtu 1 mē nurmê 1 mē ishunnāti 1 mē zamru sammuhu 1 mē buṭnāte 1 mē {GIŠ}SU.SI.MEŠ 1 mē šūmu 1 mē šamaškillu 1 mē kuniphī 1 mē rigāmū ša lapte 1 mē hinhinī 1 mē giddê 1 mē dišpī 1 mē himāti 1 mē abšī qalûte 1 mē šuʾī qalûte 1 mē karkartu 1 mē tīyatu 1 mē kasî 1 mē šizbī 1 mē eqīdē 1 mē šappī ša mīzi 1 mē alpī madlūte 10 imēr kullī ša dukdī 10 imēr kullī ša buṭnāte 10 imēr ša {GIŠ}SU.SI.MEŠ 10 imēr habbaqūqī 10 imēr suluppī 10 imēr titip 10 imēr kamūnu 10 imēr sahūnu 10 imēr uriānu 10 imēr andahšī 10 imēr šišanibē 10 imēr simberrē 10 imēr hašê 10 imēr šamnu ṭābu 10 imēr riqqī ṭābi 10 imēr BIL₂.LI.MEŠ 10 imēr naṣṣebē 10 imēr zinzimmē 10 imēr serdu
 1	1 mē	_	NUM	_	_	2	nummod	_	_
 2	alpī	_	NOUN	_	Gender=M|Number=Pl	0	root	0:root	_
@@ -1280,7 +1277,7 @@
 208	imēr	_	NOUN	_	_	2	conj	_	_
 209	serdu	_	NOUN	_	Gender=M|Number=Sg	208	nmod:poss	_	_
 
-# sent_id = Q004484-54
+# sent_id = Q004484-53
 # text = kī ēkalla ša Kalhi ušarrûni
 1	kī	_	SCONJ	_	_	5	mark	_	_
 2	ēkalla	_	NOUN	_	Case=Acc|Gender=F|Nounbase=Free|Number=Sg	5	obj	_	_
@@ -1288,7 +1285,7 @@
 4	Kalhi	_	PROPN	_	Case=Gen	2	nmod	_	_
 5	ušarrûni	_	VERB	_	Mood=Subjunctive|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	0	root	0:root	_
 
-# sent_id = Q004484-55
+# sent_id = Q004484-54
 # text = 40 līm 7 līm 74 ṣābāni sinnišāti qariūte ša pirik mātiya gabbi ša 5 līm ṣīrūti šaprāte ša Suhi Hindanaya Patinaya Hattaya Ṣurraya Ṣidunaya Gurgumaya Malidaya Hubuškaya Gilzanaya Kummaya Muṣaṣiraya 16 līm napšāti ša Kalhi 1 līm 5 mē zāriqī ša ēkallātiya kalîšina napharuma
 1	40 līm 7 līm 74	_	NUM	_	_	2	nummod	_	_
 2	ṣābāni	_	NOUN	_	Gender=M|Nounbase=Free|Number=Pl	0	root	0:root	_
@@ -1334,8 +1331,8 @@
 38	gimru	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	2	appos	_	_
 39	ma	_	PART	_	_	38	det	_	_
 
-# sent_id = Q004484-56
-# text = 1 šūši 9 līm 5 mē 74 sasiūte ša mātāti kalîšina adi nišī ša Kalhi 10 ūmē ussakkilšunūti ašqīšunūti urammekšunūti upaššiššunūti
+# sent_id = Q004484-55
+# text = 1 šūši 9 līm 5 mē 74 sasiūte ša mātāti kalîšina adi nišī ša Kalhi 10 ūmē ussakkilšunūti ašqīšunūti urammekšunūti upaššiššunūti ukabbissunūti ina šulme u hadê ana mātātišunu utēršunūti
 1	1 šūši 9 līm 5 mē 74	_	NUM	_	_	2	nummod	_	_
 2	sasiūte	_	NOUN	_	Gender=M|Nounbase=Free|Number=Pl	13	obj	_	_
 3	ša	_	ADP	_	_	4	case	_	_
@@ -1361,21 +1358,18 @@
 19-20	upaššiššunūti	_	_	_	_	_	_	_	_
 19	upaššiš	_	VERB	_	Number=Sg|Person=1|Verbstem=D	13	conj	_	_
 20	šunūti	_	PRON	_	Gender=M|Number=Pl|Person=3	19	obj	_	_
-
-# sent_id = Q004484-57
-# text = ukabbissunūti ina šulme u hadê ana mātātišunu utēršunūti
-1-2	ukabbissunūti	_	_	_	_	_	_	_	_
-1	ukabbis	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	0	root	0:root	_
-2	sunūti	_	PRON	_	Gender=M|Number=Pl|Person=3	1	obj	_	_
-3	ina	_	ADP	_	_	4	case	_	_
-4	šulme	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	10	obl	_	_
-5	u	_	CCONJ	_	_	6	cc	_	_
-6	hadê	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	4	conj	_	_
-7	ana	_	ADP	_	_	8	case	_	_
-8-9	mātātišunu	_	_	_	_	_	_	_	_
-8	mātāti	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Pl	10	obl	_	_
-9	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	8	det	_	_
-10-11	utēršunūti	_	_	_	_	_	_	_	_
-10	utēr	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	1	conj	_	_
-11	šunūti	_	PRON	_	Gender=M|Number=Pl|Person=3	10	obj	_	_
+21-22	ukabbissunūti	_	_	_	_	_	_	_	_
+21	ukabbis	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	0	root	0:root	_
+22	sunūti	_	PRON	_	Gender=M|Number=Pl|Person=3	21	obj	_	_
+23	ina	_	ADP	_	_	24	case	_	_
+24	šulme	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	30	obl	_	_
+25	u	_	CCONJ	_	_	26	cc	_	_
+26	hadê	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	24	conj	_	_
+27	ana	_	ADP	_	_	28	case	_	_
+28-29	mātātišunu	_	_	_	_	_	_	_	_
+28	mātāti	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Pl	30	obl	_	_
+29	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	28	det	_	_
+30-31	utēršunūti	_	_	_	_	_	_	_	_
+30	utēr	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	21	conj	_	_
+31	šunūti	_	PRON	_	Gender=M|Number=Pl|Person=3	30	obj	_	_
 

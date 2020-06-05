@@ -117,7 +117,7 @@
 5	x	_	VERB	_	_	0	root	0:root	_
 
 # sent_id = Q004520-4
-# text = x enūma bīt Adad bēliya ša x x x x ālik pāniya ēpušu ēnahma
+# text = x enūma bīt Adad bēliya ša x x x x ālik pāniya ēpušu ēnahma x ašaršu umessi dannassu akšud ultu uššēšu adi gabadibbīšu arṣip ušeklil ussim ušarrih eli ša pāna ušātir x x x ri bit su x x ēnah narâ x x ištu narîya x lutēr x
 1	x	_	X	_	_	_	_	_	_
 2	enūma	_	ADV	_	_	16	advmod	_	_
 3	bīt	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	16	nsubj	_	_
@@ -137,58 +137,49 @@
 15	ēpušu	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	3	acl:relcl	_	_
 16-17	ēnahma	_	_	_	_	_	_	_	_
 16	ēnah	_	VERB	_	Gender=M|Mood=Indicative|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	0	root	0:root	_
-
-# sent_id = Q004520-5
-# text = x ašaršu umessi dannassu akšud
-1	ma	_	CCONJ	_	_	_	_	_	_
-2	x	_	X	_	_	_	_	_	_
-3-4	ašaršu	_	_	_	_	_	_	_	_
-3	ašar	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	5	obj	_	_
-4	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	3	det	_	_
-5	umessi	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	0	root	0:root	_
-6-7	dannassu	_	_	_	_	_	_	_	_
-6	dannas	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Sg	8	obj	_	_
-7	su	_	PRON	_	Gender=M|Number=Sg|Person=3	6	det	_	_
-8	akšud	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	5	conj	_	_
-
-# sent_id = Q004520-6
-# text = ultu uššēšu adi gabadibbīšu arṣip ušeklil ussim ušarrih eli ša pāna ušātir
-1	ultu	_	ADP	_	_	2	case	_	_
-2-3	uššēšu	_	_	_	_	_	_	_	_
-2	uššē	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	7	obl	_	_
-3	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	2	det	_	_
-4	adi	_	ADP	_	_	5	case	_	_
-5-6	gabadibbīšu	_	_	_	_	_	_	_	_
-5	gabadibbī	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	7	obl	_	_
-6	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	5	det	_	_
-7	arṣip	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
-8	ušeklil	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	7	xcomp	_	_
-9	ussim	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	7	conj	_	_
-10	ušarrih	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	9	xcomp	_	_
-11	eli	_	ADP	_	_	12	case	_	_
-12	ša	_	ADP	_	_	13	case	_	_
-13	pāna	_	ADV	_	_	14	obl	_	_
-14	ušātir	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	7	conj	_	_
-
-# sent_id = Q004520-7
-# text = x x x ri bit su x x ēnah narâ x x ištu narîya x lutēr x
-1	x	_	X	_	_	_	_	_	_
-2	x	_	X	_	_	_	_	_	_
-3	x	_	X	_	_	_	_	_	_
-4	ri	_	X	_	_	_	_	_	_
-5	bit	_	X	_	_	_	_	_	_
-6	su	_	X	_	_	_	_	_	_
-7	x	_	X	_	_	_	_	_	_
-8	x	_	X	_	_	_	_	_	_
-9	ēnah	_	VERB	_	Gender=M|Mood=Indicative|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	_	_	_	_
-10	narâ	_	NOUN	_	Case=Acc|Gender=M|Nounbase=Free|Number=Sg	_	_	_	_
-11	x	_	X	_	_	_	_	_	_
-12	x	_	X	_	_	_	_	_	_
-13	ištu	_	ADP	_	_	14	case	_	_
-14-15	narîya	_	_	_	_	_	_	_	_
-14	narî	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	17	obl	_	_
-15	ya	_	PRON	_	Number=Sg|Person=1	14	det	_	_
-16	x	_	X	_	_	_	_	_	_
-17	lutēr	_	VERB	_	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	0	root	0:root	_
+17	ma	_	CCONJ	_	_	_	_	_	_
 18	x	_	X	_	_	_	_	_	_
+19-20	ašaršu	_	_	_	_	_	_	_	_
+19	ašar	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	21	obj	_	_
+20	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	19	det	_	_
+21	umessi	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	0	root	0:root	_
+22-23	dannassu	_	_	_	_	_	_	_	_
+22	dannas	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Sg	24	obj	_	_
+23	su	_	PRON	_	Gender=M|Number=Sg|Person=3	22	det	_	_
+24	akšud	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	21	conj	_	_
+25	ultu	_	ADP	_	_	26	case	_	_
+26-27	uššēšu	_	_	_	_	_	_	_	_
+26	uššē	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	31	obl	_	_
+27	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	26	det	_	_
+28	adi	_	ADP	_	_	29	case	_	_
+29-30	gabadibbīšu	_	_	_	_	_	_	_	_
+29	gabadibbī	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	31	obl	_	_
+30	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	29	det	_	_
+31	arṣip	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
+32	ušeklil	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	31	xcomp	_	_
+33	ussim	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	31	conj	_	_
+34	ušarrih	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	33	xcomp	_	_
+35	eli	_	ADP	_	_	36	case	_	_
+36	ša	_	ADP	_	_	37	case	_	_
+37	pāna	_	ADV	_	_	38	obl	_	_
+38	ušātir	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	31	conj	_	_
+39	x	_	X	_	_	_	_	_	_
+40	x	_	X	_	_	_	_	_	_
+41	x	_	X	_	_	_	_	_	_
+42	ri	_	X	_	_	_	_	_	_
+43	bit	_	X	_	_	_	_	_	_
+44	su	_	X	_	_	_	_	_	_
+45	x	_	X	_	_	_	_	_	_
+46	x	_	X	_	_	_	_	_	_
+47	ēnah	_	VERB	_	Gender=M|Mood=Indicative|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	_	_	_	_
+48	narâ	_	NOUN	_	Case=Acc|Gender=M|Nounbase=Free|Number=Sg	_	_	_	_
+49	x	_	X	_	_	_	_	_	_
+50	x	_	X	_	_	_	_	_	_
+51	ištu	_	ADP	_	_	52	case	_	_
+52-53	narîya	_	_	_	_	_	_	_	_
+52	narî	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	55	obl	_	_
+53	ya	_	PRON	_	Number=Sg|Person=1	52	det	_	_
+54	x	_	X	_	_	_	_	_	_
+55	lutēr	_	VERB	_	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	0	root	0:root	_
+56	x	_	X	_	_	_	_	_	_
 

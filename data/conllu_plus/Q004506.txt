@@ -132,71 +132,59 @@
 8	ēpušu	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	0	root	0:root	_
 
 # sent_id = Q004506-9
-# text = bītu šū ēnahma
+# text = bītu šū ēnahma ašaršu umessi dannassu akšud ultu uššēšu adi gabadibbīšu arṣip ušeklil šubat Sin u Šamaš ilāni rabûti bēlēya ana eššūte ina libbi addi Sin u Šamaš ana libbi ušērib narâ alṭur ina bītišunu aškun x x x x
 1	bītu	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	3	nsubj	_	_
 2	šū	_	DET	_	Gender=M|Number=Sg|Person=3	1	amod	_	_
 3-4	ēnahma	_	_	_	_	_	_	_	_
 3	ēnah	_	VERB	_	Gender=M|Mood=Indicative|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	0	root	0:root	_
-
-# sent_id = Q004506-10
-# text = ašaršu umessi dannassu akšud ultu uššēšu adi gabadibbīšu arṣip ušeklil
-1	ma	_	PART	_	_	_	_	_	_
-2-3	ašaršu	_	_	_	_	_	_	_	_
-2	ašar	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	4	obj	_	_
-3	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	2	det	_	_
-4	umessi	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	0	root	0:root	_
-5-6	dannassu	_	_	_	_	_	_	_	_
-5	dannas	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Sg	7	obj	_	_
-6	su	_	PRON	_	Gender=M|Number=Sg|Person=3	5	det	_	_
-7	akšud	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	4	conj	_	_
-8	ultu	_	ADP	_	_	9	case	_	_
-9-10	uššēšu	_	_	_	_	_	_	_	_
-9	uššē	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	14	obl	_	_
-10	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	9	det	_	_
-11	adi	_	ADP	_	_	12	case	_	_
-12-13	gabadibbīšu	_	_	_	_	_	_	_	_
-12	gabadibbī	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	14	obl	_	_
+4	ma	_	PART	_	_	_	_	_	_
+5-6	ašaršu	_	_	_	_	_	_	_	_
+5	ašar	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	7	obj	_	_
+6	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	5	det	_	_
+7	umessi	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	0	root	0:root	_
+8-9	dannassu	_	_	_	_	_	_	_	_
+8	dannas	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Sg	10	obj	_	_
+9	su	_	PRON	_	Gender=M|Number=Sg|Person=3	8	det	_	_
+10	akšud	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	7	conj	_	_
+11	ultu	_	ADP	_	_	12	case	_	_
+12-13	uššēšu	_	_	_	_	_	_	_	_
+12	uššē	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	17	obl	_	_
 13	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	12	det	_	_
-14	arṣip	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	4	conj	_	_
-15	ušeklil	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	14	xcomp	_	_
-
-# sent_id = Q004506-11
-# text = šubat Sin u Šamaš ilāni rabûti bēlēya ana eššūte ina libbi addi
-1	šubat	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	13	obj	_	_
-2	Sin	_	PROPN	_	Gender=M	1	nmod:poss	_	_
-3	u	_	CCONJ	_	_	4	cc	_	_
-4	Šamaš	_	PROPN	_	Gender=M	1	nmod:poss	2:conj	_
-5	ilāni	_	NOUN	_	Gender=M|Number=Pl	2	appos	4:appos	_
-6	rabûti	_	ADJ	_	Gender=M|Number=Pl	5	amod	_	_
-7-8	bēlēya	_	_	_	_	_	_	_	_
-7	bēlē	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	2	appos	4:appos	_
-8	ya	_	PRON	_	Number=Sg|Person=1	7	det	_	_
-9	ana	_	ADP	_	_	10	case	_	_
-10	eššūte	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	13	obl	_	_
-11	ina	_	ADP	_	_	12	case	_	_
-12	libbi	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	13	obl	_	_
-13	addi	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
-
-# sent_id = Q004506-12
-# text = Sin u Šamaš ana libbi ušērib
-1	Sin	_	PROPN	_	Gender=M	6	obj	_	_
-2	u	_	CCONJ	_	_	3	cc	_	_
-3	Šamaš	_	PROPN	_	Gender=M	6	obj	1:conj	_
-4	ana	_	ADP	_	_	5	case	_	_
-5	libbi	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	6	obl	_	_
-6	ušērib	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	0	root	0:root	_
-
-# sent_id = Q004506-13
-# text = narâ alṭur ina bītišunu aškun x x x x
-1	narâ	_	NOUN	_	Case=Acc|Gender=M|Nounbase=Free|Number=Sg	2	obj	6:obj	_
-2	alṭur	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
-3	ina	_	ADP	_	_	4	case	_	_
-4-5	bītišunu	_	_	_	_	_	_	_	_
-4	bīti	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	6	obl	_	_
-5	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	4	det	_	_
-6	aškun	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	2	conj	_	_
-7	x	_	X	_	_	_	_	_	_
-8	x	_	X	_	_	_	_	_	_
-9	x	_	X	_	_	_	_	_	_
-10	x	_	X	_	_	_	_	_	_
+14	adi	_	ADP	_	_	15	case	_	_
+15-16	gabadibbīšu	_	_	_	_	_	_	_	_
+15	gabadibbī	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	17	obl	_	_
+16	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	15	det	_	_
+17	arṣip	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	7	conj	_	_
+18	ušeklil	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	17	xcomp	_	_
+19	šubat	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	31	obj	_	_
+20	Sin	_	PROPN	_	Gender=M	19	nmod:poss	_	_
+21	u	_	CCONJ	_	_	22	cc	_	_
+22	Šamaš	_	PROPN	_	Gender=M	19	nmod:poss	20:conj	_
+23	ilāni	_	NOUN	_	Gender=M|Number=Pl	20	appos	22:appos	_
+24	rabûti	_	ADJ	_	Gender=M|Number=Pl	23	amod	_	_
+25-26	bēlēya	_	_	_	_	_	_	_	_
+25	bēlē	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	20	appos	22:appos	_
+26	ya	_	PRON	_	Number=Sg|Person=1	25	det	_	_
+27	ana	_	ADP	_	_	28	case	_	_
+28	eššūte	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	31	obl	_	_
+29	ina	_	ADP	_	_	30	case	_	_
+30	libbi	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	31	obl	_	_
+31	addi	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
+32	Sin	_	PROPN	_	Gender=M	37	obj	_	_
+33	u	_	CCONJ	_	_	34	cc	_	_
+34	Šamaš	_	PROPN	_	Gender=M	37	obj	32:conj	_
+35	ana	_	ADP	_	_	36	case	_	_
+36	libbi	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	37	obl	_	_
+37	ušērib	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	0	root	0:root	_
+38	narâ	_	NOUN	_	Case=Acc|Gender=M|Nounbase=Free|Number=Sg	39	obj	43:obj	_
+39	alṭur	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
+40	ina	_	ADP	_	_	41	case	_	_
+41-42	bītišunu	_	_	_	_	_	_	_	_
+41	bīti	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	43	obl	_	_
+42	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	41	det	_	_
+43	aškun	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	39	conj	_	_
+44	x	_	X	_	_	_	_	_	_
+45	x	_	X	_	_	_	_	_	_
+46	x	_	X	_	_	_	_	_	_
+47	x	_	X	_	_	_	_	_	_
 

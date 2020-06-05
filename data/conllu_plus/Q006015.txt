@@ -119,7 +119,7 @@
 13	ussime	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	7	conj	_	_
 
 # sent_id = Q006015-5
-# text = ana arkât ūmē ana ūm ṣâtu enūma Abul-tabira ušalbaruma
+# text = ana arkât ūmē ana ūm ṣâtu enūma Abul-tabira ušalbaruma ennahu rubû arkû anhūssa luddiš šumī šaṭra ana ašrišu lutēr Aššur Adad Sin u Šamaš Ištar ilāni rabûte ikribīšu išemmû
 1	ana	_	ADP	_	_	2	case	_	_
 2	arkât	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Pl	16	obl	_	_
 3	ūmē	_	NOUN	_	Gender=M|Number=Pl	2	nmod:poss	_	_
@@ -130,40 +130,37 @@
 8	Abul-tabira	_	PROPN	_	_	9	nsubj	_	_
 9-10	ušalbaruma	_	_	_	_	_	_	_	_
 9	ušalbaru	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Sg|Person=3|Tense=Present|Verbstem=S	0	root	0:root	_
+10	ma	_	CCONJ	_	_	11	cc	_	_
+11	ennahu	_	VERB	_	Mood=Subjunctive|Number=Sg|Person=3|Tense=Present|Verbstem=G	16	advcl	_	_
+12	rubû	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	16	nsubj	_	_
+13	arkû	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	12	amod	_	_
+14-15	anhūssa	_	_	_	_	_	_	_	_
+14	anhūs	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Sg	16	obj	_	_
+15	sa	_	PRON	_	Gender=F|Number=Sg|Person=3	14	det	_	_
+16	luddiš	_	VERB	_	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	0	root	0:root	_
+17-18	šumī	_	_	_	_	_	_	_	_
+17	šum	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	23	obj	_	_
+18	ī	_	PRON	_	Number=Sg|Person=1	17	det	_	_
+19	šaṭra	_	ADJ	_	Case=Acc|Gender=M|Number=Sg	17	amod	_	_
+20	ana	_	ADP	_	_	21	case	_	_
+21-22	ašrišu	_	_	_	_	_	_	_	_
+21	ašri	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	23	obl	_	_
+22	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	21	dep	_	_
+23	lutēr	_	VERB	_	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	16	conj	_	_
+24	Aššur	_	PROPN	_	Gender=M	34	nsubj	_	_
+25	Adad	_	PROPN	_	Gender=M	24	conj	_	_
+26	Sin	_	PROPN	_	Gender=M	24	conj	_	_
+27	u	_	CCONJ	_	_	28	cc	_	_
+28	Šamaš	_	PROPN	_	Gender=M	24	conj	_	_
+29	Ištar	_	PROPN	_	Gender=F	24	conj	_	_
+30	ilāni	_	NOUN	_	Gender=M|Number=Pl	24	appos	_	_
+31	rabûte	_	ADJ	_	Gender=M|Number=Pl	30	amod	_	_
+32-33	ikribīšu	_	_	_	_	_	_	_	_
+32	ikribī	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	34	obj	_	_
+33	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	32	det	_	_
+34	išemmû	_	VERB	_	Gender=M|Mood=Indicative|Number=Pl|Person=3|Tense=Present|Verbstem=G	0	root	0:root	_
 
 # sent_id = Q006015-6
-# text = ennahu rubû arkû anhūssa luddiš šumī šaṭra ana ašrišu lutēr Aššur Adad Sin u Šamaš Ištar ilāni rabûte ikribīšu išemmû
-1	ma	_	CCONJ	_	_	2	cc	_	_
-2	ennahu	_	VERB	_	Mood=Subjunctive|Number=Sg|Person=3|Tense=Present|Verbstem=G	7	advcl	_	_
-3	rubû	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	7	nsubj	_	_
-4	arkû	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	3	amod	_	_
-5-6	anhūssa	_	_	_	_	_	_	_	_
-5	anhūs	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Sg	7	obj	_	_
-6	sa	_	PRON	_	Gender=F|Number=Sg|Person=3	5	det	_	_
-7	luddiš	_	VERB	_	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	0	root	0:root	_
-8-9	šumī	_	_	_	_	_	_	_	_
-8	šum	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	14	obj	_	_
-9	ī	_	PRON	_	Number=Sg|Person=1	8	det	_	_
-10	šaṭra	_	ADJ	_	Case=Acc|Gender=M|Number=Sg	8	amod	_	_
-11	ana	_	ADP	_	_	12	case	_	_
-12-13	ašrišu	_	_	_	_	_	_	_	_
-12	ašri	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	14	obl	_	_
-13	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	12	dep	_	_
-14	lutēr	_	VERB	_	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	7	conj	_	_
-15	Aššur	_	PROPN	_	Gender=M	25	nsubj	_	_
-16	Adad	_	PROPN	_	Gender=M	15	conj	_	_
-17	Sin	_	PROPN	_	Gender=M	15	conj	_	_
-18	u	_	CCONJ	_	_	19	cc	_	_
-19	Šamaš	_	PROPN	_	Gender=M	15	conj	_	_
-20	Ištar	_	PROPN	_	Gender=F	15	conj	_	_
-21	ilāni	_	NOUN	_	Gender=M|Number=Pl	15	appos	_	_
-22	rabûte	_	ADJ	_	Gender=M|Number=Pl	21	amod	_	_
-23-24	ikribīšu	_	_	_	_	_	_	_	_
-23	ikribī	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	25	obj	_	_
-24	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	23	det	_	_
-25	išemmû	_	VERB	_	Gender=M|Mood=Indicative|Number=Pl|Person=3|Tense=Present|Verbstem=G	0	root	0:root	_
-
-# sent_id = Q006015-7
 # text = Tašritu UD.1.KAM₂ līmu Ubrutu mār Nazi-Muruttaš
 1	Tašritu	_	PROPN	_	Case=Nom	0	root	0:root	_
 2	UD.1.KAM₂	_	ADJ	_	_	1	amod	_	_

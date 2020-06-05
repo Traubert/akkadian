@@ -74,7 +74,7 @@
 13	uštennû	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Pl|Person=3|Tense=Preterit|Verbstem=St	7	conj	_	_
 
 # sent_id = Q006034-5
-# text = x x x x x nišī x x x x a hi elleti x x šikin bunnannîya išeriš ušekliluma
+# text = x x x x x nišī x x x x a hi elleti x x šikin bunnannîya išeriš ušekliluma x x x x x a x x x x a šu x x u ina x x x x x ana pāni x x x ina bīt ili x x-a-ti ša x x x x a x x x x x x x ga ru x x x iš x x x x
 1	x	_	X	_	_	_	_	_	_
 2	x	_	X	_	_	_	_	_	_
 3	x	_	X	_	_	_	_	_	_
@@ -97,65 +97,59 @@
 19	išeriš	_	ADV	_	_	20	advmod	_	_
 20-21	ušekliluma	_	_	_	_	_	_	_	_
 20	ušeklilū	_	VERB	_	Gender=M|Mood=Indicative|Number=Pl|Person=3|Tense=Preterit|Verbstem=S	0	root	0:root	_
-
-# sent_id = Q006034-6
-# text = x x x x x a x x x x a šu x x u ina x x x x x ana pāni
-1	ma	_	CCONJ	_	_	_	_	_	_
-2	x	_	X	_	_	_	_	_	_
-3	x	_	X	_	_	_	_	_	_
-4	x	_	X	_	_	_	_	_	_
-5	x	_	X	_	_	_	_	_	_
-6	x	_	X	_	_	_	_	_	_
-7	a	_	X	_	_	_	_	_	_
-8	x	_	X	_	_	_	_	_	_
-9	x	_	X	_	_	_	_	_	_
-10	x	_	X	_	_	_	_	_	_
-11	x	_	X	_	_	_	_	_	_
-12	a	_	X	_	_	_	_	_	_
-13	šu	_	X	_	_	_	_	_	_
-14	x	_	X	_	_	_	_	_	_
-15	x	_	X	_	_	_	_	_	_
-16	u	_	CCONJ	_	_	_	_	_	_
-17	ina	_	ADP	_	_	_	_	_	_
-18	x	_	X	_	_	_	_	_	_
-19	x	_	X	_	_	_	_	_	_
-20	x	_	X	_	_	_	_	_	_
-21	x	_	X	_	_	_	_	_	_
+21	ma	_	CCONJ	_	_	_	_	_	_
 22	x	_	X	_	_	_	_	_	_
-23	ana	_	ADP	_	_	24	case	_	_
-24	pāni	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	0	root	0:root	_
-
-# sent_id = Q006034-7
-# text = x x x ina bīt ili x x-a-ti ša x x x x a x x x x x x x ga ru x x x iš x x x x
-1	x	_	X	_	_	_	_	_	_
-2	x	_	X	_	_	_	_	_	_
-3	x	_	X	_	_	_	_	_	_
-4	ina	_	ADP	_	_	5	case	_	_
-5	bīt	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	_
-6	ili	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	5	nmod:poss	_	_
-7	x	_	X	_	_	_	_	_	_
-8	x-a-ti	_	X	_	_	_	_	_	_
-9	ša	_	X	_	_	_	_	_	_
-10	x	_	X	_	_	_	_	_	_
-11	x	_	X	_	_	_	_	_	_
-12	x	_	X	_	_	_	_	_	_
-13	x	_	X	_	_	_	_	_	_
-14	a	_	X	_	_	_	_	_	_
-15	x	_	X	_	_	_	_	_	_
-16	x	_	X	_	_	_	_	_	_
-17	x	_	X	_	_	_	_	_	_
-18	x	_	X	_	_	_	_	_	_
-19	x	_	X	_	_	_	_	_	_
-20	x	_	X	_	_	_	_	_	_
-21	x	_	X	_	_	_	_	_	_
-22	ga	_	X	_	_	_	_	_	_
-23	ru	_	X	_	_	_	_	_	_
+23	x	_	X	_	_	_	_	_	_
 24	x	_	X	_	_	_	_	_	_
 25	x	_	X	_	_	_	_	_	_
 26	x	_	X	_	_	_	_	_	_
-27	iš	_	X	_	_	_	_	_	_
+27	a	_	X	_	_	_	_	_	_
 28	x	_	X	_	_	_	_	_	_
 29	x	_	X	_	_	_	_	_	_
 30	x	_	X	_	_	_	_	_	_
 31	x	_	X	_	_	_	_	_	_
+32	a	_	X	_	_	_	_	_	_
+33	šu	_	X	_	_	_	_	_	_
+34	x	_	X	_	_	_	_	_	_
+35	x	_	X	_	_	_	_	_	_
+36	u	_	CCONJ	_	_	_	_	_	_
+37	ina	_	ADP	_	_	_	_	_	_
+38	x	_	X	_	_	_	_	_	_
+39	x	_	X	_	_	_	_	_	_
+40	x	_	X	_	_	_	_	_	_
+41	x	_	X	_	_	_	_	_	_
+42	x	_	X	_	_	_	_	_	_
+43	ana	_	ADP	_	_	44	case	_	_
+44	pāni	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	0	root	0:root	_
+45	x	_	X	_	_	_	_	_	_
+46	x	_	X	_	_	_	_	_	_
+47	x	_	X	_	_	_	_	_	_
+48	ina	_	ADP	_	_	49	case	_	_
+49	bīt	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	_
+50	ili	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	49	nmod:poss	_	_
+51	x	_	X	_	_	_	_	_	_
+52	x-a-ti	_	X	_	_	_	_	_	_
+53	ša	_	X	_	_	_	_	_	_
+54	x	_	X	_	_	_	_	_	_
+55	x	_	X	_	_	_	_	_	_
+56	x	_	X	_	_	_	_	_	_
+57	x	_	X	_	_	_	_	_	_
+58	a	_	X	_	_	_	_	_	_
+59	x	_	X	_	_	_	_	_	_
+60	x	_	X	_	_	_	_	_	_
+61	x	_	X	_	_	_	_	_	_
+62	x	_	X	_	_	_	_	_	_
+63	x	_	X	_	_	_	_	_	_
+64	x	_	X	_	_	_	_	_	_
+65	x	_	X	_	_	_	_	_	_
+66	ga	_	X	_	_	_	_	_	_
+67	ru	_	X	_	_	_	_	_	_
+68	x	_	X	_	_	_	_	_	_
+69	x	_	X	_	_	_	_	_	_
+70	x	_	X	_	_	_	_	_	_
+71	iš	_	X	_	_	_	_	_	_
+72	x	_	X	_	_	_	_	_	_
+73	x	_	X	_	_	_	_	_	_
+74	x	_	X	_	_	_	_	_	_
+75	x	_	X	_	_	_	_	_	_
 
