@@ -4,7 +4,7 @@
 1	x	_	X	u	_	_	_	_	x
 2	x	_	X	u	_	_	_	_	x
 3	x	_	X	u	_	_	_	_	x
-4	x	_	PROPN	u	Case=Undefined|Gender=Undefined|_	0	root	0:root	x
+4	x	_	PROPN	u	Case=Undefined|Gender=Undefined	0	root	0:root	x
 5	rubû	rubû	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	4	appos	_	NUN-u₂
 6	na’du	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	5	amod	_	_
 7	x	_	X	u	_	_	_	_	x
@@ -44,9 +44,9 @@
 39-40	sihirtiša	_	_	_	_	_	_	_	_
 39	sihirti	sihirtu	NOUN	N	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	41	obl	_	si-hir-ti-ša
 40	ša	_	PRON	_	Gender=F|Number=Sg|Person=3	39	det	_	_
-41	x	_	VERB	u	Gender=Undefined|Mood=Undefined|Number=Undefined|Person=Undefined|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=Undefined|_	0	root	0:root	x
+41	x	_	VERB	u	Gender=Undefined|Mood=Undefined|Number=Undefined|Person=Undefined|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=Undefined	0	root	0:root	x
 42	ultu	ištu	ADP	PRP	_	43	case	_	TA
-43	Gargamiš	Gargamiš	PROPN	SN	Case=Undefined|Gender=Undefined|_	56	obl	_	{URU}gar-ga-miš
+43	Gargamiš	Gargamiš	PROPN	SN	Case=Undefined|Gender=Undefined	56	obl	_	{URU}gar-ga-miš
 44	ša	ša	ADP	DET	_	45	case	_	ša₂
 45	Hatte	Hatti	PROPN	GN	Case=Gen|Gender=Undefined	43	nmod	_	{KUR}hat-te
 46	Laqe	Laqu	PROPN	GN	Case=Gen|Gender=Undefined	56	obj	_	{KUR}la-qe-e
@@ -86,13 +86,13 @@
 77	Habruri	Habruru	PROPN	GN	Case=Gen|Gender=Undefined	75	nmod	_	{KUR}hab-ru-ri
 78	adi	adi	ADP	PRP	_	79	case	_	a-di
 79	Gilzani	Gilzanu	PROPN	GN	Case=Gen|Gender=Undefined	84	obl	_	{KUR}gil₂-za-ni
-80	Hubuškia	Hubuškia	PROPN	SN	Case=Undefined|Gender=Undefined|_	79	conj	_	{URU}hu-bu-uš-ki-a
+80	Hubuškia	Hubuškia	PROPN	SN	Case=Undefined|Gender=Undefined	79	conj	_	{URU}hu-bu-uš-ki-a
 81	ana	ana	ADP	PRP	_	82	case	_	a-na
 82-83	šēpīya	_	_	_	_	_	_	_	_
 82	šēpī	šēpu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Suffixal|Number=Pl	84	obl	_	GIR₃.II.MEŠ-ia
 83	ya	_	PRON	_	Number=Sg|Person=1	82	det	_	_
 84	ušekniša	kanāšu	VERB	V	Gender=Undefined|Mood=Indicative|Number=Sg|Person=1|Subordinative=No|Tense=Preterit|Ventive=Yes|Verbstem=S	0	root	0:root	u₂-šek₂-ni-ša₂
-85	Zamua	Zamua	PROPN	GN	Case=Undefined|Gender=Undefined|_	94	obj	_	{KUR}za-mu-a
+85	Zamua	Zamua	PROPN	GN	Case=Undefined|Gender=Undefined	94	obj	_	{KUR}za-mu-a
 86	ana	ana	ADP	PRP	_	87	case	_	ana
 87	pāṭ	pāṭu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	94	obl	_	paṭ
 88-89	gimriša	_	_	_	_	_	_	_	_
@@ -160,7 +160,7 @@
 47	adi	adi	ADP	PRP	_	48	case	_	a-di
 48	ereb	erbu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	50	obl	_	e-reb
 49	Šamši	Šamaš	PROPN	DN	Case=Gen|Gender=M	48	nmod:poss	_	{d}šam-ši
-50	x	_	VERB	u	Gender=Undefined|Mood=Undefined|Number=Undefined|Person=Undefined|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=Undefined|_	38	acl:relcl	_	x
+50	x	_	VERB	u	Gender=Undefined|Mood=Undefined|Number=Undefined|Person=Undefined|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=Undefined	38	acl:relcl	_	x
 
 # sent_id = Q004487-3
 # text = Kalhu ana eššūte aṣbat tīlu labēru lū unakkir adi muhhi mê lū ušappil 1 mē 20 tikpī ana mušpali uṭabbi nišī kišitti qātīya ša mātāti ša apēlušinani ša Suhi Laqe ana sihirtiša ša Sirqu ša nēberti Puratte Zamua ana pāṭ gimriša alqâ ina libbi ušaṣbit nārtu ultu Zaba-eliti ahrâ Pattu-hegalli šumša abbi kirâti ina limētušša azqup inbī karānī ana Aššur bēliya u ēkurrāt mātiya aqqi āla šū ana Aššur bēliya aqīš
@@ -202,11 +202,11 @@
 33	sihirti	sihirtu	NOUN	N	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	45	obl	_	si-hir₂-ti-ša₂
 34	ša	_	PRON	_	Gender=F|Number=Sg|Person=3	33	det	_	_
 35	ša	ša	ADP	DET	_	36	case	_	ša₂
-36	Sirqu	Sirqu	PROPN	GN	Case=Undefined|Gender=Undefined|_	45	obl	_	{KUR}sir-qu
+36	Sirqu	Sirqu	PROPN	GN	Case=Undefined|Gender=Undefined	45	obl	_	{KUR}sir-qu
 37	ša	ša	ADP	DET	_	38	case	_	ša
 38	nēberti	nēbertu	NOUN	N	Case=Gen|Gender=F|Nounbase=Bound|Number=Sg	36	nmod	_	ne₂-ber-ti
 39	Puratte	Purattu	PROPN	WN	Case=Gen|Gender=F	38	nmod:poss	_	{ID₂}pu-rat-te
-40	Zamua	Zamua	PROPN	GN	Case=Undefined|Gender=Undefined|_	45	obl	_	{KUR}za-mu-a
+40	Zamua	Zamua	PROPN	GN	Case=Undefined|Gender=Undefined	45	obl	_	{KUR}za-mu-a
 41	ana	ana	ADP	PRP	_	42	case	_	a-na
 42	pāṭ	pāṭu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	45	obl	_	paṭ
 43-44	gimriša	_	_	_	_	_	_	_	_

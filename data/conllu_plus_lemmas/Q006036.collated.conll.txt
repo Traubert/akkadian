@@ -46,7 +46,7 @@
 40	Gilzani	Gilzanu	PROPN	GN	Case=Gen|Gender=Undefined	45	obl	_	{KUR}gil₂-za-a-ni
 41	Apa	Apa	PROPN	RN	Case=Undefined|Gender=M	45	obj	_	{m}a-pa-a
 42	šar	šarru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	41	appos	_	MAN
-43	Hubuškia	Hubuškia	PROPN	SN	Case=Undefined|Gender=Undefined|_	42	nmod:poss	_	{URU}hu-ub-uš-ki-a
+43	Hubuškia	Hubuškia	PROPN	SN	Case=Undefined|Gender=Undefined	42	nmod:poss	_	{URU}hu-ub-uš-ki-a
 44	x	_	X	u	_	_	_	_	x
 45	iṣbat	ṣabātu	VERB	V	Finiteness=Finite|Gender=M|Mood=Indicative|Number=Sg|Person=3|Subordinative=No|Tense=Preterit|Ventive=No|Verbstem=G	20	acl:relcl	_	iṣ-bat
 46	ultu	ištu	ADP	PRP	_	47	case	_	TA
@@ -54,7 +54,7 @@
 48	ša	ša	ADP	DET	_	49	case	_	ša
 49	Babite	Babitu	PROPN	GN	Case=Gen|Gender=Undefined	47	nmod	_	{KUR}ba-bi-te
 50	adi	adi	ADP	PRP	_	51	case	_	a-di
-51	x	_	PROPN	u	Case=Undefined|Gender=Undefined|_	76	obl	_	x
+51	x	_	PROPN	u	Case=Undefined|Gender=Undefined	76	obl	_	x
 52-53	sihirtiša	_	_	_	_	_	_	_	_
 52	sihirti	sihirtu	NOUN	N	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	51	appos	_	si-hir₂-ti-ša₂
 53	ša	_	PRON	_	Gender=F|Number=Sg|Person=3	52	det	_	_
@@ -62,9 +62,9 @@
 55	Zaba-šapliti	Zab	PROPN	WN	Case=Undefined|Gender=F	76	obl	_	{ID₂}za-ba-KI.TA
 56	x	_	ADP	u	_	57	case	_	x
 57	ellān	elēnu	ADV	AV	_	55	nmod	_	el-la-an
-58	Zab	Zab	PROPN	WN	Case=Undefined|Gender=Undefined|_	57	nmod:poss	_	za-ban
-59	Hirimu	Hirimu	PROPN	GN	Case=Undefined|Gender=Undefined|_	76	obj	_	{KUR}hi-ri-mu
-60	Harutu	Harutu	PROPN	GN	Case=Undefined|Gender=Undefined|_	59	conj	_	{KUR}ha-ru-tu
+58	Zab	Zab	PROPN	WN	Case=Undefined|Gender=Undefined	57	nmod:poss	_	za-ban
+59	Hirimu	Hirimu	PROPN	GN	Case=Undefined|Gender=Undefined	76	obj	_	{KUR}hi-ri-mu
+60	Harutu	Harutu	PROPN	GN	Case=Undefined|Gender=Undefined	59	conj	_	{KUR}ha-ru-tu
 61-62	x-duniaš	_	_	_	_	_	_	_	_
 61	x-	Karduniaš	X	GN	_	62	dep	62:dep	x-du-ni-aš₂
 62	duniaš	_	PROPN	_	_	59	nmod:poss	_	_
@@ -74,11 +74,11 @@
 66	eli	eli	ADP	PRP	_	67	case	_	UGU
 67	Idiqlat	Idiqlat	PROPN	WN	Case=Undefined|Gender=F	0	root	0:root	{ID₂}HAL.HAL
 68	adi	adi	ADP	PRP	_	69	case	_	a-di
-69	x	_	PROPN	u	Case=Undefined|Gender=Undefined|_	76	obl	_	x
-70	Dur-Kurigalzi	Dur-Kurigalzu	PROPN	SN	Case=Undefined|Gender=Undefined|_	69	conj	_	BAD₃-ku-ri-gal-zi
+69	x	_	PROPN	u	Case=Undefined|Gender=Undefined	76	obl	_	x
+70	Dur-Kurigalzi	Dur-Kurigalzu	PROPN	SN	Case=Undefined|Gender=Undefined	69	conj	_	BAD₃-ku-ri-gal-zi
 71	adi	adi	ADP	PRP	_	72	case	_	a-di
-72	Sippur-ša-Šamaš	_	PROPN	_	Case=Undefined|Gender=Undefined|_	76	obl	_	_
-73	Sippur-ša-Anunite	_	PROPN	_	Case=Undefined|Gender=Undefined|_	72	conj	_	_
+72	Sippur-ša-Šamaš	_	PROPN	_	Case=Undefined|Gender=Undefined	76	obl	_	_
+73	Sippur-ša-Anunite	_	PROPN	_	Case=Undefined|Gender=Undefined	72	conj	_	_
 74-75	qāssu	_	_	_	_	_	_	_	_
 74	qās	qātu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Suffixal|Number=Sg	76	nsubj	_	ŠU-su
 75	su	_	PRON	_	Gender=M|Number=Sg|Person=3	74	det	_	_
@@ -89,4 +89,4 @@
 1	ša	ša	ADP	DET	_	2	case	_	ša₂
 2	ēkalli	ēkallu	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	0	root	0:root	_
 3	ša	ša	ADP	DET	_	4	case	_	ša
-4	Nemed-Tukulti-Ninurta	Nemed-Tukulti-Ninurta	PROPN	SN	Case=Undefined|Gender=Undefined|_	2	nmod	_	{URU}ne₂-med-{m}TUKUL-{d}MAŠ
+4	Nemed-Tukulti-Ninurta	Nemed-Tukulti-Ninurta	PROPN	SN	Case=Undefined|Gender=Undefined	2	nmod	_	{URU}ne₂-med-{m}TUKUL-{d}MAŠ

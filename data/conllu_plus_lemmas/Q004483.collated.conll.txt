@@ -1,7 +1,7 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004483-1
 # text = x rēmēnû x x šar lā šanān x x Ninurta narām x x narām libbika rubû x x tušaršidu palâšu eṭlu x x rēʾûti mātišu rabîš ib-x x šarrūti bēlūtī kiššūtī ša x x lēʾâku eršāku x
-1	x	_	NOUN	u	Case=Undefined|Gender=Undefined|Nounbase=Undefined|Number=Undefined|_	0	root	0:root	x
+1	x	_	NOUN	u	Case=Undefined|Gender=Undefined|Nounbase=Undefined|Number=Undefined	0	root	0:root	x
 2	rēmēnû	rēmēnû	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	1	amod	_	REM₂-u₂
 3	x	_	X	u	_	_	_	_	x
 4	x	_	PROPN	u	Case=Undefined|Gender=M	0	root	0:root	x
@@ -11,7 +11,7 @@
 8	x	_	X	u	_	_	_	_	x
 9	Ninurta	Ninurta	PROPN	DN	Case=Undefined|Gender=M	_	_	_	{d}MAŠ
 10	narām	narāmu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	4	appos	_	na-ra-am
-11	x	_	PROPN	u	Case=Undefined|Gender=Undefined|_	10	nmod:poss	_	x
+11	x	_	PROPN	u	Case=Undefined|Gender=Undefined	10	nmod:poss	_	x
 12	x	_	X	u	_	_	_	_	x
 13	narām	narāmu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	4	appos	_	na-ra-am
 14-15	libbika	_	_	_	_	_	_	_	_
@@ -71,7 +71,7 @@
 15	sihirti	sihirtu	NOUN	N	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	0	root	0:root	si-hir₂-ti-ša₂
 16	ša	_	PRON	_	Gender=F|Number=Sg|Person=3	15	det	_	_
 17	ša	ša	ADP	DET	_	18	case	_	ša₂
-18	{URU}x	_	PROPN	u	Case=Undefined|Gender=Undefined|_	0	root	0:root	{URU}x
+18	{URU}x	_	PROPN	u	Case=Undefined|Gender=Undefined	0	root	0:root	{URU}x
 19	x	_	X	u	_	_	_	_	x
 20	mādūte	mādu	ADJ	AJ	Case=Undefined|Gender=M|Number=Pl	_	_	_	_
 21	Hatta	Hatti	PROPN	GN	Case=Undefined|Gender=M	_	_	_	{KUR}hat-ta

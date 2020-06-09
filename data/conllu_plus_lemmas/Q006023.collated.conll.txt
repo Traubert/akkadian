@@ -125,7 +125,7 @@
 15	ša	ša	ADP	REL	_	16	case	_	ša₂
 16	bītāni	bītānu	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	14	nmod	_	_
 17	māt	mātu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	23	obl	_	_
-18	Zamua	Zamua	PROPN	GN	Case=Undefined|Gender=Undefined|_	17	nmod:poss	_	{KUR}za-mu-a
+18	Zamua	Zamua	PROPN	GN	Case=Undefined|Gender=Undefined	17	nmod:poss	_	{KUR}za-mu-a
 19	adi	adi	ADP	PRP	_	20	case	_	a-di
 20	nērebī	nērebu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	23	obl	_	_
 21	ša	ša	ADP	DET	_	22	case	_	ša₂
@@ -133,11 +133,11 @@
 23-24	illikuma	_	_	_	_	_	_	_	_
 23	illiku	alāku	VERB	V	Finiteness=Finite|Gender=M|Mood=Indicative|Number=Sg|Person=3|Subordinative=Yes|Tense=Preterit|Ventive=No|Verbstem=G	1	acl:relcl	_	il-li-ku-ma
 24	ma	_	CCONJ	_	_	35	cc	_	_
-25	Qumani	Qumanu	PROPN	EN	Case=Undefined|Gender=Undefined|_	35	obj	_	{KUR}qu-ma-ni-i
+25	Qumani	Qumanu	PROPN	EN	Case=Undefined|Gender=Undefined	35	obj	_	{KUR}qu-ma-ni-i
 26	rapšāte	rapšu	ADJ	AJ	Case=Undefined|Gender=F|Number=Pl	25	amod	_	DAGAL.MEŠ
 27	adi	adi	ADP	PRP	_	28	case	_	a-di
 28	Mehri	Mehru	PROPN	GN	Case=Gen|Gender=Undefined	35	obl	_	{KUR}me-eh-ri
-29	Salua	Salua	PROPN	GN	Case=Undefined|Gender=Undefined|_	28	conj	_	{KUR}sa-lu-a
+29	Salua	Salua	PROPN	GN	Case=Undefined|Gender=Undefined	28	conj	_	{KUR}sa-lu-a
 30	u	u	CCONJ	CNJ	_	31	cc	_	u₃
 31	Uraṭri	Uraṭru	PROPN	GN	Case=Gen|Gender=Undefined	28	conj	_	{KUR}u₂-raṭ-ri
 32	ana	ana	ADP	PRP	_	33	case	_	a-na
@@ -176,7 +176,7 @@
 62	kakkī	kakku	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	63	obl	_	{GIŠ}TUKUL.MEŠ
 63	ušamqit	maqātu	VERB	V	Finiteness=Finite|Gender=Undefined|Mood=Indicative|Number=Sg|Person=1|Subordinative=No|Tense=Preterit|Ventive=No|Verbstem=S	0	root	0:root	u₂-šam-qit
 64	kišitte	kišittu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	ki-ši₂-te
-65	x	_	NOUN	u	Case=Undefined|Gender=Undefined|Nounbase=Undefined|Number=Undefined|_	64	nmod:poss	_	x
+65	x	_	NOUN	u	Case=Undefined|Gender=Undefined|Nounbase=Undefined|Number=Undefined	64	nmod:poss	_	x
 
 # sent_id = Q006023-4
 # text = Katmuhi ana pāṭ gimriša ipēluma ana miṣir mātišu utēru u rabūtešu ana {KUR}x x mātāt Nairi lū allik x x x.MEŠ ia u₂-x x līṭīšunu aṣbat sisê ṣimdāt nīri x lū amhur biltu u maddattu elišunu ukīn
@@ -198,7 +198,7 @@
 13	u	u	ADV	CNJ	_	21	advmod	_	u₃
 14	rabūtešu	rabūtešu	ADV	AV	_	21	advmod	_	4-te-šu
 15	ana	ana	ADP	PRP	_	16	case	_	a-na
-16	{KUR}x	_	PROPN	u	Case=Undefined|Gender=Undefined|_	21	obl	_	{KUR}x
+16	{KUR}x	_	PROPN	u	Case=Undefined|Gender=Undefined	21	obl	_	{KUR}x
 17	x	_	X	u	_	_	_	_	x
 18	mātāt	mātu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Pl	16	conj	_	KUR.KUR
 19	Nairi	Nairi	PROPN	GN	Case=Gen|Gender=Undefined	18	nmod:poss	_	na-i-ri
@@ -236,7 +236,7 @@
 4	ana	ana	ADP	PRP	_	_	_	_	a-na
 5	x	_	X	u	_	_	_	_	x
 6	x	_	X	u	_	_	_	_	x
-7	{URU}x	_	PROPN	u	Case=Undefined|Gender=Undefined|_	_	_	_	{URU}x
+7	{URU}x	_	PROPN	u	Case=Undefined|Gender=Undefined	_	_	_	{URU}x
 8	ina	ina	ADP	PRP	_	_	_	_	i-na
 9	x	_	X	u	_	_	_	_	x
 10	a-x	_	X	u	_	_	_	_	a-x
@@ -268,10 +268,10 @@
 35	sunu	_	PRON	_	Gender=M|Number=Pl|Person=3	34	det	_	_
 36	x	_	X	u	_	_	_	_	x
 37	ana	ana	ADP	PRP	_	38	case	_	_
-38	Hanigalbat	Hanigalbat	PROPN	GN	Case=Undefined|Gender=Undefined|_	0	root	0:root	{KUR}ha-ni-gal-bat
+38	Hanigalbat	Hanigalbat	PROPN	GN	Case=Undefined|Gender=Undefined	0	root	0:root	{KUR}ha-ni-gal-bat
 39	x	_	X	u	_	_	_	_	x
 40	ištu	ištu	ADP	PRP	_	41	case	_	iš-tu
-41	{URU}x	_	PROPN	u	Case=Undefined|Gender=Undefined|_	0	root	0:root	{URU}x
+41	{URU}x	_	PROPN	u	Case=Undefined|Gender=Undefined	0	root	0:root	{URU}x
 42	u	u	CCONJ	N	_	_	_	_	_
 43	7	_	NUM	n	_	_	_	_	7
 44	x	_	X	u	_	_	_	_	x
@@ -303,5 +303,5 @@
 68	ya	_	PRON	_	Number=Sg|Person=1	67	det	_	_
 69	eli	elû	ADP	V	_	70	case	_	_
 70	māt	mātu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	72	obl	_	_
-71	Hanigalbat	Hanigalbat	PROPN	GN	Case=Undefined|Gender=Undefined|_	70	nmod:poss	_	_
+71	Hanigalbat	Hanigalbat	PROPN	GN	Case=Undefined|Gender=Undefined	70	nmod:poss	_	_
 72	altakan	šakānu	VERB	V	Finiteness=Finite|Gender=Undefined|Mood=Indicative|Number=Sg|Person=1|Subordinative=No|Tense=Perfect|Ventive=No|Verbstem=G	0	root	0:root	_

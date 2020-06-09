@@ -103,7 +103,7 @@
 22	šassūr	šassūru	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	25	obl	_	ŠA₃.TUR₃
 23	ummi	ummu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	22	nmod:poss	_	um-mi
 24	kīniš	kīniš	ADV	AV	_	25	advmod	_	ki-ni-iš
-25	x	_	VERB	u	Gender=Undefined|Mood=Undefined|Number=Undefined|Person=Undefined|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=Undefined|_	1	acl:relcl	_	x
+25	x	_	VERB	u	Gender=Undefined|Mood=Undefined|Number=Undefined|Person=Undefined|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=Undefined	1	acl:relcl	_	x
 26-27	nabnītī	_	_	_	_	_	_	_	_
 26	nabnīt	_	NOUN	_	Case=Undefined|Gender=F|Nounbase=Suffixal|Number=Sg	31	obj	_	_
 27	ī	_	PRON	_	Number=Sg|Person=1	26	det	_	_
@@ -118,9 +118,9 @@
 1	enūma	inūma	ADV	SBJ	_	12	advmod	_	e-nu-ma
 2	dūru	dūru	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	12	nsubj	_	BAD₃
 3	ša	ša	ADP	DET	_	4	case	_	ša
-4	Baltil	Baltil	PROPN	SN	Case=Undefined|Gender=Undefined|_	2	nmod	_	{URU}bal-til
+4	Baltil	Baltil	PROPN	SN	Case=Undefined|Gender=Undefined	2	nmod	_	{URU}bal-til
 5	ša	ša	PRON	DET	_	11	obj	_	ša
-6	x	_	PROPN	u	Case=Undefined|Gender=Undefined|_	11	nsubj	_	x
+6	x	_	PROPN	u	Case=Undefined|Gender=Undefined	11	nsubj	_	x
 7	rubû	rubû	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	6	appos	_	NUN-u₂
 8	ālik	āliku	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	7	appos	_	a-lik
 9-10	pāniya	_	_	_	_	_	_	_	_
@@ -193,7 +193,7 @@
 23	u	u	CCONJ	CNJ	_	24	cc	_	u₃
 24	Ištar	Ištar	PROPN	DN	Case=Undefined|Gender=F	20	conj	_	{d}iš₈-tar₂
 25	bēlat	bēltu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	24	appos	_	be-lat
-26	Nina	Ninua	PROPN	SN	Case=Undefined|Gender=Undefined|_	25	nmod:poss	_	{URU}ni-na-a
+26	Nina	Ninua	PROPN	SN	Case=Undefined|Gender=Undefined	25	nmod:poss	_	{URU}ni-na-a
 27-28	ikribīšu	_	_	_	_	_	_	_	_
 27	ikribī	ikribu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	29	obj	_	ik-ri-bi-šu₂
 28	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	27	det	_	_
@@ -214,7 +214,7 @@
 
 # sent_id = Q006032-5
 # text = {ITI}x UD.x.KAM₂ līmu Aššur-lākīnu-ubāša
-1	{ITI}x	_	PROPN	u	Case=Undefined|Gender=Undefined|_	0	root	0:root	{ITI}x
-2	UD.x.KAM₂	_	ADJ	n	Case=Undefined|Gender=Undefined|Number=Undefined|_	1	amod	_	UD.x.KAM₂
+1	{ITI}x	_	PROPN	u	Case=Undefined|Gender=Undefined	0	root	0:root	{ITI}x
+2	UD.x.KAM₂	_	ADJ	n	Case=Undefined|Gender=Undefined|Number=Undefined	1	amod	_	UD.x.KAM₂
 3	līmu	līmu	NOUN	N	Case=Nom|Gender=M|Nounbase=Bound|Number=Sg	1	conj	_	li-mu
 4	Aššur-lākīnu-ubāša	Aššur-lākīnu-ubāša	PROPN	PN	Case=Undefined|Gender=M	3	nmod:poss	_	{m}aš-šur-la-ki-nu-ba-ša

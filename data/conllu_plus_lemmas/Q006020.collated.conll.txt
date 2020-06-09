@@ -94,16 +94,16 @@
 24	ya	_	PRON	_	Number=Sg|Person=1	23	det	_	_
 25	adki	dekû	VERB	V	Finiteness=Finite|Gender=Undefined|Mood=Indicative|Number=Sg|Person=1|Subordinative=No|Tense=Preterit|Ventive=No|Verbstem=G	0	root	0:root	_
 26	ana	ana	ADP	PRP	_	27	case	_	a-na
-27	Qumane	Qumanu	PROPN	EN	Case=Undefined|Gender=Undefined|_	29	obl	_	{KUR}qu-ma-ne₂-e
+27	Qumane	Qumanu	PROPN	EN	Case=Undefined|Gender=Undefined	29	obl	_	{KUR}qu-ma-ne₂-e
 28	lū	lū	PART	MOD	_	29	advmod:emph	_	lu
 29	allik	alāku	VERB	V	Finiteness=Finite|Gender=Undefined|Mood=Indicative|Number=Sg|Person=1|Subordinative=No|Tense=Preterit|Ventive=No|Verbstem=G	0	root	0:root	DU-ik
 30	rapšāte	rapšu	ADJ	AJ	Case=Undefined|Gender=F|Number=Pl	31	amod	_	DAGAL.MEŠ
-31	Qumane	Qumanu	PROPN	EN	Case=Undefined|Gender=Undefined|_	33	obj	_	{KUR}qu-ma-ne₂-e
+31	Qumane	Qumanu	PROPN	EN	Case=Undefined|Gender=Undefined	33	obj	_	{KUR}qu-ma-ne₂-e
 32	lū	lū	PART	MOD	_	33	advmod:emph	_	lu
 33	akšud	kašādu	VERB	V	Finiteness=Finite|Gender=Undefined|Mood=Indicative|Number=Sg|Person=1|Subordinative=No|Tense=Preterit|Ventive=No|Verbstem=G	29	conj	_	ak-šud
 34	Iluia	Iluia	PROPN	RN	Case=Undefined|Gender=M	44	obj	_	{m}i-lu-ia
 35	šar	šarru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	34	appos	_	MAN
-36	Qumane	Qumanu	PROPN	EN	Case=Undefined|Gender=Undefined|_	35	nmod:poss	_	{KUR}qu-ma-ne₂-e
+36	Qumane	Qumanu	PROPN	EN	Case=Undefined|Gender=Undefined	35	nmod:poss	_	{KUR}qu-ma-ne₂-e
 37	ina	ina	ADP	PRP	_	38	case	_	i-na
 38	qabal	qablu	NOUN	N	Case=Gen|Gender=M|Nounbase=Bound|Number=Sg	44	obl	_	qa-bal
 39-40	ēkallišu	_	_	_	_	_	_	_	_
@@ -186,7 +186,7 @@
 4	x	_	X	u	_	_	_	_	x
 5	x	_	X	u	_	_	_	_	x
 6	x	_	X	u	_	_	_	_	x
-7	x rap ha	_|_|_	PROPN	u|X|X	Case=Undefined|Gender=Undefined|_	_	_	_	x|rap|ha
+7	x rap ha	_|_|_	PROPN	u|X|X	Case=Undefined|Gender=Undefined	_	_	_	x|rap|ha
 8	x	_	X	u	_	_	_	_	x
 9	x	_	X	u	_	_	_	_	x
 10	x	_	X	u	_	_	_	_	x
@@ -195,7 +195,7 @@
 13	40	_	NUM	n	_	14	nummod	_	40
 14	ālāni	ālu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	0	root	0:root	URU.MEŠ
 15	x	_	X	u	_	_	_	_	x
-16	x re-e	_|_	PROPN	u|u	Case=Undefined|Gender=Undefined|_	_	_	_	x|re-e
+16	x re-e	_|_	PROPN	u|u	Case=Undefined|Gender=Undefined	_	_	_	x|re-e
 17	x	_	X	u	_	_	_	_	x
 18	3	_	NUM	n	_	19	nummod	_	3
 19-20	ālānišunu	_	_	_	_	_	_	_	_
@@ -237,7 +237,7 @@
 # text = ina Kislimi UD.4.KAM₂ ana Habhi lū allik Baza Sarbalia Diduala adi ālāni ša šiddi Ruru ša Mehri akšud šallassunu būšīšunu ušēṣâ ana āliya Aššur ubla
 1	ina	ina	ADP	PRP	_	2	case	_	i-na
 2	Kislimi	Kislimu	PROPN	MN	Case=Gen|Gender=Undefined	7	obl	_	_
-3	UD.4.KAM₂	_	ADJ	n	Case=Undefined|Gender=Undefined|Number=Undefined|_	2	amod	_	UD.4.KAM₂
+3	UD.4.KAM₂	_	ADJ	n	Case=Undefined|Gender=Undefined|Number=Undefined	2	amod	_	UD.4.KAM₂
 4	ana	ana	ADP	PRP	_	5	case	_	a-na
 5	Habhi	Habhu	PROPN	GN	Case=Gen|Gender=Undefined	7	obl	_	{KUR}hab-hi
 6	lū	lū	PART	MOD	_	7	advmod:emph	_	lu
@@ -249,7 +249,7 @@
 12	ālāni	ālu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	18	obl	_	URU.MEŠ-ni
 13	ša	ša	ADP	DET	_	14	case	_	ša₂
 14	šiddi	šiddu	NOUN	N	Case=Gen|Gender=M|Nounbase=Bound|Number=Sg	12	nmod	_	ši-di
-15	Ruru	Ruru	PROPN	WN	Case=Undefined|Gender=Undefined|_	14	nmod:poss	_	{ID₂}ru-u₂-ru
+15	Ruru	Ruru	PROPN	WN	Case=Undefined|Gender=Undefined	14	nmod:poss	_	{ID₂}ru-u₂-ru
 16	ša	ša	ADP	DET	_	17	case	_	ša
 17	Mehri	Mehru	PROPN	GN	Case=Gen|Gender=Undefined	15	nmod	_	{KUR}me-eh-ri
 18	akšud	kašādu	VERB	V	Finiteness=Finite|Gender=Undefined|Mood=Indicative|Number=Sg|Person=1|Subordinative=No|Tense=Preterit|Ventive=No|Verbstem=G	0	root	0:root	ak-šud
@@ -354,7 +354,7 @@
 # sent_id = Q006020-7
 # text = Kislimu UD.6.KAM₂ līmu Šeʾi-Aššur šakin māt Kalzi Gabbiya-ana-Aššur šakin māt Libbi-ali Adad-aha-iddina ša-muhhi-āli qīpūtu ša kisirte
 1	Kislimu	Kislimu	PROPN	MN	Case=Nom|Gender=Undefined	0	root	0:root	{ITI}GAN
-2	UD.6.KAM₂	_	ADJ	n	Case=Undefined|Gender=Undefined|Number=Undefined|_	1	amod	_	UD.6.KAM₂
+2	UD.6.KAM₂	_	ADJ	n	Case=Undefined|Gender=Undefined|Number=Undefined	1	amod	_	UD.6.KAM₂
 3	līmu	līmu	NOUN	N	Case=Nom|Gender=M|Nounbase=Bound|Number=Sg	1	conj	_	li-mu
 4	Šeʾi-Aššur	Šeʾi-Aššur	PROPN	PN	Case=Undefined|Gender=M	3	nmod:poss	_	{m}še-ʾi-aš-šur
 5	šakin	šaknu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	4	appos	_	ša₂-kin₂
@@ -363,7 +363,7 @@
 8	Gabbiya-ana-Aššur	Gabbiya-ana-Aššur	PROPN	PN	Case=Undefined|Gender=M	0	root	0:root	{m}gab-bi-ia-a-na-aš-šur
 9	šakin	šaknu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	8	appos	_	ša₂-kin₂
 10	māt	mātu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	9	nmod:poss	_	_
-11	Libbi-ali	Libbi-ali	PROPN	SN	Case=Undefined|Gender=Undefined|_	10	nmod:poss	_	{URU}ŠA₃-URU
+11	Libbi-ali	Libbi-ali	PROPN	SN	Case=Undefined|Gender=Undefined	10	nmod:poss	_	{URU}ŠA₃-URU
 12	Adad-aha-iddina	Adad-aha-iddina	PROPN	PN	Case=Undefined|Gender=M	8	conj	_	{m}10-PAP-AŠ
 13	ša-muhhi-āli	ša-muhhi-āli	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Sg	12	appos	_	_
 14	qīpūtu	qīpūtu	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Pl	8	appos	_	qi-pu-tu
