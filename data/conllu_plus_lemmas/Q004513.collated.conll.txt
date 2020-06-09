@@ -1,28 +1,28 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004513-1
 # text = Aššur-naṣir-apli x šar kullat kibrāt arba’i x x Ninurta šangû ellu x lā māgirī muparriru x x zayyārī šar x kibrāti mār x enūma Emašmaš x
-1	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=M	0	root	0:root	{m}{d}AŠ-PAP-A
-2	x	_	_	u	_	_	_	_	x
-3	šar	šarru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	MAN
-4	kullat	kullatu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	3	nmod:poss	_	kul₂-lat
-5	kibrāt	kibru	NOUN	N	Gender=F|Nounbase=Bound|Number=Pl	4	nmod:poss	_	kib-rat
+1	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Case=Undefined|Gender=M	0	root	0:root	{m}{d}AŠ-PAP-A
+2	x	_	X	u	_	_	_	_	x
+3	šar	šarru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	MAN
+4	kullat	kullatu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	3	nmod:poss	_	kul₂-lat
+5	kibrāt	kibru	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Pl	4	nmod:poss	_	kib-rat
 6	arba’i	_	NUM	_	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	5	nummod	_	_
-7	x	_	_	u	_	_	_	_	x
-8	x	_	_	u	_	_	_	_	x
-9	Ninurta	Ninurta	PROPN	DN	Gender=M	0	root	0:root	{d}MAŠ
+7	x	_	X	u	_	_	_	_	x
+8	x	_	X	u	_	_	_	_	x
+9	Ninurta	Ninurta	PROPN	DN	Case=Undefined|Gender=M	0	root	0:root	{d}MAŠ
 10	šangû	šangû	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	9	appos	_	SANGA-u₂
 11	ellu	ellu	ADJ	N	Case=Nom|Gender=M|Number=Sg	10	amod	_	_
-12	x	_	_	u	_	_	_	_	x
-13	lā māgirī	lā|māgiru	NOUN	MOD|N	Gender=M|Number=Pl	_	_	_	la|ma-gi-ri
+12	x	_	X	u	_	_	_	_	x
+13	lā māgirī	lā|māgiru	NOUN	MOD|N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	_	_	_	la|ma-gi-ri
 14	muparriru	muparriru	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	appos	_	mu-par₂-ri-ru
-15	x	_	NOUN	u	Case=Gen|Nounbase=Free	14	nmod:poss	_	x
-16	x	_	NOUN	u	Nounbase=Bound	1	appos	_	x
-17	zayyārī	zayyāru	NOUN	N	Gender=M|Number=Pl	16	nmod:poss	_	za-ia₂-a-ri
-18	šar	šarru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	LUGAL
-19	x	_	_	u	_	_	_	_	x
-20	kibrāti	kibru	NOUN	N	Gender=F|Nounbase=Bound|Number=Pl	_	_	_	UB.MEŠ
-21	mār	māru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	DUMU
-22	x	_	_	_	_	_	_	_	_
+15	x	_	NOUN	u	Case=Gen|Gender=Undefined|Nounbase=Free|Number=Undefined	14	nmod:poss	_	x
+16	x	_	NOUN	u	Case=Undefined|Gender=Undefined|Nounbase=Bound|Number=Undefined	1	appos	_	x
+17	zayyārī	zayyāru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	16	nmod:poss	_	za-ia₂-a-ri
+18	šar	šarru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	LUGAL
+19	x	_	X	u	_	_	_	_	x
+20	kibrāti	kibru	NOUN	N	Case=Undefined|Gender=F|Nounbase=Free|Number=Pl	_	_	_	UB.MEŠ
+21	mār	māru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	DUMU
+22	x	_	X	_	_	_	_	_	_
 23	enūma	inūma	ADV	SBJ	_	_	_	_	e-nu-ma
-24	Emašmaš	Emašmaš	PROPN	GN	_	_	_	_	e₂-maš-maš
-25	x	_	_	_	_	_	_	_	_
+24	Emašmaš	Emašmaš	PROPN	GN	Case=Undefined|Gender=Undefined|_	_	_	_	e₂-maš-maš
+25	x	_	X	_	_	_	_	_	_

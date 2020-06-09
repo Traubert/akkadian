@@ -1,47 +1,38 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004498-1
-# text = x ʾa x x x kalîš huršānī
-1	x	_	_	u	_	_	_	_	x
-2	ʾa	_	_	u	_	_	_	_	ʾa
-3	x	_	_	u	_	_	_	_	x
-4	x	_	_	u	_	_	_	_	x
-5	x	_	_	u	_	_	_	_	x
+# text = x ʾa x x x kalîš huršānī x x māt Aššur mār Adad-nerari x x Urume rapaštu x x Babite adi x x birāte x x-a rabītu ša x x utēr x x x x
+1	x	_	X	u	_	_	_	_	x
+2	ʾa	_	X	u	_	_	_	_	ʾa
+3	x	_	X	u	_	_	_	_	x
+4	x	_	X	u	_	_	_	_	x
+5	x	_	X	u	_	_	_	_	x
 6	kalîš	kalû	DET	N	_	0	root	0:root	ka-liš
-7	huršānī	huršānu	NOUN	N	Gender=M|Number=Pl	6	nmod	_	hur-ša₂-ni
-
-# sent_id = Q004498-2
-# text = x x māt Aššur
-1	x	_	_	u	_	_	_	_	x
-2	x	_	_	u	_	_	_	_	x
-3	māt	mātu	NOUN	N	Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	KUR
-4	Aššur	Aššur	PROPN	GN	Gender=M	3	nmod:poss	_	aš-šur
-
-# sent_id = Q004498-3
-# text = mār Adad-nerari
-1	mār	māru	NOUN	N	Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	A
-2	Adad-nerari	Adad-narari_II	PROPN	RN	Gender=M	1	nmod:poss	_	10-ERIM.TAH₂
-
-# sent_id = Q004498-4
-# text = x x Urume rapaštu x x Babite adi x x birāte x x-a rabītu ša x x utēr x x x x
-1	x	_	_	u	_	_	_	_	x
-2	x	_	_	u	_	_	_	_	x
-3	Urume	Urumu	PROPN	GN	Case=Gen	0	root	0:root	{KUR}u₂-ru-me
-4	rapaštu	rapšu	ADJ	AJ	Case=Nom|Gender=F|Number=Sg	3	amod	_	DAGAL-tu₂
-5	x	_	_	u	_	_	_	_	x
-6	x	_	_	u	_	_	_	_	x
-7	Babite	Babitu	PROPN	SN	Case=Gen	_	_	_	{URU}ba-bi-te
-8	adi	adi	ADP	SBJ	_	_	_	_	_
-9	x	_	_	u	_	_	_	_	x
-10	x	_	_	u	_	_	_	_	x
-11	birāte	birtu	NOUN	N	Gender=F|Number=Pl	_	_	_	{URU}bi-ra-te
-12	x	_	_	u	_	_	_	_	x
-13	x-a	_	_	u	_	_	_	_	x-a
-14	rabītu	rabû	ADJ	AJ	Case=Nom|Gender=F|Number=Sg	_	_	_	GAL-tu₂
-15	ša	ša	_	DET	_	_	_	_	ša₂
-16	x	_	_	u	_	_	_	_	x
-17	x	_	_	u	_	_	_	_	x
-18	utēr	târu	VERB	V	Finiteness=Finite|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	_	_	_	u₂-ter
-19	x	_	_	u	_	_	_	_	x
-20	x	_	_	u	_	_	_	_	x
-21	x	_	_	u	_	_	_	_	x
-22	x	_	_	u	_	_	_	_	x
+7	huršānī	huršānu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	6	nmod	_	hur-ša₂-ni
+8	x	_	X	u	_	_	_	_	x
+9	x	_	X	u	_	_	_	_	x
+10	māt	mātu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	KUR
+11	Aššur	Aššur	PROPN	GN	Case=Undefined|Gender=M	10	nmod:poss	_	aš-šur
+12	mār	māru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	A
+13	Adad-nerari	Adad-narari_II	PROPN	RN	Case=Undefined|Gender=M	12	nmod:poss	_	10-ERIM.TAH₂
+14	x	_	X	u	_	_	_	_	x
+15	x	_	X	u	_	_	_	_	x
+16	Urume	Urumu	PROPN	GN	Case=Gen|Gender=Undefined	0	root	0:root	{KUR}u₂-ru-me
+17	rapaštu	rapšu	ADJ	AJ	Case=Nom|Gender=F|Number=Sg	16	amod	_	DAGAL-tu₂
+18	x	_	X	u	_	_	_	_	x
+19	x	_	X	u	_	_	_	_	x
+20	Babite	Babitu	PROPN	SN	Case=Gen|Gender=Undefined	_	_	_	{URU}ba-bi-te
+21	adi	adi	ADP	SBJ	_	_	_	_	_
+22	x	_	X	u	_	_	_	_	x
+23	x	_	X	u	_	_	_	_	x
+24	birāte	birtu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Undefined|Number=Pl	_	_	_	{URU}bi-ra-te
+25	x	_	X	u	_	_	_	_	x
+26	x-a	_	X	u	_	_	_	_	x-a
+27	rabītu	rabû	ADJ	AJ	Case=Nom|Gender=F|Number=Sg	_	_	_	GAL-tu₂
+28	ša	ša	X	DET	_	_	_	_	ša₂
+29	x	_	X	u	_	_	_	_	x
+30	x	_	X	u	_	_	_	_	x
+31	utēr	târu	VERB	V	Finiteness=Finite|Gender=Undefined|Mood=Indicative|Number=Sg|Person=1|Subordinative=No|Tense=Preterit|Ventive=No|Verbstem=D	_	_	_	u₂-ter
+32	x	_	X	u	_	_	_	_	x
+33	x	_	X	u	_	_	_	_	x
+34	x	_	X	u	_	_	_	_	x
+35	x	_	X	u	_	_	_	_	x
