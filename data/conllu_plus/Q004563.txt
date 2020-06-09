@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004563-1
-# text = ēkal Aššur-naṣir-apli šar māt Aššur mār Tukulti-Ninurta šar māt Aššur mār Adad-nerari šar māt Aššurma
+# text = ēkal Aššur-naṣir-apli šar māt Aššur mār Tukulti-Ninurta šar māt Aššur mār Adad-nerari šar māt Aššurma makkūr bīt Kidmuri ša Kalhi
 1	ēkal	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	_
 2	Aššur-naṣir-apli	_	PROPN	_	Gender=M	1	nmod:poss	_	_
 3	šar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	_
@@ -18,12 +18,9 @@
 15-16	Aššurma	_	_	_	_	_	_	_	_
 15	Aššur	_	PROPN	_	Gender=M	14	nmod:poss	_	_
 16	ma	_	PART	_	_	15	det	_	_
-
-# sent_id = Q004563-2
-# text = makkūr bīt Kidmuri ša Kalhi
-1	makkūr	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	_
-2	bīt	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	1	nmod:poss	_	_
-3	Kidmuri	_	PROPN	_	Case=Gen	2	nmod:poss	_	_
-4	ša	_	ADP	_	_	5	case	_	_
-5	Kalhi	_	PROPN	_	Case=Gen	3	nmod	_	_
+17	makkūr	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	_
+18	bīt	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	17	nmod:poss	_	_
+19	Kidmuri	_	PROPN	_	Case=Gen	18	nmod:poss	_	_
+20	ša	_	ADP	_	_	21	case	_	_
+21	Kalhi	_	PROPN	_	Case=Gen	19	nmod	_	_
 

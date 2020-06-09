@@ -22,7 +22,7 @@
 18	ma	_	PART	_	_	17	det	_	_
 
 # sent_id = Q004511-2
-# text = enūma Emašmaš bīt Ištar ša Ninua bēltiya ša Šamši-Adad iššak Aššur rubû ālik pāniya ēpušu ēnahma ultu uššēšu adi gabadibbīšu arṣip ušeklil ussim ušarrih eli mahrê ušātir
+# text = enūma Emašmaš bīt Ištar ša Ninua bēltiya ša Šamši-Adad iššak Aššur rubû ālik pāniya ēpušu ēnahma ultu uššēšu adi gabadibbīšu arṣip ušeklil ussim ušarrih eli mahrê ušātir narâ alṭur ina qerebšu aškun
 1	enūma	_	ADV	_	_	18	advmod	_	_
 2	Emašmaš	_	PROPN	_	_	18	nsubj	_	_
 3	bīt	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	_
@@ -60,18 +60,15 @@
 30	eli	_	ADP	_	_	31	case	_	_
 31	mahrê	_	ADJ	_	Case=Gen|Gender=M|Number=Sg	32	obl	_	_
 32	ušātir	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	26	conj	_	_
+33	narâ	_	NOUN	_	Case=Acc|Gender=M|Nounbase=Free|Number=Sg	34	obj	_	_
+34	alṭur	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
+35	ina	_	ADP	_	_	36	case	_	_
+36-37	qerebšu	_	_	_	_	_	_	_	_
+36	qereb	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	38	obl	_	_
+37	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	36	det	_	_
+38	aškun	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	34	conj	_	_
 
 # sent_id = Q004511-3
-# text = narâ alṭur ina qerebšu aškun
-1	narâ	_	NOUN	_	Case=Acc|Gender=M|Nounbase=Free|Number=Sg	2	obj	_	_
-2	alṭur	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
-3	ina	_	ADP	_	_	4	case	_	_
-4-5	qerebšu	_	_	_	_	_	_	_	_
-4	qereb	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	6	obl	_	_
-5	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	4	det	_	_
-6	aškun	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	2	conj	_	_
-
-# sent_id = Q004511-4
 # text = rubû arkû anhūssu luddiš šumī šaṭra ana ašrišu lutēr
 1	rubû	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	5	nsubj	_	_
 2	arkû	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	1	amod	_	_

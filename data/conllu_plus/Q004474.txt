@@ -307,7 +307,7 @@
 281	išrēti	_	NOUN	_	Gender=F|Nounbase=Free|Number=Pl	280	obj	_	_
 
 # sent_id = Q004474-2
-# text = ina ūmešuma ina pî ilāni rabûti šarrūtī bēlūtī kiššūtī ūṣâ
+# text = ina ūmešuma ina pî ilāni rabûti šarrūtī bēlūtī kiššūtī ūṣâ šarrāku bēlāku nâdāku ṣīrāku kabtāku šurruhāku ašarēdāku uršānāku qarrādāku labbāku u zikarāku Aššur-naṣir-apli šarru dannu šar māt Aššur nibīt Sin migri Ani namad Adad kaškaš ilāni anāku kakku lā pādû mušamqit māt nakrīšu anāku šarru lēʾû x
 1	ina	_	ADP	_	_	2	case	_	_
 2-4	ūmešuma	_	_	_	_	_	_	_	_
 2	ūme	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	15	obl	_	_
@@ -327,48 +327,42 @@
 13	kiššūt	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Sg	9	conj	_	_
 14	ī	_	PRON	_	Number=Sg|Person=1	13	det	_	_
 15	ūṣâ	_	VERB	_	Gender=F|Mood=Ventive|Number=Pl|Person=3|Tense=Preterit|Verbstem=G	0	root	0:root	_
-
-# sent_id = Q004474-3
-# text = šarrāku bēlāku nâdāku ṣīrāku kabtāku šurruhāku ašarēdāku uršānāku qarrādāku labbāku u zikarāku
-1	šarrāku	_	NOUN	_	Mood=Stative|Number=Sg|Person=1	0	root	0:root	_
-2	bēlāku	_	NOUN	_	Mood=Stative|Number=Sg|Person=1	1	conj	_	_
-3	nâdāku	_	ADJ	_	Mood=Stative|Number=Sg|Person=1	1	conj	_	_
-4	ṣīrāku	_	ADJ	_	Mood=Stative|Number=Sg|Person=1	1	conj	_	_
-5	kabtāku	_	ADJ	_	Mood=Stative|Number=Sg|Person=1	1	conj	_	_
-6	šurruhāku	_	ADJ	_	Mood=Stative|Number=Sg|Person=1	1	conj	_	_
-7	ašarēdāku	_	ADJ	_	Mood=Stative|Number=Sg|Person=1	1	conj	_	_
-8	uršānāku	_	NOUN	_	Mood=Stative|Number=Sg|Person=1	1	conj	_	_
-9	qarrādāku	_	NOUN	_	Mood=Stative|Number=Sg|Person=1	1	conj	_	_
-10	labbāku	_	NOUN	_	Mood=Stative|Number=Sg|Person=1	1	conj	_	_
-11	u	_	CCONJ	_	_	12	cc	_	_
-12	zikarāku	_	NOUN	_	Mood=Stative|Number=Sg|Person=1	1	conj	_	_
-
-# sent_id = Q004474-4
-# text = Aššur-naṣir-apli šarru dannu šar māt Aššur nibīt Sin migri Ani namad Adad kaškaš ilāni anāku kakku lā pādû mušamqit māt nakrīšu anāku šarru lēʾû x
-1	Aššur-naṣir-apli	_	PROPN	_	Gender=M	0	root	0:root	_
-2	šarru	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	appos	_	_
-3	dannu	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	2	amod	_	_
-4	šar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
-5	māt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	4	nmod:poss	_	_
-6	Aššur	_	PROPN	_	Gender=M	5	nmod:poss	_	_
-7	nibīt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	1	appos	_	_
-8	Sin	_	PROPN	_	Gender=M	7	nmod:poss	_	_
-9	migri	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
-10	Ani	_	PROPN	_	Case=Gen|Gender=M	9	nmod:poss	_	_
-11	namad	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
-12	Adad	_	PROPN	_	Gender=M	11	nmod:poss	_	_
-13	kaškaš	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
-14	ilāni	_	NOUN	_	Gender=M|Number=Pl	13	nmod:poss	_	_
-15	anāku	_	PRON	_	Number=Sg|Person=1	1	appos	_	_
-16	kakku	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	appos	_	_
-17	lā pādû	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	16	amod	_	_
-18	mušamqit	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
-19	māt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	18	nmod:poss	_	_
-20-21	nakrīšu	_	_	_	_	_	_	_	_
-20	nakrī	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	19	nmod:poss	_	_
-21	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	20	det	_	_
-22	anāku	_	PRON	_	Number=Sg|Person=1	1	appos	_	_
-23	šarru	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	appos	_	_
-24	lēʾû	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	1	amod	_	_
-25	x	_	X	_	_	_	_	_	_
+16	šarrāku	_	NOUN	_	Mood=Stative|Number=Sg|Person=1	0	root	0:root	_
+17	bēlāku	_	NOUN	_	Mood=Stative|Number=Sg|Person=1	16	conj	_	_
+18	nâdāku	_	ADJ	_	Mood=Stative|Number=Sg|Person=1	16	conj	_	_
+19	ṣīrāku	_	ADJ	_	Mood=Stative|Number=Sg|Person=1	16	conj	_	_
+20	kabtāku	_	ADJ	_	Mood=Stative|Number=Sg|Person=1	16	conj	_	_
+21	šurruhāku	_	ADJ	_	Mood=Stative|Number=Sg|Person=1	16	conj	_	_
+22	ašarēdāku	_	ADJ	_	Mood=Stative|Number=Sg|Person=1	16	conj	_	_
+23	uršānāku	_	NOUN	_	Mood=Stative|Number=Sg|Person=1	16	conj	_	_
+24	qarrādāku	_	NOUN	_	Mood=Stative|Number=Sg|Person=1	16	conj	_	_
+25	labbāku	_	NOUN	_	Mood=Stative|Number=Sg|Person=1	16	conj	_	_
+26	u	_	CCONJ	_	_	27	cc	_	_
+27	zikarāku	_	NOUN	_	Mood=Stative|Number=Sg|Person=1	16	conj	_	_
+28	Aššur-naṣir-apli	_	PROPN	_	Gender=M	0	root	0:root	_
+29	šarru	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	28	appos	_	_
+30	dannu	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	29	amod	_	_
+31	šar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	28	appos	_	_
+32	māt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	31	nmod:poss	_	_
+33	Aššur	_	PROPN	_	Gender=M	32	nmod:poss	_	_
+34	nibīt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	28	appos	_	_
+35	Sin	_	PROPN	_	Gender=M	34	nmod:poss	_	_
+36	migri	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	28	appos	_	_
+37	Ani	_	PROPN	_	Case=Gen|Gender=M	36	nmod:poss	_	_
+38	namad	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	28	appos	_	_
+39	Adad	_	PROPN	_	Gender=M	38	nmod:poss	_	_
+40	kaškaš	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	28	appos	_	_
+41	ilāni	_	NOUN	_	Gender=M|Number=Pl	40	nmod:poss	_	_
+42	anāku	_	PRON	_	Number=Sg|Person=1	28	appos	_	_
+43	kakku	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	28	appos	_	_
+44	lā pādû	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	43	amod	_	_
+45	mušamqit	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	28	appos	_	_
+46	māt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Sg	45	nmod:poss	_	_
+47-48	nakrīšu	_	_	_	_	_	_	_	_
+47	nakrī	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	46	nmod:poss	_	_
+48	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	47	det	_	_
+49	anāku	_	PRON	_	Number=Sg|Person=1	28	appos	_	_
+50	šarru	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	28	appos	_	_
+51	lēʾû	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	28	amod	_	_
+52	x	_	X	_	_	_	_	_	_
 

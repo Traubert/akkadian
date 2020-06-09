@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004503-1
-# text = Aššur-naṣir-apli šarru dannu šarru x x šar kiššati lā šanān x x rubû naʾdu ša x x šamê erṣeti i-x x lā māgirīšu x x šangû ṣīru x Aššur Adad x šangûssu ina x rēʾû
+# text = Aššur-naṣir-apli šarru dannu šarru x x šar kiššati lā šanān x x rubû naʾdu ša x x šamê erṣeti i-x x lā māgirīšu x x šangû ṣīru x Aššur Adad x šangûssu ina x rēʾû x na-x x x x x x zunnī x x x x x luddiš šumī šaṭra x Aššur Adad bēlē x ša šumī šaṭra ipaššiṭu x Ištar ilāni rabûti x
 1	Aššur-naṣir-apli	_	PROPN	_	Gender=M	0	root	0:root	_
 2	šarru	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	appos	_	_
 3	dannu	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	2	amod	_	_
@@ -38,44 +38,38 @@
 33	ina	_	ADP	_	_	_	_	_	_
 34	x	_	X	_	_	_	_	_	_
 35	rēʾû	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	appos	_	_
-
-# sent_id = Q004503-2
-# text = x na-x x x x x x zunnī x x x x x luddiš šumī šaṭra
-1	x	_	X	_	_	_	_	_	_
-2	na-x	_	X	_	_	_	_	_	_
-3	x	_	X	_	_	_	_	_	_
-4	x	_	X	_	_	_	_	_	_
-5	x	_	X	_	_	_	_	_	_
-6	x	_	X	_	_	_	_	_	_
-7	x	_	X	_	_	_	_	_	_
-8	zunnī	_	NOUN	_	Gender=M|Number=Pl	_	_	_	_
-9	x	_	X	_	_	_	_	_	_
-10	x	_	X	_	_	_	_	_	_
-11	x	_	X	_	_	_	_	_	_
-12	x	_	X	_	_	_	_	_	_
-13	x	_	X	_	_	_	_	_	_
-14	luddiš	_	VERB	_	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	_	_	_	_
-15-16	šumī	_	_	_	_	_	_	_	_
-15	šum	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	0	root	0:root	_
-16	ī	_	PRON	_	Number=Sg|Person=1	15	det	_	_
-17	šaṭra	_	ADJ	_	Case=Acc|Gender=M|Number=Sg	15	amod	_	_
-
-# sent_id = Q004503-3
-# text = x Aššur Adad bēlē x ša šumī šaṭra ipaššiṭu x Ištar ilāni rabûti x
-1	x	_	X	_	_	_	_	_	_
-2	Aššur	_	PROPN	_	Gender=M	0	root	0:root	_
-3	Adad	_	PROPN	_	Gender=M	2	conj	_	_
-4	bēlē	_	NOUN	_	Gender=M|Number=Pl	2	appos	_	_
-5	x	_	X	_	_	_	_	_	_
-6	ša	_	PRON	_	_	10	nsubj	_	_
-7-8	šumī	_	_	_	_	_	_	_	_
-7	šum	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	10	obj	_	_
-8	ī	_	PRON	_	Number=Sg|Person=1	7	det	_	_
-9	šaṭra	_	ADJ	_	Case=Acc|Gender=M|Number=Sg	7	amod	_	_
-10	ipaššiṭu	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Sg|Person=3|Tense=Present|Verbstem=G	0	root	0:root	_
-11	x	_	X	_	_	_	_	_	_
-12	Ištar	_	PROPN	_	Gender=F	_	_	_	_
-13	ilāni	_	NOUN	_	Gender=M|Number=Pl	2	appos	_	_
-14	rabûti	_	ADJ	_	Gender=M|Number=Pl	13	amod	_	_
-15	x	_	VERB	_	_	_	_	_	_
+36	x	_	X	_	_	_	_	_	_
+37	na-x	_	X	_	_	_	_	_	_
+38	x	_	X	_	_	_	_	_	_
+39	x	_	X	_	_	_	_	_	_
+40	x	_	X	_	_	_	_	_	_
+41	x	_	X	_	_	_	_	_	_
+42	x	_	X	_	_	_	_	_	_
+43	zunnī	_	NOUN	_	Gender=M|Number=Pl	_	_	_	_
+44	x	_	X	_	_	_	_	_	_
+45	x	_	X	_	_	_	_	_	_
+46	x	_	X	_	_	_	_	_	_
+47	x	_	X	_	_	_	_	_	_
+48	x	_	X	_	_	_	_	_	_
+49	luddiš	_	VERB	_	Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	_	_	_	_
+50-51	šumī	_	_	_	_	_	_	_	_
+50	šum	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	0	root	0:root	_
+51	ī	_	PRON	_	Number=Sg|Person=1	50	det	_	_
+52	šaṭra	_	ADJ	_	Case=Acc|Gender=M|Number=Sg	50	amod	_	_
+53	x	_	X	_	_	_	_	_	_
+54	Aššur	_	PROPN	_	Gender=M	0	root	0:root	_
+55	Adad	_	PROPN	_	Gender=M	54	conj	_	_
+56	bēlē	_	NOUN	_	Gender=M|Number=Pl	54	appos	_	_
+57	x	_	X	_	_	_	_	_	_
+58	ša	_	PRON	_	_	62	nsubj	_	_
+59-60	šumī	_	_	_	_	_	_	_	_
+59	šum	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Sg	62	obj	_	_
+60	ī	_	PRON	_	Number=Sg|Person=1	59	det	_	_
+61	šaṭra	_	ADJ	_	Case=Acc|Gender=M|Number=Sg	59	amod	_	_
+62	ipaššiṭu	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Sg|Person=3|Tense=Present|Verbstem=G	0	root	0:root	_
+63	x	_	X	_	_	_	_	_	_
+64	Ištar	_	PROPN	_	Gender=F	_	_	_	_
+65	ilāni	_	NOUN	_	Gender=M|Number=Pl	54	appos	_	_
+66	rabûti	_	ADJ	_	Gender=M|Number=Pl	65	amod	_	_
+67	x	_	VERB	_	_	_	_	_	_
 

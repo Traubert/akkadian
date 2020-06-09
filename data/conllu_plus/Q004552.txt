@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004552-1
-# text = ana Enlil šar šīmāti u uṣurāti munarriṭ huršānī āšib bīt Kidmuri bēli rabê bēliya
+# text = ana Enlil šar šīmāti u uṣurāti munarriṭ huršānī āšib bīt Kidmuri bēli rabê bēliya Aššur-naṣir-apli iššak Aššur mār Tukulti-Ninurta iššak Aššurma ana balāṭ napšātiya arāk ūmēya šumʾud šanātiya šalām zērīya mātiya aqīš
 1	ana	_	ADP	_	_	2	case	_	_
 2	Enlil	_	PROPN	_	Gender=M	0	root	0:root	_
 3	šar	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	_
@@ -17,40 +17,34 @@
 14-15	bēliya	_	_	_	_	_	_	_	_
 14	bēli	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	2	appos	_	_
 15	ya	_	PRON	_	Number=Sg|Person=1	14	det	_	_
-
-# sent_id = Q004552-2
-# text = Aššur-naṣir-apli iššak Aššur mār Tukulti-Ninurta iššak Aššurma
-1	Aššur-naṣir-apli	_	PROPN	_	Gender=M	0	root	0:root	_
-2	iššak	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
-3	Aššur	_	PROPN	_	Gender=M	2	nmod:poss	_	_
-4	mār	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
-5	Tukulti-Ninurta	_	PROPN	_	Gender=M	4	nmod:poss	_	_
-6	iššak	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	5	appos	_	_
-7-8	Aššurma	_	_	_	_	_	_	_	_
-7	Aššur	_	PROPN	_	Gender=M	6	nmod:poss	_	_
-8	ma	_	PART	_	_	7	det	_	_
-
-# sent_id = Q004552-3
-# text = ana balāṭ napšātiya arāk ūmēya šumʾud šanātiya šalām zērīya mātiya aqīš
-1	ana	_	ADP	_	_	2	case	_	_
-2	balāṭ	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	16	obl	_	_
-3-4	napšātiya	_	_	_	_	_	_	_	_
-3	napšāti	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Pl	2	nmod:poss	_	_
-4	ya	_	PRON	_	Number=Sg|Person=1	3	det	_	_
-5	arāk	_	VERB	_	Gender=M|Mood=Infinitive|Nounbase=Bound|Number=Sg|Verbstem=G	2	conj	_	_
-6-7	ūmēya	_	_	_	_	_	_	_	_
-6	ūmē	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	5	nmod:poss	_	_
-7	ya	_	PRON	_	Number=Sg|Person=1	6	det	_	_
-8	šumʾud	_	VERB	_	Gender=M|Mood=Infinitive|Nounbase=Bound|Number=Sg|Verbstem=S	2	conj	_	_
-9-10	šanātiya	_	_	_	_	_	_	_	_
-9	šanāti	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Pl	8	nmod:poss	_	_
-10	ya	_	PRON	_	Number=Sg|Person=1	9	det	_	_
-11	šalām	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	2	conj	_	_
-12-13	zērīya	_	_	_	_	_	_	_	_
-12	zērī	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	11	nmod:poss	_	_
-13	ya	_	PRON	_	Number=Sg|Person=1	12	det	_	_
-14-15	mātiya	_	_	_	_	_	_	_	_
-14	māti	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	12	conj	_	_
-15	ya	_	PRON	_	Number=Sg|Person=1	14	det	_	_
-16	aqīš	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
+16	Aššur-naṣir-apli	_	PROPN	_	Gender=M	0	root	0:root	_
+17	iššak	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	16	appos	_	_
+18	Aššur	_	PROPN	_	Gender=M	17	nmod:poss	_	_
+19	mār	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	16	appos	_	_
+20	Tukulti-Ninurta	_	PROPN	_	Gender=M	19	nmod:poss	_	_
+21	iššak	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	20	appos	_	_
+22-23	Aššurma	_	_	_	_	_	_	_	_
+22	Aššur	_	PROPN	_	Gender=M	21	nmod:poss	_	_
+23	ma	_	PART	_	_	22	det	_	_
+24	ana	_	ADP	_	_	25	case	_	_
+25	balāṭ	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	39	obl	_	_
+26-27	napšātiya	_	_	_	_	_	_	_	_
+26	napšāti	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Pl	25	nmod:poss	_	_
+27	ya	_	PRON	_	Number=Sg|Person=1	26	det	_	_
+28	arāk	_	VERB	_	Gender=M|Mood=Infinitive|Nounbase=Bound|Number=Sg|Verbstem=G	25	conj	_	_
+29-30	ūmēya	_	_	_	_	_	_	_	_
+29	ūmē	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	28	nmod:poss	_	_
+30	ya	_	PRON	_	Number=Sg|Person=1	29	det	_	_
+31	šumʾud	_	VERB	_	Gender=M|Mood=Infinitive|Nounbase=Bound|Number=Sg|Verbstem=S	25	conj	_	_
+32-33	šanātiya	_	_	_	_	_	_	_	_
+32	šanāti	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Pl	31	nmod:poss	_	_
+33	ya	_	PRON	_	Number=Sg|Person=1	32	det	_	_
+34	šalām	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	25	conj	_	_
+35-36	zērīya	_	_	_	_	_	_	_	_
+35	zērī	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	34	nmod:poss	_	_
+36	ya	_	PRON	_	Number=Sg|Person=1	35	det	_	_
+37-38	mātiya	_	_	_	_	_	_	_	_
+37	māti	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	35	conj	_	_
+38	ya	_	PRON	_	Number=Sg|Person=1	37	det	_	_
+39	aqīš	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
 

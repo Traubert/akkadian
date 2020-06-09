@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004495-1
-# text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššurma kāšid ultu ebertān Idiqlat adi Labnani u Tamtu-rabitu ša Amurri ša šulmu Šamši
+# text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššurma kāšid ultu ebertān Idiqlat adi Labnani u Tamtu-rabitu ša Amurri ša šulmu Šamši Hatte ana sihirtešu qātsu ikšudu ultu rēš ēni Subnat adi Urume rapaštu mātāt Nairi x x x x
 1	Aššur-naṣir-apli	_	PROPN	_	Gender=M	0	root	0:root	_
 2	šakin	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
 3	Enlil	_	PROPN	_	Gender=M	2	nmod:poss	_	_
@@ -33,32 +33,26 @@
 29	ša	_	ADP	_	_	30	case	_	_
 30	šulmu	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	28	nmod	_	_
 31	Šamši	_	PROPN	_	Case=Gen|Gender=M	30	nmod:poss	_	_
-
-# sent_id = Q004495-2
-# text = Hatte ana sihirtešu qātsu ikšudu
-1	Hatte	_	PROPN	_	Case=Gen	7	obj	_	_
-2	ana	_	ADP	_	_	3	case	_	_
-3-4	sihirtešu	_	_	_	_	_	_	_	_
-3	sihirte	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	7	obl	_	_
-4	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	3	det	_	_
-5-6	qātsu	_	_	_	_	_	_	_	_
-5	qāt	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Sg	7	nsubj	_	_
-6	su	_	PRON	_	Gender=M|Number=Sg|Person=3	5	det	_	_
-7	ikšudu	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	0	root	0:root	_
-
-# sent_id = Q004495-3
-# text = ultu rēš ēni Subnat adi Urume rapaštu mātāt Nairi x x x x
-1	ultu	_	ADP	_	_	2	case	_	_
-2	rēš	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	10	obl	_	_
-3	ēni	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	2	nmod:poss	_	_
-4	Subnat	_	PROPN	_	Gender=F	3	nmod:poss	_	_
-5	adi	_	ADP	_	_	6	case	_	_
-6	Urume	_	PROPN	_	Case=Gen	10	obl	_	_
-7	rapaštu	_	ADJ	_	Case=Nom|Gender=F|Number=Sg	6	amod	_	_
-8	mātāt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Pl	6	conj	_	_
-9	Nairi	_	PROPN	_	Case=Gen	8	nmod:poss	_	_
-10	x	_	VERB	_	_	0	root	0:root	_
-11	x	_	X	_	_	_	_	_	_
-12	x	_	X	_	_	_	_	_	_
-13	x	_	X	_	_	_	_	_	_
+32	Hatte	_	PROPN	_	Case=Gen	38	obj	_	_
+33	ana	_	ADP	_	_	34	case	_	_
+34-35	sihirtešu	_	_	_	_	_	_	_	_
+34	sihirte	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	38	obl	_	_
+35	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	34	det	_	_
+36-37	qātsu	_	_	_	_	_	_	_	_
+36	qāt	_	NOUN	_	Gender=F|Nounbase=Suffixal|Number=Sg	38	nsubj	_	_
+37	su	_	PRON	_	Gender=M|Number=Sg|Person=3	36	det	_	_
+38	ikšudu	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	0	root	0:root	_
+39	ultu	_	ADP	_	_	40	case	_	_
+40	rēš	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	48	obl	_	_
+41	ēni	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	40	nmod:poss	_	_
+42	Subnat	_	PROPN	_	Gender=F	41	nmod:poss	_	_
+43	adi	_	ADP	_	_	44	case	_	_
+44	Urume	_	PROPN	_	Case=Gen	48	obl	_	_
+45	rapaštu	_	ADJ	_	Case=Nom|Gender=F|Number=Sg	44	amod	_	_
+46	mātāt	_	NOUN	_	Gender=F|Nounbase=Bound|Number=Pl	44	conj	_	_
+47	Nairi	_	PROPN	_	Case=Gen	46	nmod:poss	_	_
+48	x	_	VERB	_	_	0	root	0:root	_
+49	x	_	X	_	_	_	_	_	_
+50	x	_	X	_	_	_	_	_	_
+51	x	_	X	_	_	_	_	_	_
 

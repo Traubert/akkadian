@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004592-1
-# text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššur
+# text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššur 5 nāmerū ištu nāmerī ša bāb Kalkala adi nāmerī ša bābāni ana kisal Nunnamnir x x
 1	Aššur-naṣir-apli	_	PROPN	_	Gender=M	0	root	0:root	_
 2	šakin	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
 3	Enlil	_	PROPN	_	Gender=M	2	nmod:poss	_	_
@@ -18,23 +18,20 @@
 15	Enlil	_	PROPN	_	Gender=M	14	nmod:poss	_	_
 16	iššak	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	13	appos	_	_
 17	Aššur	_	PROPN	_	Gender=M	16	nmod:poss	_	_
-
-# sent_id = Q004592-2
-# text = 5 nāmerū ištu nāmerī ša bāb Kalkala adi nāmerī ša bābāni ana kisal Nunnamnir x x
-1	5	_	NUM	_	_	2	nummod	_	_
-2	nāmerū	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Pl	15	obj	_	_
-3	ištu	_	ADP	_	_	4	case	_	_
-4	nāmerī	_	NOUN	_	Gender=M|Number=Pl	15	obl	_	_
-5	ša	_	ADP	_	_	6	case	_	_
-6	bāb	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	4	nmod	_	_
-7	Kalkala	_	PROPN	_	_	6	nmod:poss	_	_
-8	adi	_	ADP	_	_	9	case	_	_
-9	nāmerī	_	NOUN	_	Gender=M|Number=Pl	15	obl	_	_
-10	ša	_	ADP	_	_	11	case	_	_
-11	bābāni	_	NOUN	_	Gender=M|Number=Pl	9	nmod	_	_
-12	ana	_	ADP	_	_	13	case	_	_
-13	kisal	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	15	obl	_	_
-14	Nunnamnir	_	PROPN	_	Gender=M	13	nmod:poss	_	_
-15	x	_	VERB	_	_	0	root	0:root	_
-16	x	_	X	_	_	_	_	_	_
+18	5	_	NUM	_	_	19	nummod	_	_
+19	nāmerū	_	NOUN	_	Case=Nom|Gender=M|Nounbase=Free|Number=Pl	32	obj	_	_
+20	ištu	_	ADP	_	_	21	case	_	_
+21	nāmerī	_	NOUN	_	Gender=M|Number=Pl	32	obl	_	_
+22	ša	_	ADP	_	_	23	case	_	_
+23	bāb	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	21	nmod	_	_
+24	Kalkala	_	PROPN	_	_	23	nmod:poss	_	_
+25	adi	_	ADP	_	_	26	case	_	_
+26	nāmerī	_	NOUN	_	Gender=M|Number=Pl	32	obl	_	_
+27	ša	_	ADP	_	_	28	case	_	_
+28	bābāni	_	NOUN	_	Gender=M|Number=Pl	26	nmod	_	_
+29	ana	_	ADP	_	_	30	case	_	_
+30	kisal	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	32	obl	_	_
+31	Nunnamnir	_	PROPN	_	Gender=M	30	nmod:poss	_	_
+32	x	_	VERB	_	_	0	root	0:root	_
+33	x	_	X	_	_	_	_	_	_
 

@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004521-1
-# text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššur kāšid ištu x šiddi Lullumi Habhi ša bētāni Zamua Hašmar kalîšina adi Amurri Hamani u Labnani adi Tamdi-rabiti
+# text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššur kāšid ištu x šiddi Lullumi Habhi ša bētāni Zamua Hašmar kalîšina adi Amurri Hamani u Labnani adi Tamdi-rabiti ana miṣir mātiya amnuma
 1	Aššur-naṣir-apli	_	PROPN	_	Gender=M	0	root	0:root	_
 2	šakin	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	_
 3	Enlil	_	PROPN	_	Gender=M	2	nmod:poss	_	_
@@ -38,19 +38,16 @@
 34	Labnani	_	PROPN	_	Case=Gen	31	conj	_	_
 35	adi	_	ADP	_	_	36	case	_	_
 36	Tamdi-rabiti	_	PROPN	_	Gender=F	18	obl	_	_
+37	ana	_	ADP	_	_	38	case	_	_
+38	miṣir	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	41	obl	_	_
+39-40	mātiya	_	_	_	_	_	_	_	_
+39	māti	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	38	nmod:poss	_	_
+40	ya	_	PRON	_	Number=Sg|Person=1	39	det	_	_
+41-42	amnuma	_	_	_	_	_	_	_	_
+41	amnu	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
+42	ma	_	CCONJ	_	_	_	_	_	_
 
 # sent_id = Q004521-2
-# text = ana miṣir mātiya amnuma
-1	ana	_	ADP	_	_	2	case	_	_
-2	miṣir	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	5	obl	_	_
-3-4	mātiya	_	_	_	_	_	_	_	_
-3	māti	_	NOUN	_	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	2	nmod:poss	_	_
-4	ya	_	PRON	_	Number=Sg|Person=1	3	det	_	_
-5-6	amnuma	_	_	_	_	_	_	_	_
-5	amnu	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
-6	ma	_	CCONJ	_	_	_	_	_	_
-
-# sent_id = Q004521-3
 # text = šattišamma bilassunu kabta ūbilūma ina āliya Aššur amhur
 1	šattišamma	_	ADV	_	_	5	advmod	_	_
 2-3	bilassunu	_	_	_	_	_	_	_	_
@@ -67,8 +64,8 @@
 10	Aššur	_	PROPN	_	Gender=M	8	appos	_	_
 11	amhur	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	5	conj	_	_
 
-# sent_id = Q004521-4
-# text = enūma bīt Sin u Šamaš ilāni rabûti bēlēya ša šarrāni ālikūt pāniya ēpušū ēnah
+# sent_id = Q004521-3
+# text = enūma bīt Sin u Šamaš ilāni rabûti bēlēya ša šarrāni ālikūt pāniya ēpušū ēnah ištu uššēšu adi gabadibbīšu arṣip
 1	enūma	_	ADV	_	_	16	advmod	_	_
 2	bīt	_	NOUN	_	Gender=M|Nounbase=Bound|Number=Sg	16	nsubj	_	_
 3	Sin	_	PROPN	_	Gender=M	2	nmod:poss	_	_
@@ -87,16 +84,13 @@
 14	ya	_	PRON	_	Number=Sg|Person=1	13	det	_	_
 15	ēpušū	_	VERB	_	Gender=M|Mood=Subjunctive|Number=Pl|Person=3|Tense=Preterit|Verbstem=G	2	acl:relcl	_	_
 16	ēnah	_	VERB	_	Gender=M|Mood=Indicative|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	0	root	0:root	_
-
-# sent_id = Q004521-5
-# text = ištu uššēšu adi gabadibbīšu arṣip
-1	ištu	_	ADP	_	_	2	case	_	_
-2-3	uššēšu	_	_	_	_	_	_	_	_
-2	uššē	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	7	obl	_	_
-3	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	2	det	_	_
-4	adi	_	ADP	_	_	5	case	_	_
-5-6	gabadibbīšu	_	_	_	_	_	_	_	_
-5	gabadibbī	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	7	obl	_	_
-6	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	5	det	_	_
-7	arṣip	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
+17	ištu	_	ADP	_	_	18	case	_	_
+18-19	uššēšu	_	_	_	_	_	_	_	_
+18	uššē	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	23	obl	_	_
+19	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	18	det	_	_
+20	adi	_	ADP	_	_	21	case	_	_
+21-22	gabadibbīšu	_	_	_	_	_	_	_	_
+21	gabadibbī	_	NOUN	_	Gender=M|Nounbase=Suffixal|Number=Pl	23	obl	_	_
+22	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	21	det	_	_
+23	arṣip	_	VERB	_	Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	_
 
