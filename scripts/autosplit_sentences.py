@@ -11,14 +11,6 @@ if len(sys.argv) > 3:
     logfilename = sys.argv[3]
 log_fobj = open(logfilename, "w")
 
-def not_comment(line):
-    return not line.lstrip().startswith("#")
-
-def get_head(line):
-    return line.split('\t')[6]
-def get_id(line):
-    return line.split('\t')[0]
-
 def convert_file(name, read_fobj, write_fobj):
     log_fobj.write("Autosplitting {}\n".format(name))
     write_fobj.write(columns_comment)
@@ -35,6 +27,8 @@ def convert_file(name, read_fobj, write_fobj):
         log_fobj.write("\n  Reading original sentence {}".format(sentence_id))
         head_ids = set()
         parent2children = {}
+        child2parent = {}
+        multitokensets = {}
         heads = []
         splits = []
 
@@ -45,38 +39,79 @@ def convert_file(name, read_fobj, write_fobj):
                 if child in parent2children:
                     collection += collect_children(child)
             return collection
+        def collect_parents(children):
+            collection = set()
+            for child in children:
+                if child in child2parent:
+                    collection.add(child2parent[child])
+                    this_child = child2parent[child]
+                    while this_child in child2parent:
+                        collection.add(child2parent[this_child])
+                        this_child = child2parent[this_child]
+            return collection
         
         for line in filter(not_comment, sentence):
             head = get_head(line)
             this_id = get_id(line)
-            head_ids.add(head)
+            if '-' in this_id:
+                start, stop = this_id.split('-')
+                members = list(map(str, range(int(start), int(stop)+1)))
+                for member in members:
+                    # log_fobj.write("    Recorded {} ({}) as multitokenset of {}\n".format(member, get_surface(line), members[:]))
+                    multitokensets[member] = members[:]
+            if head != '_':
+                head_ids.add(head)
+                child2parent[this_id] = head
             if head not in parent2children:
                 parent2children[head] = [this_id]
             else:
                 parent2children[head].append(this_id)
+        
         for i, line in enumerate(sentence):
+            this_id = get_id(line)
             if not line_is_wordtoken(line):
                 continue
-            if get_id(line) in head_ids and get_head(line) == '_':
+            if get_head(line) == '_':
                 parts = line.split('\t')
-                parts[6] = '0'
-                parts[7] = 'root'
-                parts[8] = '0:root'
-                heads.append(get_id(line))
+                if this_id in head_ids:
+                    parts[6] = '0'
+                    parts[7] = 'root'
+                    parts[8] = '0:root'
+                    heads.append(this_id)
+                elif this_id in multitokensets:
+                    for candidate in multitokensets[this_id]:
+                        if candidate in child2parent.keys():
+                            parts[6] = candidate
+                            parts[7] = 'dep'
+                            parts[8] = '{}:dep'.format(candidate)
+                            if candidate not in parent2children:
+                                parent2children[candidate] = [this_id]
+                            else:
+                                parent2children[candidate].append(this_id)
+                            log_fobj.write("    Automatically attached multitoken member {} to {}\n".format(this_id, candidate))
+                            break
                 sentence[i] = '\t'.join(parts)
+            
         lastright = None
         assigned_ids = set()
         for head in heads:
             made_split = False
             children = list(map(int, collect_children(head)))
-            leftmost = min(children + [int(head)])
-            rightmost = max(children + [int(head)])
+            if lastright != None:
+                children.append(str(lastright + 1))
+            parents = list(map(int, collect_parents(map(str, children))))
+            leftmost = min(children + list(parents) + [int(head)])
+            rightmost = max(children + list(parents) + [int(head)])
             log_fobj.write("    Apparent sentence root {}: leftmost node was {}, rightmost node was {}\n".format(head, leftmost, rightmost))
             if lastright != None:
                 if not conservative or leftmost == lastright + 1:
                     log_fobj.write("      Trying to insert split at original id {}...".format(rightmost))
                     splits.append(lastright)
                     made_split = True
+            if made_split and str(lastright) in multitokensets and str(lastright+1) in multitokensets:
+                log_fobj.write(" BREAKS MULTITOKEN, so not splitting\n")
+                splits.pop()
+                continue
             this_range = set(range(leftmost, rightmost + 1))
             if made_split and not assigned_ids.isdisjoint(this_range):
 #                print(non_comment_line_parts)
@@ -87,7 +122,7 @@ def convert_file(name, read_fobj, write_fobj):
                 continue
             elif made_split:
                 log_fobj.write(" ok\n")
-            lastright = rightmost
+                lastright = rightmost
             assigned_ids.update(this_range)
         for new_sentence, new_surface in apply_splits(list(map(lambda x: x.strip('\n'), filter(not_comment, sentence))), sorted(splits)):
             write_fobj.write('# sent_id = {}-{}\n'.format(name, sent_num))
