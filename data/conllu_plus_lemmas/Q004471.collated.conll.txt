@@ -1038,7 +1038,7 @@
 # text = ina Abi UD.x.KAM₂ x ša šēp Nipur x ša limētuššunu x ṣābī x ultu ālāni ša šēp x
 1	ina	ina	ADP	PRP	_	2	case	_	ina
 2	Abi	Abu	PROPN	MN	Case=Gen|Gender=Undefined	0	root	0:root	_
-3	UD.x.KAM₂	_	ADJ	u	Case=Undefined|Gender=Undefined|Number=Undefined	2	amod	_	UD.x.KAM₂
+3	UD.x.KAM₂	_	ADJ	u	_	2	amod	_	UD.x.KAM₂
 4	x	_	X	u	_	_	_	_	x
 5	ša	ša	X	DET	_	_	_	_	ša₂
 6	šēp	šēpu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	GIR₃
@@ -2726,7 +2726,7 @@
 37	kakkī	kakku	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	36	nmod:poss	_	{GIŠ}TUKUL.MEŠ-ia
 38	ya	_	PRON	_	Number=Sg|Person=1	37	det	_	_
 39	ipparšidūni	naparšudu	VERB	V	Finiteness=Finite|Gender=M|Mood=Indicative|Number=Pl|Person=3|Subordinative=Yes|Tense=Preterit|Ventive=No|Verbstem=N	33	acl:relcl	_	ip-par₂-ši-du-ni
-40	x	_	VERB	u	Gender=Undefined|Mood=Undefined|Number=Undefined|Person=Undefined|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=Undefined	0	root	0:root	x
+40	x	_	VERB	u	_	0	root	0:root	x
 
 # sent_id = Q004471-40
 # text = x ušātir ê x x libbi ṭuppi x x Simanu x x narkabāti ummānāti x x ētebir ana māt x x ina x
@@ -3678,7 +3678,7 @@
 3-4	anhūssa	_	_	_	_	_	_	_	_
 3	anhūs	anhūtu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Suffixal|Number=Sg	5	obj	_	an-hu-sa
 4	sa	_	PRON	_	Gender=F|Number=Sg|Person=3	3	det	_	_
-5	luddiš	edēšu	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=D	0	root	0:root	lu-ud-diš
+5	luddiš	edēšu	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Subordinative=No|Ventive=No|Verbstem=D	0	root	0:root	lu-ud-diš
 6-7	šumī	_	_	_	_	_	_	_	_
 6	šum	šumu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Sg	12	obj	_	MU
 7	ī	_	PRON	_	Number=Sg|Person=1	6	det	_	_
@@ -3687,7 +3687,7 @@
 10-11	ašriša	_	_	_	_	_	_	_	_
 10	ašri	ašru	NOUN	N	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	12	obl	_	aš₂-ri-ša₂
 11	ša	_	PRON	_	Gender=F|Number=Sg|Person=3	10	det	_	_
-12	lutēr	târu	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=D	5	conj	_	lu-ter
+12	lutēr	târu	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Subordinative=No|Ventive=No|Verbstem=D	5	conj	_	lu-ter
 13	Aššur	Aššur	PROPN	DN	Case=Undefined|Gender=M	16	nsubj	_	aš-šur
 14-15	ikribēšu	_	_	_	_	_	_	_	_
 14	ikribē	ikribu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	16	obj	_	ik-ri-be-šu
@@ -3858,14 +3858,14 @@
 22	ina	ina	ADP	PRP	_	23	case	_	ina
 23	naphar	napharu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	25	obl	_	nap-har
 24	mātāte	mātu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Free|Number=Pl	23	nmod:poss	_	KUR.KUR.MEŠ-te
-25	lušarbû	rabû	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Pl|Person=3|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=S	0	root	0:root	lu-šar-bu-u₂
+25	lušarbû	rabû	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Pl|Person=3|Subordinative=No|Ventive=No|Verbstem=S	0	root	0:root	lu-šar-bu-u₂
 26	ina	ina	ADP	PRP	_	27	case	_	ina
 27	līte	lītu	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	31	obl	_	li-te
 28	kiššūti	kiššūtu	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	27	conj	_	kiš-šu₂-ti
 29	u	u	CCONJ	CNJ	_	30	cc	_	u₃
 30	mētellūti	mētellūtu	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	27	conj	_	me-tel-lu-ti
 31-32	lirtaddûšu	_	_	_	_	_	_	_	_
-31	lirtaddû	_	VERB	_	Finiteness=Finite|Gender=M|Mood=Precative|Number=Pl|Person=3|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=Gtn	0	root	0:root	_
+31	lirtaddû	_	VERB	_	Finiteness=Finite|Gender=M|Mood=Precative|Number=Pl|Person=3|Subordinative=No|Ventive=No|Verbstem=Gtn	0	root	0:root	_
 32	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	31	obj	_	_
 33	bilat	biltu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	39	obj	_	GUN
 34	kibrāt	kibru	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Pl	33	nmod:poss	_	kib-rat
@@ -3874,7 +3874,7 @@
 37-38	isqišu	_	_	_	_	_	_	_	_
 37	isqi	isqu	NOUN	N	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	39	obl	_	is-qi-šu
 38	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	37	det	_	_
-39	lušatlimū	šutlumu	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Pl|Person=3|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=S	0	root	0:root	lu-šat-li-mu
+39	lušatlimū	šutlumu	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Pl|Person=3|Subordinative=No|Ventive=No|Verbstem=S	0	root	0:root	lu-šat-li-mu
 40	nuhšu	nuhšu	NOUN	N	Case=Acc|Gender=M|Nounbase=Free|Number=Sg	47	obj	_	nu-uh-šu
 41	ṭuhdu	ṭuhdu	NOUN	N	Case=Acc|Gender=M|Nounbase=Free|Number=Sg	40	conj	_	ṭu₃-uh-du
 42	u	u	CCONJ	CNJ	_	43	cc	_	u₃
@@ -3883,7 +3883,7 @@
 45-46	mātišu	_	_	_	_	_	_	_	_
 45	māti	mātu	NOUN	N	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	47	obl	_	KUR-šu
 46	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	45	det	_	_
-47	lukinnū	kânu	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Pl|Person=3|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=D	0	root	0:root	_
+47	lukinnū	kânu	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Pl|Person=3|Subordinative=No|Ventive=No|Verbstem=D	0	root	0:root	_
 
 # sent_id = Q004471-55
 # text = ša kī pî mušarêya annê lā eppašu tamēt šiṭriya uštennû ṣalmu šuātu iʾabbatuma ušamsaku ina piššate ikattamušu ina eperi iqabbirušu ina išātāti iqallûšu ina mê inaddûšu ana kibis umāmī u mēteq būli išakkanušu tamēt šiṭriya ummânāte ana amāri u šasê ikallû u ina pān mušarêya manma kī lāmāri u lā šasê iparriku aššum izzirtī šinātina nakra ahâ ayyāba lemna lū bīt kīli lū amēlūta šikin napišti umʾʾaruma ušahhazu ipappitu iṣappiru lišānšu ana ahīti uštennû ana hulluq ṣalmiya annê u tamēti ana šunnê uzunšu išakkanuma libbašu imallikušu u lū ṭupšarru lū bārû lū mamma šanû ṣalmu šuātu hulliq ša pîšu lā epāše iqabbâššu u ša pîšu išemmû ša mimma amāt lemutti ihassasama ana epšetīya u ṣalmiya umʾʾaru anāku lā īde iqabbû u ina šarrūtišu pānišu ana batte išakkanuma ṣalmu šū iʾabbatuma ihharammaṭu amātu ša pîšu uštennâ u ana ṣalmiya šuātu limnīti ilteʾʾû Aššur bēlu rabû ilu Aššuru bēl šīmāti šīmātišu līrur epšētišu lunakkir erreta marulta ša nasāh išdi šarrūtišu u hulluq nišīšu littasqar sumqa bubūta u nibrītu u hušahha ana mātišu liddû
@@ -4021,7 +4021,7 @@
 113	šanû	šanû	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	112	amod	_	ša₂-nu-u₂
 114	ṣalmu	ṣalmu	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	116	obj	_	_
 115	šuātu	šuāti	DET	IP	Gender=M|Number=Sg|Person=3	114	amod	_	šu-a-tu₂
-116	hulliq	halāqu	VERB	V	Finiteness=Finite|Gender=M|Mood=Imperative|Number=Sg|Person=2|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=D	0	root	0:root	hul-li-iq
+116	hulliq	halāqu	VERB	V	Finiteness=Finite|Gender=M|Mood=Imperative|Number=Sg|Person=2|Subordinative=No|Ventive=No|Verbstem=D	0	root	0:root	hul-li-iq
 117	ša	ša	ADP	DET	_	118	case	_	ša₂
 118-119	pîšu	_	_	_	_	_	_	_	_
 118	pî	pû	NOUN	N	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	121	obl	_	pi-i-šu₂
@@ -4100,11 +4100,11 @@
 180-181	šīmātišu	_	_	_	_	_	_	_	_
 180	šīmāti	šīmtu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Suffixal|Number=Pl	182	obj	_	ši-ma-ti-šu₂
 181	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	180	det	_	_
-182	līrur	_	VERB	_	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=G	0	root	0:root	_
+182	līrur	_	VERB	_	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Subordinative=No|Ventive=No|Verbstem=G	0	root	0:root	_
 183-184	epšētišu	_	_	_	_	_	_	_	_
 183	epšēti	epištu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Suffixal|Number=Pl	185	obj	_	ep-še-ti-šu₂
 184	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	183	det	_	_
-185	lunakkir	nakāru	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=D	182	conj	_	lu-na-ki-ir
+185	lunakkir	nakāru	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Subordinative=No|Ventive=No|Verbstem=D	182	conj	_	lu-na-ki-ir
 186	erreta	arratu	NOUN	N	Case=Acc|Gender=F|Nounbase=Free|Number=Sg	197	obj	_	er-re-ta
 187	marulta	marṣu	ADJ	AJ	Case=Acc|Gender=F|Number=Sg	186	amod	_	ma-ru-ul-ta
 188	ša	ša	ADP	REL	_	189	case	_	ša₂
@@ -4118,7 +4118,7 @@
 195-196	nišīšu	_	_	_	_	_	_	_	_
 195	nišī	nišu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Suffixal|Number=Pl	194	nmod:poss	_	UN.MEŠ-šu₂
 196	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	195	det	_	_
-197	littasqar	zakāru	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=Gtn	182	conj	_	_
+197	littasqar	zakāru	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Subordinative=No|Ventive=No|Verbstem=Gtn	182	conj	_	_
 198	sumqa	sunqu	NOUN	N	Case=Acc|Gender=M|Nounbase=Free|Number=Sg	207	obj	_	su-um-qa
 199	bubūta	bubūtu	NOUN	N	Case=Acc|Gender=F|Nounbase=Free|Number=Sg	198	conj	_	bu-bu-ta
 200	u	u	CCONJ	CNJ	_	201	cc	_	u₃
@@ -4129,7 +4129,7 @@
 205-206	mātišu	_	_	_	_	_	_	_	_
 205	māti	mātu	NOUN	N	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	207	obl	_	KUR-ti-šu₂
 206	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	205	det	_	_
-207	liddû	nadû	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Pl|Person=3|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=G	182	conj	_	_
+207	liddû	nadû	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Pl|Person=3|Subordinative=No|Ventive=No|Verbstem=G	182	conj	_	_
 
 # sent_id = Q004471-56
 # text = ša ana ṣalmiya šuātu ezzizuma annâ mīna iqabbû Anu Enlil u Ea ilāni migriya šīru lā namārišu ina pîšunu kabti liqbû kakka lā salīma ša lā magāri ṣēlta ippīra puhpuhha ina mātišu lukinnū
@@ -4163,7 +4163,7 @@
 23	pî	pû	NOUN	N	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	26	obl	_	pi-i-šu₂-nu
 24	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	23	det	_	_
 25	kabti	kabtu	ADJ	AJ	Case=Gen|Gender=M|Number=Sg	23	amod	_	kab-ti
-26	liqbû	qabû	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Pl|Person=3|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=G	0	root	0:root	_
+26	liqbû	qabû	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Pl|Person=3|Subordinative=No|Ventive=No|Verbstem=G	0	root	0:root	_
 27	kakka	kakku	NOUN	N	Case=Acc|Gender=M|Nounbase=Free|Number=Sg	39	obj	_	_
 28	lā	lā	PART	MOD	_	29	compound	_	la
 29	salīma	salīmu	NOUN	N	Case=Acc|Gender=M|Nounbase=Free|Number=Sg	0	root	0:root	sa-li-ma
@@ -4177,4 +4177,4 @@
 37-38	mātišu	_	_	_	_	_	_	_	_
 37	māti	mātu	NOUN	N	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	39	obl	_	KUR-šu
 38	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	37	det	_	_
-39	lukinnū	kânu	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Pl|Person=3|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=D	26	conj	_	_
+39	lukinnū	kânu	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Pl|Person=3|Subordinative=No|Ventive=No|Verbstem=D	26	conj	_	_

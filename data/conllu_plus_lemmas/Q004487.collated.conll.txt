@@ -4,7 +4,7 @@
 1	x	_	X	u	_	_	_	_	x
 2	x	_	X	u	_	_	_	_	x
 3	x	_	X	u	_	_	_	_	x
-4	x	_	PROPN	u	Case=Undefined|Gender=Undefined	0	root	0:root	x
+4	x	_	PROPN	u	_	0	root	0:root	x
 5	rubû	rubû	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	4	appos	_	NUN-u₂
 6	na’du	_	ADJ	_	Case=Nom|Gender=M|Number=Sg	5	amod	_	_
 7	x	_	X	u	_	_	_	_	x
@@ -24,7 +24,7 @@
 20	kāšid	kāšidu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	4	appos	_	ka-šid
 21	ultu	ištu	ADP	PRP	_	22	case	_	TA
 22	eberti	ebertu	NOUN	N	Case=Gen|Gender=F|Nounbase=Bound|Number=Sg	20	obl	_	e-ber-ti
-23	{ID₂}x	_	PROPN	u	Case=Gen|Gender=Undefined	22	nmod:poss	_	{ID₂}x
+23	{ID₂}x	_	PROPN	u	Case=Gen	22	nmod:poss	_	{ID₂}x
 24	x	_	X	u	_	_	_	_	x
 25	ana	ana	ADP	PRP	_	26	case	_	a-na
 26	šadê	šadû	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	28	obl	_	KUR-e
@@ -44,7 +44,7 @@
 39-40	sihirtiša	_	_	_	_	_	_	_	_
 39	sihirti	sihirtu	NOUN	N	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	41	obl	_	si-hir-ti-ša
 40	ša	_	PRON	_	Gender=F|Number=Sg|Person=3	39	det	_	_
-41	x	_	VERB	u	Gender=Undefined|Mood=Undefined|Number=Undefined|Person=Undefined|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=Undefined	0	root	0:root	x
+41	x	_	VERB	u	_	0	root	0:root	x
 42	ultu	ištu	ADP	PRP	_	43	case	_	TA
 43	Gargamiš	Gargamiš	PROPN	SN	Case=Undefined|Gender=Undefined	56	obl	_	{URU}gar-ga-miš
 44	ša	ša	ADP	DET	_	45	case	_	ša₂
@@ -160,7 +160,7 @@
 47	adi	adi	ADP	PRP	_	48	case	_	a-di
 48	ereb	erbu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	50	obl	_	e-reb
 49	Šamši	Šamaš	PROPN	DN	Case=Gen|Gender=M	48	nmod:poss	_	{d}šam-ši
-50	x	_	VERB	u	Gender=Undefined|Mood=Undefined|Number=Undefined|Person=Undefined|Subordinative=No|Tense=Undefined|Ventive=No|Verbstem=Undefined	38	acl:relcl	_	x
+50	x	_	VERB	u	_	38	acl:relcl	_	x
 
 # sent_id = Q004487-3
 # text = Kalhu ana eššūte aṣbat tīlu labēru lū unakkir adi muhhi mê lū ušappil 1 mē 20 tikpī ana mušpali uṭabbi nišī kišitti qātīya ša mātāti ša apēlušinani ša Suhi Laqe ana sihirtiša ša Sirqu ša nēberti Puratte Zamua ana pāṭ gimriša alqâ ina libbi ušaṣbit nārtu ultu Zaba-eliti ahrâ Pattu-hegalli šumša abbi kirâti ina limētušša azqup inbī karānī ana Aššur bēliya u ēkurrāt mātiya aqqi āla šū ana Aššur bēliya aqīš

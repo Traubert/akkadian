@@ -1,7 +1,7 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004523-1
 # text = x šar kiššati šarru dannu šar māt Aššur x x māt Aššur mār Adad-nerari šar kiššati x x ālik pāniya ēpušu x x x-u₂-ni x x x x a la x
-1	x	_	PROPN	u	Case=Undefined|Gender=M	0	root	0:root	x
+1	x	_	PROPN	u	Gender=M	0	root	0:root	x
 2	šar	šarru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	MAN
 3	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	2	nmod:poss	_	KIŠ
 4	šarru	šarru	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	appos	_	MAN
@@ -9,8 +9,8 @@
 6	šar	šarru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	MAN
 7	māt	mātu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	6	nmod:poss	_	KUR
 8	Aššur	Aššur	PROPN	GN	Case=Undefined|Gender=M	7	nmod:poss	_	aš-šur
-9	x	_	PROPN	u	Case=Undefined|Gender=M	0	root	0:root	x
-10	x	_	NOUN	u	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	9	appos	_	x
+9	x	_	PROPN	u	Gender=M	0	root	0:root	x
+10	x	_	NOUN	u	Gender=M|Nounbase=Bound|Number=Sg	9	appos	_	x
 11	māt	mātu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	10	nmod:poss	_	KUR
 12	Aššur	Aššur	PROPN	GN	Case=Undefined|Gender=M	11	nmod:poss	_	{d}a-šur
 13	mār	māru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	9	appos	_	A

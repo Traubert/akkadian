@@ -1,7 +1,7 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004497-1
 # text = x Šamšu kiššat nišī rubû iššak Aššur x x ittallakuma x x x de e nu x x mušekniš x x muttallik sangāni x x arhī pašqūte x x māt zāʾirīšu x x gērîšu id-du-x x-tu ṣâtu x x rēʾû kibrāt erbetta ša naphar x x mutēr gimilli māt Aššur x x enūma Anu Enlil u Ea x x kakki agâ x x šakin Enlil iššak Aššur mār Adad-nerari x x Idiqlat x x Amurri ša šulmu Šamši x x Subnat x x mātāt Nairi ana pāṭ gimriša x x Suhi adi Rapiqi x x Habruri adi x x Dur-Lullumaya x x-ša₂ akšud ištu x x Til-Bari x x Til-ša-Zabdani x
-1	x	_	PROPN	u	Case=Undefined|Gender=M	0	root	0:root	x
+1	x	_	PROPN	u	Gender=M	0	root	0:root	x
 2	Šamšu	Šamaš	PROPN	DN	Case=Nom|Gender=M	1	appos	_	_
 3	kiššat	kiššatu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	1	appos	_	kiš-šat
 4	nišī	nišu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Undefined|Number=Pl	3	nmod:poss	_	UN.MEŠ
@@ -69,7 +69,7 @@
 63	kakki	kakku	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	_	_	_	{GIŠ}TUKUL
 64	agâ	agû	NOUN	N	Case=Acc|Gender=M|Nounbase=Free|Number=Sg	_	_	_	a-ga-a
 65	x	_	X	u	_	_	_	_	x
-66	x	_	PROPN	u	Case=Undefined|Gender=Undefined	0	root	0:root	x
+66	x	_	PROPN	u	_	0	root	0:root	x
 67	šakin	šaknu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	66	appos	_	GAR
 68	Enlil	Enlil	PROPN	DN	Case=Undefined|Gender=M	67	nmod:poss	_	{d}BAD
 69	iššak	iššiakku	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	66	appos	_	ŠID
