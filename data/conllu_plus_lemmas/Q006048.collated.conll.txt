@@ -1,17 +1,18 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q006048-1
 # text = ēkal x mār Aššur-dan x gimri x ana x x adi {KUR}x x x
-1	ēkal	ēkallu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	E₂.GAL
-2	x	_	PROPN	u	Gender=M	1	nmod:poss	_	x
-3	mār	māru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	A
-4	Aššur-dan	Aššur-dan_II	PROPN	RN	Case=Undefined|Gender=M	3	nmod:poss	_	aš-šur-KAL-an
+1	ēkal	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	E₂.GAL
+2	x	_	PROPN	u	Gender=M	1	nmod:poss	1:nmod:poss	x
+3	mār	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	appos	2:appos	A
+4	Aššur-dan	_	PROPN	RN	Case=Undefined|Gender=M	3	nmod:poss	3:nmod:poss	aš-šur-KAL-an
 5	x	_	X	u	_	_	_	_	x
-6	gimri	gimru	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	_	_	_	gim-ri
+6	gimri	_	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	_	_	_	gim-ri
 7	x	_	X	u	_	_	_	_	x
-8	ana	ana	ADP	PRP	_	9	case	_	a-na
+8	ana	_	ADP	PRP	_	9	case	9:case	a-na
 9	x	_	NOUN	u	Case=Gen	0	root	0:root	x
 10	x	_	X	u	_	_	_	_	x
-11	adi	adi	ADP	PRP	_	12	case	_	a-di
+11	adi	_	ADP	PRP	_	12	case	12:case	a-di
 12	{KUR}x	_	PROPN	u	_	0	root	0:root	{KUR}x
 13	x	_	X	u	_	_	_	_	x
 14	x	_	X	u	_	_	_	_	x
+

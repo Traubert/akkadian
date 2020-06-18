@@ -1,7 +1,8 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004534-1
 # text = šallutu ša Sangara Hattaya
-1	šallutu	šallatu	NOUN	N	Case=Nom|Gender=F|Nounbase=Free|Number=Sg	0	root	0:root	šal-lu-tu
-2	ša	ša	ADP	DET	_	3	case	_	ša₂
-3	Sangara	Sangara	PROPN	RN	Case=Undefined|Gender=M	1	nmod	_	{m}sa-an-ga-ra
-4	Hattaya	Hattu	PROPN	EN	Case=Undefined|Gender=M	3	appos	_	{KUR}hat-ta-a-a
+1	šallutu	_	NOUN	N	Case=Nom|Gender=F|Nounbase=Free|Number=Sg	0	root	0:root	šal-lu-tu
+2	ša	_	ADP	DET	_	3	case	3:case	ša₂
+3	Sangara	_	PROPN	RN	Case=Undefined|Gender=M	1	nmod	1:nmod	{m}sa-an-ga-ra
+4	Hattaya	_	PROPN	EN	Case=Undefined|Gender=M	3	appos	3:appos	{KUR}hat-ta-a-a
+

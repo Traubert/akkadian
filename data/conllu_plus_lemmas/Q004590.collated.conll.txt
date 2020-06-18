@@ -1,25 +1,26 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004590-1
 # text = ēkal Aššur-naṣir-apli šar māt Aššur mār Tukulti-Ninurta šar kiššati šar māt Aššurma bīt Ištar ša Ninua ēpušma arṣip
-1	ēkal	ēkallu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	E₂.GAL
-2	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Case=Undefined|Gender=M	1	nmod:poss	_	{m}AŠ-PAP-A
-3	šar	šarru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	MAN
-4	māt	mātu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	3	nmod:poss	_	KUR
-5	Aššur	Aššur	PROPN	GN	Case=Undefined|Gender=M	4	nmod:poss	_	AŠ
-6	mār	māru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	A
-7	Tukulti-Ninurta	Tukulti-Ninurta_II	PROPN	RN	Case=Undefined|Gender=M	6	nmod:poss	_	TUKUL-MAŠ
-8	šar	šarru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	7	appos	_	MAN
-9	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	8	nmod:poss	_	ŠU₂
-10	šar	šarru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	7	appos	_	MAN
-11	māt	mātu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	10	nmod:poss	_	KUR
+1	ēkal	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	E₂.GAL
+2	Aššur-naṣir-apli	_	PROPN	RN	Case=Undefined|Gender=M	1	nmod:poss	1:nmod:poss	{m}AŠ-PAP-A
+3	šar	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	appos	2:appos	MAN
+4	māt	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	3	nmod:poss	3:nmod:poss	KUR
+5	Aššur	_	PROPN	GN	Case=Undefined|Gender=M	4	nmod:poss	4:nmod:poss	AŠ
+6	mār	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	appos	2:appos	A
+7	Tukulti-Ninurta	_	PROPN	RN	Case=Undefined|Gender=M	6	nmod:poss	6:nmod:poss	TUKUL-MAŠ
+8	šar	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	7	appos	7:appos	MAN
+9	kiššati	_	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	8	nmod:poss	8:nmod:poss	ŠU₂
+10	šar	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	7	appos	7:appos	MAN
+11	māt	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	10	nmod:poss	10:nmod:poss	KUR
 12-13	Aššurma	_	_	_	_	_	_	_	_
-12	Aššur	Aššur	PROPN	GN	Case=Undefined|Gender=M	11	nmod:poss	_	AŠ-ma
-13	ma	_	PART	_	_	12	det	_	_
-14	bīt	bītu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	18	obj	_	E₂
-15	Ištar	Ištar	PROPN	DN	Case=Undefined|Gender=F	14	nmod:poss	_	{d}INANNA
-16	ša	ša	ADP	DET	_	17	case	_	ša₂
-17	Ninua	Ninua	PROPN	SN	Case=Undefined|Gender=Undefined	15	nmod	_	{URU}NINA
+12	Aššur	_	PROPN	GN	Case=Undefined|Gender=M	11	nmod:poss	11:nmod:poss	AŠ-ma
+13	ma	_	PART	_	_	12	det	12:det	_
+14	bīt	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	18	obj	18:obj	E₂
+15	Ištar	_	PROPN	DN	Case=Undefined|Gender=F	14	nmod:poss	14:nmod:poss	{d}INANNA
+16	ša	_	ADP	DET	_	17	case	17:case	ša₂
+17	Ninua	_	PROPN	SN	Case=Undefined|Gender=Undefined	15	nmod	15:nmod	{URU}NINA
 18-19	ēpušma	_	_	_	_	_	_	_	_
-18	ēpuš	epēšu	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	DU₃-ma
-19	ma	_	CCONJ	_	_	20	cc	_	_
-20	arṣip	raṣāpu	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	18	conj	_	ar-ṣip
+18	ēpuš	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	DU₃-ma
+19	ma	_	CCONJ	_	_	20	cc	20:cc	_
+20	arṣip	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	18	conj	18:conj	ar-ṣip
+

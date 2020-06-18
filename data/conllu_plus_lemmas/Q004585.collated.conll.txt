@@ -1,27 +1,28 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004585-1
 # text = ēkal Aššur-naṣir-apli šar kiššati šar māt Aššur mār Tukulti-Ninurta šar māt Aššur mār Adad-nerari šar māt Aššurma kisirti būrti ša bīt Sebetti
-1	ēkal	ēkallu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	E₂.GAL
-2	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Case=Undefined|Gender=M	1	nmod:poss	_	{m}AŠ-PAP-A
-3	šar	šarru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	MAN
-4	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	3	nmod:poss	_	ŠU₂
-5	šar	šarru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	MAN
-6	māt	mātu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	5	nmod:poss	_	KUR
-7	Aššur	Aššur	PROPN	GN	Case=Undefined|Gender=M	6	nmod:poss	_	AŠ
-8	mār	māru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	A
-9	Tukulti-Ninurta	Tukulti-Ninurta_II	PROPN	RN	Case=Undefined|Gender=M	8	nmod:poss	_	TUKUL-MAŠ
-10	šar	šarru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	9	appos	_	MAN
-11	māt	mātu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	10	nmod:poss	_	KUR
-12	Aššur	Aššur	PROPN	GN	Case=Undefined|Gender=M	11	nmod:poss	_	AŠ
-13	mār	māru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	9	appos	_	A
-14	Adad-nerari	Adad-narari_II	PROPN	RN	Case=Undefined|Gender=M	13	nmod:poss	_	10-ERIM.TAH₂
-15	šar	šarru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	14	appos	_	MAN
-16	māt	mātu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	15	nmod:poss	_	KUR
+1	ēkal	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	E₂.GAL
+2	Aššur-naṣir-apli	_	PROPN	RN	Case=Undefined|Gender=M	1	nmod:poss	1:nmod:poss	{m}AŠ-PAP-A
+3	šar	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	appos	2:appos	MAN
+4	kiššati	_	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	3	nmod:poss	3:nmod:poss	ŠU₂
+5	šar	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	appos	2:appos	MAN
+6	māt	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	5	nmod:poss	5:nmod:poss	KUR
+7	Aššur	_	PROPN	GN	Case=Undefined|Gender=M	6	nmod:poss	6:nmod:poss	AŠ
+8	mār	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	appos	2:appos	A
+9	Tukulti-Ninurta	_	PROPN	RN	Case=Undefined|Gender=M	8	nmod:poss	8:nmod:poss	TUKUL-MAŠ
+10	šar	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	9	appos	9:appos	MAN
+11	māt	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	10	nmod:poss	10:nmod:poss	KUR
+12	Aššur	_	PROPN	GN	Case=Undefined|Gender=M	11	nmod:poss	11:nmod:poss	AŠ
+13	mār	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	9	appos	9:appos	A
+14	Adad-nerari	_	PROPN	RN	Case=Undefined|Gender=M	13	nmod:poss	13:nmod:poss	10-ERIM.TAH₂
+15	šar	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	14	appos	14:appos	MAN
+16	māt	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	15	nmod:poss	15:nmod:poss	KUR
 17-18	Aššurma	_	_	_	_	_	_	_	_
-17	Aššur	Aššur	PROPN	GN	Case=Undefined|Gender=M	16	nmod:poss	_	AŠ-ma
-18	ma	_	PART	_	_	17	det	_	_
-19	kisirti	kisirtu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	ki-sir-ti
-20	būrti	būrtu	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	19	nmod:poss	_	PU₂
-21	ša	ša	ADP	DET	_	22	case	_	ša₂
-22	bīt	bītu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	20	nmod	_	E₂
-23	Sebetti	Sebetti	PROPN	DN	Case=Gen|Gender=Undefined	22	nmod:poss	_	{d}IMIN.BI
+17	Aššur	_	PROPN	GN	Case=Undefined|Gender=M	16	nmod:poss	16:nmod:poss	AŠ-ma
+18	ma	_	PART	_	_	17	det	17:det	_
+19	kisirti	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	ki-sir-ti
+20	būrti	_	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	19	nmod:poss	19:nmod:poss	PU₂
+21	ša	_	ADP	DET	_	22	case	22:case	ša₂
+22	bīt	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	20	nmod	20:nmod	E₂
+23	Sebetti	_	PROPN	DN	Case=Gen|Gender=Undefined	22	nmod:poss	22:nmod:poss	{d}IMIN.BI
+

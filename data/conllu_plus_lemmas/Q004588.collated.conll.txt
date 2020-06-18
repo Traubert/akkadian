@@ -1,42 +1,43 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004588-1
 # text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššurma
-1	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Case=Undefined|Gender=M	0	root	0:root	{m}AŠ-PAP-A
-2	šakin	šaknu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	GAR
-3	Enlil	Enlil	PROPN	DN	Case=Undefined|Gender=M	2	nmod:poss	_	{d}BAD
-4	iššak	iššiakku	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	ŠID
-5	Aššur	Aššur	PROPN	DN	Case=Undefined|Gender=M	4	nmod:poss	_	AŠ
-6	mār	māru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	A
-7	Tukulti-Ninurta	Tukulti-Ninurta_II	PROPN	RN	Case=Undefined|Gender=M	6	nmod:poss	_	TUKUL-MAŠ
-8	šakin	šaknu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	7	appos	_	GAR
-9	Enlil	Enlil	PROPN	DN	Case=Undefined|Gender=M	8	nmod:poss	_	{d}BAD
-10	iššak	iššiakku	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	7	appos	_	ŠID
-11	Aššur	Aššur	PROPN	DN	Case=Undefined|Gender=M	10	nmod:poss	_	AŠ
-12	mār	māru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	7	appos	_	A
-13	Adad-nerari	Adad-narari_II	PROPN	RN	Case=Undefined|Gender=M	12	nmod:poss	_	10-ERIM.TAH₂
-14	šakin	šaknu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	13	appos	_	GAR
-15	Enlil	Enlil	PROPN	DN	Case=Undefined|Gender=M	14	nmod:poss	_	{d}BAD
-16	iššak	iššiakku	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	13	appos	_	ŠID
+1	Aššur-naṣir-apli	_	PROPN	RN	Case=Undefined|Gender=M	0	root	0:root	{m}AŠ-PAP-A
+2	šakin	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	1:appos	GAR
+3	Enlil	_	PROPN	DN	Case=Undefined|Gender=M	2	nmod:poss	2:nmod:poss	{d}BAD
+4	iššak	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	1:appos	ŠID
+5	Aššur	_	PROPN	DN	Case=Undefined|Gender=M	4	nmod:poss	4:nmod:poss	AŠ
+6	mār	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	1:appos	A
+7	Tukulti-Ninurta	_	PROPN	RN	Case=Undefined|Gender=M	6	nmod:poss	6:nmod:poss	TUKUL-MAŠ
+8	šakin	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	7	appos	7:appos	GAR
+9	Enlil	_	PROPN	DN	Case=Undefined|Gender=M	8	nmod:poss	8:nmod:poss	{d}BAD
+10	iššak	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	7	appos	7:appos	ŠID
+11	Aššur	_	PROPN	DN	Case=Undefined|Gender=M	10	nmod:poss	10:nmod:poss	AŠ
+12	mār	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	7	appos	7:appos	A
+13	Adad-nerari	_	PROPN	RN	Case=Undefined|Gender=M	12	nmod:poss	12:nmod:poss	10-ERIM.TAH₂
+14	šakin	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	13	appos	13:appos	GAR
+15	Enlil	_	PROPN	DN	Case=Undefined|Gender=M	14	nmod:poss	14:nmod:poss	{d}BAD
+16	iššak	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	13	appos	13:appos	ŠID
 17-18	Aššurma	_	_	_	_	_	_	_	_
-17	Aššur	Aššur	PROPN	DN	Case=Undefined|Gender=M	16	nmod:poss	_	AŠ-ma
-18	ma	_	PART	_	_	17	det	_	_
+17	Aššur	_	PROPN	DN	Case=Undefined|Gender=M	16	nmod:poss	16:nmod:poss	AŠ-ma
+18	ma	_	PART	_	_	17	det	17:det	_
 
 # sent_id = Q004588-2
 # text = enūma bīt Ištar ša Nina bēltiya ultu uššēšu adi gabadibbīšu arṣip
-1	enūma	inūma	ADV	SBJ	_	14	advmod	_	e-nu-ma
-2	bīt	bītu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	14	obj	_	E₂
-3	Ištar	Ištar	PROPN	DN	Case=Undefined|Gender=F	2	nmod:poss	_	{d}INANNA
-4	ša	ša	ADP	DET	_	5	case	_	ša
-5	Nina	Ninua	PROPN	SN	Case=Undefined|Gender=Undefined	3	nmod	_	{URU}ni-na-a
+1	enūma	_	ADV	SBJ	_	14	advmod	14:advmod	e-nu-ma
+2	bīt	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	14	obj	14:obj	E₂
+3	Ištar	_	PROPN	DN	Case=Undefined|Gender=F	2	nmod:poss	2:nmod:poss	{d}INANNA
+4	ša	_	ADP	DET	_	5	case	5:case	ša
+5	Nina	_	PROPN	SN	Case=Undefined|Gender=Undefined	3	nmod	3:nmod	{URU}ni-na-a
 6-7	bēltiya	_	_	_	_	_	_	_	_
-6	bēlti	bēltu	NOUN	N	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	3	appos	_	NIN-ia
-7	ya	_	PRON	_	Number=Sg|Person=1	6	det	_	_
-8	ultu	ištu	ADP	PRP	_	9	case	_	TA
+6	bēlti	_	NOUN	N	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	3	appos	3:appos	NIN-ia
+7	ya	_	PRON	_	Number=Sg|Person=1	6	det	6:det	_
+8	ultu	_	ADP	PRP	_	9	case	9:case	TA
 9-10	uššēšu	_	_	_	_	_	_	_	_
-9	uššē	uššu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	14	obl	_	URU₄-šu₂
-10	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	9	det	_	_
-11	adi	adi	ADP	PRP	_	12	case	_	a-di
+9	uššē	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	14	obl	14:obl	URU₄-šu₂
+10	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	9	det	9:det	_
+11	adi	_	ADP	PRP	_	12	case	12:case	a-di
 12-13	gabadibbīšu	_	_	_	_	_	_	_	_
-12	gabadibbī	gabadibbu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	14	obl	_	gaba-dib-bi-šu
-13	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	12	det	_	_
-14	arṣip	raṣāpu	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	ar-ṣip
+12	gabadibbī	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	14	obl	14:obl	gaba-dib-bi-šu
+13	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	12	det	12:det	_
+14	arṣip	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	ar-ṣip
+

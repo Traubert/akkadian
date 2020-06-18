@@ -1,6 +1,7 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004525-1
 # text = maddattu ša {m} x
-1	maddattu	maddattu	NOUN	N	Case=Nom|Gender=F|Nounbase=Free|Number=Sg	0	root	0:root	ma-da-tu₂
-2	ša	ša	ADP	DET	_	3	case	_	ša₂
-3	{m} x	_|_	PROPN	X|u	Gender=M	1	nmod	_	{m}|x
+1	maddattu	_	NOUN	N	Case=Nom|Gender=F|Nounbase=Free|Number=Sg	0	root	0:root	ma-da-tu₂
+2	ša	_	ADP	DET	_	3	case	3:case	ša₂
+3	{m} x	_	PROPN	X|u	Gender=M	1	nmod	1:nmod	{m}|x
+

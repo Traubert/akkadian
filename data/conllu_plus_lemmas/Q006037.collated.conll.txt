@@ -2,22 +2,23 @@
 # sent_id = Q006037-1
 # text = x Aššur mār Aššur-dan iššak Aššurma enūma nāmerī x x tibkī lū ulli 35 tibkī ana mahrûte x
 1	x	_	NOUN	u	Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	x
-2	Aššur	Aššur	PROPN	DN	Case=Undefined|Gender=M	1	nmod:poss	_	aš-šur
-3	mār	māru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	_	A
-4	Aššur-dan	Aššur-dan_II	PROPN	RN	Case=Undefined|Gender=M	3	nmod:poss	_	aš-šur-KAL
-5	iššak	iššiakku	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	4	appos	_	ŠID
+2	Aššur	_	PROPN	DN	Case=Undefined|Gender=M	1	nmod:poss	1:nmod:poss	aš-šur
+3	mār	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	1:appos	A
+4	Aššur-dan	_	PROPN	RN	Case=Undefined|Gender=M	3	nmod:poss	3:nmod:poss	aš-šur-KAL
+5	iššak	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	4	appos	4:appos	ŠID
 6-7	Aššurma	_	_	_	_	_	_	_	_
-6	Aššur	Aššur	PROPN	DN	Case=Undefined|Gender=M	5	nmod:poss	_	aš-šur-ma
-7	ma	_	PART	_	_	6	det	_	_
-8	enūma	inūma	ADV	SBJ	_	_	_	_	e-nu-ma
-9	nāmerī	nāmaru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	_	_	_	na-me₂-ri
+6	Aššur	_	PROPN	DN	Case=Undefined|Gender=M	5	nmod:poss	5:nmod:poss	aš-šur-ma
+7	ma	_	PART	_	_	6	det	6:det	_
+8	enūma	_	ADV	SBJ	_	_	_	_	e-nu-ma
+9	nāmerī	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	_	_	_	na-me₂-ri
 10	x	_	X	u	_	_	_	_	x
-11	x	_	NUM	u	_	12	nummod	_	x
-12	tibkī	tibku	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	0	root	0:root	ti-ib-ki
-13	lū	lū	PART	MOD	_	14	advmod:emph	_	lu
-14	ulli	elû	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	0	root	0:root	ul-li
-15	35	_	NUM	n	_	16	nummod	_	35
-16	tibkī	tibku	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	0	root	0:root	ti-ib-ki
-17	ana	ana	ADP	PRP	_	18	case	_	ana
-18	mahrûte	mahrû	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	0	root	0:root	mah-ru-te
+11	x	_	NUM	u	_	12	nummod	12:nummod	x
+12	tibkī	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	0	root	0:root	ti-ib-ki
+13	lū	_	PART	MOD	_	14	advmod:emph	14:advmod:emph	lu
+14	ulli	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	0	root	0:root	ul-li
+15	35	_	NUM	n	_	16	nummod	16:nummod	35
+16	tibkī	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	0	root	0:root	ti-ib-ki
+17	ana	_	ADP	PRP	_	18	case	18:case	ana
+18	mahrûte	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	0	root	0:root	mah-ru-te
 19	x	_	X	u	_	_	_	_	x
+
