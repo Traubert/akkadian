@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004503-1
-# text = Aššur-naṣir-apli šarru dannu šarru x x šar kiššati lā šanān x x rubû naʾdu ša x x šamê erṣeti i-x x lā māgirīšu x x šangû ṣīru x Aššur Adad x šangûssu ina x rēʾû x na-x x x x x x zunnī x x x x x luddiš šumī šaṭra x Aššur Adad bēlē x ša šumī šaṭra ipaššiṭu x Ištar ilāni rabûti x
+# text = Aššur-naṣir-apli šarru dannu šarru x x šar kiššati lā šanān x x rubû naʾdu ša x x šamê erṣeti i-x x lā māgirīšu x x šangû ṣīru x Aššur Adad x šangûssu ina x rēʾû
 1	Aššur-naṣir-apli	_	PROPN	RN	Case=Undefined|Gender=M	0	root	0:root	_
 2	šarru	_	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	appos	1:appos	_
 3	dannu	_	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	2	amod	2:amod	_
@@ -38,38 +38,44 @@
 33	ina	_	ADP	PRP	_	_	_	_	_
 34	x	_	X	u	_	_	_	_	_
 35	rēʾû	_	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	appos	1:appos	_
-36	x	_	X	u	_	_	_	_	_
-37	na-x	_	X	u	_	_	_	_	_
-38	x	_	X	u	_	_	_	_	_
-39	x	_	X	u	_	_	_	_	_
-40	x	_	X	u	_	_	_	_	_
-41	x	_	X	u	_	_	_	_	_
-42	x	_	X	u	_	_	_	_	_
-43	zunnī	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	_	_	_	_
-44	x	_	X	u	_	_	_	_	_
-45	x	_	X	u	_	_	_	_	_
-46	x	_	X	u	_	_	_	_	_
-47	x	_	X	u	_	_	_	_	_
-48	x	_	X	u	_	_	_	_	_
-49	luddiš	_	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	_	_	_	_
-50-51	šumī	_	_	_	_	_	_	_	_
-50	šum	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Sg	0	root	0:root	_
-51	ī	_	PRON	_	Number=Sg|Person=1	50	det	50:det	_
-52	šaṭra	_	ADJ	AJ	Case=Acc|Gender=M|Number=Sg	50	amod	50:amod	_
-53	x	_	X	u	_	_	_	_	_
-54	Aššur	_	PROPN	DN	Case=Undefined|Gender=M	0	root	0:root	_
-55	Adad	_	PROPN	DN	Case=Undefined|Gender=M	54	conj	54:conj	_
-56	bēlē	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	54	appos	54:appos	_
-57	x	_	X	u	_	_	_	_	_
-58	ša	_	PRON	REL	_	62	nsubj	62:nsubj	_
-59-60	šumī	_	_	_	_	_	_	_	_
-59	šum	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Sg	62	obj	62:obj	_
-60	ī	_	PRON	_	Number=Sg|Person=1	59	det	59:det	_
-61	šaṭra	_	ADJ	AJ	Case=Acc|Gender=M|Number=Sg	59	amod	59:amod	_
-62	ipaššiṭu	_	VERB	V	Finiteness=Finite|Gender=M|Mood=Indicative|Number=Sg|Person=3|Subordinative=Yes|Tense=Present|Verbstem=G	0	root	0:root	_
-63	x	_	X	u	_	_	_	_	_
-64	Ištar	_	PROPN	DN	Case=Undefined|Gender=F	_	_	_	_
-65	ilāni	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	54	appos	54:appos	_
-66	rabûti	_	ADJ	AJ	Case=Undefined|Gender=M|Number=Pl	65	amod	65:amod	_
-67	x	_	VERB	u	_	_	_	_	_
+
+# sent_id = Q004503-2
+# text = x na-x x x x x x zunnī x x x x x luddiš šumī šaṭra
+1	x	_	X	u	_	_	_	_	_
+2	na-x	_	X	u	_	_	_	_	_
+3	x	_	X	u	_	_	_	_	_
+4	x	_	X	u	_	_	_	_	_
+5	x	_	X	u	_	_	_	_	_
+6	x	_	X	u	_	_	_	_	_
+7	x	_	X	u	_	_	_	_	_
+8	zunnī	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	_	_	_	_
+9	x	_	X	u	_	_	_	_	_
+10	x	_	X	u	_	_	_	_	_
+11	x	_	X	u	_	_	_	_	_
+12	x	_	X	u	_	_	_	_	_
+13	x	_	X	u	_	_	_	_	_
+14	luddiš	_	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	_	_	_	_
+15-16	šumī	_	_	_	_	_	_	_	_
+15	šum	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Sg	0	root	0:root	_
+16	ī	_	PRON	_	Number=Sg|Person=1	15	det	15:det	_
+17	šaṭra	_	ADJ	AJ	Case=Acc|Gender=M|Number=Sg	15	amod	15:amod	_
+
+# sent_id = Q004503-3
+# text = x Aššur Adad bēlē x ša šumī šaṭra ipaššiṭu x Ištar ilāni rabûti x
+1	x	_	X	u	_	_	_	_	_
+2	Aššur	_	PROPN	DN	Case=Undefined|Gender=M	0	root	0:root	_
+3	Adad	_	PROPN	DN	Case=Undefined|Gender=M	2	conj	2:conj	_
+4	bēlē	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	2	appos	2:appos	_
+5	x	_	X	u	_	_	_	_	_
+6	ša	_	PRON	REL	_	10	nsubj	10:nsubj	_
+7-8	šumī	_	_	_	_	_	_	_	_
+7	šum	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Sg	10	obj	10:obj	_
+8	ī	_	PRON	_	Number=Sg|Person=1	7	det	7:det	_
+9	šaṭra	_	ADJ	AJ	Case=Acc|Gender=M|Number=Sg	7	amod	7:amod	_
+10	ipaššiṭu	_	VERB	V	Finiteness=Finite|Gender=M|Mood=Indicative|Number=Sg|Person=3|Subordinative=Yes|Tense=Present|Verbstem=G	0	root	0:root	_
+11	x	_	X	u	_	_	_	_	_
+12	Ištar	_	PROPN	DN	Case=Undefined|Gender=F	_	_	_	_
+13	ilāni	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	2	appos	2:appos	_
+14	rabûti	_	ADJ	AJ	Case=Undefined|Gender=M|Number=Pl	13	amod	13:amod	_
+15	x	_	VERB	u	_	_	_	_	_
 

@@ -307,7 +307,7 @@
 281	išrēti	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Free|Number=Pl	280	obj	280:obj	iš-re-e-ti
 
 # sent_id = Q004474-2
-# text = ina ūmešuma ina pî ilāni rabûti šarrūtī bēlūtī kiššūtī ūṣâ šarrāku bēlāku nâdāku ṣīrāku kabtāku šurruhāku ašarēdāku uršānāku qarrādāku labbāku u zikarāku Aššur-naṣir-apli šarru dannu šar māt Aššur nibīt Sin migri Ani namad Adad kaškaš ilāni anāku kakku lā pādû mušamqit māt nakrīšu anāku šarru lēʾû x
+# text = ina ūmešuma ina pî ilāni rabûti šarrūtī bēlūtī kiššūtī ūṣâ
 1	ina	_	ADP	PRP	_	2	case	2:case	ina
 2-4	ūmešuma	_	_	_	_	_	_	_	_
 2	ūme	_	NOUN	N	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	15	obl	15:obl	u₄-me-šu₂-ma
@@ -327,42 +327,48 @@
 13	kiššūt	_	NOUN	_	Case=Undefined|Gender=F|Nounbase=Suffixal|Number=Sg	9	conj	9:conj	_
 14	ī	_	PRON	_	Number=Sg|Person=1	13	det	13:det	_
 15	ūṣâ	_	VERB	V	Finiteness=Finite|Gender=F|Mood=Indicative|Number=Pl|Person=3|Tense=Preterit|Ventive=Yes|Verbstem=G	0	root	0:root	_
-16	šarrāku	_	NOUN	N	Case=Undefined|Finiteness=Stative|Gender=C|Nounbase=Undefined|Number=Sg|Person=1	0	root	0:root	MAN-ku
-17	bēlāku	_	NOUN	N	Case=Undefined|Finiteness=Stative|Gender=C|Nounbase=Undefined|Number=Sg|Person=1	16	conj	16:conj	be-la-ku
-18	nâdāku	_	ADJ	AJ	Case=Undefined|Finiteness=Stative|Gender=C|Number=Sg|Person=1	16	conj	16:conj	na-da-ku
-19	ṣīrāku	_	ADJ	AJ	Case=Undefined|Finiteness=Stative|Gender=C|Number=Sg|Person=1	16	conj	16:conj	MAH-ku
-20	kabtāku	_	ADJ	AJ	Case=Undefined|Finiteness=Stative|Gender=C|Number=Sg|Person=1	16	conj	16:conj	DUGUD-ku
-21	šurruhāku	_	ADJ	AJ	Case=Undefined|Finiteness=Stative|Gender=C|Number=Sg|Person=1	16	conj	16:conj	šur-ru-ha-ku
-22	ašarēdāku	_	ADJ	_	Case=Undefined|Finiteness=Stative|Gender=C|Number=Sg|Person=1	16	conj	16:conj	_
-23	uršānāku	_	NOUN	N	Case=Undefined|Finiteness=Stative|Gender=C|Nounbase=Undefined|Number=Sg|Person=1	16	conj	16:conj	ur-ša₂-na-ku
-24	qarrādāku	_	NOUN	N	Case=Undefined|Finiteness=Stative|Gender=C|Nounbase=Undefined|Number=Sg|Person=1	16	conj	16:conj	qar-ra-da-ku
-25	labbāku	_	NOUN	_	Case=Undefined|Finiteness=Stative|Gender=C|Nounbase=Undefined|Number=Sg|Person=1	16	conj	16:conj	_
-26	u	_	CCONJ	CNJ	_	27	cc	27:cc	u
-27	zikarāku	_	NOUN	AJ	Case=Undefined|Finiteness=Stative|Gender=C|Nounbase=Undefined|Number=Sg|Person=1	16	conj	16:conj	zi-ka-ra-ku
-28	Aššur-naṣir-apli	_	PROPN	RN	Case=Undefined|Gender=M	0	root	0:root	{m}aš-šur-PAP-A
-29	šarru	_	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	28	appos	28:appos	MAN
-30	dannu	_	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	29	amod	29:amod	dan-nu
-31	šar	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	28	appos	28:appos	MAN
-32	māt	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	31	nmod:poss	31:nmod:poss	KUR
-33	Aššur	_	PROPN	GN	Case=Undefined|Gender=M	32	nmod:poss	32:nmod:poss	aš-šur
-34	nibīt	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	28	appos	28:appos	ni-bit
-35	Sin	_	PROPN	DN	Case=Undefined|Gender=M	34	nmod:poss	34:nmod:poss	{d}30
-36	migri	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	28	appos	28:appos	mi-ig-ri
-37	Ani	_	PROPN	DN	Case=Gen|Gender=M	36	nmod:poss	36:nmod:poss	_
-38	namad	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	28	appos	28:appos	na-mad
-39	Adad	_	PROPN	DN	Case=Undefined|Gender=M	38	nmod:poss	38:nmod:poss	{d}10
-40	kaškaš	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	28	appos	28:appos	kaš-kaš
-41	ilāni	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	40	nmod:poss	40:nmod:poss	DINGIR.MEŠ
-42	anāku	_	PRON	IP	Number=Sg|Person=1	28	appos	28:appos	ana-ku
-43	kakku	_	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	28	appos	28:appos	_
-44	lā pādû	_	ADJ	MOD|AJ	Case=Nom|Gender=M|Number=Sg	43	amod	43:amod	la|pa-du-u₂
-45	mušamqit	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	28	appos	28:appos	mu-šam-qit
-46	māt	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	45	nmod:poss	45:nmod:poss	KUR
-47-48	nakrīšu	_	_	_	_	_	_	_	_
-47	nakrī	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	46	nmod:poss	46:nmod:poss	KUR₂.MEŠ-šu₂
-48	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	47	det	47:det	_
-49	anāku	_	PRON	IP	Number=Sg|Person=1	28	appos	28:appos	ana-ku
-50	šarru	_	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	28	appos	28:appos	MAN
-51	lēʾû	_	ADJ	N	Case=Nom|Gender=M|Number=Sg	28	amod	28:amod	le-ʾu-u
-52	x	_	X	u	_	_	_	_	x
+
+# sent_id = Q004474-3
+# text = šarrāku bēlāku nâdāku ṣīrāku kabtāku šurruhāku ašarēdāku uršānāku qarrādāku labbāku u zikarāku
+1	šarrāku	_	NOUN	N	Case=Undefined|Finiteness=Stative|Gender=C|Nounbase=Undefined|Number=Sg|Person=1	0	root	0:root	MAN-ku
+2	bēlāku	_	NOUN	N	Case=Undefined|Finiteness=Stative|Gender=C|Nounbase=Undefined|Number=Sg|Person=1	1	conj	1:conj	be-la-ku
+3	nâdāku	_	ADJ	AJ	Case=Undefined|Finiteness=Stative|Gender=C|Number=Sg|Person=1	1	conj	1:conj	na-da-ku
+4	ṣīrāku	_	ADJ	AJ	Case=Undefined|Finiteness=Stative|Gender=C|Number=Sg|Person=1	1	conj	1:conj	MAH-ku
+5	kabtāku	_	ADJ	AJ	Case=Undefined|Finiteness=Stative|Gender=C|Number=Sg|Person=1	1	conj	1:conj	DUGUD-ku
+6	šurruhāku	_	ADJ	AJ	Case=Undefined|Finiteness=Stative|Gender=C|Number=Sg|Person=1	1	conj	1:conj	šur-ru-ha-ku
+7	ašarēdāku	_	ADJ	_	Case=Undefined|Finiteness=Stative|Gender=C|Number=Sg|Person=1	1	conj	1:conj	_
+8	uršānāku	_	NOUN	N	Case=Undefined|Finiteness=Stative|Gender=C|Nounbase=Undefined|Number=Sg|Person=1	1	conj	1:conj	ur-ša₂-na-ku
+9	qarrādāku	_	NOUN	N	Case=Undefined|Finiteness=Stative|Gender=C|Nounbase=Undefined|Number=Sg|Person=1	1	conj	1:conj	qar-ra-da-ku
+10	labbāku	_	NOUN	_	Case=Undefined|Finiteness=Stative|Gender=C|Nounbase=Undefined|Number=Sg|Person=1	1	conj	1:conj	_
+11	u	_	CCONJ	CNJ	_	12	cc	12:cc	u
+12	zikarāku	_	NOUN	AJ	Case=Undefined|Finiteness=Stative|Gender=C|Nounbase=Undefined|Number=Sg|Person=1	1	conj	1:conj	zi-ka-ra-ku
+
+# sent_id = Q004474-4
+# text = Aššur-naṣir-apli šarru dannu šar māt Aššur nibīt Sin migri Ani namad Adad kaškaš ilāni anāku kakku lā pādû mušamqit māt nakrīšu anāku šarru lēʾû x
+1	Aššur-naṣir-apli	_	PROPN	RN	Case=Undefined|Gender=M	0	root	0:root	{m}aš-šur-PAP-A
+2	šarru	_	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	appos	1:appos	MAN
+3	dannu	_	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	2	amod	2:amod	dan-nu
+4	šar	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	1:appos	MAN
+5	māt	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	4	nmod:poss	4:nmod:poss	KUR
+6	Aššur	_	PROPN	GN	Case=Undefined|Gender=M	5	nmod:poss	5:nmod:poss	aš-šur
+7	nibīt	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	1	appos	1:appos	ni-bit
+8	Sin	_	PROPN	DN	Case=Undefined|Gender=M	7	nmod:poss	7:nmod:poss	{d}30
+9	migri	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	1:appos	mi-ig-ri
+10	Ani	_	PROPN	DN	Case=Gen|Gender=M	9	nmod:poss	9:nmod:poss	_
+11	namad	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	1:appos	na-mad
+12	Adad	_	PROPN	DN	Case=Undefined|Gender=M	11	nmod:poss	11:nmod:poss	{d}10
+13	kaškaš	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	1:appos	kaš-kaš
+14	ilāni	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	13	nmod:poss	13:nmod:poss	DINGIR.MEŠ
+15	anāku	_	PRON	IP	Number=Sg|Person=1	1	appos	1:appos	ana-ku
+16	kakku	_	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	appos	1:appos	_
+17	lā pādû	_	ADJ	MOD|AJ	Case=Nom|Gender=M|Number=Sg	16	amod	16:amod	la|pa-du-u₂
+18	mušamqit	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	1:appos	mu-šam-qit
+19	māt	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	18	nmod:poss	18:nmod:poss	KUR
+20-21	nakrīšu	_	_	_	_	_	_	_	_
+20	nakrī	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	19	nmod:poss	19:nmod:poss	KUR₂.MEŠ-šu₂
+21	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	20	det	20:det	_
+22	anāku	_	PRON	IP	Number=Sg|Person=1	1	appos	1:appos	ana-ku
+23	šarru	_	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	appos	1:appos	MAN
+24	lēʾû	_	ADJ	N	Case=Nom|Gender=M|Number=Sg	1	amod	1:amod	le-ʾu-u
+25	x	_	X	u	_	_	_	_	x
 

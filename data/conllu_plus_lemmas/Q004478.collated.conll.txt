@@ -1,37 +1,46 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004478-1
-# text = lū ušamqit ina rēṣūṭe ša Šamaš u Adad ilāni tiklēya ummānāt mātāt Nairi Habhi Šubare u Nirib kīma Adad rāhiṣi elišunu ašgum šarru ša ultu ebertān Idiqlat adi Labnana
+# text = lū ušamqit
 1	lū	_	PART	MOD	_	2	advmod:emph	2:advmod:emph	lu
 2	ušamqit	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	0	root	0:root	u₂-šam-qit
-3	ina	_	ADP	PRP	_	4	case	4:case	ina
-4	rēṣūṭe	_	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	24	obl	24:obl	re-ṣu-te
-5	ša	_	ADP	DET	_	6	case	6:case	ša₂
-6	Šamaš	_	PROPN	DN	Case=Undefined|Gender=M	4	nmod	4:nmod	{d}ša₂-maš
-7	u	_	CCONJ	CNJ	_	8	cc	8:cc	u
-8	Adad	_	PROPN	DN	Case=Undefined|Gender=M	6	conj	6:conj	{d}IŠKUR
-9	ilāni	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	6	appos	6:appos	DINGIR.MEŠ
-10-11	tiklēya	_	_	_	_	_	_	_	_
-10	tiklē	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	6	appos	6:appos	tik-le-ia
-11	ya	_	PRON	_	Number=Sg|Person=1	10	det	10:det	_
-12	ummānāt	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Pl	24	obl	24:obl	ERIM.HI.A.MEŠ
-13	mātāt	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Pl	12	nmod:poss	12:nmod:poss	KUR.KUR
-14	Nairi	_	PROPN	GN	Case=Gen|Gender=Undefined	13	nmod:poss	13:nmod:poss	na-i-ri
-15	Habhi	_	PROPN	GN	Case=Gen|Gender=Undefined	14	conj	14:conj	{KUR}hab-hi
-16	Šubare	_	PROPN	GN	Case=Gen|Gender=Undefined	14	conj	14:conj	{KUR}šu-ba-re-e
-17	u	_	CCONJ	CNJ	_	18	cc	18:cc	u
-18	Nirib	_	PROPN	GN	Case=Gen|Gender=Undefined	14	conj	14:conj	{KUR}ni-rib
-19	kīma	_	ADP	PRP	_	20	case	20:case	GIM
-20	Adad	_	PROPN	DN	Case=Undefined|Gender=M	24	obl	24:obl	{d}IŠKUR
-21	rāhiṣi	_	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	20	appos	20:appos	ra-hi-ṣi
-22-23	elišunu	_	_	_	_	_	_	_	_
-22	eli	_	ADP	PRP	_	23	dep	23:dep	UGU-šu-nu
-23	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	24	obl	24:obl	_
-24	ašgum	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	aš₂-gu-um
-25	šarru	_	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	_	_	_	MAN
-26	ša	_	PRON	REL	_	_	_	_	ša₂
-27	ultu	_	ADP	PRP	_	28	case	28:case	TA
-28	ebertān	_	NOUN	AV	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	e-ber-tan
-29	Idiqlat	_	PROPN	WN	Case=Undefined|Gender=F	28	nmod:poss	28:nmod:poss	{ID₂}HAL.HAL
-30	adi	_	ADP	PRP	_	31	case	31:case	a-di
-31	Labnana	_	PROPN	GN	Case=Undefined|Gender=Undefined	0	root	0:root	{KUR}lab-na-na
+
+# sent_id = Q004478-2
+# text = ina rēṣūṭe ša Šamaš u Adad ilāni tiklēya ummānāt mātāt Nairi Habhi Šubare u Nirib kīma Adad rāhiṣi elišunu ašgum
+1	ina	_	ADP	PRP	_	2	case	2:case	ina
+2	rēṣūṭe	_	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	22	obl	22:obl	re-ṣu-te
+3	ša	_	ADP	DET	_	4	case	4:case	ša₂
+4	Šamaš	_	PROPN	DN	Case=Undefined|Gender=M	2	nmod	2:nmod	{d}ša₂-maš
+5	u	_	CCONJ	CNJ	_	6	cc	6:cc	u
+6	Adad	_	PROPN	DN	Case=Undefined|Gender=M	4	conj	4:conj	{d}IŠKUR
+7	ilāni	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	4	appos	4:appos	DINGIR.MEŠ
+8-9	tiklēya	_	_	_	_	_	_	_	_
+8	tiklē	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	4	appos	4:appos	tik-le-ia
+9	ya	_	PRON	_	Number=Sg|Person=1	8	det	8:det	_
+10	ummānāt	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Pl	22	obl	22:obl	ERIM.HI.A.MEŠ
+11	mātāt	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Pl	10	nmod:poss	10:nmod:poss	KUR.KUR
+12	Nairi	_	PROPN	GN	Case=Gen|Gender=Undefined	11	nmod:poss	11:nmod:poss	na-i-ri
+13	Habhi	_	PROPN	GN	Case=Gen|Gender=Undefined	12	conj	12:conj	{KUR}hab-hi
+14	Šubare	_	PROPN	GN	Case=Gen|Gender=Undefined	12	conj	12:conj	{KUR}šu-ba-re-e
+15	u	_	CCONJ	CNJ	_	16	cc	16:cc	u
+16	Nirib	_	PROPN	GN	Case=Gen|Gender=Undefined	12	conj	12:conj	{KUR}ni-rib
+17	kīma	_	ADP	PRP	_	18	case	18:case	GIM
+18	Adad	_	PROPN	DN	Case=Undefined|Gender=M	22	obl	22:obl	{d}IŠKUR
+19	rāhiṣi	_	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	18	appos	18:appos	ra-hi-ṣi
+20-21	elišunu	_	_	_	_	_	_	_	_
+20	eli	_	ADP	PRP	_	21	dep	21:dep	UGU-šu-nu
+21	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	22	obl	22:obl	_
+22	ašgum	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	aš₂-gu-um
+
+# sent_id = Q004478-3
+# text = šarru ša ultu ebertān Idiqlat
+1	šarru	_	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	_	_	_	MAN
+2	ša	_	PRON	REL	_	_	_	_	ša₂
+3	ultu	_	ADP	PRP	_	4	case	4:case	TA
+4	ebertān	_	NOUN	AV	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	e-ber-tan
+5	Idiqlat	_	PROPN	WN	Case=Undefined|Gender=F	4	nmod:poss	4:nmod:poss	{ID₂}HAL.HAL
+
+# sent_id = Q004478-4
+# text = adi Labnana
+1	adi	_	ADP	PRP	_	2	case	2:case	a-di
+2	Labnana	_	PROPN	GN	Case=Undefined|Gender=Undefined	0	root	0:root	{KUR}lab-na-na
 

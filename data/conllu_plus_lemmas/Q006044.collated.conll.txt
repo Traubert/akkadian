@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q006044-1
-# text = ēkal Tukulti-Ninurta šar kiššati šar māt Aššur mār Adad-nerari šar māt Aššur anhūt bīt nāmerī ša bāb Enpi uddiš
+# text = ēkal Tukulti-Ninurta šar kiššati šar māt Aššur mār Adad-nerari šar māt Aššur
 1	ēkal	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	E₂.GAL
 2	Tukulti-Ninurta	_	PROPN	RN	Case=Undefined|Gender=M	1	nmod:poss	1:nmod:poss	{m}GISKIM-{d}MAŠ
 3	šar	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	appos	2:appos	MAN
@@ -13,11 +13,14 @@
 10	šar	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	9	appos	9:appos	MAN
 11	māt	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	10	nmod:poss	10:nmod:poss	KUR
 12	Aššur	_	PROPN	GN	Case=Undefined|Gender=M	11	nmod:poss	11:nmod:poss	AŠ
-13	anhūt	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	19	obj	19:obj	an-hu-ut
-14	bīt	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	13	nmod:poss	13:nmod:poss	E₂
-15	nāmerī	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	14	nmod:poss	14:nmod:poss	na-me-ri
-16	ša	_	ADP	DET	_	17	case	17:case	ša₂
-17	bāb	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	14	nmod	14:nmod	KA₂
-18	Enpi	_	PROPN	DN	Case=Undefined|Gender=M	17	nmod:poss	17:nmod:poss	{d}en-pi
-19	uddiš	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	0	root	0:root	ud-diš
+
+# sent_id = Q006044-2
+# text = anhūt bīt nāmerī ša bāb Enpi uddiš
+1	anhūt	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	7	obj	7:obj	an-hu-ut
+2	bīt	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	nmod:poss	1:nmod:poss	E₂
+3	nāmerī	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	2	nmod:poss	2:nmod:poss	na-me-ri
+4	ša	_	ADP	DET	_	5	case	5:case	ša₂
+5	bāb	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	nmod	2:nmod	KA₂
+6	Enpi	_	PROPN	DN	Case=Undefined|Gender=M	5	nmod:poss	5:nmod:poss	{d}en-pi
+7	uddiš	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	0	root	0:root	ud-diš
 

@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004566-1
-# text = Aššur-naṣir-apli šakin Enlil iššak Aššur šarru rabû šarru dannu šar kiššati šar māt Aššur mār Tukulti-Ninurta šarru rabû šarru dannu šar kiššati šar māt Aššur mār Adad-nerari šarru rabû šarru dannu šar kiššati šar māt Aššurma makkūr bīt Ištar ša Ninua
+# text = Aššur-naṣir-apli šakin Enlil iššak Aššur šarru rabû šarru dannu šar kiššati šar māt Aššur mār Tukulti-Ninurta šarru rabû šarru dannu šar kiššati šar māt Aššur mār Adad-nerari šarru rabû šarru dannu šar kiššati šar māt Aššurma
 1	Aššur-naṣir-apli	_	PROPN	RN	Case=Undefined|Gender=M	0	root	0:root	{m}aš-šur-PAP-A
 2	šakin	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	1:appos	GAR
 3	Enlil	_	PROPN	DN	Case=Undefined|Gender=M	2	nmod:poss	2:nmod:poss	{d}BAD
@@ -39,9 +39,12 @@
 36-37	Aššurma	_	_	_	_	_	_	_	_
 36	Aššur	_	PROPN	GN	Case=Undefined|Gender=M	35	nmod:poss	35:nmod:poss	aš-šur-ma
 37	ma	_	PART	_	_	36	det	36:det	_
-38	makkūr	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	NIG₂.GA
-39	bīt	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	38	nmod:poss	38:nmod:poss	E₂
-40	Ištar	_	PROPN	DN	Case=Undefined|Gender=F	39	nmod:poss	39:nmod:poss	{d}INANNA
-41	ša	_	ADP	DET	_	42	case	42:case	ša₂
-42	Ninua	_	PROPN	SN	Case=Undefined|Gender=Undefined	40	nmod	40:nmod	{URU}ni-nu-a
+
+# sent_id = Q004566-2
+# text = makkūr bīt Ištar ša Ninua
+1	makkūr	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	NIG₂.GA
+2	bīt	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	nmod:poss	1:nmod:poss	E₂
+3	Ištar	_	PROPN	DN	Case=Undefined|Gender=F	2	nmod:poss	2:nmod:poss	{d}INANNA
+4	ša	_	ADP	DET	_	5	case	5:case	ša₂
+5	Ninua	_	PROPN	SN	Case=Undefined|Gender=Undefined	3	nmod	3:nmod	{URU}ni-nu-a
 

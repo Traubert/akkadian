@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004561-1
-# text = ēkal Aššur-naṣir-apli šar kiššati šar māt Aššur mār Tukulti-Ninurta šar kiššati šar māt Aššur 10 manê
+# text = ēkal Aššur-naṣir-apli šar kiššati šar māt Aššur mār Tukulti-Ninurta šar kiššati šar māt Aššur
 1	ēkal	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	E₂.GAL
 2	Aššur-naṣir-apli	_	PROPN	RN	Case=Undefined|Gender=M	1	nmod:poss	1:nmod:poss	{m}AŠ-PAP-A
 3	šar	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	appos	2:appos	MAN
@@ -15,6 +15,9 @@
 12	šar	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	9	appos	9:appos	MAN
 13	māt	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	12	nmod:poss	12:nmod:poss	KUR
 14	Aššur	_	PROPN	GN	Case=Undefined|Gender=M	13	nmod:poss	13:nmod:poss	AŠ
-15	10	_	NUM	_	_	16	nummod	16:nummod	10
-16	manê	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	0	root	0:root	MA.NA
+
+# sent_id = Q004561-2
+# text = 10 manê
+1	10	_	NUM	_	_	2	nummod	2:nummod	10
+2	manê	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	0	root	0:root	MA.NA
 

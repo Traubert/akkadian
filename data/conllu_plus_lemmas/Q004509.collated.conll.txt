@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004509-1
-# text = x-ma ina malkī ša kibrāt erbetta x u Tamti-rabiti qāssu ikšud x x adi ereb Šamaš ana šēpīšu ušeknišu x šar māt Aššurma makkūr bīt Ninurta
+# text = x-ma ina malkī ša kibrāt erbetta x u Tamti-rabiti qāssu ikšud
 1	x-ma	_	X	u	_	_	_	_	x-ma
 2	ina	_	ADP	PRP	_	3	case	3:case	ina
 3	malkī	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	12	obl	12:obl	mal-ki
@@ -14,23 +14,32 @@
 10	qās	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Suffixal|Number=Sg	12	nsubj	12:nsubj	ŠU-su
 11	su	_	PRON	_	Gender=M|Number=Sg|Person=3	10	det	10:det	_
 12	ikšud	_	VERB	V	Finiteness=Finite|Gender=M|Mood=Indicative|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	0	root	0:root	_
-13	x	_	X	u	_	_	_	_	x
-14	x	_	X	u	_	_	_	_	x
-15	adi	_	ADP	PRP	_	16	case	16:case	a-di
-16	ereb	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	21	obl	21:obl	e-reb
-17	Šamaš	_	PROPN	DN	Case=Undefined|Gender=M	16	nmod:poss	16:nmod:poss	{d}ša₂-maš
-18	ana	_	ADP	PRP	_	19	case	19:case	ana
-19-20	šēpīšu	_	_	_	_	_	_	_	_
-19	šēpī	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Suffixal|Number=Pl	21	obl	21:obl	GIR₃.II.MEŠ-šu₂
-20	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	19	det	19:det	_
-21	ušeknišu	_	VERB	V	Finiteness=Finite|Gender=M|Mood=Indicative|Number=Sg|Person=3|Subordinative=Yes|Tense=Preterit|Verbstem=S	0	root	0:root	u₂-šek₂-ni-šu
-22	x	_	X	u	_	_	_	_	x
-23	šar	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	MAN
-24	māt	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	23	nmod:poss	23:nmod:poss	KUR
-25-26	Aššurma	_	_	_	_	_	_	_	_
-25	Aššur	_	PROPN	GN	Case=Undefined|Gender=M	24	nmod:poss	24:nmod:poss	AŠ-ma
-26	ma	_	PART	_	_	25	det	25:det	_
-27	makkūr	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	NIG₂.GA
-28	bīt	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	27	nmod:poss	27:nmod:poss	E₂
-29	Ninurta	_	PROPN	DN	Case=Undefined|Gender=M	28	nmod:poss	28:nmod:poss	{d}MAŠ
+
+# sent_id = Q004509-2
+# text = x x adi ereb Šamaš ana šēpīšu ušeknišu
+1	x	_	X	u	_	_	_	_	x
+2	x	_	X	u	_	_	_	_	x
+3	adi	_	ADP	PRP	_	4	case	4:case	a-di
+4	ereb	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	9	obl	9:obl	e-reb
+5	Šamaš	_	PROPN	DN	Case=Undefined|Gender=M	4	nmod:poss	4:nmod:poss	{d}ša₂-maš
+6	ana	_	ADP	PRP	_	7	case	7:case	ana
+7-8	šēpīšu	_	_	_	_	_	_	_	_
+7	šēpī	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Suffixal|Number=Pl	9	obl	9:obl	GIR₃.II.MEŠ-šu₂
+8	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	7	det	7:det	_
+9	ušeknišu	_	VERB	V	Finiteness=Finite|Gender=M|Mood=Indicative|Number=Sg|Person=3|Subordinative=Yes|Tense=Preterit|Verbstem=S	0	root	0:root	u₂-šek₂-ni-šu
+
+# sent_id = Q004509-3
+# text = x šar māt Aššurma
+1	x	_	X	u	_	_	_	_	x
+2	šar	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	MAN
+3	māt	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	2	nmod:poss	2:nmod:poss	KUR
+4-5	Aššurma	_	_	_	_	_	_	_	_
+4	Aššur	_	PROPN	GN	Case=Undefined|Gender=M	3	nmod:poss	3:nmod:poss	AŠ-ma
+5	ma	_	PART	_	_	4	det	4:det	_
+
+# sent_id = Q004509-4
+# text = makkūr bīt Ninurta
+1	makkūr	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	NIG₂.GA
+2	bīt	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	nmod:poss	1:nmod:poss	E₂
+3	Ninurta	_	PROPN	DN	Case=Undefined|Gender=M	2	nmod:poss	2:nmod:poss	{d}MAŠ
 

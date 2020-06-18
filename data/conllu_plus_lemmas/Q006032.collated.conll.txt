@@ -114,7 +114,7 @@
 32	x	_	X	u	_	_	_	_	x
 
 # sent_id = Q006032-3
-# text = enūma dūru ša Baltil ša x rubû ālik pāniya ēpuš ēnahma ašaršu umessi dannassu akšud ištu uššīšu adi gabadibbīšu arṣip ušeklil eli mahrî ussim ušerrih narîya alṭur ina qerebšu aškun
+# text = enūma dūru ša Baltil ša x rubû ālik pāniya ēpuš ēnahma ašaršu umessi dannassu akšud
 1	enūma	_	ADV	SBJ	_	12	advmod	12:advmod	e-nu-ma
 2	dūru	_	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	12	nsubj	12:nsubj	BAD₃
 3	ša	_	ADP	DET	_	4	case	4:case	ša
@@ -138,32 +138,38 @@
 17	dannas	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Suffixal|Number=Sg	19	obj	19:obj	dan-na-su
 18	su	_	PRON	_	Gender=M|Number=Sg|Person=3	17	det	17:det	_
 19	akšud	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	12	conj	12:conj	ak-šud
-20	ištu	_	ADP	PRP	_	21	case	21:case	iš-tu
-21-22	uššīšu	_	_	_	_	_	_	_	_
-21	uššī	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	26	obl	26:obl	uš-ši-šu
-22	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	21	det	21:det	_
-23	adi	_	ADP	PRP	_	24	case	24:case	a-di
-24-25	gabadibbīšu	_	_	_	_	_	_	_	_
-24	gabadibbī	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	26	obl	26:obl	gaba-dib-bi-šu₂
-25	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	24	det	24:det	_
-26	arṣip	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	ar-ṣip
-27	ušeklil	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	26	xcomp	26:xcomp	u₂-šek₂-lil
-28	eli	_	ADP	PRP	_	29	case	29:case	UGU
-29	mahrî	_	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	30	obl	30:obl	mah-ri-i
-30	ussim	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	26	conj	26:conj	u₂-si-im
-31	ušerrih	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	30	xcomp	30:xcomp	u₂-šer₃-rih
-32-33	narîya	_	_	_	_	_	_	_	_
-32	narî	_	NOUN	N	Case=Acc|Gender=M|Nounbase=Suffixal|Number=Sg	34	obj	34:obj	{NA₄}NA.RU₂.A-ia
-33	ya	_	PRON	_	Number=Sg|Person=1	32	det	32:det	_
-34	alṭur	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	al-ṭu-ur
-35	ina	_	ADP	PRP	_	36	case	36:case	i-na
-36-37	qerebšu	_	_	_	_	_	_	_	_
-36	qereb	_	NOUN	N	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	38	obl	38:obl	qe₂-reb-šu₂
-37	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	36	det	36:det	_
-38	aškun	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	34	conj	34:conj	aš₂-kun
 
 # sent_id = Q006032-4
-# text = rubû arkû anhūssu luddiš u narîya līmurma lilsi šamna lipšuš nīqa liqqi ana ašriša lutēr Aššur bēlu rabû u Ištar bēlat Nina ikribīšu išemmû ina tāhāzi ša šarrāni ašar taqrubte ammar libbišu ušamṣašu
+# text = ištu uššīšu adi gabadibbīšu arṣip ušeklil eli mahrî ussim ušerrih
+1	ištu	_	ADP	PRP	_	2	case	2:case	iš-tu
+2-3	uššīšu	_	_	_	_	_	_	_	_
+2	uššī	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	7	obl	7:obl	uš-ši-šu
+3	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	2	det	2:det	_
+4	adi	_	ADP	PRP	_	5	case	5:case	a-di
+5-6	gabadibbīšu	_	_	_	_	_	_	_	_
+5	gabadibbī	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	7	obl	7:obl	gaba-dib-bi-šu₂
+6	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	5	det	5:det	_
+7	arṣip	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	ar-ṣip
+8	ušeklil	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	7	xcomp	7:xcomp	u₂-šek₂-lil
+9	eli	_	ADP	PRP	_	10	case	10:case	UGU
+10	mahrî	_	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	11	obl	11:obl	mah-ri-i
+11	ussim	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	7	conj	7:conj	u₂-si-im
+12	ušerrih	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=D	11	xcomp	11:xcomp	u₂-šer₃-rih
+
+# sent_id = Q006032-5
+# text = narîya alṭur ina qerebšu aškun
+1-2	narîya	_	_	_	_	_	_	_	_
+1	narî	_	NOUN	N	Case=Acc|Gender=M|Nounbase=Suffixal|Number=Sg	3	obj	3:obj	{NA₄}NA.RU₂.A-ia
+2	ya	_	PRON	_	Number=Sg|Person=1	1	det	1:det	_
+3	alṭur	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	al-ṭu-ur
+4	ina	_	ADP	PRP	_	5	case	5:case	i-na
+5-6	qerebšu	_	_	_	_	_	_	_	_
+5	qereb	_	NOUN	N	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	7	obl	7:obl	qe₂-reb-šu₂
+6	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	5	det	5:det	_
+7	aškun	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	3	conj	3:conj	aš₂-kun
+
+# sent_id = Q006032-6
+# text = rubû arkû anhūssu luddiš u narîya līmurma lilsi
 1	rubû	_	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	5	nsubj	5:nsubj	NUN-u₂
 2	arkû	_	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	1	amod	1:amod	EGIR-u₂
 3-4	anhūssu	_	_	_	_	_	_	_	_
@@ -178,41 +184,47 @@
 9	līmur	_	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=G	5	conj	5:conj	li-mur-ma
 10	ma	_	CCONJ	_	_	11	cc	11:cc	_
 11	lilsi	_	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=G	5	conj	5:conj	lil-si
-12	šamna	_	NOUN	N	Case=Acc|Gender=M|Nounbase=Free|Number=Sg	13	obj	13:obj	I₃
-13	lipšuš	_	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=G	0	root	0:root	ŠEŠ₂
-14	nīqa	_	NOUN	N	Case=Acc|Gender=M|Nounbase=Free|Number=Sg	15	obj	15:obj	{UDU}SISKUR
-15	liqqi	_	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=G	13	conj	13:conj	li-qi
-16	ana	_	ADP	PRP	_	17	case	17:case	ana
-17-18	ašriša	_	_	_	_	_	_	_	_
-17	ašri	_	NOUN	N	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	19	obl	19:obl	KI-ša₂
-18	ša	_	PRON	_	Gender=F|Number=Sg|Person=3	17	det	17:det	_
-19	lutēr	_	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	13	conj	13:conj	lu-ter
-20	Aššur	_	PROPN	DN	Case=Undefined|Gender=M	29	nsubj	29:nsubj	aš-šur
-21	bēlu	_	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	20	appos	20:appos	EN
-22	rabû	_	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	21	amod	21:amod	GAL-u₂
-23	u	_	CCONJ	CNJ	_	24	cc	24:cc	u₃
-24	Ištar	_	PROPN	DN	Case=Undefined|Gender=F	20	conj	20:conj	{d}iš₈-tar₂
-25	bēlat	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	24	appos	24:appos	be-lat
-26	Nina	_	PROPN	SN	Case=Undefined|Gender=Undefined	25	nmod:poss	25:nmod:poss	{URU}ni-na-a
-27-28	ikribīšu	_	_	_	_	_	_	_	_
-27	ikribī	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	29	obj	29:obj	ik-ri-bi-šu₂
-28	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	27	det	27:det	_
-29	išemmû	_	VERB	V	Finiteness=Finite|Gender=M|Mood=Indicative|Number=Pl|Person=3|Tense=Present|Verbstem=G	0	root	0:root	i-še-mu-u₂
-30	ina	_	ADP	PRP	_	31	case	31:case	ina
-31	tāhāzi	_	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	39	obl	39:obl	ME₃
-32	ša	_	ADP	DET	_	33	case	33:case	ša₂
-33	šarrāni	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	31	nmod	31:nmod	MAN.MEŠ-ni
-34	ašar	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	_	_	_	a-šar
-35	taqrubte	_	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	39	obl	39:obl	taq₃-ru-ub-te
-36	ammar	_	ADP	PRP	_	37	case	37:case	am-mar
-37-38	libbišu	_	_	_	_	_	_	_	_
-37	libbi	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	39	obl	39:obl	_
-38	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	37	det	37:det	_
-39-40	ušamṣašu	_	_	_	_	_	_	_	_
-39	ušamṣa	_	VERB	_	Finiteness=Finite|Gender=M|Mood=Indicative|Number=Sg|Person=3|Tense=Present|Verbstem=S	29	conj	29:conj	_
-40	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	39	obj	39:obj	_
 
-# sent_id = Q006032-5
+# sent_id = Q006032-7
+# text = šamna lipšuš nīqa liqqi ana ašriša lutēr
+1	šamna	_	NOUN	N	Case=Acc|Gender=M|Nounbase=Free|Number=Sg	2	obj	2:obj	I₃
+2	lipšuš	_	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=G	0	root	0:root	ŠEŠ₂
+3	nīqa	_	NOUN	N	Case=Acc|Gender=M|Nounbase=Free|Number=Sg	4	obj	4:obj	{UDU}SISKUR
+4	liqqi	_	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=G	2	conj	2:conj	li-qi
+5	ana	_	ADP	PRP	_	6	case	6:case	ana
+6-7	ašriša	_	_	_	_	_	_	_	_
+6	ašri	_	NOUN	N	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	8	obl	8:obl	KI-ša₂
+7	ša	_	PRON	_	Gender=F|Number=Sg|Person=3	6	det	6:det	_
+8	lutēr	_	VERB	V	Finiteness=Finite|Gender=M|Mood=Precative|Number=Sg|Person=3|Verbstem=D	2	conj	2:conj	lu-ter
+
+# sent_id = Q006032-8
+# text = Aššur bēlu rabû u Ištar bēlat Nina ikribīšu išemmû ina tāhāzi ša šarrāni ašar taqrubte ammar libbišu ušamṣašu
+1	Aššur	_	PROPN	DN	Case=Undefined|Gender=M	10	nsubj	10:nsubj	aš-šur
+2	bēlu	_	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	appos	1:appos	EN
+3	rabû	_	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	2	amod	2:amod	GAL-u₂
+4	u	_	CCONJ	CNJ	_	5	cc	5:cc	u₃
+5	Ištar	_	PROPN	DN	Case=Undefined|Gender=F	1	conj	1:conj	{d}iš₈-tar₂
+6	bēlat	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	5	appos	5:appos	be-lat
+7	Nina	_	PROPN	SN	Case=Undefined|Gender=Undefined	6	nmod:poss	6:nmod:poss	{URU}ni-na-a
+8-9	ikribīšu	_	_	_	_	_	_	_	_
+8	ikribī	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	10	obj	10:obj	ik-ri-bi-šu₂
+9	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	8	det	8:det	_
+10	išemmû	_	VERB	V	Finiteness=Finite|Gender=M|Mood=Indicative|Number=Pl|Person=3|Tense=Present|Verbstem=G	0	root	0:root	i-še-mu-u₂
+11	ina	_	ADP	PRP	_	12	case	12:case	ina
+12	tāhāzi	_	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	20	obl	20:obl	ME₃
+13	ša	_	ADP	DET	_	14	case	14:case	ša₂
+14	šarrāni	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	12	nmod	12:nmod	MAN.MEŠ-ni
+15	ašar	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	_	_	_	a-šar
+16	taqrubte	_	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	20	obl	20:obl	taq₃-ru-ub-te
+17	ammar	_	ADP	PRP	_	18	case	18:case	am-mar
+18-19	libbišu	_	_	_	_	_	_	_	_
+18	libbi	_	NOUN	_	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	20	obl	20:obl	_
+19	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	18	det	18:det	_
+20-21	ušamṣašu	_	_	_	_	_	_	_	_
+20	ušamṣa	_	VERB	_	Finiteness=Finite|Gender=M|Mood=Indicative|Number=Sg|Person=3|Tense=Present|Verbstem=S	10	conj	10:conj	_
+21	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	20	obj	20:obj	_
+
+# sent_id = Q006032-9
 # text = {ITI}x UD.x.KAM₂ līmu Aššur-lākīnu-ubāša
 1	{ITI}x	_	PROPN	u	_	0	root	0:root	{ITI}x
 2	UD.x.KAM₂	_	ADJ	n	_	1	amod	1:amod	UD.x.KAM₂

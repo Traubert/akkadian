@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004545-1
-# text = ēkal Aššur-naṣir-apli šar kiššati šar māt Aššur mār Tukulti-Ninurta šar māt Aššur mār Adad-nerari šar māt Aššurma šallatu ša Mariri ša Hatte
+# text = ēkal Aššur-naṣir-apli šar kiššati šar māt Aššur mār Tukulti-Ninurta šar māt Aššur mār Adad-nerari šar māt Aššurma
 1	ēkal	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	E₂.GAL
 2	Aššur-naṣir-apli	_	PROPN	RN	Case=Undefined|Gender=M	1	nmod:poss	1:nmod:poss	{m}AŠ-PAP-A
 3	šar	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	appos	2:appos	MAN
@@ -20,9 +20,12 @@
 17-18	Aššurma	_	_	_	_	_	_	_	_
 17	Aššur	_	PROPN	GN	Case=Undefined|Gender=M	16	nmod:poss	16:nmod:poss	AŠ-ma
 18	ma	_	PART	_	_	17	det	17:det	_
-19	šallatu	_	NOUN	N	Case=Nom|Gender=F|Nounbase=Free|Number=Sg	0	root	0:root	šal-la-tu
-20	ša	_	ADP	DET	_	21	case	21:case	ša₂
-21	Mariri	_	PROPN	SN	Case=Undefined|Gender=Undefined	19	nmod	19:nmod	{URU}ma-ri-ri
-22	ša	_	ADP	DET	_	23	case	23:case	ša₂
-23	Hatte	_	PROPN	GN	Case=Gen|Gender=Undefined	21	nmod	21:nmod	{KUR}ha-a-te
+
+# sent_id = Q004545-2
+# text = šallatu ša Mariri ša Hatte
+1	šallatu	_	NOUN	N	Case=Nom|Gender=F|Nounbase=Free|Number=Sg	0	root	0:root	šal-la-tu
+2	ša	_	ADP	DET	_	3	case	3:case	ša₂
+3	Mariri	_	PROPN	SN	Case=Undefined|Gender=Undefined	1	nmod	1:nmod	{URU}ma-ri-ri
+4	ša	_	ADP	DET	_	5	case	5:case	ša₂
+5	Hatte	_	PROPN	GN	Case=Gen|Gender=Undefined	3	nmod	3:nmod	{KUR}ha-a-te
 

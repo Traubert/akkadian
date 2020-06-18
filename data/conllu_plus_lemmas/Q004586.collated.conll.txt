@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004586-1
-# text = ēkal Aššur-naṣir-apli šar kiššati šar māt Aššur mār Tukulti-Ninurta šar kiššati šar māt Aššur mār Adad-nerari šar kiššati šar māt Aššurma kisirti būrti ša bīt Kidmuri
+# text = ēkal Aššur-naṣir-apli šar kiššati šar māt Aššur mār Tukulti-Ninurta šar kiššati šar māt Aššur mār Adad-nerari šar kiššati šar māt Aššurma
 1	ēkal	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	E₂.GAL
 2	Aššur-naṣir-apli	_	PROPN	RN	Case=Undefined|Gender=M	1	nmod:poss	1:nmod:poss	{m}AŠ-PAP-A
 3	šar	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	appos	2:appos	MAN
@@ -24,9 +24,12 @@
 21-22	Aššurma	_	_	_	_	_	_	_	_
 21	Aššur	_	PROPN	GN	Case=Undefined|Gender=M	20	nmod:poss	20:nmod:poss	AŠ-ma
 22	ma	_	PART	_	_	21	det	21:det	_
-23	kisirti	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	ki-sir-ti
-24	būrti	_	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	23	nmod:poss	23:nmod:poss	PU₂
-25	ša	_	ADP	DET	_	26	case	26:case	ša₂
-26	bīt	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	24	nmod	24:nmod	E₂
-27	Kidmuri	_	PROPN	DN	Case=Gen|Gender=Undefined	26	nmod:poss	26:nmod:poss	{d}kid₉-mu-ri
+
+# sent_id = Q004586-2
+# text = kisirti būrti ša bīt Kidmuri
+1	kisirti	_	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	ki-sir-ti
+2	būrti	_	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	1	nmod:poss	1:nmod:poss	PU₂
+3	ša	_	ADP	DET	_	4	case	4:case	ša₂
+4	bīt	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	nmod	2:nmod	E₂
+5	Kidmuri	_	PROPN	DN	Case=Gen|Gender=Undefined	4	nmod:poss	4:nmod:poss	{d}kid₉-mu-ri
 

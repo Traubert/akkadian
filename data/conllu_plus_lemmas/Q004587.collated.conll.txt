@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004587-1
-# text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššur bīt Ištar ša Nina bēltiya ultu uššēšu adi gabadibbīšu ušaklil u aksir
+# text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššur
 1	Aššur-naṣir-apli	_	PROPN	RN	Case=Undefined|Gender=M	0	root	0:root	{m}AŠ-PAP-A
 2	šakin	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	1:appos	GAR
 3	Enlil	_	PROPN	DN	Case=Undefined|Gender=M	2	nmod:poss	2:nmod:poss	{d}BAD
@@ -18,22 +18,25 @@
 15	Enlil	_	PROPN	DN	Case=Undefined|Gender=M	14	nmod:poss	14:nmod:poss	{d}BAD
 16	iššak	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	13	appos	13:appos	ŠID
 17	Aššur	_	PROPN	DN	Case=Undefined|Gender=M	16	nmod:poss	16:nmod:poss	AŠ
-18	bīt	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	32	obj	32:obj	E₂
-19	Ištar	_	PROPN	DN	Case=Undefined|Gender=F	18	nmod:poss	18:nmod:poss	{d}INANNA
-20	ša	_	ADP	DET	_	21	case	21:case	ša₂
-21	Nina	_	PROPN	SN	Case=Undefined|Gender=Undefined	19	nmod	19:nmod	{URU}ni-na-a
-22-23	bēltiya	_	_	_	_	_	_	_	_
-22	bēlti	_	NOUN	N	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	19	appos	19:appos	NIN-ia
-23	ya	_	PRON	_	Number=Sg|Person=1	22	det	22:det	_
-24	ultu	_	ADP	PRP	_	25	case	25:case	TA
-25-26	uššēšu	_	_	_	_	_	_	_	_
-25	uššē	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	30	obl	30:obl	URU₄-šu₂
-26	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	25	det	25:det	_
-27	adi	_	ADP	PRP	_	28	case	28:case	a-di
-28-29	gabadibbīšu	_	_	_	_	_	_	_	_
-28	gabadibbī	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	30	obl	30:obl	gaba-dib-bi-šu₂
-29	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	28	det	28:det	_
-30	ušaklil	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	0	root	0:root	u₂-šak-lil
-31	u	_	CCONJ	CNJ	_	32	cc	32:cc	u
-32	aksir	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	30	conj	30:conj	ak-sir
+
+# sent_id = Q004587-2
+# text = bīt Ištar ša Nina bēltiya ultu uššēšu adi gabadibbīšu ušaklil u aksir
+1	bīt	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	15	obj	15:obj	E₂
+2	Ištar	_	PROPN	DN	Case=Undefined|Gender=F	1	nmod:poss	1:nmod:poss	{d}INANNA
+3	ša	_	ADP	DET	_	4	case	4:case	ša₂
+4	Nina	_	PROPN	SN	Case=Undefined|Gender=Undefined	2	nmod	2:nmod	{URU}ni-na-a
+5-6	bēltiya	_	_	_	_	_	_	_	_
+5	bēlti	_	NOUN	N	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	2	appos	2:appos	NIN-ia
+6	ya	_	PRON	_	Number=Sg|Person=1	5	det	5:det	_
+7	ultu	_	ADP	PRP	_	8	case	8:case	TA
+8-9	uššēšu	_	_	_	_	_	_	_	_
+8	uššē	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	13	obl	13:obl	URU₄-šu₂
+9	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	8	det	8:det	_
+10	adi	_	ADP	PRP	_	11	case	11:case	a-di
+11-12	gabadibbīšu	_	_	_	_	_	_	_	_
+11	gabadibbī	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	13	obl	13:obl	gaba-dib-bi-šu₂
+12	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	11	det	11:det	_
+13	ušaklil	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	0	root	0:root	u₂-šak-lil
+14	u	_	CCONJ	CNJ	_	15	cc	15:cc	u
+15	aksir	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	13	conj	13:conj	ak-sir
 

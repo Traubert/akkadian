@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004565-1
-# text = Aššur-naṣir-apli šakin Enlil iššak Aššur šarru rabû šarru dannu šar kiššati šar māt Aššur mār Tukulti-Ninurta šarru rabû šarru dannu šar kiššati šar māt Aššur mār Adad-nerari šarru rabû šarru dannu šar kiššati šar māt Aššurma ša bīt Ištar ša Ninua bēltiya ēpušma arṣip
+# text = Aššur-naṣir-apli šakin Enlil iššak Aššur šarru rabû šarru dannu šar kiššati šar māt Aššur mār Tukulti-Ninurta šarru rabû šarru dannu šar kiššati šar māt Aššur mār Adad-nerari šarru rabû šarru dannu šar kiššati šar māt Aššurma
 1	Aššur-naṣir-apli	_	PROPN	RN	Case=Undefined|Gender=M	0	root	0:root	{m}aš-šur-PAP-A
 2	šakin	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	1:appos	GAR
 3	Enlil	_	PROPN	DN	Case=Undefined|Gender=M	2	nmod:poss	2:nmod:poss	{d}BAD
@@ -39,16 +39,19 @@
 36-37	Aššurma	_	_	_	_	_	_	_	_
 36	Aššur	_	PROPN	GN	Case=Undefined|Gender=M	35	nmod:poss	35:nmod:poss	aš-šur-ma
 37	ma	_	PART	_	_	36	det	36:det	_
-38	ša	_	PRON	DET	_	45	nsubj	45:nsubj	ša₂
-39	bīt	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	45	obj	45:obj	E₂
-40	Ištar	_	PROPN	DN	Case=Undefined|Gender=F	39	nmod:poss	39:nmod:poss	{d}INANNA
-41	ša	_	ADP	DET	_	42	case	42:case	ša₂
-42	Ninua	_	PROPN	SN	Case=Undefined|Gender=Undefined	40	nmod	40:nmod	{URU}ni-nu-a
-43-44	bēltiya	_	_	_	_	_	_	_	_
-43	bēlti	_	NOUN	N	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	40	appos	40:appos	GAŠAN-ia
-44	ya	_	PRON	_	Number=Sg|Person=1	43	det	43:det	_
-45-46	ēpušma	_	_	_	_	_	_	_	_
-45	ēpuš	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	DU₃-ma
-46	ma	_	CCONJ	_	_	47	cc	47:cc	_
-47	arṣip	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	45	conj	45:conj	ar-ṣip
+
+# sent_id = Q004565-2
+# text = ša bīt Ištar ša Ninua bēltiya ēpušma arṣip
+1	ša	_	PRON	DET	_	8	nsubj	8:nsubj	ša₂
+2	bīt	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	8	obj	8:obj	E₂
+3	Ištar	_	PROPN	DN	Case=Undefined|Gender=F	2	nmod:poss	2:nmod:poss	{d}INANNA
+4	ša	_	ADP	DET	_	5	case	5:case	ša₂
+5	Ninua	_	PROPN	SN	Case=Undefined|Gender=Undefined	3	nmod	3:nmod	{URU}ni-nu-a
+6-7	bēltiya	_	_	_	_	_	_	_	_
+6	bēlti	_	NOUN	N	Case=Gen|Gender=F|Nounbase=Suffixal|Number=Sg	3	appos	3:appos	GAŠAN-ia
+7	ya	_	PRON	_	Number=Sg|Person=1	6	det	6:det	_
+8-9	ēpušma	_	_	_	_	_	_	_	_
+8	ēpuš	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	DU₃-ma
+9	ma	_	CCONJ	_	_	10	cc	10:cc	_
+10	arṣip	_	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	8	conj	8:conj	ar-ṣip
 
