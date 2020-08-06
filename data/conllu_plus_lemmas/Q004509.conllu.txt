@@ -1,0 +1,45 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004509-1
+# text = x-ma ina malkī ša kibrāt erbetta x u Tamti-rabiti qāssu ikšud
+1	x-ma	_	X	u	_	_	_	_	x-ma
+2	ina	ina	ADP	PRP	_	3	case	_	ina
+3	malkī	malku	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	12	obl	_	mal-ki
+4	ša	ša	ADP	REL	_	5	case	_	ša
+5	kibrāt	kibru	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Pl	3	nmod	_	kib-rat
+6	erbetta	erbe	NUM	NU	Gender=F	5	nmod:poss	_	4-ta
+7	x	_	X	u	_	_	_	_	x
+8	u	u	CCONJ	CNJ	_	9	cc	_	u
+9	Tamti-rabiti	Tamtu-rabitu	PROPN	WN	Case=Undefined|Gender=F	3	conj	_	A.AB.BA-GAL-ti
+10-11	qāssu	_	_	_	_	_	_	_	_
+10	qās	qātu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Suffixal|Number=Sg	12	nsubj	_	ŠU-su
+11	su	_	PRON	_	Gender=M|Number=Sg|Person=3	10	det	_	_
+12	ikšud	kašādu	VERB	V	Finiteness=Finite|Gender=M|Mood=Indicative|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	0	root	0:root	_
+
+# sent_id = Q004509-2
+# text = x x adi ereb Šamaš ana šēpīšu ušeknišu
+13	x	_	X	u	_	_	_	_	x
+14	x	_	X	u	_	_	_	_	x
+15	adi	adi	ADP	PRP	_	16	case	_	a-di
+16	ereb	erbu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	21	obl	_	e-reb
+17	Šamaš	Šamaš	PROPN	DN	Case=Undefined|Gender=M	16	nmod:poss	_	{d}ša₂-maš
+18	ana	ana	ADP	PRP	_	19	case	_	ana
+19-20	šēpīšu	_	_	_	_	_	_	_	_
+19	šēpī	šēpu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Suffixal|Number=Pl	21	obl	_	GIR₃.II.MEŠ-šu₂
+20	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	19	det	_	_
+21	ušeknišu	kanāšu	VERB	V	Finiteness=Finite|Gender=M|Mood=Indicative|Number=Sg|Person=3|Subordinative=Yes|Tense=Preterit|Verbstem=S	0	root	0:root	u₂-šek₂-ni-šu
+
+# sent_id = Q004509-3
+# text = x šar māt Aššurma
+22	x	_	X	u	_	_	_	_	x
+23	šar	šarru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	MAN
+24	māt	mātu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	23	nmod:poss	_	KUR
+25-26	Aššurma	_	_	_	_	_	_	_	_
+25	Aššur	Aššur	PROPN	GN	Case=Undefined|Gender=M	24	nmod:poss	_	AŠ-ma
+26	ma	_	PART	_	_	25	det	_	_
+
+# sent_id = Q004509-4
+# text = makkūr bīt Ninurta
+27	makkūr	makkūru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	NIG₂.GA
+28	bīt	bītu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	27	nmod:poss	_	E₂
+29	Ninurta	Ninurta	PROPN	DN	Case=Undefined|Gender=M	28	nmod:poss	_	{d}MAŠ
+

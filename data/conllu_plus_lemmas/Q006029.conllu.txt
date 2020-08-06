@@ -1,0 +1,29 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q006029-1
+# text = ṣalam Adad-nerari šarru dannu šar kiššati šar māt Aššur mār Aššur-dan šar kiššati šar māt Aššur mār Tukulti-apil-Ešarra šar kiššati šar māt Aššurma
+1	ṣalam	ṣalmu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	ṣa-lam
+2	Adad-nerari	Adad-narari_II	PROPN	RN	Case=Undefined|Gender=M	1	nmod:poss	_	{m}{d}10-ERIM.TAH₂
+3	šarru	šarru	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	2	appos	_	MAN
+4	dannu	dannu	ADJ	AJ	Case=Nom|Gender=M|Number=Sg	3	amod	_	dan-nu
+5	šar	šarru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	MAN
+6	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	5	nmod:poss	_	KIŠ
+7	šar	šarru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	MAN
+8	māt	mātu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	7	nmod:poss	_	KUR
+9	Aššur	Aššur	PROPN	GN	Case=Undefined|Gender=M	8	nmod:poss	_	AŠ
+10	mār	māru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	A
+11	Aššur-dan	Aššur-dan_II	PROPN	RN	Case=Undefined|Gender=M	10	nmod:poss	_	AŠ-KAL-an
+12	šar	šarru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	11	appos	_	MAN
+13	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	12	nmod:poss	_	KIŠ
+14	šar	šarru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	11	appos	_	MAN
+15	māt	mātu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	14	nmod:poss	_	KUR
+16	Aššur	Aššur	PROPN	GN	Case=Undefined|Gender=M	15	nmod:poss	_	AŠ
+17	mār	māru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	11	appos	_	A
+18	Tukulti-apil-Ešarra	Tukulti-apil-Ešarra_I	PROPN	RN	Case=Undefined|Gender=M	17	nmod:poss	_	GISKIM-A-e₂-šar₂-ra
+19	šar	šarru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	18	appos	_	MAN
+20	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	19	nmod:poss	_	KIŠ
+21	šar	šarru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	18	appos	_	MAN
+22	māt	mātu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	21	nmod:poss	_	KUR
+23-24	Aššurma	_	_	_	_	_	_	_	_
+23	Aššur	Aššur	PROPN	GN	Case=Undefined|Gender=M	22	nmod:poss	_	AŠ-ma
+24	ma	_	PART	_	_	23	det	_	_
+

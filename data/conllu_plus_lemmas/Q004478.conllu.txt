@@ -1,0 +1,46 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004478-1
+# text = lū ušamqit
+1	lū	lū	PART	MOD	_	2	advmod:emph	_	lu
+2	ušamqit	maqātu	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=S	0	root	0:root	u₂-šam-qit
+
+# sent_id = Q004478-2
+# text = ina rēṣūṭe ša Šamaš u Adad ilāni tiklēya ummānāt mātāt Nairi Habhi Šubare u Nirib kīma Adad rāhiṣi elišunu ašgum
+3	ina	ina	ADP	PRP	_	4	case	_	ina
+4	rēṣūṭe	rēṣūtu	NOUN	N	Case=Gen|Gender=F|Nounbase=Free|Number=Sg	24	obl	_	re-ṣu-te
+5	ša	ša	ADP	DET	_	6	case	_	ša₂
+6	Šamaš	Šamaš	PROPN	DN	Case=Undefined|Gender=M	4	nmod	_	{d}ša₂-maš
+7	u	u	CCONJ	CNJ	_	8	cc	_	u
+8	Adad	Adad	PROPN	DN	Case=Undefined|Gender=M	6	conj	_	{d}IŠKUR
+9	ilāni	ilu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	6	appos	_	DINGIR.MEŠ
+10-11	tiklēya	_	_	_	_	_	_	_	_
+10	tiklē	tiklu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Suffixal|Number=Pl	6	appos	_	tik-le-ia
+11	ya	_	PRON	_	Number=Sg|Person=1	10	det	_	_
+12	ummānāt	ummānu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Pl	24	obl	_	ERIM.HI.A.MEŠ
+13	mātāt	mātu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Pl	12	nmod:poss	_	KUR.KUR
+14	Nairi	Nairi	PROPN	GN	Case=Gen|Gender=Undefined	13	nmod:poss	_	na-i-ri
+15	Habhi	Habhu-ša-betani	PROPN	GN	Case=Gen|Gender=Undefined	14	conj	_	{KUR}hab-hi
+16	Šubare	Šubaru	PROPN	GN	Case=Gen|Gender=Undefined	14	conj	_	{KUR}šu-ba-re-e
+17	u	u	CCONJ	CNJ	_	18	cc	_	u
+18	Nirib	Nirbu	PROPN	GN	Case=Gen|Gender=Undefined	14	conj	_	{KUR}ni-rib
+19	kīma	kīma	ADP	PRP	_	20	case	_	GIM
+20	Adad	Adad	PROPN	DN	Case=Undefined|Gender=M	24	obl	_	{d}IŠKUR
+21	rāhiṣi	rāhiṣu	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	20	appos	_	ra-hi-ṣi
+22-23	elišunu	_	_	_	_	_	_	_	_
+22	eli	eli	ADP	PRP	_	23	dep	23:dep	UGU-šu-nu
+23	šunu	_	PRON	_	Gender=M|Number=Pl|Person=3	24	obl	_	_
+24	ašgum	šagāmu	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	aš₂-gu-um
+
+# sent_id = Q004478-3
+# text = šarru ša ultu ebertān Idiqlat
+25	šarru	šarru	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	_	_	_	MAN
+26	ša	ša	PRON	REL	_	_	_	_	ša₂
+27	ultu	ištu	ADP	PRP	_	28	case	_	TA
+28	ebertān	ebertān	NOUN	AV	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	0	root	0:root	e-ber-tan
+29	Idiqlat	Idiqlat	PROPN	WN	Case=Undefined|Gender=F	28	nmod:poss	_	{ID₂}HAL.HAL
+
+# sent_id = Q004478-4
+# text = adi Labnana
+30	adi	adi	ADP	PRP	_	31	case	_	a-di
+31	Labnana	Labnana	PROPN	GN	Case=Undefined|Gender=Undefined	0	root	0:root	{KUR}lab-na-na
+

@@ -1,0 +1,25 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004530-1
+# text = maddattu ša {m}x-x kaspī hurāṣī annakī erî taphī erî x x x erî x x x.MEŠ lubulti birme u kitê amhur
+1	maddattu	maddattu	NOUN	N	Case=Nom|Gender=F|Nounbase=Free|Number=Sg	21	obj	_	ma-da-tu
+2	ša	ša	ADP	DET	_	3	case	_	ša
+3	{m}x-x	_	PROPN	u	Gender=M	1	nmod	_	{m}x-x
+4	kaspī	kaspu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	1	appos	_	KU₃.BABBAR.MEŠ
+5	hurāṣī	hurāṣu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	4	conj	_	KU₃.GI.MEŠ
+6	annakī	annaku	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	4	conj	_	AN.NA.MEŠ
+7	erî	werû	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	4	conj	_	URUDU.MEŠ
+8	taphī	taphu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	4	conj	_	tap-hi.MEŠ
+9	erî	werû	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	8	nmod:poss	_	_
+10	x	_	X	u	_	_	_	_	x
+11	x	_	X	u	_	_	_	_	x
+12	x	_	NOUN	u	_	4	nmod:poss	_	x
+13	erî	werû	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	12	nmod:poss	_	_
+14	x	_	X	u	_	_	_	_	x
+15	x	_	X	u	_	_	_	_	x
+16	x.MEŠ	_	NOUN	u	Number=Pl	_	_	_	x.MEŠ
+17	lubulti	lubuštu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	4	conj	_	_
+18	birme	birmu	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	17	nmod:poss	_	_
+19	u	u	CCONJ	CNJ	_	20	cc	_	u₃
+20	kitê	kitû	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	18	conj	_	{TUG₂}GADA.MEŠ
+21	amhur	mahāru	VERB	V	Finiteness=Finite|Gender=C|Mood=Indicative|Number=Sg|Person=1|Tense=Preterit|Verbstem=G	0	root	0:root	am-hur
+

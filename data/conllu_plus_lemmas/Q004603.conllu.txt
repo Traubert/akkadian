@@ -1,0 +1,15 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004603-1
+# text = kunuk Mušezib-Ninurta iššakku mār Ninurta-eriš MIN ma mār Samanuha-šar-ilani MIN ma
+1	kunuk	kunukku	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	{NA₄}KIŠIB
+2	Mušezib-Ninurta	Mušezib-Ninurta	PROPN	PN	Case=Undefined|Gender=M	1	nmod:poss	_	{m}mu-še-zib-{d}MAŠ
+3	iššakku	iššiakku	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	2	appos	_	{LU₂}ŠID
+4	mār	māru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	2	appos	_	A
+5	Ninurta-eriš	Ninurta-eriš	PROPN	PN	Case=Undefined|Gender=M	4	nmod:poss	_	{m}{d}MAŠ-KAM
+6	MIN	šina	NOUN	NU	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	5	appos	_	_
+7	ma	ma	PART	N	_	6	det	_	_
+8	mār	māru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	5	appos	_	A
+9	Samanuha-šar-ilani	Samanuha-šar-ilani	PROPN	PN	Case=Undefined|Gender=M	8	nmod:poss	_	{m}{d}sa₂-ma-nu-ha-MAN-DINGIR.MEŠ-ni
+10	MIN	šina	NOUN	NU	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	9	appos	_	_
+11	ma	ma	PART	N	_	10	det	_	_
+

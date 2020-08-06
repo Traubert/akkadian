@@ -1,0 +1,15 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004533-1
+# text = x maddattu ša Hindanaya
+1	x	_	X	u	_	_	_	_	x
+2	maddattu	maddattu	NOUN	N	Case=Nom|Gender=F|Nounbase=Free|Number=Sg	0	root	0:root	ma-da-tu
+3	ša	ša	ADP	DET	_	4	case	_	ša₂
+4	Hindanaya	Hindanayu	PROPN	EN	Case=Undefined|Gender=M	2	nmod	_	{URU}hi-in-da-na-a-ia
+
+# sent_id = Q004533-2
+# text = x maddattu ša x
+5	x	_	X	u	_	_	_	_	x
+6	maddattu	maddattu	NOUN	N	Case=Nom|Gender=F|Nounbase=Free|Number=Sg	0	root	0:root	ma-da-tu
+7	ša	ša	ADP	DET	_	8	case	_	ša₂
+8	x	_	PROPN	u	_	6	nmod	_	x
+
