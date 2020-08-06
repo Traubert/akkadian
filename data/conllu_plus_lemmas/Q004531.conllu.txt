@@ -1,17 +1,17 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004531-1
 # text = sugullu ša pīrī tarbīt āli sugullu ša rīmī tarbīt āli sugullu ša x x x x-i-te x-x-te amhur
-1	sugullu	sugullu	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	18	obj	_	su-gul-lu
-2	ša	ša	ADP	DET	_	3	case	_	ša₂
-3	pīrī	pīru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	1	nmod	_	AM.SI.MEŠ
-4	tarbīt	tarbītu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	3	nmod:poss	_	tar-bit
-5	āli	ālu	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	4	nmod:poss	_	URU
-6	sugullu	sugullu	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	conj	_	su-gul-lu
-7	ša	ša	ADP	DET	_	8	case	_	ša₂
-8	rīmī	rīmu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	6	nmod	_	GU₄.AM.MEŠ
-9	tarbīt	tarbītu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	8	nmod:poss	_	tar-bit
-10	āli	ālu	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	9	nmod:poss	_	URU
-11	sugullu	sugullu	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	conj	_	su-gul-lu
+1	sugullu	sugullu	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	18	obj	18:obj	su-gul-lu
+2	ša	ša	ADP	DET	_	3	case	3:case	ša₂
+3	pīrī	pīru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	1	nmod	1:nmod	AM.SI.MEŠ
+4	tarbīt	tarbītu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	3	nmod:poss	3:nmod:poss	tar-bit
+5	āli	ālu	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	4	nmod:poss	4:nmod:poss	URU
+6	sugullu	sugullu	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	conj	1:conj	su-gul-lu
+7	ša	ša	ADP	DET	_	8	case	8:case	ša₂
+8	rīmī	rīmu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	6	nmod	6:nmod	GU₄.AM.MEŠ
+9	tarbīt	tarbītu	NOUN	N	Case=Undefined|Gender=F|Nounbase=Bound|Number=Sg	8	nmod:poss	8:nmod:poss	tar-bit
+10	āli	ālu	NOUN	N	Case=Gen|Gender=M|Nounbase=Free|Number=Sg	9	nmod:poss	9:nmod:poss	URU
+11	sugullu	sugullu	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Sg	1	conj	1:conj	su-gul-lu
 12	ša	ša	ADP	DET	_	_	_	_	ša₂
 13	x	_	X	u	_	_	_	_	x
 14	x	_	X	u	_	_	_	_	x

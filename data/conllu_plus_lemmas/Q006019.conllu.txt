@@ -2,12 +2,12 @@
 # sent_id = Q006019-1
 # text = ilāni rabûti
 1	ilāni	ilu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	0	root	0:root	DINGIR.MEŠ
-2	rabûti	rabû	ADJ	AJ	Case=Undefined|Gender=M|Number=Pl	1	amod	_	GAL.MEŠ
+2	rabûti	rabû	ADJ	AJ	Case=Undefined|Gender=M|Number=Pl	1	amod	1:amod	GAL.MEŠ
 
 # sent_id = Q006019-2
 # text = x mār Aššur-reša-iši x
-3	x	_	X	u	_	_	_	_	x
-4	mār	māru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	DUMU
-5	Aššur-reša-iši	Aššur-reša-iši_II	PROPN	RN	Case=Undefined|Gender=M	4	nmod:poss	_	{m}aš-šur-SAG-i-ši
-6	x	_	X	u	_	_	_	_	x
+1	x	_	X	u	_	_	_	_	x
+2	mār	māru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	0	root	0:root	DUMU
+3	Aššur-reša-iši	Aššur-reša-iši_II	PROPN	RN	Case=Undefined|Gender=M	2	nmod:poss	2:nmod:poss	{m}aš-šur-SAG-i-ši
+4	x	_	X	u	_	_	_	_	x
 
