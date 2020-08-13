@@ -29,11 +29,13 @@ def convert_file(name, read_fobj, write_fobj):
         parent2children = {}
         child2parent = {}
         multitokensets = {}
-        heads = []
+        roots = []
         splits = []
 
         def collect_children(root):
             collection = []
+            if root not in parent2children:
+                return collection
             for child in parent2children[root]:
                 collection.append(child)
                 if child in parent2children:
@@ -43,11 +45,15 @@ def convert_file(name, read_fobj, write_fobj):
             collection = set()
             for child in children:
                 if child in child2parent:
-                    collection.add(child2parent[child])
                     this_child = child2parent[child]
+                    this_child_parents = set()
+                    this_child_parents.add(child2parent[child])
                     while this_child in child2parent:
-                        collection.add(child2parent[this_child])
+                        this_child_parents.add(child2parent[this_child])
                         this_child = child2parent[this_child]
+                        if child2parent[this_child] in this_child_parents:
+                            exit("CYCLE")
+                    collection.update(this_child_parents)
             return collection
         
         for line in filter(not_comment, sentence):
@@ -59,28 +65,30 @@ def convert_file(name, read_fobj, write_fobj):
                 for member in members:
                     # log_fobj.write("    Recorded {} ({}) as multitokenset of {}\n".format(member, get_surface(line), members[:]))
                     multitokensets[member] = members[:]
-            if head != '_':
+            if head != '_' and head != '0':
                 head_ids.add(head)
                 child2parent[this_id] = head
-            if head not in parent2children:
-                parent2children[head] = [this_id]
-            else:
-                parent2children[head].append(this_id)
+                if head not in parent2children:
+                    parent2children[head] = [this_id]
+                else:
+                    parent2children[head].append(this_id)
         
         for i, line in enumerate(sentence):
             this_id = get_id(line)
             if not line_is_wordtoken(line):
                 continue
-            if get_head(line) == '_':
+            if get_head(line) == '0':
+                roots.append(this_id)
+            elif get_head(line) == '_':
                 parts = line.split('\t')
                 if this_id in head_ids:
                     parts[6] = '0'
                     parts[7] = 'root'
                     parts[8] = '0:root'
-                    heads.append(this_id)
+                    roots.append(this_id)
                 elif this_id in multitokensets:
                     for candidate in multitokensets[this_id]:
-                        if candidate in child2parent.keys():
+                        if candidate in roots or candidate in child2parent.keys():
                             parts[6] = candidate
                             parts[7] = 'dep'
                             parts[8] = '{}:dep'.format(candidate)
@@ -88,27 +96,41 @@ def convert_file(name, read_fobj, write_fobj):
                                 parent2children[candidate] = [this_id]
                             else:
                                 parent2children[candidate].append(this_id)
+                            child2parent[this_id] = candidate
                             log_fobj.write("    Automatically attached multitoken member {} to {}\n".format(this_id, candidate))
                             break
                 sentence[i] = '\t'.join(parts)
             
         lastright = None
         assigned_ids = set()
-        for head in heads:
+        for head in roots:
             made_split = False
             children = list(map(int, collect_children(head)))
+            # if not children:
+            #     log_fobj.write("    Apparent sentence root {} but has no children, doing nothing\n".format(head))
+            #     continue
+            leftmost_wo_parents = min(children + [int(head)])
+            rightmost_wo_parents = max(children + [int(head)])
+
             if lastright != None:
-                children.append(str(lastright + 1))
-            parents = list(map(int, collect_parents(map(str, children))))
-            leftmost = min(children + list(parents) + [int(head)])
-            rightmost = max(children + list(parents) + [int(head)])
-            log_fobj.write("    Apparent sentence root {}: leftmost node was {}, rightmost node was {}\n".format(head, leftmost, rightmost))
+                if lastright + 1 < leftmost_wo_parents:
+                    log_fobj.write("    Extended LHS by most recent RHS: was {}, now {}\n".format(leftmost_wo_parents, lastright + 1))
+                children.append(lastright + 1)
+            
+            parents = list(map(int, collect_parents(range(leftmost_wo_parents, rightmost_wo_parents + 1))))
+            leftmost = min(children + parents + [int(head)])
+            rightmost = max(children + parents + [int(head)])
+            log_fobj.write("    Apparent sentence root {}: leftmost node was {}, rightmost node was {}\n".format(head, leftmost_wo_parents, rightmost_wo_parents))
+            if leftmost_wo_parents != leftmost:
+                log_fobj.write("      Extended LHS by parents: was {}, now {}\n".format(leftmost_wo_parents, leftmost))
+            if rightmost_wo_parents != rightmost:
+                log_fobj.write("      Extended RHS by parents: was {}, now {}\n".format(rightmost_wo_parents, rightmost))
             if lastright != None:
                 if not conservative or leftmost == lastright + 1:
-                    log_fobj.write("      Trying to insert split at original id {}...".format(rightmost))
-                    splits.append(lastright)
+                    log_fobj.write("      Trying to insert split at original id {}...".format(leftmost-1))
+                    splits.append(leftmost-1)
                     made_split = True
-            if made_split and str(lastright) in multitokensets and str(lastright+1) in multitokensets:
+            if made_split and str(leftmost-1) in multitokensets and str(leftmost) in multitokensets and str(leftmost) in multitokensets[str(leftmost-1)]:
                 log_fobj.write(" BREAKS MULTITOKEN, so not splitting\n")
                 splits.pop()
                 continue
@@ -122,7 +144,7 @@ def convert_file(name, read_fobj, write_fobj):
                 continue
             elif made_split:
                 log_fobj.write(" ok\n")
-                lastright = rightmost
+            lastright = rightmost
             assigned_ids.update(this_range)
         for new_sentence, new_surface in apply_splits(list(map(lambda x: x.strip('\n'), filter(not_comment, sentence))), sorted(splits)):
             write_fobj.write('# sent_id = {}-{}\n'.format(name, sent_num))
@@ -131,7 +153,7 @@ def convert_file(name, read_fobj, write_fobj):
             write_fobj.write('\n'.join(new_sentence)+'\n\n')
     log_fobj.write("\n")
 #            print(leftmost, rightmost)
-            
+
 
 #    print(sentences)
         
@@ -212,6 +234,7 @@ for filename in os.listdir(readdirpath):
     name = filename[:7]
     readpath = os.path.realpath(os.path.join(readdirpath, filename))
     writepath = os.path.realpath(os.path.join(writedirpath, filename))
+    print(f"Processing {readpath}...")
+
     convert_file(name, open(readpath), open(writepath, 'w'))
-    print(writepath)
     
