@@ -1,17 +1,17 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004604-1
 # text = ša {m}x-x
-1	ša	ša	ADP	DET	_	2	case	2:case	ša₂
+1	ša	_	ADP	DET	_	2	case	2:case	ša₂
 2	{m}x-x	_	PROPN	u	Gender=M	0	root	0:root	{m}x-x
 
 # sent_id = Q004604-2
 # text = ana Samnuha Mušezib-Ninurta ana balāṭišu iqīš
-1	ana	ana	ADP	PRP	_	2	case	2:case	ana
-2	Samnuha	Samnuha	PROPN	DN	Case=Undefined|Gender=M	7	obl	7:obl	{d}sa-am-nu-ha
-3	Mušezib-Ninurta	Mušezib-Ninurta	PROPN	PN	Case=Undefined|Gender=M	7	nsubj	7:nsubj	{m}mu-še-zib-{d}MAŠ
-4	ana	ana	ADP	PRP	_	5	case	5:case	ana
+1	ana	_	ADP	PRP	_	2	case	2:case	ana
+2	Samnuha	_	PROPN	DN	Case=Undefined|Gender=M	7	obl	7:obl	{d}sa-am-nu-ha
+3	Mušezib-Ninurta	_	PROPN	PN	Case=Undefined|Gender=M	7	nsubj	7:nsubj	{m}mu-še-zib-{d}MAŠ
+4	ana	_	ADP	PRP	_	5	case	5:case	ana
 5-6	balāṭišu	_	_	_	_	_	_	_	_
-5	balāṭi	balāṭu	NOUN	N	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	7	obl	7:obl	TI-šu₂
+5	balāṭi	_	NOUN	N	Case=Gen|Gender=M|Nounbase=Suffixal|Number=Sg	7	obl	7:obl	TI-šu₂
 6	šu	_	PRON	_	Gender=M|Number=Sg|Person=3	5	det	5:det	_
-7	iqīš	qiāšu	VERB	V	Finiteness=Finite|Gender=M|Mood=Indicative|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	0	root	0:root	NIG₂.BA
+7	iqīš	_	VERB	V	Finiteness=Finite|Gender=M|Mood=Indicative|Number=Sg|Person=3|Tense=Preterit|Verbstem=G	0	root	0:root	NIG₂.BA
 
