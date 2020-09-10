@@ -1,40 +1,40 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Q004592-1
 # text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššur
-1	Aššur-naṣir-apli	_	PROPN	RN	Case=Undefined|Gender=M	0	root	0:root	{m}aš-šur-PAP-A
-2	šakin	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	1:appos	GAR
-3	Enlil	_	PROPN	DN	Case=Undefined|Gender=M	2	nmod:poss	2:nmod:poss	{d}BAD
-4	iššak	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	1:appos	ŠID
-5	Aššur	_	PROPN	DN	Case=Undefined|Gender=M	4	nmod:poss	4:nmod:poss	aš-šur
-6	mār	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	1:appos	A
-7	Tukulti-Ninurta	_	PROPN	RN	Case=Undefined|Gender=M	6	nmod:poss	6:nmod:poss	tukul-ti-{d}MAŠ
-8	šakin	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	7	appos	7:appos	GAR
-9	Enlil	_	PROPN	DN	Case=Undefined|Gender=M	8	nmod:poss	8:nmod:poss	{d}BAD
-10	iššak	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	7	appos	7:appos	ŠID
-11	Aššur	_	PROPN	DN	Case=Undefined|Gender=M	10	nmod:poss	10:nmod:poss	aš-šur
-12	mār	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	7	appos	7:appos	A
-13	Adad-nerari	_	PROPN	RN	Case=Undefined|Gender=M	12	nmod:poss	12:nmod:poss	10-ERIM.TAH₂
-14	šakin	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	13	appos	13:appos	GAR
-15	Enlil	_	PROPN	DN	Case=Undefined|Gender=M	14	nmod:poss	14:nmod:poss	{d}BAD
-16	iššak	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	13	appos	13:appos	ŠID
-17	Aššur	_	PROPN	DN	Case=Undefined|Gender=M	16	nmod:poss	16:nmod:poss	aš-šur
+1	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Case=Undefined|Gender=M	0	root	0:root	{m}aš-šur-PAP-A
+2	šakin	šaknu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	1:appos	GAR
+3	Enlil	Enlil	PROPN	DN	Case=Undefined|Gender=M	2	nmod:poss	2:nmod:poss	{d}BAD
+4	iššak	iššiakku	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	1:appos	ŠID
+5	Aššur	Aššur	PROPN	DN	Case=Undefined|Gender=M	4	nmod:poss	4:nmod:poss	aš-šur
+6	mār	māru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	1	appos	1:appos	A
+7	Tukulti-Ninurta	Tukulti-Ninurta_II	PROPN	RN	Case=Undefined|Gender=M	6	nmod:poss	6:nmod:poss	tukul-ti-{d}MAŠ
+8	šakin	šaknu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	7	appos	7:appos	GAR
+9	Enlil	Enlil	PROPN	DN	Case=Undefined|Gender=M	8	nmod:poss	8:nmod:poss	{d}BAD
+10	iššak	iššiakku	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	7	appos	7:appos	ŠID
+11	Aššur	Aššur	PROPN	DN	Case=Undefined|Gender=M	10	nmod:poss	10:nmod:poss	aš-šur
+12	mār	māru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	7	appos	7:appos	A
+13	Adad-nerari	Adad-narari_II	PROPN	RN	Case=Undefined|Gender=M	12	nmod:poss	12:nmod:poss	10-ERIM.TAH₂
+14	šakin	šaknu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	13	appos	13:appos	GAR
+15	Enlil	Enlil	PROPN	DN	Case=Undefined|Gender=M	14	nmod:poss	14:nmod:poss	{d}BAD
+16	iššak	iššiakku	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	13	appos	13:appos	ŠID
+17	Aššur	Aššur	PROPN	DN	Case=Undefined|Gender=M	16	nmod:poss	16:nmod:poss	aš-šur
 
 # sent_id = Q004592-2
 # text = 5 nāmerū ištu nāmerī ša bāb Kalkala adi nāmerī ša bābāni ana kisal Nunnamnir x x
 1	5	_	NUM	n	_	2	nummod	2:nummod	5
-2	nāmerū	_	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Pl	15	obj	15:obj	na-me-ru
-3	ištu	_	ADP	PRP	_	4	case	4:case	iš-tu
-4	nāmerī	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	15	obl	15:obl	na-me-ri
-5	ša	_	ADP	DET	_	6	case	6:case	ša
-6	bāb	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	4	nmod	4:nmod	KA₂
-7	Kalkala	_	PROPN	DN	Case=Undefined|Gender=Undefined	6	nmod:poss	6:nmod:poss	{d}kal-kal-la
-8	adi	_	ADP	PRP	_	9	case	9:case	a-di
-9	nāmerī	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	15	obl	15:obl	na-me-ri
-10	ša	_	ADP	DET	_	11	case	11:case	ša
-11	bābāni	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	9	nmod	9:nmod	KA₂.GAL.ME
-12	ana	_	ADP	PRP	_	13	case	13:case	a-na
-13	kisal	_	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	15	obl	15:obl	KISAL
-14	Nunnamnir	_	PROPN	DN	Case=Undefined|Gender=M	13	nmod:poss	13:nmod:poss	{d}nun-nam-nir
+2	nāmerū	nāmaru	NOUN	N	Case=Nom|Gender=M|Nounbase=Free|Number=Pl	15	obj	15:obj	na-me-ru
+3	ištu	ištu	ADP	PRP	_	4	case	4:case	iš-tu
+4	nāmerī	nāmaru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	15	obl	15:obl	na-me-ri
+5	ša	ša	ADP	DET	_	6	case	6:case	ša
+6	bāb	bābu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	4	nmod	4:nmod	KA₂
+7	Kalkala	Kalkal	PROPN	DN	Case=Undefined|Gender=Undefined	6	nmod:poss	6:nmod:poss	{d}kal-kal-la
+8	adi	adi	ADP	PRP	_	9	case	9:case	a-di
+9	nāmerī	nāmaru	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	15	obl	15:obl	na-me-ri
+10	ša	ša	ADP	DET	_	11	case	11:case	ša
+11	bābāni	bābu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Undefined|Number=Pl	9	nmod	9:nmod	KA₂.GAL.ME
+12	ana	ana	ADP	PRP	_	13	case	13:case	a-na
+13	kisal	kisallu	NOUN	N	Case=Undefined|Gender=M|Nounbase=Bound|Number=Sg	15	obl	15:obl	KISAL
+14	Nunnamnir	Nunnamnir	PROPN	DN	Case=Undefined|Gender=M	13	nmod:poss	13:nmod:poss	{d}nun-nam-nir
 15	x	_	VERB	u	_	0	root	0:root	x
 16	x	_	X	u	_	_	_	_	x
 
