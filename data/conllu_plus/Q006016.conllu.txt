@@ -1,0 +1,68 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q006016-1
+# text = ana Aššur abu ilāni rabûte bēlišu
+1	ana	ana	ADP	PRP	_	2	case	2:case	a-na
+2	Aššur	Aššur	PROPN	DN	Gender=Masc	0	root	0:root	{d}aš-šur
+3	abu	abu	NOUN	N	Case=Nom|Gender=Masc|Nounbase=Free|Number=Sing	2	appos	2:appos	a-bu
+4	ilāni	ilu	NOUN	N	Gender=Masc|Number=Plur	3	nmod:poss	3:nmod:poss	DINGIR.MEŠ
+5	rabûte	rabû	ADJ	AJ	Gender=Masc|Number=Plur	4	amod	4:amod	GAL-te
+6-7	bēlišu	_	_	_	_	_	_	_	_
+6	bēli	bēlu	NOUN	N	Case=Gen|Gender=Masc|Nounbase=Suffixal|Number=Sing	2	appos	2:appos	EN-šu₂
+7	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	6	det:poss	6:det:poss	_
+
+# sent_id = Q006016-2
+# text = Aššur-dan šakan Enlil iššak Aššur mār Tukulti-apil-Ešarra šakan Enlil iššak Aššur mār Aššur-reša-iši šakan Enlil iššak Aššur mār Aššur-rabi šakan Enlil iššak Aššurma
+1	Aššur-dan	Aššur-dan_II	PROPN	RN	Gender=Masc	0	root	0:root	{m}{d}aš-šur-KAL-an
+2	šakan	šaknu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	1	appos	1:appos	GAR-an
+3	Enlil	Enlil	PROPN	DN	Gender=Masc	2	nmod:poss	2:nmod:poss	{d}BAD
+4	iššak	iššiakku	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	1	appos	1:appos	ŠID
+5	Aššur	Aššur	PROPN	DN	Gender=Masc	4	nmod:poss	4:nmod:poss	{d}aš-šur
+6	mār	māru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	1	appos	1:appos	DUMU
+7	Tukulti-apil-Ešarra	Tukulti-apil-Ešarra_II	PROPN	RN	Gender=Masc	6	nmod:poss	6:nmod:poss	{m}GIŠ.tukul-ti-IBILA-e₂-šar₂-ra
+8	šakan	šaknu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	7	appos	7:appos	GAR-an
+9	Enlil	Enlil	PROPN	DN	Gender=Masc	8	nmod:poss	8:nmod:poss	{d}BAD
+10	iššak	iššiakku	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	7	appos	7:appos	ŠID
+11	Aššur	Aššur	PROPN	DN	Gender=Masc	10	nmod:poss	10:nmod:poss	aš-šur
+12	mār	māru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	7	appos	7:appos	DUMU
+13	Aššur-reša-iši	Aššur-reša-iši_II	PROPN	RN	Gender=Masc	12	nmod:poss	12:nmod:poss	aš-šur-SAG-i-ši
+14	šakan	šaknu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	13	appos	13:appos	GAR-an
+15	Enlil	Enlil	PROPN	DN	Gender=Masc	14	nmod:poss	14:nmod:poss	{d}BAD
+16	iššak	iššiakku	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	13	appos	13:appos	ŠID
+17	Aššur	Aššur	PROPN	DN	Gender=Masc	16	nmod:poss	16:nmod:poss	{d}aš-šur
+18	mār	māru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	13	appos	13:appos	DUMU
+19	Aššur-rabi	Aššur-rabi_II	PROPN	RN	Gender=Masc	18	nmod:poss	18:nmod:poss	{d}aš-šur-GAL
+20	šakan	šaknu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	19	appos	19:appos	GAR-an
+21	Enlil	Enlil	PROPN	DN	Gender=Masc	20	nmod:poss	20:nmod:poss	{d}BAD
+22	iššak	iššiakku	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	19	appos	19:appos	ŠID
+23-24	Aššurma	_	_	_	_	_	_	_	_
+23	Aššur	Aššur	PROPN	DN	Gender=Masc	22	nmod:poss	22:nmod:poss	{d}aš-šur-ma
+24	ma	_	PART	_	_	23	dep	23:dep	_
+
+# sent_id = Q006016-3
+# text = ana balāṭ napšātiya arāk ūmēya šumʾud šanātiya šalām zēriya u mātiya x ili x x
+1	ana	ana	ADP	PRP	_	2	case	2:case	ana
+2	balāṭ	balāṭu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	17	advcl	17:advcl	TI
+3-4	napšātiya	_	_	_	_	_	_	_	_
+3	napšāti	napištu	NOUN	N	Gender=Fem|Nounbase=Suffixal|Number=Plur	2	nmod:poss	2:nmod:poss	ZI.MEŠ-a
+4	ya	_	PRON	_	Number=Sing|Person=1	3	det:poss	3:det:poss	_
+5	arāk	arāku	VERB	V	Gender=Masc|Nounbase=Bound|Number=Sing|VerbForm=Inf|Verbstem=G	2	conj	2:conj	GID₂
+6-7	ūmēya	_	_	_	_	_	_	_	_
+6	ūmē	ūmu	NOUN	N	Gender=Masc|Nounbase=Suffixal|Number=Plur	5	nmod:poss	5:nmod:poss	UD.MEŠ-ia
+7	ya	_	PRON	_	Number=Sing|Person=1	6	det:poss	6:det:poss	_
+8	šumʾud	mâdu	VERB	V	Gender=Masc|Nounbase=Bound|Number=Sing|VerbForm=Inf|Verbstem=S	2	conj	2:conj	šum₂-ud
+9-10	šanātiya	_	_	_	_	_	_	_	_
+9	šanāti	šattu	NOUN	N	Gender=Fem|Nounbase=Suffixal|Number=Plur	8	nmod:poss	8:nmod:poss	MU.MEŠ-ia
+10	ya	_	PRON	_	Number=Sing|Person=1	9	det:poss	9:det:poss	_
+11	šalām	šalāmu	NOUN	V	Gender=Masc|Nounbase=Bound|Number=Sing	2	conj	2:conj	SILIM
+12-13	zēriya	_	_	_	_	_	_	_	_
+12	zēri	zēru	NOUN	N	Case=Gen|Gender=Masc|Nounbase=Suffixal|Number=Sing	11	nmod:poss	11:nmod:poss	NUMUN-ia
+13	ya	_	PRON	_	Number=Sing|Person=1	12	det:poss	12:det:poss	_
+14	u	u	CCONJ	CNJ	_	15	cc	15:cc	u
+15-16	mātiya	_	_	_	_	_	_	_	_
+15	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Nounbase=Suffixal|Number=Sing	12	conj	12:conj	KUR-ia
+16	ya	_	PRON	_	Number=Sing|Person=1	15	det:poss	15:det:poss	_
+17	x	_	VERB	u	_	0	root	0:root	x
+18	ili	ilu	X	N	Case=Gen|Gender=Masc|Nounbase=Free|Number=Sing	_	_	_	DINGIR
+19	x	_	X	u	_	_	_	_	x
+20	x	_	X	u	_	_	_	_	x
+

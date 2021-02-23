@@ -1,0 +1,56 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004552-1
+# text = ana Enlil šar šīmāti u uṣurāti munarriṭ huršānī āšib bīt Kidmuri bēli rabê bēliya
+1	ana	ana	ADP	PRP	_	2	case	2:case	ana
+2	Enlil	Enlil	PROPN	DN	Gender=Masc	0	root	0:root	{d}BAD
+3	šar	šarru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	2	appos	2:appos	MAN
+4	šīmāti	šīmtu	NOUN	N	Gender=Fem|Nounbase=Free|Number=Plur	3	nmod:poss	3:nmod:poss	{d}NAM.MEŠ
+5	u	u	CCONJ	CNJ	_	6	cc	6:cc	u
+6	uṣurāti	uṣurtu	NOUN	N	Gender=Fem|Number=Plur	4	conj	4:conj	GIŠ.HUR.MEŠ
+7	munarriṭ	munarriṭu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	2	appos	2:appos	mu-na-ri-iṭ
+8	huršānī	huršānu	NOUN	N	Gender=Masc|Number=Plur	7	nmod:poss	7:nmod:poss	hur-ša₂-ni
+9	āšib	wāšibu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	2	appos	2:appos	a-šib
+10	bīt	bītu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	9	nmod:poss	9:nmod:poss	E₂
+11	Kidmuri	Kidmuru	PROPN	DN	Case=Gen	10	nmod:poss	10:nmod:poss	kid₉-mu-ri
+12	bēli	bēlu	NOUN	N	Case=Gen|Gender=Masc|Nounbase=Free|Number=Sing	2	appos	2:appos	_
+13	rabê	rabû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	12	amod	12:amod	GAL-e
+14-15	bēliya	_	_	_	_	_	_	_	_
+14	bēli	bēlu	NOUN	N	Case=Gen|Gender=Masc|Nounbase=Suffixal|Number=Sing	2	appos	2:appos	EN-a
+15	ya	_	PRON	_	Number=Sing|Person=1	14	det:poss	14:det:poss	_
+
+# sent_id = Q004552-2
+# text = Aššur-naṣir-apli iššak Aššur mār Tukulti-Ninurta iššak Aššurma
+1	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=Masc	0	root	0:root	{m}AŠ-PAP-A
+2	iššak	iššiakku	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	1	appos	1:appos	ŠID
+3	Aššur	Aššur	PROPN	DN	Gender=Masc	2	nmod:poss	2:nmod:poss	AŠ
+4	mār	māru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	1	appos	1:appos	A
+5	Tukulti-Ninurta	Tukulti-Ninurta_II	PROPN	RN	Gender=Masc	4	nmod:poss	4:nmod:poss	TUKUL-MAŠ
+6	iššak	iššiakku	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	5	appos	5:appos	ŠID
+7-8	Aššurma	_	_	_	_	_	_	_	_
+7	Aššur	Aššur	PROPN	DN	Gender=Masc	6	nmod:poss	6:nmod:poss	AŠ-ma
+8	ma	_	PART	_	_	7	dep	7:dep	_
+
+# sent_id = Q004552-3
+# text = ana balāṭ napšātiya arāk ūmēya šumʾud šanātiya šalām zērīya mātiya aqīš
+1	ana	ana	ADP	PRP	_	2	case	2:case	ana
+2	balāṭ	balāṭu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	16	obl	16:obl	TI
+3-4	napšātiya	_	_	_	_	_	_	_	_
+3	napšāti	napištu	NOUN	N	Gender=Fem|Nounbase=Suffixal|Number=Plur	2	nmod:poss	2:nmod:poss	ZI.MEŠ-a
+4	ya	_	PRON	_	Number=Sing|Person=1	3	det:poss	3:det:poss	_
+5	arāk	arāku	VERB	V	Gender=Masc|Nounbase=Bound|Number=Sing|VerbForm=Inf|Verbstem=G	2	conj	2:conj	GID₂
+6-7	ūmēya	_	_	_	_	_	_	_	_
+6	ūmē	ūmu	NOUN	N	Gender=Masc|Nounbase=Suffixal|Number=Plur	5	nmod:poss	5:nmod:poss	UD.MEŠ-a
+7	ya	_	PRON	_	Number=Sing|Person=1	6	det:poss	6:det:poss	_
+8	šumʾud	mâdu	VERB	V	Gender=Masc|Nounbase=Bound|Number=Sing|VerbForm=Inf|Verbstem=S	2	conj	2:conj	šum₂-ud
+9-10	šanātiya	_	_	_	_	_	_	_	_
+9	šanāti	šattu	NOUN	N	Gender=Fem|Nounbase=Suffixal|Number=Plur	8	nmod:poss	8:nmod:poss	MU.MEŠ-a
+10	ya	_	PRON	_	Number=Sing|Person=1	9	det:poss	9:det:poss	_
+11	šalām	šalāmu	NOUN	V	Gender=Masc|Nounbase=Bound|Number=Sing	2	conj	2:conj	SILIM
+12-13	zērīya	_	_	_	_	_	_	_	_
+12	zērī	zēru	NOUN	N	Gender=Masc|Nounbase=Suffixal|Number=Plur	11	nmod:poss	11:nmod:poss	NUMUN.MEŠ-a
+13	ya	_	PRON	_	Number=Sing|Person=1	12	det:poss	12:det:poss	_
+14-15	mātiya	_	_	_	_	_	_	_	_
+14	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Nounbase=Suffixal|Number=Sing	12	conj	12:conj	KUR-a
+15	ya	_	PRON	_	Number=Sing|Person=1	14	det:poss	14:det:poss	_
+16	aqīš	qiāšu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Verbstem=G	0	root	0:root	_
+

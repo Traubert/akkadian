@@ -1,0 +1,17 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004604-1
+# text = ša {m}x-x
+1	ša	ša	ADP	DET	_	2	case	2:case	ša₂
+2	{m}x-x	_	PROPN	u	Gender=Masc	0	root	0:root	{m}x-x
+
+# sent_id = Q004604-2
+# text = ana Samnuha Mušezib-Ninurta ana balāṭišu iqīš
+1	ana	ana	ADP	PRP	_	2	case	2:case	ana
+2	Samnuha	Samnuha	PROPN	DN	Gender=Masc	7	obl	7:obl	{d}sa-am-nu-ha
+3	Mušezib-Ninurta	Mušezib-Ninurta	PROPN	PN	Gender=Masc	7	nsubj	7:nsubj	{m}mu-še-zib-{d}MAŠ
+4	ana	ana	ADP	PRP	_	5	case	5:case	ana
+5-6	balāṭišu	_	_	_	_	_	_	_	_
+5	balāṭi	balāṭu	NOUN	N	Case=Gen|Gender=Masc|Nounbase=Suffixal|Number=Sing	7	obl	7:obl	TI-šu₂
+6	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	5	det:poss	5:det:poss	_
+7	iqīš	qiāšu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Verbstem=G	0	root	0:root	NIG₂.BA
+

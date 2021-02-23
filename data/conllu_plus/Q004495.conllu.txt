@@ -1,0 +1,64 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004495-1
+# text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššurma kāšid ultu ebertān Idiqlat adi Labnani u Tamtu-rabitu ša Amurri ša šulmu Šamši
+1	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=Masc	0	root	0:root	{m}aš-šur-PAP-A
+2	šakin	šaknu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	1	appos	1:appos	GAR
+3	Enlil	Enlil	PROPN	DN	Gender=Masc	2	nmod:poss	2:nmod:poss	{d}BAD
+4	iššak	iššiakku	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	1	appos	1:appos	ŠID
+5	Aššur	Aššur	PROPN	DN	Gender=Masc	4	nmod:poss	4:nmod:poss	aš-šur
+6	mār	māru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	1	appos	1:appos	A
+7	Tukulti-Ninurta	Tukulti-Ninurta_II	PROPN	RN	Gender=Masc	6	nmod:poss	6:nmod:poss	TUKUL-MAŠ
+8	šakin	šaknu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	7	appos	7:appos	GAR
+9	Enlil	Enlil	PROPN	DN	Gender=Masc	8	nmod:poss	8:nmod:poss	{d}BAD
+10	iššak	iššiakku	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	7	appos	7:appos	ŠID
+11	Aššur	Aššur	PROPN	DN	Gender=Masc	10	nmod:poss	10:nmod:poss	aš-šur
+12	mār	māru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	7	appos	7:appos	A
+13	Adad-nerari	Adad-narari_II	PROPN	RN	Gender=Masc	12	nmod:poss	12:nmod:poss	10-ERIM.TAH₂
+14	šakin	šaknu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	13	appos	13:appos	GAR
+15	Enlil	Enlil	PROPN	DN	Gender=Masc	14	nmod:poss	14:nmod:poss	{d}BAD
+16	iššak	iššiakku	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	13	appos	13:appos	ŠID
+17-18	Aššurma	_	_	_	_	_	_	_	_
+17	Aššur	Aššur	PROPN	DN	Gender=Masc	16	nmod:poss	16:nmod:poss	aš-šur-ma
+18	ma	_	PART	_	_	17	dep	17:dep	_
+19	kāšid	kāšidu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	1	appos	1:appos	ka-šid
+20	ultu	ištu	ADP	PRP	_	21	case	21:case	TA
+21	ebertān	ebertān	NOUN	AV	Gender=Fem|Nounbase=Bound|Number=Sing	19	obl	19:obl	e-ber-tan
+22	Idiqlat	Idiqlat	PROPN	WN	Gender=Fem	21	nmod:poss	21:nmod:poss	{ID₂}HAL.HAL
+23	adi	adi	ADP	SBJ	_	24	case	24:case	_
+24	Labnani	Labnana	PROPN	GN	Case=Gen	19	obl	19:obl	{KUR}lab-na-ni
+25	u	u	CCONJ	CNJ	_	26	cc	26:cc	u₃
+26	Tamtu-rabitu	Tamtu-rabitu	PROPN	WN	_	24	conj	24:conj	A.AB.BA-GAL-tu
+27	ša	ša	ADP	DET	_	28	case	28:case	ša₂
+28	Amurri	Amurru	PROPN	GN	Case=Gen	26	nmod	26:nmod	{KUR}a-mur-ri
+29	ša	ša	ADP	DET	_	30	case	30:case	ša₂
+30	šulmu	šulmu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	28	nmod	28:nmod	šul₃-mu
+31	Šamši	Šamaš	PROPN	DN	Case=Gen|Gender=Masc	30	nmod:poss	30:nmod:poss	{d}šam-ši
+
+# sent_id = Q004495-2
+# text = Hatte ana sihirtešu qātsu ikšudu
+1	Hatte	Hatti	PROPN	GN	Case=Gen	7	obj	7:obj	{KUR}hat-te
+2	ana	ana	ADP	PRP	_	3	case	3:case	a-na
+3-4	sihirtešu	_	_	_	_	_	_	_	_
+3	sihirte	sihirtu	NOUN	N	Case=Gen|Gender=Fem|Nounbase=Suffixal|Number=Sing	7	obl	7:obl	si-hir₂-te-šu₂
+4	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	3	det:poss	3:det:poss	_
+5-6	qātsu	_	_	_	_	_	_	_	_
+5	qāt	qātu	NOUN	N	Gender=Fem|Nounbase=Suffixal|Number=Sing	7	nsubj	7:nsubj	qa-at-su
+6	su	_	PRON	_	Gender=Masc|Number=Sing|Person=3	5	det:poss	5:det:poss	_
+7	ikšudu	kašādu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|Verbstem=G	0	root	0:root	ik-šu-du
+
+# sent_id = Q004495-3
+# text = ultu rēš ēni Subnat adi Urume rapaštu mātāt Nairi x x x x
+1	ultu	ištu	ADP	PRP	_	2	case	2:case	TA
+2	rēš	rēšu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	10	obl	10:obl	SAG-e-ni
+3	ēni	īnu	NOUN	N	Case=Gen|Gender=Fem|Nounbase=Free|Number=Sing	2	nmod:poss	2:nmod:poss	_
+4	Subnat	Subnat	PROPN	WN	Gender=Fem	3	nmod:poss	3:nmod:poss	{ID₂}su-ub-na-at
+5	adi	adi	ADP	SBJ	_	6	case	6:case	_
+6	Urume	Urumu	PROPN	GN	Case=Gen	10	obl	10:obl	{KUR}u₂-ru-me
+7	rapaštu	rapšu	ADJ	AJ	Case=Nom|Gender=Fem|Number=Sing	6	amod	6:amod	DAGAL-tu
+8	mātāt	mātu	NOUN	N	Gender=Fem|Nounbase=Bound|Number=Plur	6	conj	6:conj	KUR.KUR
+9	Nairi	Nairi	PROPN	GN	Case=Gen	8	nmod:poss	8:nmod:poss	na-i-ri
+10	x	_	VERB	u	_	0	root	0:root	x
+11	x	_	X	u	_	_	_	_	x
+12	x	_	X	u	_	_	_	_	x
+13	x	_	X	u	_	_	_	_	x
+

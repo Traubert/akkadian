@@ -1,0 +1,46 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004518-1
+# text = x x x x x ana nišī
+1	x	_	X	u	_	_	_	_	x
+2	x	_	X	u	_	_	_	_	x
+3	x	_	X	u	_	_	_	_	x
+4	x	_	X	u	_	_	_	_	x
+5	x	_	X	u	_	_	_	_	x
+6	ana	ana	ADP	PRP	_	7	case	7:case	a-na
+7	nišī	nišu	NOUN	N	Gender=Fem|Number=Plur	0	root	0:root	UN.MEŠ
+
+# sent_id = Q004518-2
+# text = x x Til-ša-Zabdani x x kalîšina u huršānū
+1	x	_	X	u	_	_	_	_	x
+2	x	_	X	u	_	_	_	_	x
+3	Til-ša-Zabdani	Til-ša-Zabdani	PROPN	SN	_	_	_	_	DU₆-ša₂-URU-za-ab-da-a-ni
+4	x	_	X	u	_	_	_	_	x
+5	x	_	NOUN	u	Gender=Fem|Nounbase=Free|Number=Plur	0	root	0:root	x
+6-7	kalîšina	_	_	_	_	_	_	_	_
+6	kalî	kalû	DET	N	_	5	amod	5:amod	ka-li-ši-na
+7	šina	_	PRON	_	Gender=Fem|Number=Plur|Person=3	6	det:poss	6:det:poss	_
+8	u	u	CCONJ	CNJ	_	9	cc	9:cc	u
+9	huršānū	huršānu	NOUN	N	Gender=Masc|Number=Plur	5	conj	5:conj	_
+
+# sent_id = Q004518-3
+# text = x x enūma bīt Ištar ša x
+1	x	_	X	u	_	_	_	_	x
+2	x	_	X	u	_	_	_	_	x
+3	enūma	inūma	ADV	SBJ	_	_	_	_	e-nu-ma
+4	bīt	bītu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	0	root	0:root	E₂
+5	Ištar	Ištar	PROPN	DN	Gender=Fem	4	nmod:poss	4:nmod:poss	{d}INANNA
+6	ša	ša	ADP	DET	_	7	case	7:case	ša₂
+7	x	_	PROPN	u	_	5	nmod	5:nmod	x
+
+# sent_id = Q004518-4
+# text = x x adi nēreb x x x x x
+1	x	_	X	u	_	_	_	_	x
+2	x	_	X	u	_	_	_	_	x
+3	adi	adi	ADP	PRP	_	4	case	4:case	a-di
+4	nēreb	nērebu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	0	root	0:root	ne₂-reb
+5	x	_	X	u	_	_	_	_	x
+6	x	_	X	u	_	_	_	_	x
+7	x	_	X	u	_	_	_	_	x
+8	x	_	X	u	_	_	_	_	x
+9	x	_	X	u	_	_	_	_	x
+

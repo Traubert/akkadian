@@ -1,0 +1,19 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004595-1
+# text = x dannassu akšud
+1	x	_	X	u	_	_	_	_	x
+2-3	dannassu	_	_	_	_	_	_	_	_
+2	dannas	dannatu	NOUN	N	Gender=Fem|Nounbase=Suffixal|Number=Sing	4	obj	4:obj	dan-na-su
+3	su	_	PRON	_	Gender=Masc|Number=Sing|Person=3	2	det:poss	2:det:poss	_
+4	akšud	kašādu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Verbstem=G	0	root	0:root	ak-šud
+
+# sent_id = Q004595-2
+# text = x ussim x alṭur x x itti
+1	x	_	X	u	_	_	_	_	x
+2	ussim	wasāmu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Verbstem=D	_	_	_	u₂-si-im
+3	x	_	NOUN	u	_	4	obj	4:obj	x
+4	alṭur	šaṭāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Verbstem=G	0	root	0:root	al-ṭu-ur
+5	x	_	X	u	_	_	_	_	x
+6	x	_	X	u	_	_	_	_	x
+7	itti	itti	ADP	PRP	_	_	_	_	it-ti
+

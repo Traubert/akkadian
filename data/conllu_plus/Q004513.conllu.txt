@@ -1,0 +1,29 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004513-1
+# text = Aššur-naṣir-apli x šar kullat kibrāt arba’i x x Ninurta šangû ellu x lā māgirī muparriru x x zayyārī šar x kibrāti mār x enūma Emašmaš x
+1	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=Masc	0	root	0:root	{m}{d}AŠ-PAP-A
+2	x	_	X	u	_	_	_	_	x
+3	šar	šarru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	1	appos	1:appos	MAN
+4	kullat	kullatu	NOUN	N	Gender=Fem|Nounbase=Bound|Number=Sing	3	nmod:poss	3:nmod:poss	kul₂-lat
+5	kibrāt	kibru	NOUN	N	Gender=Fem|Nounbase=Bound|Number=Plur	4	nmod:poss	4:nmod:poss	kib-rat
+6	arba’i	_	NUM	_	Case=Gen|Gender=Masc|Nounbase=Free|Number=Sing	5	nummod	5:nummod	_
+7	x	_	X	u	_	_	_	_	x
+8	x	_	NOUN	N	_	1	appos	1:appos	x
+9	Ninurta	Ninurta	PROPN	DN	Gender=Masc	8	nmod:poss	8:nmod:poss	{d}MAŠ
+10	šangû	šangû	NOUN	N	Case=Nom|Gender=Masc|Nounbase=Free|Number=Sing	1	appos	1:appos	SANGA-u₂
+11	ellu	ellu	ADJ	N	Case=Nom|Gender=Masc|Number=Sing	10	amod	10:amod	_
+12	x	_	X	u	_	1	appos	1:appos	x
+13	lā māgirī	lā|māgiru	NOUN	MOD|N	Gender=Masc|Number=Plur	12	nmod:poss	12:nmod:poss	la|ma-gi-ri
+14	muparriru	muparriru	NOUN	N	Case=Nom|Gender=Masc|Nounbase=Free|Number=Sing	1	appos	1:appos	mu-par₂-ri-ru
+15	x	_	NOUN	u	Case=Gen|Nounbase=Free	14	nmod:poss	14:nmod:poss	x
+16	x	_	NOUN	u	Nounbase=Bound	1	appos	1:appos	x
+17	zayyārī	zayyāru	NOUN	N	Gender=Masc|Number=Plur	16	nmod:poss	16:nmod:poss	za-ia₂-a-ri
+18	šar	šarru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	1	appos	1:appos	LUGAL
+19	x	_	X	u	_	18	nmod:poss	18:nmod:poss	x
+20	kibrāti	kibru	NOUN	N	Gender=Fem|Nounbase=Free|Number=Plur	19	nmod:poss	19:nmod:poss	UB.MEŠ
+21	mār	māru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	1	appos	1:appos	DUMU
+22	x	_	X	_	_	_	_	_	_
+23	enūma	inūma	ADV	SBJ	_	_	_	_	e-nu-ma
+24	Emašmaš	Emašmaš	PROPN	GN	_	_	_	_	e₂-maš-maš
+25	x	_	X	_	_	_	_	_	_
+

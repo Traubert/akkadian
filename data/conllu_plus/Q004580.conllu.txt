@@ -1,0 +1,31 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004580-1
+# text = Aššur-naṣir-apli šakin Enlil iššak Aššur mār Tukulti-Ninurta šakin Enlil iššak Aššur mār Adad-nerari šakin Enlil iššak Aššurma
+1	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=Masc	0	root	0:root	{m}aš-šur-PAP-A
+2	šakin	šaknu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	1	appos	1:appos	GAR
+3	Enlil	Enlil	PROPN	DN	Gender=Masc	2	nmod:poss	2:nmod:poss	{d}BAD
+4	iššak	iššiakku	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	1	appos	1:appos	ŠID
+5	Aššur	Aššur	PROPN	DN	Gender=Masc	4	nmod:poss	4:nmod:poss	aš-šur
+6	mār	māru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	1	appos	1:appos	A
+7	Tukulti-Ninurta	Tukulti-Ninurta_II	PROPN	RN	Gender=Masc	6	nmod:poss	6:nmod:poss	{GIŠ}tukul-ti-{d}MAŠ
+8	šakin	šaknu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	7	appos	7:appos	GAR
+9	Enlil	Enlil	PROPN	DN	Gender=Masc	8	nmod:poss	8:nmod:poss	{d}BAD
+10	iššak	iššiakku	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	7	appos	7:appos	ŠID
+11	Aššur	Aššur	PROPN	DN	Gender=Masc	10	nmod:poss	10:nmod:poss	aš-šur
+12	mār	māru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	7	appos	7:appos	A
+13	Adad-nerari	Adad-narari_II	PROPN	RN	Gender=Masc	12	nmod:poss	12:nmod:poss	10-ERIM.TAH₂
+14	šakin	šaknu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	13	appos	13:appos	GAR
+15	Enlil	Enlil	PROPN	DN	Gender=Masc	14	nmod:poss	14:nmod:poss	{d}BAD
+16	iššak	iššiakku	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	13	appos	13:appos	ŠID
+17-18	Aššurma	_	_	_	_	_	_	_	_
+17	Aššur	Aššur	PROPN	DN	Gender=Masc	16	nmod:poss	16:nmod:poss	aš-šur-ma
+18	ma	_	PART	_	_	17	dep	17:dep	_
+
+# sent_id = Q004580-2
+# text = makkūr bīt Ištar ša Nina
+1	makkūr	makkūru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	0	root	0:root	NIG₂.GA
+2	bīt	bītu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	1	nmod:poss	1:nmod:poss	E₂
+3	Ištar	Ištar	PROPN	DN	Gender=Fem	2	nmod:poss	2:nmod:poss	{d}INANNA
+4	ša	ša	ADP	DET	_	5	case	5:case	ša
+5	Nina	Ninua	PROPN	SN	_	3	nmod	3:nmod	{URU}ni-na-a
+

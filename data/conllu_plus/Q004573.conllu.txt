@@ -1,0 +1,20 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004573-1
+# text = ēkal Aššur-naṣir-apli šar kiššati šar māt Aššur mār Tukulti-Ninurta šar kiššati šar māt Aššurma
+1	ēkal	ēkallu	NOUN	N	Gender=Fem|Nounbase=Bound|Number=Sing	0	root	0:root	E₂.GAL
+2	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=Masc	1	nmod:poss	1:nmod:poss	{m}AŠ-PAP-A
+3	šar	šarru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	2	appos	2:appos	MAN
+4	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=Fem|Nounbase=Free|Number=Sing	3	nmod:poss	3:nmod:poss	ŠU₂
+5	šar	šarru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	2	appos	2:appos	MAN
+6	māt	mātu	NOUN	N	Gender=Fem|Nounbase=Bound|Number=Sing	5	nmod:poss	5:nmod:poss	KUR
+7	Aššur	Aššur	PROPN	GN	Gender=Masc	6	nmod:poss	6:nmod:poss	AŠ
+8	mār	māru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	2	appos	2:appos	A
+9	Tukulti-Ninurta	Tukulti-Ninurta_II	PROPN	RN	Gender=Masc	8	nmod:poss	8:nmod:poss	TUKUL-{d}MAŠ
+10	šar	šarru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	9	appos	9:appos	MAN
+11	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=Fem|Nounbase=Free|Number=Sing	10	nmod:poss	10:nmod:poss	ŠU₂
+12	šar	šarru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	9	appos	9:appos	MAN
+13	māt	mātu	NOUN	N	Gender=Fem|Nounbase=Bound|Number=Sing	12	nmod:poss	12:nmod:poss	KUR
+14-15	Aššurma	_	_	_	_	_	_	_	_
+14	Aššur	Aššur	PROPN	GN	Gender=Masc	13	nmod:poss	13:nmod:poss	AŠ-ma
+15	ma	_	PART	_	_	14	dep	14:dep	_
+

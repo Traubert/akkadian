@@ -1,0 +1,35 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q006025-1
+# text = ēkal Adad-nerari šarri danni šar kiššati šar māt Aššur mār Aššur-dan šar kiššati šar māt Aššur x mār Tukulti-apil-Ešarra šar kiššati šar māt Aššurma x x x x x
+1	ēkal	ēkallu	NOUN	N	Gender=Fem|Nounbase=Bound|Number=Sing	0	root	0:root	E₂.GAL
+2	Adad-nerari	Adad-narari_II	PROPN	RN	Gender=Masc	1	nmod:poss	1:nmod:poss	{m}{d}IŠKUR-ERIM.TAH₂
+3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Nounbase=Free|Number=Sing	2	appos	2:appos	MAN
+4	danni	dannu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	3	amod	3:amod	dan-ni
+5	šar	šarru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	2	appos	2:appos	MAN
+6	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=Fem|Nounbase=Free|Number=Sing	5	nmod:poss	5:nmod:poss	KIŠ
+7	šar	šarru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	2	appos	2:appos	MAN
+8	māt	mātu	NOUN	N	Gender=Fem|Nounbase=Bound|Number=Sing	7	nmod:poss	7:nmod:poss	KUR
+9	Aššur	Aššur	PROPN	GN	Gender=Masc	8	nmod:poss	8:nmod:poss	AŠ
+10	mār	māru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	2	appos	2:appos	A
+11	Aššur-dan	Aššur-dan_II	PROPN	RN	Gender=Masc	10	nmod:poss	10:nmod:poss	aš-šur-KAL-an
+12	šar	šarru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	11	appos	11:appos	MAN
+13	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=Fem|Nounbase=Free|Number=Sing	12	nmod:poss	12:nmod:poss	KIŠ
+14	šar	šarru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	11	appos	11:appos	MAN
+15	māt	mātu	NOUN	N	Gender=Fem|Nounbase=Bound|Number=Sing	14	nmod:poss	14:nmod:poss	KUR
+16	Aššur	Aššur	PROPN	GN	Gender=Masc	15	nmod:poss	15:nmod:poss	AŠ
+17	x	_	X	u	_	11	appos	11:appos	x
+18	mār	māru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	11	appos	11:appos	A
+19	Tukulti-apil-Ešarra	Tukulti-apil-Ešarra_I	PROPN	RN	Gender=Masc	18	nmod:poss	18:nmod:poss	GISKIM-A-e₂-šar₂-ra
+20	šar	šarru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	19	appos	19:appos	MAN
+21	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=Fem|Nounbase=Free|Number=Sing	20	nmod:poss	20:nmod:poss	KIŠ
+22	šar	šarru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	19	appos	19:appos	MAN
+23	māt	mātu	NOUN	N	Gender=Fem|Nounbase=Bound|Number=Sing	22	nmod:poss	22:nmod:poss	KUR
+24-25	Aššurma	_	_	_	_	_	_	_	_
+24	Aššur	Aššur	PROPN	GN	Gender=Masc	23	nmod:poss	23:nmod:poss	AŠ-ma
+25	ma	_	PART	_	_	24	dep	24:dep	_
+26	x	_	X	u	_	_	_	_	x
+27	x	_	X	u	_	_	_	_	x
+28	x	_	X	u	_	_	_	_	x
+29	x	_	X	u	_	_	_	_	x
+30	x	_	X	u	_	_	_	_	x
+

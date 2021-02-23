@@ -1,0 +1,102 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004490-1
+# text = ša HI x u Aššur bēlu rabû
+1	ša	ša	X	DET	_	_	_	_	ša
+2	HI	_	X	u	_	_	_	_	HI
+3	x	_	X	u	_	_	_	_	x
+4	u	u	CCONJ	CNJ	_	5	cc	5:cc	u₃
+5	Aššur	Aššur	PROPN	DN	Gender=Masc	0	root	0:root	{d}aš-šur
+6	bēlu	bēlu	NOUN	N	Case=Nom|Gender=Masc|Nounbase=Free|Number=Sing	5	appos	5:appos	EN
+7	rabû	rabû	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	6	amod	6:amod	GAL-u₂
+
+# sent_id = Q004490-2
+# text = x ṭuhdu hegallu ina mātišu x
+1	x	_	NOUN	u	Case=Acc|Gender=Masc|Nounbase=Free|Number=Sing	_	_	_	x
+2	ṭuhdu	ṭuhdu	NOUN	N	Case=Acc|Gender=Masc|Nounbase=Free|Number=Sing	7	obj	7:obj	ṭuh-du
+3	hegallu	hengallu	NOUN	N	Case=Acc|Gender=Masc|Nounbase=Free|Number=Sing	2	conj	2:conj	_
+4	ina	ina	ADP	PRP	_	5	case	5:case	ina
+5-6	mātišu	_	_	_	_	_	_	_	_
+5	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Nounbase=Suffixal|Number=Sing	7	obl	7:obl	KUR-šu
+6	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	5	det:poss	5:det:poss	_
+7	x	_	VERB	u	_	0	root	0:root	x
+
+# sent_id = Q004490-3
+# text = x x x ammar libbišu lušamṣušu
+1	x	_	X	u	_	_	_	_	x
+2	x	_	X	u	_	_	_	_	x
+3	x	_	X	u	_	_	_	_	x
+4	ammar	ammar	ADP	PRP	_	5	case	5:case	am-mar
+5-6	libbišu	_	_	_	_	_	_	_	_
+5	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Nounbase=Suffixal|Number=Sing	7	obl	7:obl	ŠA₃-šu₂
+6	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	5	det:poss	5:det:poss	_
+7-8	lušamṣušu	_	_	_	_	_	_	_	_
+7	lušamṣū	maṣû	VERB	V	Mood=Precative|Number=Plur|Person=3|VerbForm=Fin|Verbstem=S	0	root	0:root	lu-šam-ṣu-šu
+8	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	7	obj	7:obj	_
+
+# sent_id = Q004490-4
+# text = ša šumī šaṭra ipaššiṭuma šumšu išaṭṭaru x māhiṣa itebbû ana mê inaddû
+1	ša	ša	PRON	REL	_	5	nsubj	5:nsubj	ša₂
+2-3	šumī	_	_	_	_	_	_	_	_
+2	šum	šumu	NOUN	N	Gender=Masc|Nounbase=Suffixal|Number=Sing	5	obj	5:obj	MU
+3	ī	_	PRON	_	Number=Sing|Person=1	2	det:poss	2:det:poss	_
+4	šaṭra	šaṭru	ADJ	AJ	Case=Acc|Gender=Masc|Number=Sing	2	amod	2:amod	šaṭ-ra
+5-6	ipaššiṭuma	_	_	_	_	_	_	_	_
+5	ipaššiṭu	pašāṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|Verbstem=G	0	root	0:root	i-pa-ši-ṭu-ma
+6	ma	_	CCONJ	_	_	9	cc	9:cc	_
+7-8	šumšu	_	_	_	_	_	_	_	_
+7	šum	šumu	NOUN	N	Gender=Masc|Nounbase=Suffixal|Number=Sing	9	obj	9:obj	MU-šu
+8	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	7	det:poss	7:det:poss	_
+9	išaṭṭaru	šaṭāru	VERB	V	Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|Verbstem=G	5	conj	5:conj	i-ša-ṭa-ru
+10	x	_	X	u	_	_	_	_	x
+11	māhiṣa	_	NOUN	_	Case=Acc|Gender=Masc|Nounbase=Free|Number=Sing	12	obj	12:obj	_
+12	itebbû	tebû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|Verbstem=G	5	conj	5:conj	_
+13	ana	ana	ADP	PRP	_	14	case	14:case	a-na
+14	mê	mû	NOUN	N	Gender=Masc|Number=Plur	15	obl	15:obl	A.MEŠ
+15	inaddû	nadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|Verbstem=G	5	conj	5:conj	i-na-ad-du-u₂
+
+# sent_id = Q004490-5
+# text = x Ninurta bēl šipṭi u šaggalte Aššur bēlu rabû šarrūssu liskipū kussâšu līkimūšu ina pān nakrīšu kamîš lušēšibūšu x ina mātišu lukinnū šumšu zēršu ina māti luhalliqū
+1	x	_	X	u	_	_	_	_	x
+2	Ninurta	Ninurta	PROPN	DN	Gender=Masc	12	nsubj	12:nsubj	{d}MAŠ
+3	bēl	bēlu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	2	appos	2:appos	_
+4	šipṭi	šipṭu	NOUN	N	Case=Gen|Gender=Masc|Nounbase=Free|Number=Sing	3	nmod:poss	3:nmod:poss	šip-ṭi₂
+5	u	u	CCONJ	CNJ	_	6	cc	6:cc	u
+6	šaggalte	šaggaštu	NOUN	N	Case=Gen|Gender=Fem|Nounbase=Free|Number=Sing	3	nmod:poss	3:nmod:poss	ša-gal-te
+7	Aššur	Aššur	PROPN	DN	Gender=Masc	2	conj	2:conj	{d}aš-šur
+8	bēlu	bēlu	NOUN	N	Case=Nom|Gender=Masc|Nounbase=Free|Number=Sing	7	appos	7:appos	_
+9	rabû	rabû	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	8	amod	8:amod	GAL
+10-11	šarrūssu	_	_	_	_	_	_	_	_
+10	šarrūs	šarrūtu	NOUN	N	Gender=Fem|Nounbase=Suffixal|Number=Sing	12	obj	12:obj	LUGAL-su
+11	su	_	PRON	_	Gender=Masc|Number=Sing|Person=3	10	det:poss	10:det:poss	_
+12	liskipū	sakāpu	VERB	V	Gender=Masc|Mood=Precative|Number=Plur|Person=3|VerbForm=Fin|Verbstem=G	0	root	0:root	lis-ki-pu
+13-14	kussâšu	_	_	_	_	_	_	_	_
+13	kussâ	_	NOUN	_	Case=Acc|Gender=Fem|Nounbase=Suffixal|Number=Sing	15	obj	15:obj	_
+14	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	13	det:poss	13:det:poss	_
+15-16	līkimūšu	_	_	_	_	_	_	_	_
+15	līkimū	ekēmu	VERB	V	Gender=Masc|Mood=Precative|Number=Plur|Person=3|VerbForm=Fin|Verbstem=G	12	conj	12:conj	li-ki-mu-šu
+16	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	15	obl	15:obl	_
+17	ina	ina	ADP	PRP	_	18	case	18:case	ina
+18	pān	pānu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	22	obl	22:obl	IGI
+19-20	nakrīšu	_	_	_	_	_	_	_	_
+19	nakrī	nakru	NOUN	N	Gender=Masc|Nounbase=Suffixal|Number=Plur	18	nmod:poss	18:nmod:poss	nak-ri-šu
+20	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	19	det:poss	19:det:poss	_
+21	kamîš	kamîš	ADV	AV	_	22	advmod	22:advmod	ka-miš
+22-23	lušēšibūšu	_	_	_	_	_	_	_	_
+22	lušēšibū	wašābu	VERB	V	Gender=Masc|Mood=Precative|Number=Plur|Person=3|VerbForm=Fin|Verbstem=S	12	conj	12:conj	lu-še-ši-bu-šu
+23	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	22	obj	22:obj	_
+24	x	_	NOUN	u	_	28	obj	28:obj	x
+25	ina	ina	ADP	PRP	_	26	case	26:case	ina
+26-27	mātišu	_	_	_	_	_	_	_	_
+26	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Nounbase=Suffixal|Number=Sing	28	obl	28:obl	KUR-ti-šu
+27	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	26	det:poss	26:det:poss	_
+28	lukinnū	kânu	VERB	V	Gender=Masc|Mood=Precative|Number=Plur|Person=3|VerbForm=Fin|Verbstem=D	12	conj	12:conj	_
+29-30	šumšu	_	_	_	_	_	_	_	_
+29	šum	šumu	NOUN	N	Gender=Masc|Nounbase=Suffixal|Number=Sing	35	obj	35:obj	MU-šu
+30	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	29	det:poss	29:det:poss	_
+31-32	zēršu	_	_	_	_	_	_	_	_
+31	zēr	zēru	NOUN	N	Gender=Masc|Nounbase=Suffixal|Number=Sing	29	conj	29:conj	NUMUN-šu
+32	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	31	det:poss	31:det:poss	_
+33	ina	ina	ADP	PRP	_	34	case	34:case	ina
+34	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Nounbase=Free|Number=Sing	35	obl	35:obl	KUR
+35	luhalliqū	halāqu	VERB	V	Gender=Masc|Mood=Precative|Number=Plur|Person=3|VerbForm=Fin|Verbstem=D	12	conj	12:conj	lu-hal-li-qu
+

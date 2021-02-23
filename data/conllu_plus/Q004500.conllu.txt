@@ -1,0 +1,60 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Q004500-1
+# text = Aššur-naṣir-apli šarru dannu x šar māt Aššur nišīt abiki Enlil
+1	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=Masc	0	root	0:root	{m}aš-šur-PAP-A
+2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Nounbase=Free|Number=Sing	1	appos	1:appos	MAN
+3	dannu	dannu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	2	amod	2:amod	dan-nu
+4	x	_	X	u	_	_	_	_	x
+5	šar	šarru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	1	appos	1:appos	MAN
+6	māt	mātu	NOUN	N	Gender=Fem|Nounbase=Bound|Number=Sing	5	nmod:poss	5:nmod:poss	KUR
+7	Aššur	Aššur	PROPN	GN	Gender=Masc	6	nmod:poss	6:nmod:poss	aš-šur
+8	nišīt	nišītu	NOUN	N	Gender=Fem|Nounbase=Bound|Number=Sing	1	appos	1:appos	ni-ši-it
+9-10	abiki	_	_	_	_	_	_	_	_
+9	abi	abu	NOUN	N	Case=Gen|Gender=Masc|Nounbase=Suffixal|Number=Sing	8	nmod:poss	8:nmod:poss	a-bi-ki
+10	ki	_	PRON	_	Gender=Fem|Number=Sing|Person=2	9	det:poss	9:det:poss	_
+11	Enlil	Enlil	PROPN	DN	Gender=Masc	9	appos	9:appos	{d}BAD
+
+# sent_id = Q004500-2
+# text = ša siqrišu
+1	ša	ša	ADP	DET	_	2	case	2:case	ša₂
+2-3	siqrišu	_	_	_	_	_	_	_	_
+2	siqri	zikru	NOUN	N	Case=Gen|Gender=Masc|Nounbase=Suffixal|Number=Sing	0	root	0:root	siq-ri-šu₂
+3	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	2	det:poss	2:det:poss	_
+
+# sent_id = Q004500-3
+# text = x arhī pašqūte kiṣir huršānī dannūti
+1	x	_	X	u	_	_	_	_	x
+2	arhī	urhu	NOUN	N	Gender=Masc|Number=Plur	0	root	0:root	ar-hi
+3	pašqūte	pašqu	ADJ	AJ	Gender=Masc|Number=Plur	2	amod	2:amod	pa-aš₂-qu-te
+4	kiṣir	kiṣru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	2	conj	2:conj	ki-ṣir
+5	huršānī	huršānu	NOUN	N	Gender=Masc|Number=Plur	4	nmod:poss	4:nmod:poss	hur-ša₂-ni
+6	dannūti	dannu	ADJ	AJ	Gender=Masc|Number=Plur	5	amod	5:amod	dan-nu-ti
+
+# sent_id = Q004500-4
+# text = x-ma kullat lā māgirīšu qāssu ikšud
+1	x-ma	_	X	u	_	_	_	_	x-ma
+2	kullat	kullatu	NOUN	N	Gender=Fem|Nounbase=Bound|Number=Sing	7	obj	7:obj	kul₂-lat
+3-4	lā māgirīšu	_	_	_	_	_	_	_	_
+3	lā māgirī	lā|māgiru	NOUN	MOD|N	Gender=Masc|Nounbase=Suffixal|Number=Plur	2	nmod:poss	2:nmod:poss	la|ma-gi-ri-šu₂
+4	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	3	det:poss	3:det:poss	_
+5-6	qāssu	_	_	_	_	_	_	_	_
+5	qās	qātu	NOUN	N	Gender=Fem|Nounbase=Suffixal|Number=Sing	7	nsubj	7:nsubj	ŠU-su
+6	su	_	PRON	_	Gender=Masc|Number=Sing|Person=3	5	det:poss	5:det:poss	_
+7	ikšud	kašādu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Verbstem=G	0	root	0:root	ik-šu-ud
+
+# sent_id = Q004500-5
+# text = x x x x bīt Ištar
+1	x	_	X	u	_	_	_	_	x
+2	x	_	X	u	_	_	_	_	x
+3	x	_	X	u	_	_	_	_	x
+4	x	_	X	u	_	_	_	_	x
+5	bīt	bītu	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	0	root	0:root	E₂
+6	Ištar	Ištar	PROPN	DN	Gender=Fem	5	nmod:poss	5:nmod:poss	{d}INANNA
+
+# sent_id = Q004500-6
+# text = anhūssu x
+1-2	anhūssu	_	_	_	_	_	_	_	_
+1	anhūs	anhūtu	NOUN	N	Gender=Fem|Nounbase=Suffixal|Number=Sing	3	obj	3:obj	an-hu-su
+2	su	_	PRON	_	Gender=Masc|Number=Sing|Person=3	1	det:poss	1:det:poss	_
+3	x	_	VERB	u	_	0	root	0:root	x
+
