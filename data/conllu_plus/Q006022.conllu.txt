@@ -10,7 +10,7 @@
 7	x.MEŠ	_	NOUN	u	Number=Plur	_	_	_	x.MEŠ
 8	x-ta	_	X	u	_	_	_	_	x-ta
 9	x	_	X	u	_	_	_	_	x
-10	akšud	kašādu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Verbstem=G	_	_	_	ak-šud
+10	akšud	kašādu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	ak-šud
 11	x	_	X	u	_	_	_	_	x
 12	x	_	X	u	_	_	_	_	x
 13	MAH	_	X	u	_	_	_	_	MAH
@@ -18,7 +18,7 @@
 15	x-be-šu₂	_	X	u	_	_	_	_	x-be-šu₂
 16	x	_	X	u	_	_	_	_	x
 17-18	ušalbaruma	_	_	_	_	_	_	_	_
-17	ušalbaru	labāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|Verbstem=S	18	dep	18:dep	u₂-šal-ba-ru-ma
+17	ušalbaru	labāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=S	18	dep	18:dep	u₂-šal-ba-ru-ma
 18	ma	_	CCONJ	_	_	0	dep	0:dep	_
 
 # sent_id = Q006022-2
@@ -31,61 +31,61 @@
 # text = x narêya aškun
 1	x	_	X	u	_	_	_	_	x
 2-3	narêya	_	_	_	_	_	_	_	_
-2	narê	narû	NOUN	N	Gender=Masc|Nounbase=Suffixal|Number=Plur	4	obj	4:obj	{NA₄}NA.RU₂.A.MEŠ-ia
+2	narê	narû	NOUN	N	Gender=Masc|NounBase=Suffixal|Number=Plur	4	obj	4:obj	{NA₄}NA.RU₂.A.MEŠ-ia
 3	ya	_	PRON	_	Number=Sing|Person=1	2	det:poss	2:det:poss	_
-4	aškun	šakānu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Verbstem=G	0	root	0:root	aš-ku-un
+4	aškun	šakānu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	0:root	aš-ku-un
 
 # sent_id = Q006022-4
 # text = rubû arkû anhūssu luddiš šumī šaṭra ina ašrišu lutēr
-1	rubû	rubû	NOUN	N	Case=Nom|Gender=Masc|Nounbase=Free|Number=Sing	5	nsubj	5:nsubj	NUN-u₂
+1	rubû	rubû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	5	nsubj	5:nsubj	NUN-u₂
 2	arkû	warkû	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	1	amod	1:amod	EGIR-u₂
 3-4	anhūssu	_	_	_	_	_	_	_	_
-3	anhūs	anhūtu	NOUN	N	Gender=Fem|Nounbase=Suffixal|Number=Sing	5	obj	5:obj	an-hu-su
+3	anhūs	anhūtu	NOUN	N	Gender=Fem|NounBase=Suffixal|Number=Sing	5	obj	5:obj	an-hu-su
 4	su	_	PRON	_	Gender=Masc|Number=Sing|Person=3	3	det:poss	3:det:poss	_
-5	luddiš	edēšu	VERB	V	Gender=Masc|Mood=Precative|Number=Sing|Person=3|VerbForm=Fin|Verbstem=D	0	root	0:root	lu-diš
+5	luddiš	edēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=D	0	root	0:root	lu-diš
 6-7	šumī	_	_	_	_	_	_	_	_
-6	šum	šumu	NOUN	N	Gender=Masc|Nounbase=Suffixal|Number=Sing	12	obj	12:obj	MU
+6	šum	šumu	NOUN	N	Gender=Masc|NounBase=Suffixal|Number=Sing	12	obj	12:obj	MU
 7	ī	_	PRON	_	Number=Sing|Person=1	6	det:poss	6:det:poss	_
 8	šaṭra	šaṭru	ADJ	AJ	Case=Acc|Gender=Masc|Number=Sing	6	amod	6:amod	šaṭ-ra
 9	ina	ina	ADP	PRP	_	10	case	10:case	i-na
 10-11	ašrišu	_	_	_	_	_	_	_	_
-10	ašri	ašru	NOUN	N	Case=Gen|Gender=Masc|Nounbase=Suffixal|Number=Sing	12	obl	12:obl	aš₂-ri-šu₂
+10	ašri	ašru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Suffixal|Number=Sing	12	obl	12:obl	aš₂-ri-šu₂
 11	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	10	det:poss	10:det:poss	_
-12	lutēr	târu	VERB	V	Gender=Masc|Mood=Precative|Number=Sing|Person=3|VerbForm=Fin|Verbstem=D	5	conj	5:conj	lu-te-er
+12	lutēr	târu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=D	5	conj	5:conj	lu-te-er
 
 # sent_id = Q006022-5
 # text = Aššur bēlu rabû ikribēšu išemme
 1	Aššur	Aššur	PROPN	DN	Gender=Masc	6	nsubj	6:nsubj	aš-šur
-2	bēlu	bēlu	NOUN	N	Case=Nom|Gender=Masc|Nounbase=Free|Number=Sing	1	appos	1:appos	EN
+2	bēlu	bēlu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	1	appos	1:appos	EN
 3	rabû	rabû	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	2	amod	2:amod	GAL-u₂
 4-5	ikribēšu	_	_	_	_	_	_	_	_
-4	ikribē	ikribu	NOUN	N	Gender=Masc|Nounbase=Suffixal|Number=Plur	6	obj	6:obj	ik-ri-be-šu
+4	ikribē	ikribu	NOUN	N	Gender=Masc|NounBase=Suffixal|Number=Plur	6	obj	6:obj	ik-ri-be-šu
 5	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	4	det:poss	4:det:poss	_
-6	išemme	šemû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Verbstem=G	0	root	0:root	i-še₂₀-me
+6	išemme	šemû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	root	0:root	i-še₂₀-me
 
 # sent_id = Q006022-6
 # text = munekkir šiṭriya u šumiya Aššur šarrūssu liskip šumšu zēršu ina māti luhalliq x
-1	munekkir	munakkiru	NOUN	N	Gender=Masc|Nounbase=Bound|Number=Sing	10	obj	10:obj	mu-ne₂-kir₆
+1	munekkir	munakkiru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	10	obj	10:obj	mu-ne₂-kir₆
 2-3	šiṭriya	_	_	_	_	_	_	_	_
-2	šiṭri	šiṭru	NOUN	N	Case=Gen|Gender=Masc|Nounbase=Suffixal|Number=Sing	1	nmod:poss	1:nmod:poss	šiṭ-ri-ia
+2	šiṭri	šiṭru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Suffixal|Number=Sing	1	nmod:poss	1:nmod:poss	šiṭ-ri-ia
 3	ya	_	PRON	_	Number=Sing|Person=1	2	det:poss	2:det:poss	_
 4	u	u	CCONJ	CNJ	_	5	cc	5:cc	u₃
 5-6	šumiya	_	_	_	_	_	_	_	_
-5	šumi	šumu	NOUN	N	Case=Gen|Gender=Masc|Nounbase=Suffixal|Number=Sing	2	conj	2:conj	MU-ia
+5	šumi	šumu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Suffixal|Number=Sing	2	conj	2:conj	MU-ia
 6	ya	_	PRON	_	Number=Sing|Person=1	5	det:poss	5:det:poss	_
 7	Aššur	Aššur	PROPN	DN	Gender=Masc	10	nsubj	10:nsubj	aš-šur
 8-9	šarrūssu	_	_	_	_	_	_	_	_
-8	šarrūs	šarrūtu	NOUN	N	Gender=Fem|Nounbase=Suffixal|Number=Sing	10	obj	10:obj	MAN-su
+8	šarrūs	šarrūtu	NOUN	N	Gender=Fem|NounBase=Suffixal|Number=Sing	10	obj	10:obj	MAN-su
 9	su	_	PRON	_	Gender=Masc|Number=Sing|Person=3	8	det:poss	8:det:poss	_
-10	liskip	sakāpu	VERB	V	Gender=Masc|Mood=Precative|Number=Sing|Person=3|VerbForm=Fin|Verbstem=G	0	root	0:root	_
+10	liskip	sakāpu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=G	0	root	0:root	_
 11-12	šumšu	_	_	_	_	_	_	_	_
-11	šum	šumu	NOUN	N	Gender=Masc|Nounbase=Suffixal|Number=Sing	17	obj	17:obj	MU-šu
+11	šum	šumu	NOUN	N	Gender=Masc|NounBase=Suffixal|Number=Sing	17	obj	17:obj	MU-šu
 12	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	11	det:poss	11:det:poss	_
 13-14	zēršu	_	_	_	_	_	_	_	_
-13	zēr	zēru	NOUN	N	Gender=Masc|Nounbase=Suffixal|Number=Sing	11	conj	11:conj	NUMUN-šu
+13	zēr	zēru	NOUN	N	Gender=Masc|NounBase=Suffixal|Number=Sing	11	conj	11:conj	NUMUN-šu
 14	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	13	det:poss	13:det:poss	_
 15	ina	ina	ADP	PRP	_	16	case	16:case	ina
-16	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Nounbase=Free|Number=Sing	17	obl	17:obl	KUR
-17	luhalliq	halāqu	VERB	V	Gender=Masc|Mood=Precative|Number=Sing|Person=3|VerbForm=Fin|Verbstem=D	10	conj	10:conj	lu-hal-liq
+16	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	17	obl	17:obl	KUR
+17	luhalliq	halāqu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=D	10	conj	10:conj	lu-hal-liq
 18	x	_	X	u	_	_	_	_	x
 
