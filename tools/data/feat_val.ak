@@ -1,1 +1,19 @@
-# placeholder comment
+Mood=Prec
+Mood=Proh
+NounBase=Bound
+NounBase=Free
+NounBase=Suffixal
+NounBase=Terminal
+Subordinative=Yes
+Ventive=Yes
+VerbStem=D
+VerbStem=Dt
+VerbStem=G
+VerbStem=Gt
+VerbStem=Gtn
+VerbStem=N
+VerbStem=Ntn
+VerbStem=S
+VerbStem=St
+VerbStem=Stn
+VerbForm=Stat

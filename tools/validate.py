@@ -1904,7 +1904,8 @@ def validate_copula_lemmas(cols, children, nodes, line, lang):
             'yo':  ['jẹ́', 'ní'],
             # Tupian languages.
             # 'iko' is the normal copula, 'nda'ei' and 'nda'ipoi' are negative copulas and 'ĩ' is locative copula.
-            'gun': ['iko', "nda'ei", "nda'ipoi", 'ĩ']
+            'gun': ['iko', "nda'ei", "nda'ipoi", 'ĩ'],
+            'akk': ['anāku']
         }
         lspeccops = copdict.get(lang, None)
         if not lspeccops:
